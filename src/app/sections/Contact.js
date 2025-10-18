@@ -17,7 +17,9 @@ export default function ContactForm({ onSide = false }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const textColor = onSide ? "text-white" : "text-black";
-  const placeHolderColor = onSide ? "placeholder:text-gray-100" : "placeholder:text-gray-400";
+  const placeHolderColor = onSide
+    ? "placeholder:text-gray-100"
+    : "placeholder:text-gray-400";
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -69,7 +71,8 @@ export default function ContactForm({ onSide = false }) {
       newErrors.email = "Email is invalid";
     }
     if (!formData.city.trim()) newErrors.city = "City is required";
-    if (!formData.carDetail.trim()) newErrors.carDetail = "Car detail is required";
+    if (!formData.carDetail.trim())
+      newErrors.carDetail = "Car detail is required";
     if (!formData.reason.trim())
       newErrors.reason = "Reason for selling is required";
     if (formData.images.length === 0)
@@ -120,6 +123,10 @@ export default function ContactForm({ onSide = false }) {
           reason: "",
           images: [],
         });
+        setTimeout(() => {
+          setSubmitSuccess(false);
+        }, 1500);
+
         setErrors({});
       } else {
         throw new Error("Failed to submit form");
@@ -137,13 +144,6 @@ export default function ContactForm({ onSide = false }) {
       <h3 className={`text-2xl font-bold ${textColor} mb-6`}>
         Get Your Cash Offer
       </h3>
-
-      {submitSuccess && (
-        <div className="mb-4 p-3 bg-green-100 text-green-700 rounded-lg">
-          Thank you! Your submission has been received. We'll contact you
-          shortly.
-        </div>
-      )}
 
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -290,9 +290,7 @@ export default function ContactForm({ onSide = false }) {
 
         {/* ====== NEW: Styled File Upload Area (uses existing formData.images & handleFileChange) ====== */}
         <div>
-          <label
-            className={`block text-sm font-medium ${textColor} mb-1 `}
-          >
+          <label className={`block text-sm font-medium ${textColor} mb-1 `}>
             Upload Images *
           </label>
 
@@ -318,16 +316,41 @@ export default function ContactForm({ onSide = false }) {
               <div className="flex flex-col items-center justify-center">
                 <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center mb-3">
                   {/* simple paperclip SVG */}
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
-                    <path d="M21 12v6a5 5 0 0 1-5 5h-6a5 5 0 0 1-5-5v-6a5 5 0 0 1 5-5h6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-primary" />
-                    <path d="M8 12v4a4 4 0 0 0 4 4h4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-primary" />
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden
+                  >
+                    <path
+                      d="M21 12v6a5 5 0 0 1-5 5h-6a5 5 0 0 1-5-5v-6a5 5 0 0 1 5-5h6"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="text-primary"
+                    />
+                    <path
+                      d="M8 12v4a4 4 0 0 0 4 4h4"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="text-primary"
+                    />
                   </svg>
                 </div>
 
                 <p className="text-gray-600 text-sm pointer-events-none">
-                  <span className="font-medium text-primary">Click to upload</span> or drag and drop
+                  <span className="font-medium text-primary">
+                    Click to upload
+                  </span>{" "}
+                  or drag and drop
                 </p>
-                <p className="text-gray-400 text-xs mt-1 pointer-events-none">JPG, PNG up to 10MB</p>
+                <p className="text-gray-400 text-xs mt-1 pointer-events-none">
+                  JPG, PNG up to 10MB
+                </p>
               </div>
             </div>
           </div>
@@ -374,8 +397,22 @@ export default function ContactForm({ onSide = false }) {
                       aria-label={`Remove ${f.name}`}
                     >
                       {/* X icon (simple) */}
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden className="bg-red-600 rounded-full p-1 text-white">
-                        <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-white"/>
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        aria-hidden
+                        className="bg-red-600 rounded-full p-1 text-white"
+                      >
+                        <path
+                          d="M18 6L6 18M6 6l12 12"
+                          stroke="currentColor"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="text-white"
+                        />
                       </svg>
                     </button>
                   </div>
@@ -389,11 +426,16 @@ export default function ContactForm({ onSide = false }) {
         {errors.submit && (
           <p className="text-red-500 text-sm">{errors.submit}</p>
         )}
-
+        {submitSuccess && (
+          <div className="mb-4 p-3 bg-green-100 text-green-700 rounded-lg">
+            Thank you! Your submission has been received. We'll contact you
+            shortly.
+          </div>
+        )}
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-gradient-to-r from-primary to-secondary text-white font-semibold py-3 px-6 rounded-full transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full cursor-pointer bg-gradient-to-r from-primary to-secondary text-white font-semibold py-3 px-6 rounded-full transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {isSubmitting ? "Submitting..." : "Get Cash Offer Now"}
         </button>
