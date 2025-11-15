@@ -23,7 +23,7 @@ export default function AboutUsSection() {
                   />
                   <div>
                     <div className="text-secondary font-bold text-lg mb-1">
-                      Licensed & Insured Vehicle Buyers.
+                      Best Scrap Car Removal in Calgary
                     </div>
                   </div>
                 </div>
