@@ -95,10 +95,10 @@ const Footer = () => {
                   className="text-primary-red mt-1 flex-shrink-0"
                 />
                 <a
-                  href="mailto:info@yyccashforcars.com"
+                  href="mailto:yyccashforcars786@gmail.com"
                   className="hover:text-primary-red transition-colors"
                 >
-                  info@yyccashforcars.com
+                  yyccashforcars786@gmail.com
                 </a>
               </li>
               <li className="flex items-start space-x-3">

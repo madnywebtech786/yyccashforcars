@@ -188,7 +188,7 @@ export async function POST(request) {
 
         <div style="text-align: right; min-width: 200px;">
           <div style="font-weight: 600; font-size: 15px; margin-bottom: 4px;">Phone: 587-700-9806</div>
-          <div style="color: #64748b; font-size: 14px;">Email: info@yyccashforcars.com</div>
+          <div style="color: #64748b; font-size: 14px;">Email: yyccashforcars786@gmail.com</div>
         </div>
       </div>
     </div>
