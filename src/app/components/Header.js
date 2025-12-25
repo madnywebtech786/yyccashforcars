@@ -23,7 +23,20 @@ const navItems = [
       { name: "Scrap Car removal", href: "/services/scrap-car-removal" },
     ],
   },
-
+  {
+    name: "Locations",
+    href: "#",
+    dropdown: [
+      { name: "Calgary", href: "/locations/calgary" },
+      { name: "Airdrie", href: "/locations/airdrie" },
+      { name: "Okotoks", href: "/locations/okotoks" },
+      { name: "Cochrane", href: "/locations/cochrane" },
+      { name: "Chestermere", href: "/locations/chestermere" },
+      { name: "High River", href: "/locations/high-river" },
+      { name: "Strathmore", href: "/locations/strathmore" },
+      { name: "Canmore", href: "/locations/canmore" },
+    ],
+  },
   { name: "Gallery", href: "/gallery" },
   { name: "FAQs", href: "/faqs" },
   { name: "Contact Us", href: "/contact" },
@@ -116,10 +129,10 @@ const Header = () => {
                     >
                       {item.dropdown.map((subItem) => (
                         /* sub-item is NOT a Tailwind `group` for controlling its submenu */
-                        <li key={subItem.name} className="relative sub-item ">
+                        <li key={subItem.name} className="relative sub-item p-1">
                           <Link
                             href={subItem.href}
-                            className="flex items-center justify-between px-5 py-2 text-sm text-gray-text font-bold hover:bg-light-background hover:text-primary-red"
+                            className="flex items-center justify-between px-5 py-2 rounded-md text-sm text-gray-text font-bold hover:bg-primary/30 hover:text-secondary transition-all duration-200"
                             aria-haspopup={!!subItem.dropdown}
                             aria-expanded={
                               subItem.dropdown ? "false" : undefined
