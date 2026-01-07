@@ -22,9 +22,9 @@ const HeroSection = () => {
               </h1>
 
               <p className="text-lg text-white leading-relaxed">
-                We buy junk, wrecked and running vehicles top dollar paid on the
+                {/* We buy junk, wrecked and running vehicles top dollar paid on the
                 spot. Fast, no-hassle offers by phone; free towing and
-                eco-friendly disposal across Calgary and nearby communities.!!
+                eco-friendly disposal across Calgary and nearby communities.!! */}
               </p>
             </div>
             <p className="text-sm text-white mt-3">
