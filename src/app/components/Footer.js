@@ -115,33 +115,31 @@ const Footer = () => {
 
           {/* Column 4: Location/Opening Hours */}
           <div>
-            <h4 className="font-bold text-xl text-white mb-3">Follow Us</h4>
-            <div className="flex space-x-3 pt-2 items-center">
-              {socialLinks.map((link, index) => (
-                <Link
-                  key={index}
-                  href={link.href}
-                  className="w-9 h-9 flex items-center justify-center rounded-full border-2 border-white text-white hover:bg-primary-red hover:border-primary-red transition-all duration-300"
-                  target="_blank"
-                >
-                  {link.icon}
-                </Link>
-              ))}
-              <Link
-                href={
-                  "https://www.tiktok.com/@yyccashforcars?_t=ZM-8wxT3aUj0GW&_r=1"
-                }
-                target="_blank"
-              >
-                <Image
-                  src={"/images/icons/tiktok.png"}
-                  width={40}
-                  height={40}
-                  className="border-2 border-white rounded-full p-2"
-                />
-              </Link>
-            </div>
-          </div>
+  <h4 className="font-bold text-xl text-white mb-3">Follow Us</h4>
+
+  <div className="flex space-x-3 pt-2 items-center">
+    {socialLinks.map((link, index) => (
+      <div
+        key={index}
+        className="w-9 h-9 flex items-center justify-center rounded-full border-2 border-white text-white hover:bg-primary-red hover:border-primary-red transition-all duration-300 cursor-default"
+      >
+        {link.icon}
+      </div>
+    ))}
+
+    {/* TikTok icon (no link) */}
+    <div className="w-10 h-10 flex items-center justify-center border-2 border-white rounded-full">
+      <Image
+        src="/images/icons/tiktok.png"
+        width={40}
+        height={40}
+        alt="TikTok"
+        className="p-2"
+      />
+    </div>
+  </div>
+</div>
+
         </div>
       </div>
 
