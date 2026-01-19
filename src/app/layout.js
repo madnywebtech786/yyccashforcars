@@ -143,7 +143,15 @@ export default function RootLayout({ children }) {
               image: "https://www.yyccash.com/images/gallery/g7.jpeg",
               description:
                 "Top-dollar cash for junk, wrecked and used vehicles in Calgary. Free towing, same-day pickup, licensed paperwork, and eco-friendly recycling. Serving Calgary, Airdrie, Cochrane & Okotoks.",
-              serviceArea: {
+      address: {
+              "@type": "PostalAddress",
+              streetAddress: "3412 27 St NE",
+              addressLocality: "Calgary",
+              addressRegion: "AB",
+              postalCode: "T1Y 5E2",
+              addressCountry: "Canada",
+            },
+      serviceArea: {
                 "@type": "Place",
                 name: "Calgary, Airdrie, Cochrane, Okotoks",
               },
