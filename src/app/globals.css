@@ -30,6 +30,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 .first-level-dropdown .submenu {
   opacity: 0;
   visibility: hidden;

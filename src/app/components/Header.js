@@ -95,7 +95,7 @@ const Header = () => {
       <div className=" px-4 sm:px-8 md:px-12 lg:px-20 py-2">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex-shrink-0">
-            <Image
+            <Image alt="YYC Cash for Cars"
               src={"/images/yyc-car-logo.png"}
               width={400}
               height={120}
@@ -189,7 +189,7 @@ const Header = () => {
           <div className="flex items-center gap-2">
             <Link href="/contact" className="hidden lg:block">
               <div className="rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm py-[14px] px-8 transition-all duration-300 hover:bg-dark-text">
-               $ Get Qoute 
+               Get an Instant Quote Now
               </div>
             </Link>
             <button
@@ -234,8 +234,8 @@ const Header = () => {
             <div className="flex items-center gap-3">
               <Image
                 src={"/images/yyc-car-logo.png"}
-                width={90}
-                height={60}
+                width={160}
+                height={64}
                 alt="logo"
                 className="w-40 h-16 object-contain"
               />
@@ -362,7 +362,7 @@ const Header = () => {
                   onClick={closeMenu}
                   className="rounded-2xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm py-[14px] px-8 w-full text-center"
                 >
-                  Get Qoute
+                  Get an Instant Quote Now
                 </div>
               </Link>
             </div>

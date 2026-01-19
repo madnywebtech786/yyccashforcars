@@ -75,8 +75,7 @@ export default function ContactForm({ onSide = false }) {
       newErrors.carDetail = "Car detail is required";
     if (!formData.reason.trim())
       newErrors.reason = "Reason for selling is required";
-    if (formData.images.length === 0)
-      newErrors.images = "At least one image is required";
+    // Images are optional
 
     return newErrors;
   };

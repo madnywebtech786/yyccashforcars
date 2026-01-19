@@ -31,12 +31,9 @@ const HeroSection = () => {
               Serving Calgary, Airdrie, Cochrane, Okotoks & nearby towns & area.
             </p>
             <div className="flex gap-4 items-center">
-              <button className="px-4 md:px-8 py-3 md:py-4 bg-gradient-to-r from-primary to-secondary text-white font-bold text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                Get Your Cash
-              </button>
               <Link href="tel:+15877009806">
-                <button className="px-4 md:px-8 py-3 md:py-4 bg-gradient-to-r from-primary to-secondary text-white font-bold text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                  Call Now
+                <button className="px-4 md:px-8 py-3 md:py-4 bg-gradient-to-r from-primary to-secondary text-white font-bold text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 cursor-pointer">
+                  Call Us Now
                 </button>
               </Link>
             </div>

@@ -27,7 +27,7 @@ export default function Services() {
               src={"/images/car-junk.png"}
               width={600}
               height={600}
-              className="h-80 w-full rounded-t-3xl mx-auto"
+              className="h-80 w-full rounded-t-3xl mx-auto object-cover object-center"
             />
 
             {/* Content */}
@@ -49,12 +49,12 @@ export default function Services() {
               {/* Buttons */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
                 <Link href={"/contact"}>
-                  <button className="w-full  bg-gradient-to-r from-[#4d88a9] to-[#4d88a9]/80 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2">
+                  <button className="w-full bg-gradient-to-r from-[#4d88a9] to-[#4d88a9]/80 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 cursor-pointer">
                     <span>Get Cash Instantly</span>
                   </button>
                 </Link>
                 <Link href={"/services/cash-for-junk-cars"}>
-                  <button className="w-full  border-2 border-gray-200 text-gray-700 px-6 py-3 rounded-full font-semibold hover:border-[#4d88a9] hover:text-[#4d88a9] transition-all duration-300 flex items-center justify-center space-x-2">
+                  <button className="w-full border-2 border-gray-200 text-gray-700 px-6 py-3 rounded-full font-semibold hover:border-[#4d88a9] hover:text-[#4d88a9] transition-all duration-300 flex items-center justify-center space-x-2 cursor-pointer">
                     <span>Read More</span>
                   </button>
                 </Link>
@@ -68,7 +68,7 @@ export default function Services() {
               src={"/images/tow-scrap.png"}
               width={600}
               height={600}
-              className="h-80 w-full rounded-t-3xl mx-auto"
+              className="h-80 w-full rounded-t-3xl mx-auto object-cover object-center"
             />
 
             {/* Content */}
@@ -90,12 +90,12 @@ export default function Services() {
               {/* Buttons */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
                 <Link href={"tel:+15877009806"}>
-                  <button className="w-full bg-gradient-to-r from-[#bd3747] to-[#bd3747]/80 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2">
+                  <button className="w-full bg-gradient-to-r from-[#bd3747] to-[#bd3747]/80 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 cursor-pointer">
                     <span>Request Free Towing</span>
                   </button>
                 </Link>
                 <Link href={"/services/scrap-car-removal"}>
-                  <button className="w-full border-2 border-gray-200 text-gray-700 px-6 py-3 rounded-full font-semibold hover:border-[#bd3747] hover:text-[#bd3747] transition-all duration-300 flex items-center justify-center space-x-2">
+                  <button className="w-full border-2 border-gray-200 text-gray-700 px-6 py-3 rounded-full font-semibold hover:border-[#bd3747] hover:text-[#bd3747] transition-all duration-300 flex items-center justify-center space-x-2 cursor-pointer">
                     <span>Read More</span>
                   </button>
                 </Link>
