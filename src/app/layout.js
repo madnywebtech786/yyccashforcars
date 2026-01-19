@@ -129,7 +129,7 @@ export default function RootLayout({ children }) {
         <WhatsAppButton />
         <Footer />
 
-        {/* JSON-LD LocalBusiness structured data */}
+        {/* JSON-LD LocalBusiness + Website structured data */}
         <script
           id="localbusiness-schema"
           type="application/ld+json"
@@ -172,12 +172,11 @@ export default function RootLayout({ children }) {
                     "@id": "https://www.yyccash.com/#localbusiness"
                   },
                   inLanguage: "en-US",
-                  "potentialAction": {
+                  potentialAction: {
                     "@type": "SearchAction",
-                    "target": "https://yyccash.com/?s={search_term_string}",
+                    target: "https://www.yyccash.com/?s={search_term_string}",
                     "query-input": "required name=search_term_string"
                   }
-
                 }
               ]
             }),
