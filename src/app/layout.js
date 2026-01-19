@@ -30,10 +30,10 @@ export const metadata = {
   ],
   applicationName: "Cash for Cars Calgary",
   generator: "Next.js",
-  authors: [{ name: "Calgary Cash for Cars", url: "https://www.yourdomain.com" }],
+  authors: [{ name: "Calgary Cash for Cars", url: "https://www.yyccash.com" }],
   viewport: "width=device-width, initial-scale=1",
-  metadataBase: new URL("https://www.yourdomain.com"),
-  alternates: { canonical: "https://www.yourdomain.com" },
+  metadataBase: new URL("https://www.yyccash.com/"),
+  alternates: { canonical: "https://www.yyccash.com/" },
   robots: {
     index: true,
     follow: true,
@@ -50,11 +50,11 @@ export const metadata = {
     title: "Cash for Cars Calgary — Top Dollar for Junk & Scrap Cars",
     description:
       "Fast, trusted cash for junk and scrap vehicles in Calgary. Free towing, immediate payment, licensed paperwork and responsible recycling. Serving Calgary, Airdrie, Cochrane & Okotoks.",
-    url: "https://www.yourdomain.com",
+    url: "https://www.yyccash.com",
     siteName: "Cash for Cars Calgary",
     images: [
       {
-        url: "https://www.yourdomain.com/images/og-image.jpg",
+        url: "https://www.yyccash.com/images/gallery/g7.jpeg",
         width: 1200,
         height: 630,
         alt: "Cash for Cars Calgary - top dollar for junk cars",
@@ -68,7 +68,7 @@ export const metadata = {
     title: "Cash for Cars Calgary — Top Dollar for Junk & Scrap Cars",
     description:
       "Get same-day cash for junk cars in Calgary. Free towing, licensed paperwork, and eco-friendly recycling. Instant quotes online or by phone.",
-    images: ["https://www.yourdomain.com/images/og-image.jpg"],
+    images: ["https://www.yyccash.com/images/gallery/g7.jpeg"],
     creator: "@YourTwitterHandle",
   },
   icons: {
@@ -138,9 +138,9 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "AutomotiveBusiness",
               name: "Calgary Cash for Cars",
-              url: "https://www.yourdomain.com",
-              logo: "https://www.yourdomain.com/images/logo.png",
-              image: "https://www.yourdomain.com/images/og-image.jpg",
+              url: "https://www.yyccash.com",
+              logo: "https://www.yyccash.com/images/yyc-car-logo.png",
+              image: "https://www.yyccash.com/images/gallery/g7.jpeg",
               description:
                 "Top-dollar cash for junk, wrecked and used vehicles in Calgary. Free towing, same-day pickup, licensed paperwork, and eco-friendly recycling. Serving Calgary, Airdrie, Cochrane & Okotoks.",
               serviceArea: {
@@ -148,9 +148,7 @@ export default function RootLayout({ children }) {
                 name: "Calgary, Airdrie, Cochrane, Okotoks",
               },
               sameAs: [
-                "https://www.facebook.com/yourpage",
-                "https://www.instagram.com/yourprofile",
-                "https://twitter.com/YourTwitterHandle",
+                "https://www.instagram.com/yyccashforcars",
               ],
             }),
           }}
