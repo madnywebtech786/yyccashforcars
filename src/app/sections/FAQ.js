@@ -34,7 +34,7 @@ export default function FAQSection() {
     {
       question: "What documents do I need to provide during the purchase?",
       answer:
-        "You’ll need to provide proof of ownership, a valid government-issued ID, and your vehicle registration to complete the purchase and verify ownership.",
+        "You will need to provide proof of ownership, a valid government-issued ID, and your vehicle registration to complete the purchase and verify ownership.",
     },
   ];
 
