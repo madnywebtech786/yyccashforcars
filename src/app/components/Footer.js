@@ -139,6 +139,17 @@ const Footer = () => {
       />
     </div>
   </div>
+
+  <div className="mt-6">
+    <a
+      href="https://g.page/r/CTMKwRdP-ddHEAE/review"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center justify-center rounded-full bg-white text-primary font-semibold px-6 py-2 hover:shadow-lg transition-all duration-300"
+    >
+      Leave Us a Review
+    </a>
+  </div>
 </div>
 
         </div>

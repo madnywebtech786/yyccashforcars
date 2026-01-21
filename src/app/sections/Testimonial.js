@@ -214,6 +214,17 @@ export default function TestimonialSection() {
               />
             ))}
           </div>
+
+          <div className="flex justify-center mt-10">
+            <a
+              href="https://g.page/r/CTMKwRdP-ddHEAE/review"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-primary to-secondary text-white font-semibold px-8 py-3 hover:shadow-lg transition-all duration-300"
+            >
+              Leave Us a Review
+            </a>
+          </div>
         </div>
       </div>
     </section>
