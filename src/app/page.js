@@ -10,6 +10,7 @@ import FAQSection from "./sections/FAQ";
 import TestimonialSection from "./sections/Testimonial";
 import WorkingAreasSection from "./sections/WorkingAreas";
 import WhatWeTowSection from "./sections/WhatTow";
+import BlogPreviewSection from "./sections/BlogPreview";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
     <StatsSection />
     <GallerySection />
     <WorkingAreasSection />
+    <BlogPreviewSection />
     <FAQSection />
     <TestimonialSection />
     </div>
