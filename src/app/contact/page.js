@@ -1,6 +1,16 @@
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import ContactForm from "../sections/Contact";
+import { getOgImageForPath } from "@/lib/seo";
+
+export const metadata = {
+  openGraph: {
+    images: [getOgImageForPath("contact")],
+  },
+  twitter: {
+    images: [getOgImageForPath("contact")],
+  },
+};
 
 export default function page() {
   return (

@@ -5,6 +5,16 @@ import ScrapCarsSection from "../sections/Scrape";
 import GallerySection from "../sections/Gallery";
 import StatsSection from "../sections/Stats";
 import TestimonialSection from "../sections/Testimonial";
+import { getOgImageForPath } from "@/lib/seo";
+
+export const metadata = {
+  openGraph: {
+    images: [getOgImageForPath("about-us")],
+  },
+  twitter: {
+    images: [getOgImageForPath("about-us")],
+  },
+};
 
 export default function page() {
   return (

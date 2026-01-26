@@ -11,6 +11,16 @@ import TestimonialSection from "./sections/Testimonial";
 import WorkingAreasSection from "./sections/WorkingAreas";
 import WhatWeTowSection from "./sections/WhatTow";
 import BlogPreviewSection from "./sections/BlogPreview";
+import { getOgImageForPath } from "@/lib/seo";
+
+export const metadata = {
+  openGraph: {
+    images: [getOgImageForPath("")],
+  },
+  twitter: {
+    images: [getOgImageForPath("")],
+  },
+};
 
 export default function Home() {
   return (

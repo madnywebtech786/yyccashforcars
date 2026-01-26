@@ -2,6 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import Breadcrumb from "../components/Breadcrumb";
 import { getAllPosts } from "@/lib/blog";
+import { getOgImageForPath } from "@/lib/seo";
+
+const ogImage = getOgImageForPath("blog");
 
 export const metadata = {
   title: "Blog | YYC Cash for Cars",
@@ -15,7 +18,7 @@ export const metadata = {
     url: "https://www.yyccash.com/blog",
     images: [
       {
-        url: "https://www.yyccash.com/images/gallery/g7.jpeg",
+        url: ogImage,
         width: 1200,
         height: 630,
         alt: "YYC Cash for Cars Blog",
@@ -26,7 +29,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Blog | YYC Cash for Cars",
     description: "Tips, guides, and updates from YYC Cash for Cars.",
-    images: ["https://www.yyccash.com/images/gallery/g7.jpeg"],
+    images: [ogImage],
   },
 };
 

@@ -3,6 +3,7 @@ import Breadcrumb from "@/app/components/Breadcrumb";
 import Image from "next/image";
 import { notFound } from "next/navigation"; // Import Next.js navigation for handling 404
 import { CheckCircle, CircleCheck } from "lucide-react";
+import { getOgImageForPath } from "@/lib/seo";
 
 // A static list of services. You can move this to a separate file or fetch it from an API.
 const services = [
@@ -37,6 +38,45 @@ const services = [
       "We follow Alberta recycling standards and provide proof of disposal when requested. Contact us for quotes and to schedule a convenient, no-cost removal appointment.",
   },
 ];
+
+export async function generateMetadata({ params }) {
+  const { servicename } = await params;
+  const decodedServiceName = decodeURIComponent(servicename);
+  const service = services.find((s) => s.slug === decodedServiceName);
+
+  if (!service) {
+    return { title: "Service Not Found" };
+  }
+
+  const description = service.desc
+    ? service.desc.substring(0, 160)
+    : service.name;
+
+  const ogImage = getOgImageForPath(`services/${service.slug}`);
+
+  return {
+    title: `${service.name} | YYC Cash for Cars`,
+    description,
+    openGraph: {
+      title: `${service.name} | YYC Cash for Cars`,
+      description,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: service.name,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${service.name} | YYC Cash for Cars`,
+      description,
+      images: [ogImage],
+    },
+  };
+}
 
 export default async function ServicePage({ params }) {
   const { servicename } = await params; // Await the params prop

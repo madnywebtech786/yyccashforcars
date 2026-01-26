@@ -6,6 +6,7 @@ import { MapPin, Phone, Clock, CheckCircle, Truck, Navigation } from "lucide-rea
 import Contact from "@/app/sections/Contact";
 import Stats from "@/app/sections/Stats";
 import Testimonial from "@/app/sections/Testimonial";
+import { getOgImageForPath } from "@/lib/seo";
 
 // Location data with detailed information
 const locationsData = [
@@ -302,6 +303,20 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: `${location.heading} | YYC Cash for Cars`,
       description: location.description.substring(0, 160),
+      images: [
+        {
+          url: getOgImageForPath(`locations/${location.slug}`),
+          width: 1200,
+          height: 630,
+          alt: location.heading,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${location.heading} | YYC Cash for Cars`,
+      description: location.description.substring(0, 160),
+      images: [getOgImageForPath(`locations/${location.slug}`)],
     },
   };
 }
