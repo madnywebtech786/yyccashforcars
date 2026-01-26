@@ -97,3 +97,8 @@ button {
   height: auto;
   border-radius: 12px;
 }
+
+.footer-follow-heading,
+.footer-follow-icons {
+  display: none;
+}

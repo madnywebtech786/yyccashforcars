@@ -116,9 +116,9 @@ const Footer = () => {
 
           {/* Column 4: Location/Opening Hours */}
           <div>
-  <h4 className="font-bold text-xl text-white mb-3">Follow Us</h4>
+  <h4 className="font-bold text-xl text-white mb-3 footer-follow-heading">Follow Us</h4>
 
-  <div className="flex space-x-3 pt-2 items-center">
+  <div className="flex space-x-3 pt-2 items-center footer-follow-icons">
     {socialLinks.map((link, index) => (
       <div
         key={index}
