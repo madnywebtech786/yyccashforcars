@@ -193,7 +193,7 @@ export default function RootLayout({ children }) {
                   inLanguage: "en-US",
                   potentialAction: {
                     "@type": "SearchAction",
-                    target: "https://www.yyccash.com/?s={search_term_string}",
+                    target: "https://www.yyccash.com/search?s={search_term_string}",
                     "query-input": "required name=search_term_string"
                   }
                 }

@@ -47,6 +47,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
   const [desktopDropdown, setDesktopDropdown] = useState(null);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   // mobile accordion state: store expanded top-level items and expanded nested items
   const [expanded, setExpanded] = useState(new Set()); // holds top-level item names
@@ -196,6 +197,37 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-2">
+            <div className="hidden lg:flex items-center relative">
+              <button
+                type="button"
+                aria-label="Open search"
+                onClick={() => setIsSearchOpen((prev) => !prev)}
+                className="p-2 rounded-full hover:bg-gray-100 transition-colors"
+              >
+                <Search className="h-5 w-5 text-black" />
+              </button>
+              {isSearchOpen && (
+                <form
+                  action="/search"
+                  method="GET"
+                  className="absolute right-0 top-12 z-50 flex items-center gap-2 bg-white border border-gray-200 rounded-full px-3 py-2 shadow-lg"
+                >
+                  <input
+                    type="search"
+                    name="s"
+                    placeholder="Search..."
+                    className="bg-transparent text-sm text-black placeholder:text-gray-500 focus:outline-none w-44"
+                    autoFocus
+                  />
+                  <button
+                    type="submit"
+                    className="text-sm font-semibold text-primary hover:text-secondary transition-colors"
+                  >
+                    Go
+                  </button>
+                </form>
+              )}
+            </div>
             <Link href="/contact" className="hidden lg:block">
               <div className="rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm py-[14px] px-8 transition-all duration-300 hover:bg-dark-text">
                Get an Instant Quote Now
