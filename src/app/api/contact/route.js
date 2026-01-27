@@ -201,6 +201,7 @@ export async function POST(request) {
     await transporter.sendMail({
       from: `"Website Contact" <${process.env.GMAIL_USER}>`,
       to: "Parwez.elham@gmail.com",
+      cc: "info@jawadamin.com",
       subject: `New contact from ${name} — ${city}`,
       html,
       attachments,
