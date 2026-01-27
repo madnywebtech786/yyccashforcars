@@ -403,9 +403,27 @@ export default async function LocationPage({ params }) {
                 {location.description}
               </p>
 
-              <p className="text-black leading-relaxed text-base mb-8">
-                {location.additionalInfo}
-              </p>
+              {location.slug === "calgary" ? (
+                <p className="text-black leading-relaxed text-base mb-8">
+                  Calgary is our primary service area, and we take pride in
+                  being the most{" "}
+                  <a
+                    href="https://citywidecashforcars.ca/locations/cash-for-cars-calgary/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary font-semibold hover:text-secondary underline"
+                  >
+                    trusted car buying service
+                  </a>{" "}
+                  in the city. We understand the local market and offer fair,
+                  competitive prices based on current market values. Our team is
+                  available 7 days a week to serve you.
+                </p>
+              ) : (
+                <p className="text-black leading-relaxed text-base mb-8">
+                  {location.additionalInfo}
+                </p>
+              )}
 
               {/* CTA Buttons */}
               <div className="flex flex-wrap gap-4">
