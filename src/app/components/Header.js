@@ -100,9 +100,7 @@ const Header = () => {
           <Link href="/" className="flex-shrink-0">
             <Image alt="YYC Cash for Cars"
               src={"/images/yyc-car-logo.png"}
-              width={400}
-              height={120}
-              className="w-60 h-24"
+              className="h-24 w-auto"
             />
           </Link>
 
