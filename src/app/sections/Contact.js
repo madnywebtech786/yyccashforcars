@@ -112,7 +112,6 @@ export default function ContactForm({ onSide = false }) {
       });
 
       if (response.ok) {
-        setSubmitSuccess(true);
         setFormData({
           name: "",
           phone: "",
@@ -122,11 +121,8 @@ export default function ContactForm({ onSide = false }) {
           reason: "",
           images: [],
         });
-        setTimeout(() => {
-          setSubmitSuccess(false);
-        }, 1500);
-
         setErrors({});
+        window.location.href = "/thank-you";
       } else {
         throw new Error("Failed to submit form");
       }
