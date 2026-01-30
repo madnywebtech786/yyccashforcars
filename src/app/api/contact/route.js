@@ -21,6 +21,13 @@ export async function POST(request) {
   const city = formData.get("city")?.toString() || "";
   const carDetail = formData.get("carDetail")?.toString() || "";
   const reason = formData.get("reason")?.toString() || "";
+  const pageUrl = formData.get("pageUrl")?.toString() || "";
+
+  const userAgent = request.headers.get("user-agent") || "";
+  const forwardedFor = request.headers.get("x-forwarded-for") || "";
+  const realIp = request.headers.get("x-real-ip") || "";
+  const ipAddress =
+    forwardedFor.split(",")[0].trim() || realIp || "Unavailable";
 
   // Gather file attachments (now expects field name "images")
   const attachments = [];
@@ -167,6 +174,15 @@ export async function POST(request) {
                     .join("")}</ul>`
                 : `<p style="margin: 0; color: #64748b; font-style: italic;">No attachments provided.</p>`
             }
+          </div>
+        </div>
+
+        <div style="margin-bottom: 24px;">
+          <h2 style="font-size: 14px; font-weight: 600; color: #64748b; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">Submission Details</h2>
+          <div style="background: rgba(248, 250, 252, 0.8); border-radius: 12px; padding: 16px; border: 1px solid #e2e8f0; color: #64748b; font-size: 14px; line-height: 1.6;">
+            <div><strong>Page URL:</strong> ${escapeHtml(pageUrl || "â€”")}</div>
+            <div><strong>IP Address:</strong> ${escapeHtml(ipAddress || "â€”")}</div>
+            <div><strong>User Agent:</strong> ${escapeHtml(userAgent || "â€”")}</div>
           </div>
         </div>
 

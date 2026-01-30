@@ -100,6 +100,7 @@ export default function ContactForm({ onSide = false }) {
       formDataToSend.append("city", formData.city);
       formDataToSend.append("carDetail", formData.carDetail);
       formDataToSend.append("reason", formData.reason);
+      formDataToSend.append("pageUrl", window.location.href);
 
       formData.images.forEach((file, index) => {
         formDataToSend.append(`images`, file);
