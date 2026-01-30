@@ -197,7 +197,7 @@ export async function POST(request) {
       </div>
 
       <div style="padding: 20px 28px; background: rgba(248, 250, 252, 0.8); border-top: 1px solid #e2e8f0; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;">
-        <div style="flex: 1;">
+        <div>
           <div style="font-weight: 700; font-size: 16px; color: #1e3a8a; margin-bottom: 4px;">Yyc Cash for Cars</div>
           <div style="color: #64748b; font-size: 14px;">Buying cars across Calgary and nearby areas</div>
         </div>
