@@ -36,6 +36,11 @@ export default function FAQSection() {
       answer:
         "You will need to provide proof of ownership, a valid government-issued ID, and your vehicle registration to complete the purchase and verify ownership.",
     },
+    {
+      question: "Who pays top dollar for junk cars?",
+      answer:
+        "YYC Cash For Cars pays top dollar for junk cars in Calgary. We evaluate based on parts value and scrap metal weight. Get instant quotes and same-day pickup across Alberta.",
+    },
   ];
 
   const toggleAccordion = (index) => {
