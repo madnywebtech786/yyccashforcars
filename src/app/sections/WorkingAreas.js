@@ -11,6 +11,7 @@ export default function WorkingAreasSection() {
       distance: "0 km",
       primary: true,
       color: "#4d88a9",
+      href: "/locations/calgary",
     },
     {
       id: 2,
@@ -19,6 +20,7 @@ export default function WorkingAreasSection() {
       distance: "36 km",
       primary: false,
       color: "#bd3747",
+      href: "/locations/airdrie",
     },
     {
       id: 3,
@@ -27,6 +29,7 @@ export default function WorkingAreasSection() {
       distance: "45 km",
       primary: false,
       color: "#4d88a9",
+      href: "/locations/okotoks",
     },
     {
       id: 4,
@@ -35,6 +38,7 @@ export default function WorkingAreasSection() {
       distance: "36 km",
       primary: false,
       color: "#bd3747",
+      href: "/locations/cochrane",
     },
     {
       id: 5,
@@ -43,6 +47,7 @@ export default function WorkingAreasSection() {
       distance: "19 km",
       primary: false,
       color: "#4d88a9",
+      href: "/locations/chestermere",
     },
     {
       id: 6,
@@ -51,6 +56,7 @@ export default function WorkingAreasSection() {
       distance: "68 km",
       primary: false,
       color: "#bd3747",
+      href: "/locations/high-river",
     },
     {
       id: 7,
@@ -59,6 +65,7 @@ export default function WorkingAreasSection() {
       distance: "52 km",
       primary: false,
       color: "#4d88a9",
+      href: "/locations/strathmore",
     },
     {
       id: 8,
@@ -67,6 +74,7 @@ export default function WorkingAreasSection() {
       distance: "104 km",
       primary: false,
       color: "#bd3747",
+      href: "/locations/canmore",
     },
   ];
 
@@ -93,9 +101,10 @@ export default function WorkingAreasSection() {
             {/* Interactive Service Area Cards */}
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {workingAreas.map((area) => (
-                <div
+                <a
                   key={area.id}
-                  className={`group relative bg-white rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-2 ${
+                  href={area.href}
+                  className={`group relative bg-white rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-2 block ${
                     area.primary
                       ? "border-[#4d88a9] bg-gradient-to-br from-[#4d88a9]/10 to-[#bd3747]/10"
                       : "border-gray-200 hover:border-[#bd3747]"
@@ -138,7 +147,7 @@ export default function WorkingAreasSection() {
                     style={{ animationDelay: "0.5s" }}
                   ></div>
                   <div className="absolute top-1/2 right-4 w-2 h-2 bg-[#bd3747]/20 rounded-full animate-pulse"></div>
-                </div>
+                </a>
               ))}
             </div>
 
