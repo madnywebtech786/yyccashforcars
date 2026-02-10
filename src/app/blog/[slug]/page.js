@@ -224,7 +224,7 @@ export default function BlogPostPage({ params }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
-      <Breadcrumb name={post.title} />
+      <Breadcrumb name="Blog" subtitle={post.title} />
       <section className="p-4 py-16 md:p-10 lg:p-20 bg-white">
         <div className="max-w-6xl mx-auto grid gap-10 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
           <article>
