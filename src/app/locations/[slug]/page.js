@@ -17,7 +17,7 @@ const locationsData = [
     area: "Downtown",
     distance: "0 km",
     primary: true,
-    image: "/images/car-about.png",
+    image: "/images/car-about.webp",
     heading: "Cash for Cars in Calgary - Fast & Fair Offers",
     description:
       "Welcome to YYC Cash for Cars, Calgary's premier car buying service. Located in the heart of downtown Calgary, we offer the most competitive prices for your used, junk, or scrap vehicles. Our experienced team provides instant cash offers and free towing services across all Calgary neighborhoods. Whether you're in the NE, NW, SE, or SW quadrants, we come to you! We specialize in buying all makes and models, regardless of condition. Get your free quote today and turn your unwanted vehicle into cash within 24 hours. Serving Calgary residents with honesty, transparency, and unbeatable customer service since our establishment.",
@@ -53,7 +53,7 @@ const locationsData = [
     area: "North Calgary",
     distance: "36 km",
     primary: false,
-    image: "/images/car-junk.png",
+    image: "/images/car-junk.webp",
     heading: "Cash for Cars in Airdrie - Top Dollar for Your Vehicle",
     description:
       "YYC Cash for Cars proudly serves Airdrie and surrounding areas with professional car buying services. Just 36 km north of Calgary, we extend our exceptional service to Airdrie residents looking to sell their vehicles quickly and hassle-free. Whether you have a running car, non-running vehicle, or complete scrap, we buy it all! Our Airdrie service includes free towing, instant cash payments, and complete documentation assistance. We understand the unique needs of Airdrie's growing community and offer flexible scheduling to accommodate your busy lifestyle. Experience the easiest way to sell your car in Airdrie with our trusted, reliable service.",
@@ -87,7 +87,7 @@ const locationsData = [
     area: "South Calgary",
     distance: "45 km",
     primary: false,
-    image: "/images/scrap.png",
+    image: "/images/scrap.webp",
     heading: "Cash for Cars in Okotoks - Reliable Service You Can Trust",
     description:
       "Located just 45 km south of Calgary, Okotoks residents can count on YYC Cash for Cars for all their vehicle selling needs. We bring our premium car buying service directly to your doorstep in Okotoks. Whether you're upgrading your vehicle, need quick cash, or simply want to get rid of an old car taking up space, we're here to help. Our Okotoks service offers competitive pricing, fast same-day or next-day pickup, and absolutely no hassle. We buy cars in any condition - running, damaged, or scrap. Our transparent process means you'll know exactly what you're getting before we arrive. Join hundreds of satisfied Okotoks customers who chose the smart way to sell their cars.",
@@ -121,7 +121,7 @@ const locationsData = [
     area: "West Calgary",
     distance: "36 km",
     primary: false,
-    image: "/images/tow-scrap.png",
+    image: "/images/tow-scrap.webp",
     heading: "Cash for Cars in Cochrane - Fast Cash for Your Vehicle",
     description:
       "YYC Cash for Cars extends its trusted service to beautiful Cochrane, just 36 km west of Calgary. We understand that selling a car in Cochrane shouldn't mean driving all the way to Calgary. That's why we come to you! Our Cochrane service offers the same premium experience our Calgary customers enjoy: instant quotes, competitive prices, and hassle-free pickup. Whether you're in the established neighborhoods or newer developments, we service all areas of Cochrane. We buy all vehicle types including trucks, SUVs, sedans, and vans - running or not. Get top dollar for your vehicle without leaving your property. Our professional team handles everything from valuation to towing, making your selling experience smooth and stress-free.",
@@ -155,7 +155,7 @@ const locationsData = [
     area: "East Calgary",
     distance: "19 km",
     primary: false,
-    image: "/images/car-about.png",
+    image: "/images/car-about.webp",
     heading: "Cash for Cars in Chestermere - Your Local Car Buyers",
     description:
       "Chestermere's lakeside community deserves convenient car selling options, and YYC Cash for Cars delivers! Just 19 km east of Calgary, we provide Chestermere residents with fast, friendly, and fair car buying services. Whether you're by the lake or in the newer subdivisions, we'll come to you. We specialize in making the car selling process as easy as possible - no need to clean your car, fix anything, or even have it running. We buy vehicles in any condition and pay top dollar based on current market values. Our Chestermere service includes free towing, instant cash offers, and complete documentation support. Experience why Chestermere residents trust us for honest, reliable car buying service.",
@@ -189,7 +189,7 @@ const locationsData = [
     area: "South Region",
     distance: "68 km",
     primary: false,
-    image: "/images/car-junk.png",
+    image: "/images/car-junk.webp",
     heading: "Cash for Cars in High River - Serving Southern Alberta",
     description:
       "YYC Cash for Cars is proud to serve High River and the surrounding southern Alberta region. Located 68 km south of Calgary, High River residents can access our professional car buying services without the drive to the city. We come directly to you! Whether you have a vintage truck, a family sedan, or a non-running vehicle, we're interested. Our High River service offers competitive pricing, free towing, and fast payment. We understand rural vehicle needs and accept farm trucks, work vehicles, and personal cars in any condition. Our team respects your time and property, arriving when scheduled and completing transactions efficiently. Discover why High River vehicle owners choose us for honest appraisals and excellent customer service.",
@@ -223,7 +223,7 @@ const locationsData = [
     area: "East Region",
     distance: "52 km",
     primary: false,
-    image: "/images/scrap.png",
+    image: "/images/scrap.webp",
     heading: "Cash for Cars in Strathmore - East of Calgary Service",
     description:
       "Strathmore and the eastern region of Calgary can count on YYC Cash for Cars for reliable, professional vehicle buying services. Located 52 km east of Calgary, Strathmore is well within our service area. We offer the same exceptional service to Strathmore residents as we do in Calgary proper. Whether you're selling a personal vehicle, getting rid of an old farm truck, or disposing of a damaged car, we buy it all. Our Strathmore service includes free estimates, competitive pricing based on actual market values, and convenient pickup scheduling. We handle all the paperwork, towing, and payment on the spot. No hidden fees, no surprises - just honest, straightforward service. Call us today for your free quote!",
@@ -257,7 +257,7 @@ const locationsData = [
     area: "Mountain Region",
     distance: "104 km",
     primary: false,
-    image: "/images/tow-scrap.png",
+    image: "/images/tow-scrap.webp",
     heading: "Cash for Cars in Canmore - Mountain Community Service",
     description:
       "Even in the beautiful mountain town of Canmore, 104 km from Calgary, YYC Cash for Cars brings professional vehicle buying services directly to you. We understand that living in the mountains comes with unique vehicle challenges - harsh winters, mountain roads, and wear and tear on vehicles. Whether your car has reached the end of its life, you're upgrading, or you need quick cash, we're here to help. Our Canmore service offers free towing down from the mountains, competitive pricing, and flexible scheduling to work around your mountain lifestyle. We buy all vehicles regardless of condition and pay cash on the spot. Experience hassle-free car selling in Canmore with Alberta's most trusted car buyers.",

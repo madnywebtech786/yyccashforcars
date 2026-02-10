@@ -24,7 +24,8 @@ export default function Services() {
           {/* Service 1: Cash for Junk Cars */}
           <div className="group relative bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
             <Image
-              src={"/images/car-junk.png"}
+              src={"/images/car-junk.webp"}
+              alt="Cash for junk cars service"
               width={600}
               height={600}
               className="h-80 w-full rounded-t-3xl mx-auto object-cover object-center"
@@ -55,7 +56,7 @@ export default function Services() {
                 </Link>
                 <Link href={"/services/cash-for-junk-cars"}>
                   <button className="w-full border-2 border-gray-200 text-gray-700 px-6 py-3 rounded-full font-semibold hover:border-[#4d88a9] hover:text-[#4d88a9] transition-all duration-300 flex items-center justify-center space-x-2 cursor-pointer">
-                    <span>Read More</span>
+                    <span>Read More About Cash for Junk Cars</span>
                   </button>
                 </Link>
               </div>
@@ -65,7 +66,8 @@ export default function Services() {
           {/* Service 2: Scrap Car Removal */}
           <div className="group relative bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
             <Image
-              src={"/images/tow-scrap.png"}
+              src={"/images/tow-scrap.webp"}
+              alt="Scrap car removal towing service"
               width={600}
               height={600}
               className="h-80 w-full rounded-t-3xl mx-auto object-cover object-center"
@@ -96,7 +98,7 @@ export default function Services() {
                 </Link>
                 <Link href={"/services/scrap-car-removal"}>
                   <button className="w-full border-2 border-gray-200 text-gray-700 px-6 py-3 rounded-full font-semibold hover:border-[#bd3747] hover:text-[#bd3747] transition-all duration-300 flex items-center justify-center space-x-2 cursor-pointer">
-                    <span>Read More</span>
+                    <span>Read More About Scrap Car Removal</span>
                   </button>
                 </Link>
               </div>

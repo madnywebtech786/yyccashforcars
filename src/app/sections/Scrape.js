@@ -86,7 +86,8 @@ const ScrapCarsSection = () => {
                     {/* Car Silhouette */}
                     <div className="relative">
                       <Image
-                        src={"/images/scrap.png"}
+                        src={"/images/scrap.webp"}
+                        alt="Scrap car removal in Calgary"
                         className="w-full h-66 rounded-2xl"
                         width={400}
                         height={400}

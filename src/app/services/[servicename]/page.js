@@ -12,7 +12,7 @@ const services = [
     slug: "cash-for-junk-cars",
     name: "Cash for Junk Cars",
     desc: "Top-dollar cash for junk cars in Calgary and surrounding communities. We purchase vehicles in any condition   running, damaged, salvaged or non-operational   and provide a transparent, no-obligation cash offer quickly. Our streamlined process includes instant quotes, same-day payments, and friendly, licensed staff who handle title transfer and paperwork so you get paid fast with zero hassle.",
-    img: "/images/car-junk.png",
+    img: "/images/car-junk.webp",
     features: [
       "Instant, no-obligation cash offers by phone or online",
       "We buy vehicles in any condition   junk, wrecked or running",
@@ -27,7 +27,7 @@ const services = [
     slug: "scrap-car-removal",
     name: "Scrap Car Removal",
     desc: "Professional scrap car removal with free towing and responsible disposal throughout Calgary. We collect scrap, end-of-life and abandoned vehicles from any location, provide eco-friendly recycling, and supply the documentation required for disposal. Our team ensures vehicles are dismantled or recycled according to provincial regulations, prioritizing safe handling and minimizing environmental impact.",
-    img: "/images/tow-scrap.png",
+    img: "/images/tow-scrap.webp",
     features: [
       "Free towing and pickup from any Calgary address",
       "Responsible recycling and certified disposal processes",

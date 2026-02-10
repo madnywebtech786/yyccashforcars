@@ -5,7 +5,7 @@ export default function sitemap() {
   const postPages = getAllPosts().map((post) => {
     const coverUrl = post.cover
       ? new URL(post.cover, baseUrl).toString()
-      : `${baseUrl}/images/gallery/g7.jpeg`;
+      : `${baseUrl}/images/gallery/g7.webp`;
 
     return {
       url: `${baseUrl}/blog/${post.slug}`,

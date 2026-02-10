@@ -306,6 +306,7 @@ export default function ContactForm({ onSide = false }) {
               accept="image/*"
               onChange={handleFileChange}
               className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
+              aria-label="Upload images"
             />
 
             <div className="text-center py-2 pointer-events-none">

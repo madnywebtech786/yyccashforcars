@@ -40,11 +40,13 @@ const Footer = () => {
             <Link
               href="/"
               className="inline-flex items-center justify-center w-full space-x-2 rounded-2xl p-2"
+              aria-label="YYC Cash For Cars home"
             >
               <Image
                 src={"/images/yyc-car-logo.png"}
                 width={400}
                 height={80}
+                alt="YYC Cash For Cars logo"
                 className="w-full h-28 bg-white rounded-xl p-2"
               />
             </Link>

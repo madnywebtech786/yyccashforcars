@@ -22,7 +22,7 @@ export async function generateMetadata({ params }) {
   const canonical = `https://www.yyccash.com/blog/${post.slug}`;
   const coverUrl = post.cover
     ? new URL(post.cover, "https://www.yyccash.com").toString()
-    : "https://www.yyccash.com/images/gallery/g7.jpeg";
+    : "https://www.yyccash.com/images/gallery/g7.webp";
 
   return {
     title: `${metaTitle} | YYC Cash for Cars`,
@@ -200,7 +200,7 @@ export default function BlogPostPage({ params }) {
         mainEntityOfPage: canonicalUrl,
         image: post.cover
           ? new URL(post.cover, "https://www.yyccash.com").toString()
-          : "https://www.yyccash.com/images/gallery/g7.jpeg",
+          : "https://www.yyccash.com/images/gallery/g7.webp",
       }
     : null;
 
@@ -263,7 +263,7 @@ export default function BlogPostPage({ params }) {
                         className="flex-shrink-0"
                       >
                         <Image
-                          src={item.cover || "/images/gallery/g7.jpeg"}
+                          src={item.cover || "/images/gallery/g7.webp"}
                           alt={item.title}
                           width={96}
                           height={96}

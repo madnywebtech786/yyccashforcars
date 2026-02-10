@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="min-h-screen p-4 py-16 md:p-10 lg:p-20 heroBg relative overflow-hidden">
       <Image
-        src="/images/hero.jpg"
+        src="/images/hero.webp"
         alt="Cash for cars Calgary"
         fill
         priority
@@ -38,7 +38,7 @@ const HeroSection = () => {
                 eco-friendly disposal across Calgary and nearby communities.!! */}
               </p>
             </div>
-            <p className="text-sm text-white mt-3">
+            <p className="text-white mt-3">
               Serving Calgary, Airdrie, Cochrane, Okotoks & nearby towns & area.
             </p>
             <div className="flex gap-4 items-center">

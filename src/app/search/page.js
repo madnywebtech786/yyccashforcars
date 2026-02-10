@@ -121,7 +121,7 @@ export default function SearchPage({ searchParams }) {
                     >
                       <Link href={`/blog/${post.slug}`}>
                         <Image
-                          src={post.cover || "/images/gallery/g7.jpeg"}
+                          src={post.cover || "/images/gallery/g7.webp"}
                           alt={post.title}
                           width={1200}
                           height={700}

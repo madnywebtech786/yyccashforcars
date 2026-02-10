@@ -117,6 +117,7 @@ export default function TestimonialSection() {
           <div className="flex justify-center mb-8 space-x-4">
             <button
               onClick={prevSlide}
+              aria-label="Previous testimonials"
               className="w-12 h-12 bg-white border border-gray-200 rounded-full flex items-center justify-center hover:bg-[#4d88a9] hover:text-white transition-colors duration-300"
             >
               <svg
@@ -131,6 +132,7 @@ export default function TestimonialSection() {
             </button>
             <button
               onClick={nextSlide}
+              aria-label="Next testimonials"
               className="w-12 h-12 bg-white border border-gray-200 rounded-full flex items-center justify-center hover:bg-[#bd3747] hover:text-white transition-colors duration-300"
             >
               <svg
@@ -202,16 +204,26 @@ export default function TestimonialSection() {
             {Array.from({
               length: Math.ceil(testimonials.length / visibleCount),
             }).map((_, i) => (
-              <button
+            <button
                 key={i}
                 onClick={() => setCurrentIndex(i * visibleCount)}
-                className={`w-3 h-3 rounded-full transition-colors duration-300 ${
+                aria-label={`Go to testimonial page ${i + 1}`}
+                className={`w-10 h-10 rounded-full transition-colors duration-300 flex items-center justify-center ${
                   currentIndex >= i * visibleCount &&
                   currentIndex < (i + 1) * visibleCount
                     ? "bg-[#4d88a9] shadow-md"
-                    : "bg-gray-300"
+                    : "bg-gray-200"
                 }`}
-              />
+              >
+                <span
+                  className={`w-3 h-3 rounded-full ${
+                    currentIndex >= i * visibleCount &&
+                    currentIndex < (i + 1) * visibleCount
+                      ? "bg-white"
+                      : "bg-gray-500"
+                  }`}
+                />
+              </button>
             ))}
           </div>
 

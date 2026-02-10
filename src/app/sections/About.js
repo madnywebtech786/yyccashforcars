@@ -8,7 +8,7 @@ export default function AboutUsSection() {
           <div className="relative">
             <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/images/car-about.png"
+                src="/images/car-about.webp"
                 alt="About Cash 4Cars"
                 className="w-full h-full object-cover"
               />

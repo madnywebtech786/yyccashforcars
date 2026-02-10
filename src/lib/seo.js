@@ -1,19 +1,19 @@
 export const baseUrl = "https://www.yyccash.com";
 
 export const fallbackImages = [
-  "/images/gallery/g1.jpeg",
-  "/images/gallery/g2.jpeg",
-  "/images/gallery/g3.jpeg",
-  "/images/gallery/g4.jpeg",
-  "/images/gallery/g5.jpeg",
-  "/images/gallery/g6.jpeg",
-  "/images/gallery/g7.jpeg",
-  "/images/gallery/g8.jpeg",
-  "/images/gallery/g9.jpeg",
-  "/images/gallery/g10.jpeg",
-  "/images/gallery/g11.jpeg",
-  "/images/gallery/g12.jpeg",
-  "/images/gallery/g13.jpeg",
+  "/images/gallery/g1.webp",
+  "/images/gallery/g2.webp",
+  "/images/gallery/g3.webp",
+  "/images/gallery/g4.webp",
+  "/images/gallery/g5.webp",
+  "/images/gallery/g6.webp",
+  "/images/gallery/g7.webp",
+  "/images/gallery/g8.webp",
+  "/images/gallery/g9.webp",
+  "/images/gallery/g10.webp",
+  "/images/gallery/g11.webp",
+  "/images/gallery/g12.webp",
+  "/images/gallery/g13.webp",
 ];
 
 export const staticPages = [
