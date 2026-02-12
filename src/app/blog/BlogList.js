@@ -22,10 +22,8 @@ export default function BlogList({ posts, currentPage, totalPages }) {
       <Breadcrumb
         name="Blog"
         subtitle="Tips, guides, and updates from the YYC Cash for Cars team."
+        titleAs="h1"
       />
-      <h1 className="text-3xl md:text-4xl font-bold text-black text-center mt-8">
-        Blog
-      </h1>
       <section className="p-4 py-16 md:p-10 lg:p-20 bg-white">
         <div className="max-w-6xl mx-auto grid gap-10 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
           <div>
