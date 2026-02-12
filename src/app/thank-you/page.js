@@ -1,8 +1,12 @@
 import Breadcrumb from "../components/Breadcrumb";
 
 export const metadata = {
-  title: "Thank You | YYC Cash for Cars",
+  title: "Thank You - YYC Cash for Cars",
   description: "Thank you for reaching out to YYC Cash for Cars.",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function ThankYouPage() {

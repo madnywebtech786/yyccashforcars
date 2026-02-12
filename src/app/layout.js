@@ -31,7 +31,6 @@ export const metadata = {
   applicationName: "Cash for Cars Calgary",
   generator: "Next.js",
   authors: [{ name: "Calgary Cash for Cars", url: "https://www.yyccash.com" }],
-  viewport: "width=device-width, initial-scale=1",
   metadataBase: new URL("https://www.yyccash.com/"),
   robots: {
     index: true,
@@ -75,6 +74,11 @@ export const metadata = {
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }) {

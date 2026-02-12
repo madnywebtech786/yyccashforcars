@@ -23,7 +23,7 @@ export async function generateMetadata({ params }) {
   const ogImage = getOgImageForPath("blog");
 
   return {
-    title: `Blog - Page ${safePage} | YYC Cash for Cars`,
+    title: `Blog - Page ${safePage} - YYC Cash for Cars`,
     description: "Tips, guides, and updates from YYC Cash for Cars.",
     alternates: {
       canonical: "/blog",
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }) {
       follow: true,
     },
     openGraph: {
-      title: `Blog - Page ${safePage} | YYC Cash for Cars`,
+      title: `Blog - Page ${safePage} - YYC Cash for Cars`,
       description: "Tips, guides, and updates from YYC Cash for Cars.",
       url: `https://www.yyccash.com/blog/page/${safePage}`,
       images: [
@@ -47,7 +47,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: "summary_large_image",
-      title: `Blog - Page ${safePage} | YYC Cash for Cars`,
+      title: `Blog - Page ${safePage} - YYC Cash for Cars`,
       description: "Tips, guides, and updates from YYC Cash for Cars.",
       images: [ogImage],
     },

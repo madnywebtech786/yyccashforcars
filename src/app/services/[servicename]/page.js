@@ -62,13 +62,13 @@ export async function generateMetadata({ params }) {
   const ogImage = getOgImageForPath(`services/${service.slug}`);
 
   return {
-    title: `${service.name} | YYC Cash for Cars`,
+    title: `${service.name} - YYC Cash for Cars`,
     description,
     alternates: {
       canonical: `/services/${service.slug}`,
     },
     openGraph: {
-      title: `${service.name} | YYC Cash for Cars`,
+      title: `${service.name} - YYC Cash for Cars`,
       description,
       images: [
         {
@@ -81,7 +81,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${service.name} | YYC Cash for Cars`,
+      title: `${service.name} - YYC Cash for Cars`,
       description,
       images: [ogImage],
     },

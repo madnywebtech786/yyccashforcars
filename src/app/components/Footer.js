@@ -24,7 +24,7 @@ const Footer = () => {
 
   const quickLinks = [
     { name: "Home", href: "/" },
-    { name: "About Us", href: "/about" },
+    { name: "About Us", href: "/about-us" },
     { name: "Blog", href: "/blog" },
     { name: "Gallery", href: "/gallery" },
     { name: "FAQs", href: "/faqs" },
@@ -39,15 +39,15 @@ const Footer = () => {
           <div className="space-y-4 pr-4">
             <Link
               href="/"
-              className="inline-flex items-center justify-center w-full space-x-2 rounded-2xl p-2"
+              className="inline-flex items-center justify-start w-full space-x-2 rounded-2xl p-2"
               aria-label="YYC Cash For Cars home"
             >
               <Image
                 src={"/images/yyc-car-logo.png"}
-                width={400}
-                height={80}
+                width={310}
+                height={96}
                 alt="YYC Cash For Cars logo"
-                className="w-full h-28 bg-white rounded-xl p-2"
+                className="h-24 w-auto bg-white rounded-xl p-2"
               />
             </Link>
             <p className="text-white text-base leading-relaxed">
@@ -143,6 +143,18 @@ const Footer = () => {
   </div>
 
   <div className="mt-6">
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d321243.3363692961!2d-114.34104816452238!3d51.02144032571336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdef6ee8d65022fd%3A0x47d7f94f17c10a33!2sYYC%20Cash%20For%20Cars!5e0!3m2!1sen!2s!4v1770932518348!5m2!1sen!2s"
+      width="100%"
+      height="200"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title="YYC Cash For Cars map"
+      className="w-full h-[200px] rounded-xl mb-4"
+    />
     <a
       href="https://g.page/r/CTMKwRdP-ddHEAE/review"
       target="_blank"
@@ -159,7 +171,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="border-t border-white">
-        <div className="container py-6 text-sm">
+        <div className="w-full py-6 px-4 sm:px-8 md:px-12 lg:px-20 text-sm">
           <div className="flex justify-center items-center space-y-4 sm:space-y-0">
             <p className=" text-white">
               © Copyright 2025, YYC Cash for cars . All Rights Reserved.
@@ -172,3 +184,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

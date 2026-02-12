@@ -301,13 +301,13 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${location.heading} | YYC Cash for Cars`,
+    title: `${location.heading} - YYC Cash for Cars`,
     description: location.description.substring(0, 160),
     alternates: {
       canonical: `/locations/${location.slug}`,
     },
     openGraph: {
-      title: `${location.heading} | YYC Cash for Cars`,
+      title: `${location.heading} - YYC Cash for Cars`,
       description: location.description.substring(0, 160),
       images: [
         {
@@ -320,7 +320,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${location.heading} | YYC Cash for Cars`,
+      title: `${location.heading} - YYC Cash for Cars`,
       description: location.description.substring(0, 160),
       images: [getOgImageForPath(`locations/${location.slug}`)],
     },

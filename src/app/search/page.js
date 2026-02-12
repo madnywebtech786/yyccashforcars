@@ -4,8 +4,15 @@ import { getAllPosts } from "@/lib/blog";
 import { getOgImageForPath, fallbackImages, staticPages as sitemapPages } from "@/lib/seo";
 
 export const metadata = {
-  title: "Search | YYC Cash for Cars",
+  title: "Search - YYC Cash for Cars",
   description: "Search YYC Cash for Cars pages and blog posts.",
+  alternates: {
+    canonical: "/search",
+  },
+  robots: {
+    index: false,
+    follow: true,
+  },
   openGraph: {
     images: [getOgImageForPath("blog")],
   },

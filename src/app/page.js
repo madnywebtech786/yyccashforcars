@@ -14,6 +14,9 @@ import BlogPreviewSection from "./sections/BlogPreview";
 import { getOgImageForPath } from "@/lib/seo";
 
 export const metadata = {
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     images: [getOgImageForPath("")],
   },
