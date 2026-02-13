@@ -90,7 +90,7 @@ export default function RootLayout({ children }) {
         <Script
           id="gtag-loader"
           strategy="beforeInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=AW-17598549406"
+          src="https://www.googletagmanager.com/gtag/js?id=G-DDX2NYW9Z2"
         />
         <Script id="gtag-init" strategy="beforeInteractive">
           {`
@@ -98,7 +98,7 @@ export default function RootLayout({ children }) {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'AW-17598549406');
-            gtag('config', 'G-2LCP9SHQQR');
+            gtag('config', 'G-DDX2NYW9Z2');
           `}
         </Script>
         <Script id="gtm-loader" strategy="beforeInteractive">
