@@ -296,18 +296,33 @@ const Header = () => {
                 >
                   {item.dropdown ? (
                     <>
-                      <button
-                        onClick={() => toggleExpand(item.name)}
-                        className="w-full flex items-center justify-between py-3 text-sm font-semibold uppercase"
-                        aria-expanded={expanded.has(item.name)}
-                      >
-                        <span>{item.name}</span>
-                        <ChevronDown
-                          className={`h-4 w-4 transition-transform ${
-                            expanded.has(item.name) ? "rotate-180" : ""
-                          }`}
-                        />
-                      </button>
+                      <div className="w-full flex items-center justify-between py-3">
+                        {item.href && item.href !== "#" ? (
+                          <Link
+                            href={item.href}
+                            onClick={closeMenu}
+                            className="text-sm font-semibold uppercase"
+                          >
+                            {item.name}
+                          </Link>
+                        ) : (
+                          <span className="text-sm font-semibold uppercase">
+                            {item.name}
+                          </span>
+                        )}
+                        <button
+                          onClick={() => toggleExpand(item.name)}
+                          className="p-1"
+                          aria-label={`Toggle ${item.name} submenu`}
+                          aria-expanded={expanded.has(item.name)}
+                        >
+                          <ChevronDown
+                            className={`h-4 w-4 transition-transform ${
+                              expanded.has(item.name) ? "rotate-180" : ""
+                            }`}
+                          />
+                        </button>
+                      </div>
 
                       {/* animated accordion panel for first-level */}
                       <div
