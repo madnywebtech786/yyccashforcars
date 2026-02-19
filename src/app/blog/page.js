@@ -31,14 +31,8 @@ export const metadata = {
   },
 };
 
-const PAGE_SIZE = 4;
-
 export default function BlogIndexPage() {
   const posts = getAllPosts();
-  const totalPages = Math.max(Math.ceil(posts.length / PAGE_SIZE), 1);
-  const pagedPosts = posts.slice(0, PAGE_SIZE);
 
-  return (
-    <BlogList posts={pagedPosts} currentPage={1} totalPages={totalPages} />
-  );
+  return <BlogList posts={posts} />;
 }

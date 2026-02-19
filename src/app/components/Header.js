@@ -17,7 +17,7 @@ const navItems = [
   { name: "ABOUT", href: "/about-us" },
   {
     name: "Services",
-    href: "#",
+    href: "/services",
     dropdown: [
       { name: "Cash for junk Cars", href: "/services/cash-for-junk-cars" },
       { name: "Scrap Car removal", href: "/services/scrap-car-removal" },
@@ -39,7 +39,6 @@ const navItems = [
   },
   { name: "Gallery", href: "/gallery" },
   { name: "Blog", href: "/blog" },
-  { name: "FAQs", href: "/faqs" },
   { name: "Contact Us", href: "/contact" },
 ];
 
