@@ -14,8 +14,8 @@ const services = [
     name: "Cash for Junk Cars in Calgary - Fast, Fair & Hassle-Free",
     metaTitle: "Junk Car Removal Calgary | Fast, Free, & Cash on the Spot",
     metaDescription:
-      "Need junk car removal in Calgary? Get fast, free towing and top cash for your unwanted vehicle. Contact YYC Cash today for hassle-free removal!",
-    desc: "Are you in Calgary with an old, damaged, or non-running vehicle that needs to be removed easily, quickly, and profitably? YYC Cash makes junk car removal straightforward with competitive offers, free towing services, and reliable pickup anywhere within Calgary and its surrounding communities - regardless of its condition. Our cash for junk cars service provides affordable offers as well as FREE towing. We make junk car removal hassle-free!",
+      "Need junk car removal in Calgary? Get fast, free towing and top cash for your unwanted vehicle. Contact YYC Cash For Cars today for hassle-free removal!",
+    desc: "Are you in Calgary with an old, damaged, or non-running vehicle that needs to be removed easily, quickly, and profitably? YYC Cash For Cars makes junk car removal straightforward with competitive offers, free towing services, and reliable pickup anywhere within Calgary and its surrounding communities - regardless of its condition. Our cash for junk cars service provides affordable offers as well as FREE towing. We make junk car removal hassle-free!",
     img: "/images/car-junk.webp",
     features: [
       "Same-day offers",
@@ -47,7 +47,7 @@ const services = [
     benefits: [
       {
         title: "Get Paid Instantly for Your Junk Car",
-        body: "Most people think old, non-running cars are simply useless piles of metal. Not at YYC Cash! We provide cash for scrap cars in Calgary, turning scrap metal into instant cash. No matter if your car is worn out or completely wrecked - expect us to provide an economical price.",
+        body: "Most people think old, non-running cars are simply useless piles of metal. Not at YYC Cash For Cars! We provide cash for scrap cars in Calgary, turning scrap metal into instant cash. No matter if your car is worn out or completely wrecked - expect us to provide an economical price.",
       },
       {
         title: "Save Occupied Property Space",
@@ -101,11 +101,11 @@ const services = [
     closingHeading:
       "Junk Car Removal Calgary | Your Solution to Unwanted Automobiles",
     closingText:
-      "Are You Needing Your Old Car Removing From Your Property in Calgary? At YYC Cash, our junk car removal services in Calgary are tailored to meet the needs of our community. When you contact us, expect prompt, professional service with competitive pricing and eco-friendly disposal practices - whether you have junk cars, wrecked vehicles or simply old vehicles no longer being needed; We take care to do it efficiently!",
+      "Are You Needing Your Old Car Removing From Your Property in Calgary? At YYC Cash For Cars, our junk car removal services in Calgary are tailored to meet the needs of our community. When you contact us, expect prompt, professional service with competitive pricing and eco-friendly disposal practices - whether you have junk cars, wrecked vehicles or simply old vehicles no longer being needed; We take care to do it efficiently!",
     finalCtaHeading:
       "Reach Out Now For Fast and Reliable Scrap Car Removal in Calgary",
     finalCtaText:
-      "YYC Cash offers reliable junk car removal services throughout Calgary and its surrounding areas, so if you want to turn your scrap car into cash, don't hesitate to get in touch. Our team is just one call away, offering a quick and hassle-free car disposal experience.",
+      "YYC Cash For Cars offers reliable junk car removal services throughout Calgary and its surrounding areas, so if you want to turn your scrap car into cash, don't hesitate to get in touch. Our team is just one call away, offering a quick and hassle-free car disposal experience.",
   },
 ];
 
@@ -390,7 +390,7 @@ export default async function ServicePage({ params }) {
 
             <section className="rounded-3xl border border-gray-100 bg-white p-6 lg:p-10 shadow-sm">
               <h2 className="text-3xl font-bold text-black mb-4">
-                What Makes YYC Cash Different?
+                What Makes Us Different?
               </h2>
               <div className="grid gap-4 md:grid-cols-2">
                 <div className="rounded-2xl bg-slate-50 p-5">
@@ -646,7 +646,7 @@ export default async function ServicePage({ params }) {
                 <div className="rounded-2xl border border-primary/20 bg-[#f8fcff] p-6 shadow-sm">
                   <h3 className="text-xl font-semibold text-black mb-2">Get Paid Instantly for Your Junk Car</h3>
                   <p className="text-gray-700">
-                    Most people think old, non-running cars are simply useless piles of metal. Not at YYC Cash! We provide cash for scrap cars in Calgary, turning scrap metal into instant cash. No matter if your car is worn out or completely wrecked - expect us to provide an economical price.
+                    Most people think old, non-running cars are simply useless piles of metal. Not at YYC Cash For Cars! We provide cash for scrap cars in Calgary, turning scrap metal into instant cash. No matter if your car is worn out or completely wrecked - expect us to provide an economical price.
                   </p>
                 </div>
                 <div className="rounded-2xl border border-secondary/20 bg-[#fff8f8] p-6 shadow-sm">
@@ -716,7 +716,7 @@ export default async function ServicePage({ params }) {
                 Junk Car Removal Calgary | Your Solution to Unwanted Automobiles
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                Are You Needing Your Old Car Removing From Your Property in Calgary? At YYC Cash, our{" "}
+                Are You Needing Your Old Car Removing From Your Property in Calgary? At YYC Cash For Cars, our{" "}
                 <Link href="/services/cash-for-junk-cars" className="text-primary underline underline-offset-2">
                   junk car removal services in Calgary
                 </Link>{" "}
@@ -759,7 +759,7 @@ export default async function ServicePage({ params }) {
                     Reach Out Now For Fast and Reliable Scrap Car Removal in Calgary
                   </h2>
                   <p className="text-white/95 max-w-3xl leading-relaxed">
-                    YYC Cash offers reliable junk car removal services throughout Calgary and its surrounding areas, so if you want to turn your scrap car into cash, don't hesitate to get in touch. Our team is just one call away, offering a quick and hassle-free car disposal experience.
+                    YYC Cash For Cars offers reliable junk car removal services throughout Calgary and its surrounding areas, so if you want to turn your scrap car into cash, don't hesitate to get in touch. Our team is just one call away, offering a quick and hassle-free car disposal experience.
                   </p>
                   <div className="mt-6 flex flex-wrap gap-4">
                     <Link
