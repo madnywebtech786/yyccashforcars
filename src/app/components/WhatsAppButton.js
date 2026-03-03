@@ -3,7 +3,7 @@ import { Phone } from "lucide-react";
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/15877009806"
+      href="tel:15877009806"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
