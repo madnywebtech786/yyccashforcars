@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../expressjs/expressprojectone/.idea/expressprojectone.iml" filepath="$PROJECT_DIR$/../expressjs/expressprojectone/.idea/expressprojectone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../expressjs/expresstwo/.idea/expresstwo.iml" filepath="$PROJECT_DIR$/../expressjs/expresstwo/.idea/expresstwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../maplecashforcars/.idea/maplecashforcars.iml" filepath="$PROJECT_DIR$/../maplecashforcars/.idea/maplecashforcars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mongodb/.idea/mongodb.iml" filepath="$PROJECT_DIR$/../mongodb/.idea/mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../myfirstnextapp/.idea/myfirstnextapp.iml" filepath="$PROJECT_DIR$/../myfirstnextapp/.idea/myfirstnextapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/yyccashforcars.iml" filepath="$PROJECT_DIR$/.idea/yyccashforcars.iml" />
+    </modules>
+  </component>
+</project>
