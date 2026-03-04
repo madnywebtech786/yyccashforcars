@@ -40,24 +40,22 @@ export default function AboutUsSection() {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold text-black leading-tight">
-              <span className="mr-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                Top Cash 
-              </span>
-               For Your Junk Cars in Calgary AB
+              Cash for Cars Calgary — Get Top Dollar + Free Pickup
             </h2>
 
             <p className="text-lg text-black leading-relaxed">
-              Calgary cash buyer for junk and used cars quick offers by phone.
-              We buy all makes and conditions and pay fair, on-the-spot cash
-              with free towing. Same-day pickup, licensed title handling,
-              eco-friendly disposal across Calgary. Fast payment, no hassle,
-              professional removal.
+              Are You Searching for Quick Cash for Cars Calgary Without Hassles and Free Pickup Want Fast, Hassle-free Car Buying Solutions in Calgary? YYC Cash makes selling unwanted vehicles an effortless process--whether running, damaged, accidental, old rusted or completely non-starting! We provide instant offers, free towing services, same or next day pickup throughout Calgary and its nearby communities so that you get paid without hassle of listings, messages or no shows!
             </p>
 
             <p className="text-lg text-black leading-relaxed">
-              We deliver fast, friendly service with clear offers and upfront
-              pricing. We follow eco-friendly recycling and certified disposal
-              across Alberta. across Calgary AB.
+              Calgary's Local Junk and Scrap Car Buyers Selling privately can take weeks,
+              while dealers don't always want older or damaged vehicles.
+              By choosing YYC Cash as your <a href="https://www.yyccash.com/" className="text-primary font-semibold hover:text-secondary underline">local junk and scrap car buyers</a> in Calgary,
+              we make it simple with straightforward cash offers based on vehicle details
+              such as make, model, year, condition and location. 
+              Being local means we understand busy Calgary schedules as well as seasonal wear on 
+              vehicles needing quick pickups when blocking driveways or taking up parking spots.
+
             </p>
 
             <div className="flex gap-4 items-center">

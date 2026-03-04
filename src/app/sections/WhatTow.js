@@ -51,10 +51,10 @@ export default function WhatWeTowSection() {
       <div className="">
         <div className="text-center mb-16">
           <h3 className="text-4xl font-bold text-black mb-4">
-            What
-            <span className="mx-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            What{" "}
+            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               We Tow
-            </span>
+            </span>{" "}
           </h3>
           <p className="text-black max-w-2xl mx-auto text-lg">
             We accept all types of vehicles - no matter the condition, make, or

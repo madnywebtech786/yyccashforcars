@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Cash for Cars Calgary — Top Dollar for Junk & Scrap Cars",
   description:
-    "Get fast, same-day cash for junk, wrecked and used vehicles in Calgary. Free towing, licensed paperwork, and eco-friendly recycling. Serving Calgary, Airdrie, Cochrane & Okotoks. Instant quotes available online or by phone.",
+    "Get top dollar for cash for cars Calgary. We buy junk & scrap cars, offer free towing, fast pickup, and instant payment across Calgary & nearby areas.",
   keywords: [
     "cash for cars Calgary",
     "cash for junk cars Calgary",

@@ -24,10 +24,10 @@ export default function BlogPreviewSection() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
           <div>
             <h3 className="text-4xl font-bold text-black mb-4">
-              Latest
-              <span className="mx-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              Latest{" "}
+              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                 Blog Posts
-              </span>
+              </span>{" "}
             </h3>
             <p className="text-black text-lg max-w-2xl">
               Tips, guides, and updates from the YYC Cash for Cars team.

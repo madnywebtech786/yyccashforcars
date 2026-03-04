@@ -24,7 +24,7 @@ const ScrapCarsSection = () => {
                   Cash For Scrap Cars in{" "}
                   <span className="bg-gradient-to-r from-[#4d88a9] to-[#bd3747] bg-clip-text text-transparent">
                     Calgary, AB
-                  </span>
+                  </span>{" "}
                 </h2>
                 <p className="text-xl text-black leading-relaxed">
                   Get $300 - $10,000 • Fast same-day pickup, free towing &
@@ -134,10 +134,10 @@ const ScrapCarsSection = () => {
         <div className=" px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h3 className="text-4xl font-bold text-black mb-4">
-              Why
-              <span className="mx-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              Why{" "}
+              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                 Choose Us
-              </span>
+              </span>{" "}
             </h3>
             <p className="text-black max-w-2xl mx-auto">
               Fast, reliable, and hassle-free car buying and scrap removal in

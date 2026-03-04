@@ -52,9 +52,10 @@ export default function FAQSection() {
       <div className="">
         <div className="text-center mb-16">
           <h3 className="text-4xl font-bold text-black mb-4">
-            <span className="mx-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            {" "}
+            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               Frequently Asked
-            </span>
+            </span>{" "}
             Questions
           </h3>
           <p className="text-black max-w-2xl mx-auto text-lg">

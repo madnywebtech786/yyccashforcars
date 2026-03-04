@@ -454,10 +454,10 @@ export default async function LocationPage({ params }) {
           <div className="mb-16">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
-                Why Choose Us in
-                <span className="mx-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                Why Choose Us in{" "}
+                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                   {location.name}
-                </span>
+                </span>{" "}
               </h2>
               <p className="text-black max-w-2xl mx-auto text-lg">
                 Professional service you can trust with unbeatable benefits

@@ -1,6 +1,8 @@
 import Image from "next/image";
 import HeroSection from "./sections/Hero";
 import AboutUsSection from "./sections/About";
+import VehicleTypesSection from "./sections/VehicleTypes";
+import AreasWeServeSection from "./sections/AreasWeServe";
 import ScrapCarsSection from "./sections/Scrape";
 import Services from "./sections/Services";
 import ProcessSection from "./sections/Process";
@@ -30,6 +32,7 @@ export default function Home() {
     <div className="bg-white dark:bg-white">
     <HeroSection />
     <AboutUsSection />
+    <VehicleTypesSection />
     <ScrapCarsSection />
     <Services />
     <WhatWeTowSection />
@@ -37,7 +40,7 @@ export default function Home() {
     <StatsSection />
     <GallerySection />
     <WorkingAreasSection />
-    <BlogPreviewSection />
+    <AreasWeServeSection />
     <FAQSection />
     <TestimonialSection />
     </div>

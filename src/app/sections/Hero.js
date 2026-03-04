@@ -25,11 +25,7 @@ const HeroSection = () => {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight ">
-                Get
-                <span className="mx-4">
-                  Top Cash
-                </span>
-                for Your Car Now
+                Get Top Cash for Cars Calgary Now
               </h1>
 
               <p className="text-lg text-white leading-relaxed">

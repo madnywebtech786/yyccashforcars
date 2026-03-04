@@ -101,10 +101,10 @@ export default function TestimonialSection() {
       <div className="">
         <div className="text-center mb-16">
           <h3 className="text-4xl font-bold text-black mb-4">
-            Our
-            <span className="mx-2 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            Our{" "}
+            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               Happy Customers
-            </span>
+            </span>{" "}
           </h3>
           <p className="text-black max-w-2xl mx-auto text-lg">
             Don't just take our word for it - hear from our satisfied customers
