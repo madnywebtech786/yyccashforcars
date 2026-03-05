@@ -227,11 +227,6 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
-        <Script
-          id="trustindex-loader"
-          strategy="afterInteractive"
-          src="https://cdn.trustindex.io/loader.js?db0a4ff66ff9442cfa966285511"
-        />
       </body>
     </html>
   );
