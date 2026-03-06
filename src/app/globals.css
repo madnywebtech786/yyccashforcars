@@ -98,6 +98,30 @@ button {
   border-radius: 12px;
 }
 
+.blog-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.98rem;
+}
+
+.blog-content th,
+.blog-content td {
+  border: 1px solid #e2e8f0;
+  padding: 0.75rem 0.9rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.blog-content thead th {
+  background: #f8fafc;
+  font-weight: 700;
+}
+
+.blog-content tbody tr:nth-child(even) {
+  background: #fbfdff;
+}
+
 .footer-follow-heading,
 .footer-follow-icons {
   display: none;
