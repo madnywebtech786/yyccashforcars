@@ -13,36 +13,36 @@ import TestimonialSection from "./sections/Testimonial";
 import WorkingAreasSection from "./sections/WorkingAreas";
 import WhatWeTowSection from "./sections/WhatTow";
 import BlogPreviewSection from "./sections/BlogPreview";
-import { getOgImageForPath } from "@/lib/seo";
+import {getOgImageForPath} from "@/lib/seo";
 
 export const metadata = {
-  alternates: {
-    canonical: "/",
-  },
-  openGraph: {
-    images: [getOgImageForPath("")],
-  },
-  twitter: {
-    images: [getOgImageForPath("")],
-  },
+    alternates: {
+        canonical: "/",
+    },
+    openGraph: {
+        images: [getOgImageForPath("")],
+    },
+    twitter: {
+        images: [getOgImageForPath("")],
+    },
 };
 
 export default function Home() {
-  return (
-    <div className="bg-white dark:bg-white">
-    <HeroSection />
-    <AboutUsSection />
-    <VehicleTypesSection />
-    <ScrapCarsSection />
-    <Services />
-    <WhatWeTowSection />
-    <ProcessSection />
-    <StatsSection />
-    <GallerySection />
-    <WorkingAreasSection />
-    <AreasWeServeSection />
-    <FAQSection />
-    <TestimonialSection />
-    </div>
-  );
+    return (
+        <div className="bg-white dark:bg-white">
+            <HeroSection/>
+            <AboutUsSection/>
+            <TestimonialSection/>
+            <VehicleTypesSection/>
+            <ScrapCarsSection/>
+            <Services/>
+            <WhatWeTowSection/>
+            <ProcessSection/>
+            <StatsSection/>
+            <GallerySection/>
+            <WorkingAreasSection/>
+            <AreasWeServeSection/>
+            <FAQSection/>
+        </div>
+    );
 }
