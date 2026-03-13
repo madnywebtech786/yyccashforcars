@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroSection from "./sections/Hero";
 import AboutUsSection from "./sections/About";
 import VehicleTypesSection from "./sections/VehicleTypes";
@@ -12,7 +11,6 @@ import FAQSection from "./sections/FAQ";
 import TestimonialSection from "./sections/Testimonial";
 import WorkingAreasSection from "./sections/WorkingAreas";
 import WhatWeTowSection from "./sections/WhatTow";
-import BlogPreviewSection from "./sections/BlogPreview";
 import {getOgImageForPath} from "@/lib/seo";
 
 export const metadata = {
