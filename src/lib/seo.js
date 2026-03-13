@@ -20,6 +20,8 @@ export const staticPages = [
   "",
   "about-us",
   "contact",
+  "privacy-policy",
+  "terms-of-use",
   "gallery",
   "faqs",
   "services",
