@@ -4,11 +4,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="maplecashforcars" />
     <orderEntry type="module" module-name="expressprojectone" />
     <orderEntry type="module" module-name="expresstwo" />
-    <orderEntry type="module" module-name="mongodb" />
-    <orderEntry type="module" module-name="myfirstnextapp" />
-    <orderEntry type="module" module-name="wildrosecashforcars" />
   </component>
 </module>
