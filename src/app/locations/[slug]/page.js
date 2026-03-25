@@ -901,25 +901,6 @@ export default async function LocationPage({ params }) {
           {introHtml || sections.length > 0 ? (
             <section className="mb-16">
               <div className="space-y-8">
-                {isServiceStyleLocation ? (
-                  <section className="rounded-3xl border border-gray-100 bg-white p-5 shadow-sm md:p-6">
-                    <p className="mb-4 text-sm font-semibold uppercase tracking-wide text-gray-500">
-                      Quick Jump
-                    </p>
-                    <div className="flex flex-wrap gap-3">
-                      {sections.map((section) => (
-                        <a
-                          key={section.title}
-                          href={`#${slugifySectionTitle(section.title)}`}
-                          className="rounded-full border border-gray-200 px-4 py-2 text-sm font-semibold text-gray-700 transition-colors hover:border-primary hover:text-primary"
-                        >
-                          {section.title.replace(/^\((.*)\)$/, "$1")}
-                        </a>
-                      ))}
-                    </div>
-                  </section>
-                ) : null}
-
                 {introHtml ? (
                   <div className={`overflow-hidden rounded-[2rem] border shadow-xl ${
                     isServiceStyleLocation
