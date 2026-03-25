@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+import { marked } from "marked";
 import Breadcrumb from "@/app/components/Breadcrumb";
 import { MapPin, Phone, Clock, CheckCircle, Truck, Navigation } from "lucide-react";
 import Contact from "@/app/sections/Contact";
@@ -287,6 +288,340 @@ const locationsData = [
     hours: "Monday - Saturday: 9:00 AM - 6:00 PM",
     responseTime: "1.5 - 2 hours",
   },
+  {
+    id: 9,
+    name: "Drumheller",
+    slug: "drumheller",
+    area: "Drumheller Region",
+    distance: "135 km",
+    primary: false,
+    image: "/images/tow-scrap.webp",
+    metaTitle: "Cash for Junk Cars Drumheller | Free Towing & Fast Pickup",
+    metaDescription:
+      "Sell your unwanted vehicle fast with cash for cars in Drumheller. Free towing, quick quotes, and hassle-free pick-up in Drumheller and nearby areas.",
+    heading: "Cash for Junk Cars Drumheller - Fast Pickup, Fair Offers, and Free Towing",
+    description:
+      "If you've got an old, damaged, unwanted or non-running vehicle taking up space in your driveway, garage, yard, acreage or business property that you want sold quickly without hassles such as listing, no shows, low offers or repairs costs; then YYC Cash for Cars makes the process easy with their cash for cars Drumheller service.",
+    additionalInfo:
+      "Our Drumheller service is built for convenience, with fair quotes, prompt pickup, and free towing for unwanted vehicles in town and nearby communities.",
+    neighborhoods: [
+      "Downtown Drumheller",
+      "Central Drumheller",
+      "North Drumheller",
+      "Newcastle",
+      "Midland",
+      "Nacmine",
+      "Rosedale",
+      "East Coulee",
+      "Wayne",
+    ],
+    features: [
+      "Fast quotes based on the vehicle's actual condition",
+      "Pickup arranged at a convenient time",
+      "No towing charges added at the last minute",
+      "Help with the basic selling process",
+      "Removal of vehicles that are not drivable",
+      "A straightforward offer without pressure",
+      "Free towing in Drumheller and nearby areas",
+      "Quick and hassle-free vehicle pickup",
+    ],
+    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    responseTime: "Under 2 hours",
+    content: `If you've got an old, damaged, unwanted or non-running vehicle taking up space in your driveway, garage, yard, acreage or business property that you want sold quickly without hassles such as listing, no shows, low offers or repairs costs; then YYC Cash for Cars makes the process easy with their cash for cars Drumheller service. Our cash for junk cars Drumheller service makes selling vehicles without hassles simple; just schedule pickup with us, get an accurate quote then payment upon collection of your car.
+
+No matter the condition of your vehicle - be it non-running, severe rust damage, engine trouble, transmission problems, collision damage or simply no longer worth fixing - we are ready to assist. We recognize that many vehicle owners in Drumheller do not wish to continue investing money into something that has reached the end of its useful life and instead want it removed without taking up valuable space or losing more value. With us on your side you can turn it into cash quickly while having it removed stress free.
+
+Our service is designed around convenience. Simply tell us about the vehicle, review its details, and we provide an offer based on its make, model, year, condition and pickup location. Once accepted, we arrange removal promptly without the hassles associated with classified ads or strangers coming onto your property; and no need for negotiations back-and-forth either way or trying to drive an unsafe or inoperable vehicle yourself.
+
+If you are searching for a [Junk car removal](/services/cash-for-junk-cars) Drumheller, chances are you are seeking three things. A fair payout, free vehicle pickup and a company that follows through as promised - that is exactly what this page strives to deliver.
+
+## Why Drumheller Vehicle Owners Choose Our Service
+
+Selling a junk vehicle privately can be extremely frustrating. Many potential buyers simply vanish after making inquiries; others expect you to deliver it; while still others try negotiating upon arrival - especially when there are visible damages or mechanical issues on the car itself. Many find the time and stress simply not worth investing.
+
+YYC Cash for Cars provides Drumheller residents with an efficient and reliable alternative to selling unwanted vehicles on the open market. By focusing on unwanted vehicles, YYC Cash for Cars eliminates the need to apologize for the condition of your car or spend money trying to make it "sale-ready." We already work with vehicles which may be scrap, old, written-off, damaged beyond repair, high mileage or no longer roadworthy.
+
+Our process is designed to meet real-life situations. Perhaps your car failed inspection; perhaps repairs cost more than its value; perhaps you inherited or bought an older vehicle to replace an older one; in any of these instances, we can help simplify the next steps for you.
+
+Here is what matters most to local sellers:
+
+- fast quotes based on the vehicle’s actual condition
+- pickup arranged at a convenient time
+- no towing charges added at the last minute
+- help with the basic selling process
+- removal of vehicles that are not drivable
+- a straightforward offer without pressure
+
+At YYC Cash for cars we understand that people looking for cash for junk cars are looking for more than money: They need speed, trust, and convenience when searching for cash for junk cars in Drumheller.
+
+## Scrap Car Removal Drumheller for Vehicles in Almost Any Condition
+
+Scrap Car Removal Drumheller provides services for more than just wrecked vehicles; our scrap car collection Drumheller service also caters to vehicles still running but no longer worth keeping; others start occasionally but require costly work; others have major collision damage while some simply become outdated and insurable; or are simply too far gone to maintain safely.
+
+We commonly help remove:
+
+- scrap cars
+- junk cars
+- old used cars with major repair issues
+- non-running vehicles
+- accident-damaged vehicles
+- flood-damaged or weather-damaged vehicles
+- rusted-out cars and trucks
+- high-mileage SUVs
+- vans and work vehicles
+- unwanted fleet vehicles
+- vehicles with seized engines or bad transmissions
+- abandoned or sitting vehicles with little resale value
+
+If your vehicle is taking up space in your driveway or parked at home, we may still make you an offer for it. No need for repairs, cleaning up, advertising or waiting weeks for the right buyer; our offers are determined based on salvage value, reusable parts recovery, condition and current market demand.
+
+Scrap car removal Drumheller can also help owners avoid further costs. Old vehicles often cause more hassle over time: leaky fluids, flat tires, dead batteries, municipal complaints and loss of parking space can all add up quickly to create additional costs that don't make financial sense anymore. Selling now will free up space and eliminate an ongoing source of irritation.
+
+## A Simple 3-Step Process to Sell Your Junk Car in Drumheller
+
+As most sellers want results and not paperwork headaches, our goal is to keep the process as painless as possible.
+
+### 1. Tell Us About Your Car
+
+Start by providing us with basic details of your car: year, make, model, condition and location in Drumheller. Even if it does not run, has damage or is missing parts, we welcome that information - because the more precise details provided, the more precise is our quote.
+
+### 2. Get a Quote
+
+After carefully considering all of the information about your vehicle, we provide a no-obligation offer based on factors like its condition, remaining salvage value, demand for parts and scrap value as well as ease of pickup.
+
+### 3. Schedule Pick-Up and Receive Payment
+
+If you accept our offer, we arrange pickup and removal. Our team arrives at the vehicle location, confirms all details, loads it onto a transport vehicle, and completes pickup to deliver payment to you immediately - meaning an unwanted vehicle has finally left its location behind!
+
+Junk car removal Drumheller is often preferred over selling damaged, old, or non-roadworthy vehicles themselves as it provides faster, easier and more practical solutions for vehicles that cannot be made roadworthy.
+
+## Who Uses Our Drumheller Junk Car Buying Service?
+
+Homeowners frequently employ our service when an unused car has been sitting idly on their property for months or years. Landlords call when tenants abandon vehicles on the rental property; families reach out when clearing space on a property or disposing of one from an estate; small businesses and contractors utilize our service when repairing work vehicles no longer makes economic sense; drivers with accident damaged cars contact us when the cost of restoration becomes prohibitive;
+
+Simply put, this service goes beyond simply disposing of "scrap cars." Instead, it provides an effective solution to unwanted vehicles which consume time, space, and money.
+
+## Areas We Serve Around Drumheller
+
+Drumheller is important, so we want this page for Drumheller to reflect how people actually search - some users search only by town name while others may add additional filters such as neighborhood or community modifiers.
+
+That is why this page naturally supports searches related to Downtown Drumheller, Central Drumheller, North Drumheller, Newcastle, Midland, Nacmine Rosedale East Coulee Wayne communities as well as surrounding rural land areas. If your vehicle is located anywhere within these boundaries - whether in town, on residential property near a business, rural land areas or otherwise - don't hesitate to get in touch so we can discuss pickup options!
+
+## Why Not Sell the Vehicle Privately?
+
+Private sale may make sense for clean, newer used vehicles that have minimal wear-and-tear, such as SUVs or sedans with lower mileage; but in cases involving junk, scrap, damaged, non-running or high mileage cars it often proves more trouble than it's worth.
+
+You may need to:
+
+- pay for repairs before listing
+- answer endless messages
+- deal with people who never show up
+- negotiate with bargain hunters
+- arrange towing or transport
+- spend days or weeks trying to close the sale
+
+When someone searches for cash for junk cars in Drumheller, they typically want a simpler process involving one quote, one pickup appointment and one completed transaction. That is exactly why dedicated junk car buyers offer more value than the general private market.
+
+## FAQs
+
+**How much can I get for my junk car in Drumheller?**
+
+The amount depends on the vehicle’s make, model, year, condition, completeness, location, and current salvage or scrap value. Vehicles with reusable parts or stronger metal value may receive higher offers than severely stripped or incomplete vehicles.
+
+**Do you buy non-running vehicles?**
+
+Yes. A vehicle does not need to be drivable to qualify. We regularly help with non-running cars, damaged trucks, old SUVs, and vehicles that have been sitting for a long time.
+
+**Is towing included with your service?**
+
+Yes, the goal is to make the process as easy as possible. If your vehicle needs to be removed, we discuss pickup as part of the overall service so you are not left trying to arrange your own transport.
+
+**Do you only buy scrap cars?**
+
+No. We buy many types of unwanted vehicles, including junk cars, collision-damaged cars, old used vehicles, high-mileage vehicles, and cars that are no longer worth repairing.
+
+**How quickly can I start the process?**
+
+You can start by contacting us with your vehicle details. Once we review the information and provide a quote, the next step is scheduling pickup based on availability and location.
+
+**What information should I have ready?**
+
+It helps to have the year, make, model, condition, and exact Drumheller location. If you know whether the vehicle runs, has major damage, or is missing parts, share that as well.
+
+## Get Your Junk Car Removed in Drumheller Now
+
+If your old vehicle no longer serves its intended purpose, now is the time to get rid of it and realize value from it. YYC Cash for Cars provides a hassle-free method for junk car removal Drumheller and cash for junk cars Drumheller without breaking a sweat!
+
+[Call or submit our online form](/contact) with details on your vehicle today to begin the selling process! We will review the data, give an accurate quote, and arrange a smooth pickup process - all this with just one call or submission of our form! Let's turn that unwanted car into money while also clearing space on your property!`,
+  },
+  {
+    id: 10,
+    name: "Lethbridge",
+    slug: "lethbridge",
+    area: "Southern Alberta",
+    distance: "215 km",
+    primary: false,
+    image: "/images/car-junk.webp",
+    metaTitle: "Cash for Cars Lethbridge | Scrap & Junk Car Removal Services",
+    metaDescription:
+      "Get top cash for junk cars in Lethbridge! We offer free scrap car removal, fast towing, and competitive cash offers for unwanted vehicles.",
+    heading: "Cash for Cars & Scrap Car Removal in Lethbridge",
+    description:
+      "Are you in Lethbridge and searching for an easy, fast, reliable way to sell your unwanted vehicle quickly and profitably? Whether it's old, damaged, non-running or simply taking up space - our Lethbridge car removal service provides top dollar cash, free towing and an effortless selling experience from start to finish.",
+    additionalInfo:
+      "Our Lethbridge service extends cash offers, free towing, and hassle-free vehicle pickup across the city and nearby southern Alberta communities.",
+    neighborhoods: [
+      "Downtown Lethbridge",
+      "North Lethbridge",
+      "Westside",
+      "South Lethbridge",
+      "Legacy Ridge",
+      "Copperwood",
+      "Indian Battle Heights",
+      "Sunridge",
+    ],
+    features: [
+      "Top cash offers based on market value and condition",
+      "Free junk car removal and towing in Lethbridge",
+      "Same-day or next-day pickup availability",
+      "Instant cash payment on pickup",
+      "Help with the selling process and paperwork",
+      "Eco-friendly recycling and disposal practices",
+      "All makes, models, and conditions accepted",
+      "Service across Lethbridge and southern Alberta",
+    ],
+    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    responseTime: "Same day or next day",
+    content: `Are you in Lethbridge and searching for an easy, fast, reliable way to sell your unwanted vehicle quickly and profitably? Whether it's old, damaged, non-running or simply taking up space - our Lethbridge car removal service provides top dollar cash, free towing and an effortless selling experience from start to finish.
+
+At YYC Cash, our vehicle buying and removal services extend from Calgary into Lethbridge and its surrounding communities, giving homeowners, business owners, and drivers an effortless way to dispose of their cars while receiving top cash offers for them.
+
+## Turn Your Old Cars Into Fast Cash - Local and Hassle-Free
+
+Owning a vehicle that no longer runs, has significant damage, or has been sitting unused can be extremely stressful and time consuming. Cluttering up your driveway while depreciating in value quickly, it can become an eyesore - but our cash for junk cars Lethbridge service can make all the difference in getting rid of unwanted vehicles quickly and hassle free.
+
+We specialize in:
+
+- Cash for Junk Cars Lethbridge
+- Junk Car Removal Lethbridge
+- Scrap Car Removal Lethbridge
+- Free Car Pickup & Eco-Friendly Recycling
+- Same-Day or Next-Day Service!
+
+No matter the condition, make, or model of your car, we offer competitive cash offers and take care of the rest for you.
+
+## Why Choose Our Cash for Junk Cars Lethbridge Service?
+
+At YYC  Junk Car Cash Offers in Lethbridge, our mission is simple: make selling your unwanted vehicle fast, fair, and stress-free. With dependable service and fair cash offers we have built up a stellar reputation among Lethbridge residents looking to "sell my junk car for cash:"
+
+### Highest Cash Offers in Lethbridge
+
+We make our offers based on current market values, junk metal pricing and vehicle condition. No matter if your car is barely drivable or completely immobilized - whether damaged in an accident or simply out-of-service for years- we promise a fair quote that you can rely on.
+
+### Free Junk Car Removal & Towing
+
+Do away with expensive removal fees: once you accept our offer, we'll arrange a convenient pickup time - often same-day! - and tow your vehicle away for free anywhere within Lethbridge - including residential, commercial and rural locations across the region.
+
+### Instant Cash Payment
+
+Our team will come pick up your car and pay out immediately, no waiting, no hidden charges - just quick payment for an easy transaction.
+
+Selling a vehicle can be confusing due to all of its necessary paperwork and legal obligations, but don't worry: our team takes care of everything for you - title transfers, forms completion and legal obligations are taken care of by us so you won't need to worry.
+
+### Eco-Friendly Scrap Car Removal
+
+Responsible junk car removal goes beyond simple convenience - it is also about being environmentally aware. Our service recycles reusable parts and properly disposes of hazardous fluids while making sure any materials salvaged from your car meet local standards for processing.
+
+## Common Reasons People Use Scrap Car Removal in Lethbridge
+
+There can be numerous reasons for Lethbridge residents to sell their vehicle for cash, including:
+
+- The car has mechanical issues and the repair cost outweighs the value.
+- The vehicle failed inspection or doesn’t meet local road standards.
+- Insurance wrote off the car after an accident.
+- It’s taking up space on your property with no plans to fix or sell it privately.
+- You need quick cash and a straightforward way to sell your old car.
+
+No matter the cause of your vehicle's disuse, our [junk car removal Lethbridge service](/services/cash-for-junk-cars) provides a fast solution for turning that problem vehicle into money fast.
+
+## How Our Cash for Cars Process Works (Quick & Simple)
+
+We have simplified our process for selling cars as easily and conveniently as possible. Here's how it works:
+
+### 1. Contact Us for a Free Quote
+
+Reach out by phone or online form with basic details about your vehicle: make, model, year, condition and location in Lethbridge. We'll then make you a no-committal cash offer based on this data.
+
+### 2. Accept Your Cash Offer
+
+Our quotes are transparent and straightforward - without gimmicks or pressure to purchase. If you like what you see, simply confirm it and we'll arrange pickup!
+
+### 3. Vehicle Pickup and Free Towing
+
+At your scheduled pickup time, we arrive to tow away your vehicle at no cost, even if it doesn't run anymore.
+
+### 4. Get Paid On the Spot
+
+Once the vehicle is on board the truck, you'll receive your cash instantly - fast, fair, and stress-free!
+
+## What Vehicles Do We Buy?
+
+We accept virtually all vehicle types, including:
+
+- Cars of any make/model
+- SUVs and crossovers
+- Trucks and pick-ups
+- Vans and commercial vehicles
+- Damaged or accident-written-off vehicles
+- Old / high-mileage cars
+- Non-running scrap vehicles
+
+No matter the condition of your vehicle, we offer fair quotes and handle its removal safely and responsibly.
+
+## Environmental Benefits of Professional Junk Car Removal
+
+Professional car removal Lethbridge services can not only benefit your pocketbook, but the environment as well.
+
+### Sustainable Recycling
+
+Vehicles contain valuable metals like steel, aluminum and copper which should be recycled instead of being sent to landfill.
+
+### Proper Handling of Fluids & Waste
+
+Cars contain fluids that can be harmful if released into soil or groundwater, so professional removal ensures proper disposal in accordance with environmental standards.
+
+### Reduced Raw Material Demand
+
+Reusing existing materials reduces the need for new mining and manufacturing operations, thus cutting emissions and energy usage.
+
+## (FAQs)
+
+**Q: Will you accept vehicles that don't run?**
+
+A: Absolutely. We welcome all makes and models - running or not - at competitive cash offers.
+
+**Q: Will I need a title to sell my car?**
+
+A: In most cases, yes; however we can assist in taking you through all necessary steps should this not be available to you.
+
+**Q: How fast can my car be removed in Lethbridge?**
+
+A: Your schedule and location in Lethbridge will play a part in how quickly we are able to collect it. Usually the same or next day.
+
+**Q: Is There Any Cost Associated with Towing and Removal Services?**
+
+A: No - Our towing and removal service is completely free with no hidden fees attached.
+
+## Serving All of Lethbridge & Southern Alberta
+
+From downtown Lethbridge and surrounding neighborhoods - such as North Lethbridge, Westside and South Lethbridge - to South Lethbridge and beyond, our mission is to deliver fast, reliable service that you can count on.
+
+## Get Started: Sell Your Junk Car in Lethbridge Today!
+
+Don't allow that old, damaged, or unused vehicle to waste another moment of space or value! Reach out to YYC Cash now for your scrap car removal Lethbridge needs and discover just how straightforward selling your car for cash can be! We provide free quotes!
+
+No matter your junk car removal or cash for junk car needs in Lethbridge, we are your local experts - [offering top offers](/contact), free towing, and honest service from start to finish.`,
+  },
 ];
 
 // Generate metadata for SEO
@@ -300,15 +635,19 @@ export async function generateMetadata({ params }) {
     };
   }
 
+  const metaTitle = location.metaTitle || `${location.heading} - YYC Cash for Cars`;
+  const metaDescription =
+    location.metaDescription || location.description.substring(0, 160);
+
   return {
-    title: `${location.heading} - YYC Cash for Cars`,
-    description: location.description.substring(0, 160),
+    title: metaTitle,
+    description: metaDescription,
     alternates: {
       canonical: `/locations/${location.slug}`,
     },
     openGraph: {
-      title: `${location.heading} - YYC Cash for Cars`,
-      description: location.description.substring(0, 160),
+      title: metaTitle,
+      description: metaDescription,
       images: [
         {
           url: getOgImageForPath(`locations/${location.slug}`),
@@ -320,8 +659,8 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${location.heading} - YYC Cash for Cars`,
-      description: location.description.substring(0, 160),
+      title: metaTitle,
+      description: metaDescription,
       images: [getOgImageForPath(`locations/${location.slug}`)],
     },
   };
@@ -334,6 +673,39 @@ export async function generateStaticParams() {
   }));
 }
 
+const buildContentSections = (content) => {
+  if (!content) return { introHtml: null, sections: [] };
+
+  const normalized = content.trim();
+  const matches = [...normalized.matchAll(/^##\s+(.+)$/gm)];
+
+  if (matches.length === 0) {
+    return {
+      introHtml: marked.parse(normalized),
+      sections: [],
+    };
+  }
+
+  const introMarkdown = normalized.slice(0, matches[0].index).trim();
+  const sections = matches.map((match, index) => {
+    const title = match[1].trim();
+    const start = match.index + match[0].length;
+    const end =
+      index + 1 < matches.length ? matches[index + 1].index : normalized.length;
+    const body = normalized.slice(start, end).trim();
+
+    return {
+      title,
+      html: marked.parse(body),
+    };
+  });
+
+  return {
+    introHtml: introMarkdown ? marked.parse(introMarkdown) : null,
+    sections,
+  };
+};
+
 export default async function LocationPage({ params }) {
   const { slug } = await params;
   const location = locationsData.find((loc) => loc.slug === slug);
@@ -341,6 +713,8 @@ export default async function LocationPage({ params }) {
   if (!location) {
     notFound();
   }
+
+  const { introHtml, sections } = buildContentSections(location.content);
 
   return (
     <div className="dark:bg-white">
@@ -449,6 +823,134 @@ export default async function LocationPage({ params }) {
               </div>
             </div>
           </div>
+
+          {introHtml || sections.length > 0 ? (
+            <section className="mb-16">
+              <div className="space-y-8">
+                {introHtml ? (
+                  <div className="overflow-hidden rounded-[2rem] border border-primary/10 bg-gradient-to-br from-primary/5 via-white to-secondary/10 shadow-xl">
+                    <div className="grid gap-6 p-6 md:grid-cols-[minmax(0,1.5fr)_minmax(260px,0.8fr)] md:p-8 lg:p-10">
+                      <div
+                        className="blog-content text-black"
+                        dangerouslySetInnerHTML={{ __html: introHtml }}
+                      />
+                      <div className="rounded-3xl bg-white/90 p-6 shadow-lg ring-1 ring-primary/10">
+                        <p className="text-xs font-bold uppercase tracking-[0.24em] text-secondary">
+                          Drumheller Service
+                        </p>
+                        <h2 className="mt-3 text-2xl font-bold text-black">
+                          Fast pickup with clear pricing
+                        </h2>
+                        <p className="mt-3 text-sm leading-7 text-gray-700">
+                          We handle unwanted vehicles with straightforward quotes,
+                          free towing, and prompt collection across Drumheller and
+                          nearby areas.
+                        </p>
+                        <div className="mt-6 grid gap-3 sm:grid-cols-2">
+                          <div className="rounded-2xl border border-primary/10 bg-primary/5 p-4">
+                            <p className="text-xs font-semibold uppercase tracking-wide text-primary">
+                              Response Time
+                            </p>
+                            <p className="mt-1 text-sm font-bold text-black">
+                              {location.responseTime}
+                            </p>
+                          </div>
+                          <div className="rounded-2xl border border-secondary/10 bg-secondary/5 p-4">
+                            <p className="text-xs font-semibold uppercase tracking-wide text-secondary">
+                              Towing
+                            </p>
+                            <p className="mt-1 text-sm font-bold text-black">
+                              Free pickup available
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ) : null}
+
+                <div className="grid gap-8">
+                  {sections.map((section, index) => {
+                    const isFaq = section.title.toLowerCase() === "faqs";
+                    const isCta = section.title
+                      .toLowerCase()
+                      .includes("get your junk car removed");
+
+                    if (isFaq) {
+                      return (
+                        <div
+                          key={section.title}
+                          className="rounded-[2rem] border border-gray-100 bg-white p-6 shadow-xl md:p-8 lg:p-10"
+                        >
+                          <div className="mb-6 flex items-center justify-between gap-4">
+                            <div>
+                              <p className="text-xs font-bold uppercase tracking-[0.24em] text-primary">
+                                Common Questions
+                              </p>
+                              <h2 className="mt-2 text-3xl font-bold text-black">
+                                {section.title}
+                              </h2>
+                            </div>
+                          </div>
+                          <div
+                            className="blog-content location-content text-black"
+                            dangerouslySetInnerHTML={{ __html: section.html }}
+                          />
+                        </div>
+                      );
+                    }
+
+                    if (isCta) {
+                      return (
+                        <div
+                          key={section.title}
+                          className="overflow-hidden rounded-[2rem] bg-gradient-to-r from-primary to-secondary p-[1px] shadow-2xl"
+                        >
+                          <div className="rounded-[calc(2rem-1px)] bg-white px-6 py-8 md:px-8 lg:px-10">
+                            <p className="text-xs font-bold uppercase tracking-[0.24em] text-secondary">
+                              Next Step
+                            </p>
+                            <h2 className="mt-2 text-3xl font-bold text-black">
+                              {section.title}
+                            </h2>
+                            <div
+                              className="blog-content location-content mt-5 text-black"
+                              dangerouslySetInnerHTML={{ __html: section.html }}
+                            />
+                          </div>
+                        </div>
+                      );
+                    }
+
+                    return (
+                      <div
+                        key={section.title}
+                        className="overflow-hidden rounded-[2rem] border border-gray-100 bg-white shadow-xl ring-1 ring-black/5"
+                      >
+                        <div className="relative overflow-hidden p-6 md:p-8 lg:p-10">
+                          <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-secondary/10 blur-2xl" />
+                          <div className="absolute -left-8 bottom-0 h-24 w-24 rounded-full bg-primary/10 blur-2xl" />
+                          <div className="relative">
+                            <div className="mb-4 flex items-center gap-3">
+                              <span className="h-1.5 w-12 rounded-full bg-gradient-to-r from-primary to-secondary" />
+                              <span className="h-2.5 w-2.5 rounded-full bg-secondary/70" />
+                            </div>
+                            <h2 className="text-2xl font-bold leading-tight text-black md:text-3xl">
+                              {section.title}
+                            </h2>
+                            <div
+                              className="blog-content location-content mt-6 text-black"
+                              dangerouslySetInnerHTML={{ __html: section.html }}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </section>
+          ) : null}
 
           {/* Features Grid */}
           <div className="mb-16">

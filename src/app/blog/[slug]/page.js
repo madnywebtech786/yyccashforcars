@@ -299,14 +299,16 @@ export default function BlogPostPage({ params }) {
               </h2>
               <ul className="space-y-2">
                 {[
-                  { name: "Calgary", href: "/locations/calgary" },
                   { name: "Airdrie", href: "/locations/airdrie" },
-                  { name: "Okotoks", href: "/locations/okotoks" },
-                  { name: "Cochrane", href: "/locations/cochrane" },
-                  { name: "Chestermere", href: "/locations/chestermere" },
-                  { name: "High River", href: "/locations/high-river" },
-                  { name: "Strathmore", href: "/locations/strathmore" },
+                  { name: "Calgary", href: "/locations/calgary" },
                   { name: "Canmore", href: "/locations/canmore" },
+                  { name: "Chestermere", href: "/locations/chestermere" },
+                  { name: "Cochrane", href: "/locations/cochrane" },
+                  { name: "Drumheller", href: "/locations/drumheller" },
+                  { name: "High River", href: "/locations/high-river" },
+                  { name: "Lethbridge", href: "/locations/lethbridge" },
+                  { name: "Okotoks", href: "/locations/okotoks" },
+                  { name: "Strathmore", href: "/locations/strathmore" },
                 ].map((location) => (
                   <li key={location.href}>
                     <Link

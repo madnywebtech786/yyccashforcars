@@ -30,14 +30,16 @@ const staticPages = [
   { title: "Blog", href: "/blog" },
   { title: "Cash for Junk Cars", href: "/services/cash-for-junk-cars" },
   { title: "Scrap Car Removal", href: "/services/scrap-car-removal" },
-  { title: "Calgary", href: "/locations/calgary" },
   { title: "Airdrie", href: "/locations/airdrie" },
-  { title: "Okotoks", href: "/locations/okotoks" },
-  { title: "Cochrane", href: "/locations/cochrane" },
-  { title: "Chestermere", href: "/locations/chestermere" },
-  { title: "High River", href: "/locations/high-river" },
-  { title: "Strathmore", href: "/locations/strathmore" },
+  { title: "Calgary", href: "/locations/calgary" },
   { title: "Canmore", href: "/locations/canmore" },
+  { title: "Chestermere", href: "/locations/chestermere" },
+  { title: "Cochrane", href: "/locations/cochrane" },
+  { title: "Drumheller", href: "/locations/drumheller" },
+  { title: "High River", href: "/locations/high-river" },
+  { title: "Lethbridge", href: "/locations/lethbridge" },
+  { title: "Okotoks", href: "/locations/okotoks" },
+  { title: "Strathmore", href: "/locations/strathmore" },
 ].map((page) => {
   const normalized = page.href === "/" ? "" : page.href.slice(1);
   const index = Math.max(sitemapPages.indexOf(normalized), 0);

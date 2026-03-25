@@ -301,10 +301,15 @@ export default async function ServicePage({ params }) {
                   </p>
                   <p className="text-gray-700 mt-3">
                     <Link href="/locations/airdrie" className="text-primary underline underline-offset-2">Airdrie</Link>,{" "}
+                    <Link href="/locations/canmore" className="text-primary underline underline-offset-2">Canmore</Link>,{" "}
                     <Link href="/locations/chestermere" className="text-primary underline underline-offset-2">Chestermere</Link>,{" "}
                     <Link href="/locations/cochrane" className="text-primary underline underline-offset-2">Cochrane</Link>,{" "}
+                    Crossfield,{" "}
+                    <Link href="/locations/drumheller" className="text-primary underline underline-offset-2">Drumheller</Link>,{" "}
+                    <Link href="/locations/high-river" className="text-primary underline underline-offset-2">High River</Link>,{" "}
+                    <Link href="/locations/lethbridge" className="text-primary underline underline-offset-2">Lethbridge</Link>,{" "}
                     <Link href="/locations/okotoks" className="text-primary underline underline-offset-2">Okotoks</Link>,{" "}
-                    <Link href="/locations/strathmore" className="text-primary underline underline-offset-2">Strathmore</Link>, Crossfield
+                    <Link href="/locations/strathmore" className="text-primary underline underline-offset-2">Strathmore</Link>
                   </p>
                   <p className="text-gray-700 mt-3">
                     No matter where your vehicle is parked - curbside, driveway, alley, garage or vacant lot - our removal experts offer free removal.
@@ -469,29 +474,38 @@ export default async function ServicePage({ params }) {
                 </p>
 
                 <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                  <Link href="/locations/airdrie" className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary hover:shadow-md">
+                    Airdrie
+                  </Link>
                   <Link href="/locations/calgary" className="rounded-xl border border-primary/20 bg-white/90 px-4 py-3 text-sm font-semibold text-primary shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
                     Calgary <span className="font-normal text-gray-700">(All Districts and Neighborhoods)</span>
                   </Link>
-                  <Link href="/locations/airdrie" className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary hover:shadow-md">
-                    Airdrie
+                  <Link href="/locations/canmore" className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary hover:shadow-md">
+                    Canmore
                   </Link>
                   <Link href="/locations/chestermere" className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary hover:shadow-md">
                     Chestermere 
                   </Link>
-                  <Link href="/locations/okotoks" className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary hover:shadow-md">
-                    Okotoks
-                  </Link>
                   <Link href="/locations/cochrane" className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary hover:shadow-md">
                     Cochrane
-                  </Link>
-                  <Link href="/locations/strathmore" className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary hover:shadow-md">
-                    Strathmore
                   </Link>
                   <span className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm">
                     Crossfield
                   </span>
+                  <Link href="/locations/drumheller" className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary hover:shadow-md">
+                    Drumheller
+                  </Link>
                   <Link href="/locations/high-river" className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary hover:shadow-md">
                     High River
+                  </Link>
+                  <Link href="/locations/lethbridge" className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary hover:shadow-md">
+                    Lethbridge
+                  </Link>
+                  <Link href="/locations/okotoks" className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary hover:shadow-md">
+                    Okotoks
+                  </Link>
+                  <Link href="/locations/strathmore" className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary hover:shadow-md">
+                    Strathmore
                   </Link>
                 </div>
 
