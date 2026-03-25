@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { marked } from "marked";
+import Link from "next/link";
 import Breadcrumb from "@/app/components/Breadcrumb";
 import { MapPin, Phone, Clock, CheckCircle, Truck, Navigation } from "lucide-react";
 import Contact from "@/app/sections/Contact";
@@ -706,6 +707,12 @@ const buildContentSections = (content) => {
   };
 };
 
+const slugifySectionTitle = (title) =>
+  title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+
 export default async function LocationPage({ params }) {
   const { slug } = await params;
   const location = locationsData.find((loc) => loc.slug === slug);
@@ -715,6 +722,8 @@ export default async function LocationPage({ params }) {
   }
 
   const { introHtml, sections } = buildContentSections(location.content);
+  const isServiceStyleLocation =
+    location.slug === "lethbridge" || location.slug === "drumheller";
 
   return (
     <div className="dark:bg-white">
@@ -723,7 +732,71 @@ export default async function LocationPage({ params }) {
       {/* Location Detail Section */}
       <section className="p-4 py-16 md:p-10 lg:p-20 bg-white">
         <div className="max-w-7xl mx-auto">
-          {/* Main Content Grid */}
+          {isServiceStyleLocation ? (
+            <div className="relative mb-20 overflow-hidden rounded-3xl border border-primary/15 bg-gradient-to-br from-[#f3faff] via-white to-[#fff5f7] shadow-xl">
+              <div className="absolute -top-24 -right-20 h-64 w-64 rounded-full bg-primary/10" />
+              <div className="absolute -bottom-28 -left-20 h-72 w-72 rounded-full bg-secondary/10" />
+              <div className="relative grid items-stretch gap-8 p-6 lg:grid-cols-[1.1fr_0.9fr] lg:p-10">
+                <div className="flex flex-col justify-center">
+                  <div className="mb-4 flex flex-wrap gap-2">
+                    <span className="rounded-full border border-primary/20 bg-white/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-primary">
+                      Southern Alberta
+                    </span>
+                    <span className="rounded-full border border-secondary/20 bg-white/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-secondary">
+                      Fast Pickup
+                    </span>
+                    <span className="rounded-full border border-gray-200 bg-white/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-gray-700">
+                      Free Towing
+                    </span>
+                  </div>
+
+                  <h1 className="mb-4 text-4xl font-bold leading-tight text-black lg:text-5xl">
+                    {location.heading}
+                  </h1>
+                  <p className="mb-6 text-base leading-relaxed text-gray-700">
+                    {location.description}
+                  </p>
+                  <p className="mb-7 text-sm leading-relaxed text-gray-700">
+                    {location.additionalInfo}
+                  </p>
+
+                  <div className="flex flex-wrap gap-3">
+                    <Link
+                      href="/contact"
+                      className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-primary to-secondary px-6 py-3 text-sm font-semibold text-white transition-transform hover:scale-[1.02]"
+                    >
+                      Get a Free Quote
+                    </Link>
+                    <Link
+                      href="tel:+15877009806"
+                      className="inline-flex items-center justify-center rounded-full border border-gray-300 bg-white px-6 py-3 text-sm font-semibold text-gray-700 transition-colors hover:border-primary hover:text-primary"
+                    >
+                      Call Now
+                    </Link>
+                  </div>
+                </div>
+
+                <div className="relative">
+                  <Image
+                    src={location.image}
+                    alt={`Cash for cars in ${location.name}`}
+                    width={700}
+                    height={560}
+                    className="h-full min-h-[360px] w-full rounded-3xl object-cover shadow-lg lg:min-h-[520px]"
+                  />
+                  <div className="absolute bottom-4 right-4 rounded-2xl bg-black/70 px-4 py-3 backdrop-blur-sm">
+                    <p className="text-xs uppercase tracking-wide text-white/80">
+                      Trusted in {location.name}
+                    </p>
+                    <p className="text-sm font-semibold text-white">
+                      Fast. Reliable. Eco-Friendly.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ) : (
+          /* Main Content Grid */
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             {/* Image Side */}
             <div className="order-2 lg:order-1">
@@ -823,12 +896,36 @@ export default async function LocationPage({ params }) {
               </div>
             </div>
           </div>
+          )}
 
           {introHtml || sections.length > 0 ? (
             <section className="mb-16">
               <div className="space-y-8">
+                {isServiceStyleLocation ? (
+                  <section className="rounded-3xl border border-gray-100 bg-white p-5 shadow-sm md:p-6">
+                    <p className="mb-4 text-sm font-semibold uppercase tracking-wide text-gray-500">
+                      Quick Jump
+                    </p>
+                    <div className="flex flex-wrap gap-3">
+                      {sections.map((section) => (
+                        <a
+                          key={section.title}
+                          href={`#${slugifySectionTitle(section.title)}`}
+                          className="rounded-full border border-gray-200 px-4 py-2 text-sm font-semibold text-gray-700 transition-colors hover:border-primary hover:text-primary"
+                        >
+                          {section.title.replace(/^\((.*)\)$/, "$1")}
+                        </a>
+                      ))}
+                    </div>
+                  </section>
+                ) : null}
+
                 {introHtml ? (
-                  <div className="overflow-hidden rounded-[2rem] border border-primary/10 bg-gradient-to-br from-primary/5 via-white to-secondary/10 shadow-xl">
+                  <div className={`overflow-hidden rounded-[2rem] border shadow-xl ${
+                    isServiceStyleLocation
+                      ? "border-primary/15 bg-gradient-to-br from-[#f4fbff] via-white to-[#fff5f6]"
+                      : "border-primary/10 bg-gradient-to-br from-primary/5 via-white to-secondary/10"
+                  }`}>
                     <div className="grid gap-6 p-6 md:grid-cols-[minmax(0,1.5fr)_minmax(260px,0.8fr)] md:p-8 lg:p-10">
                       <div
                         className="blog-content text-black"
@@ -872,13 +969,81 @@ export default async function LocationPage({ params }) {
                 <div className="grid gap-8">
                   {sections.map((section, index) => {
                     const isFaq = section.title.toLowerCase() === "faqs";
+                    const isBracketFaq = section.title.toLowerCase() === "(faqs)";
                     const isCta = section.title
                       .toLowerCase()
-                      .includes("get your junk car removed");
+                      .includes("get your junk car removed") ||
+                      section.title.toLowerCase().includes("get started:");
+
+                    if (isServiceStyleLocation) {
+                      if (isBracketFaq || isFaq) {
+                        return (
+                          <section
+                            id={slugifySectionTitle(section.title)}
+                            key={section.title}
+                            className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm lg:p-10"
+                          >
+                            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-primary">
+                              Common Questions
+                            </p>
+                            <h2 className="mb-4 text-3xl font-bold text-black">
+                              FAQs
+                            </h2>
+                            <div
+                              className="blog-content location-content text-black"
+                              dangerouslySetInnerHTML={{ __html: section.html }}
+                            />
+                          </section>
+                        );
+                      }
+
+                      if (isCta) {
+                        return (
+                          <section
+                            id={slugifySectionTitle(section.title)}
+                            key={section.title}
+                            className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-primary via-[#6f7fa0] to-secondary p-8 shadow-xl lg:p-10"
+                          >
+                            <div className="absolute -top-20 -right-10 h-56 w-56 rounded-full bg-white/10" />
+                            <div className="absolute -bottom-24 -left-16 h-64 w-64 rounded-full bg-white/10" />
+                            <div className="relative">
+                              <h2 className="mb-3 text-3xl font-bold text-white">
+                                {section.title}
+                              </h2>
+                              <div
+                                className="blog-content location-content text-white [&_a]:inline-flex [&_a]:items-center [&_a]:rounded-full [&_a]:bg-white [&_a]:px-3 [&_a]:py-1 [&_a]:font-semibold [&_a]:text-primary [&_a]:no-underline"
+                                dangerouslySetInnerHTML={{ __html: section.html }}
+                              />
+                            </div>
+                          </section>
+                        );
+                      }
+
+                      return (
+                        <section
+                          id={slugifySectionTitle(section.title)}
+                          key={section.title}
+                          className={`rounded-3xl p-6 shadow-sm lg:p-10 ${
+                            index % 2 === 0
+                              ? "border border-primary/15 bg-gradient-to-br from-[#f4fbff] via-white to-[#fff5f6]"
+                              : "border border-gray-100 bg-white"
+                          }`}
+                        >
+                          <h2 className="mb-4 text-3xl font-bold text-black">
+                            {section.title}
+                          </h2>
+                          <div
+                            className="blog-content location-content text-black"
+                            dangerouslySetInnerHTML={{ __html: section.html }}
+                          />
+                        </section>
+                      );
+                    }
 
                     if (isFaq) {
                       return (
                         <div
+                          id={slugifySectionTitle(section.title)}
                           key={section.title}
                           className="rounded-[2rem] border border-gray-100 bg-white p-6 shadow-xl md:p-8 lg:p-10"
                         >
@@ -903,6 +1068,7 @@ export default async function LocationPage({ params }) {
                     if (isCta) {
                       return (
                         <div
+                          id={slugifySectionTitle(section.title)}
                           key={section.title}
                           className="overflow-hidden rounded-[2rem] bg-gradient-to-r from-primary to-secondary p-[1px] shadow-2xl"
                         >
@@ -924,6 +1090,7 @@ export default async function LocationPage({ params }) {
 
                     return (
                       <div
+                        id={slugifySectionTitle(section.title)}
                         key={section.title}
                         className="overflow-hidden rounded-[2rem] border border-gray-100 bg-white shadow-xl ring-1 ring-black/5"
                       >
