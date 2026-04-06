@@ -15,7 +15,7 @@ const ScrapCarsSection = () => {
   return (
     <>
       <section className="relative overflow-hidden ">
-        <div className=" p-4 py-16 md:p-10 lg:p-20">
+        <div className=" p-4 py-16 md:p-10 lg:p-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div className="space-y-8">
@@ -130,7 +130,7 @@ const ScrapCarsSection = () => {
         ></div>
       </section>
 
-      <section className="p-4 py-16 md:p-10 lg:p-20">
+      <section className="p-4 py-16 md:p-10 lg:p-10">
         <div className=" px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h3 className="text-4xl font-bold text-black mb-4">

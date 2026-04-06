@@ -1,6 +1,6 @@
 export default function AreasWeServeSection() {
   return (
-    <section className="relative overflow-hidden p-4 py-16 md:p-10 lg:p-20 bg-white">
+    <section className="relative overflow-hidden p-4 py-16 md:p-10 lg:p-10 bg-white">
       <div className="pointer-events-none absolute -left-32 top-10 h-72 w-72 rounded-full bg-secondary/10 blur-[120px]" />
       <div className="pointer-events-none absolute -right-24 bottom-0 h-80 w-80 rounded-full bg-primary/10 blur-[140px]" />
 

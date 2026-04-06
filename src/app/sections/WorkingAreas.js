@@ -1,6 +1,5 @@
-// Working Areas Section - Advanced Futuristic Design
-import React from "react";
-import { MapPin, Truck, CheckCircle, Star, Globe, Compass } from "lucide-react";
+import Link from "next/link";
+import { Compass, Star } from "lucide-react";
 
 export default function WorkingAreasSection() {
   const workingAreas = [
@@ -10,17 +9,19 @@ export default function WorkingAreasSection() {
       area: "North Calgary",
       distance: "36 km",
       primary: false,
-      color: "#bd3747",
       href: "/locations/airdrie",
+      style: "from-[#f4fbff] to-white",
+      tagline: "Cash for cars service with quick pickup in Airdrie.",
     },
     {
       id: 1,
       name: "Calgary",
-      area: "Downtown",
-      distance: "0 km",
+      area: "Core Market",
+      distance: "Citywide",
       primary: true,
-      color: "#4d88a9",
-      href: "/locations/calgary",
+      href: "/",
+      style: "from-[#eef8ff] to-white",
+      tagline: "We serve all of Calgary with fast cash offers and free towing.",
     },
     {
       id: 8,
@@ -28,8 +29,9 @@ export default function WorkingAreasSection() {
       area: "Mountain Region",
       distance: "104 km",
       primary: false,
-      color: "#bd3747",
       href: "/locations/canmore",
+      style: "from-[#fff8f8] to-white",
+      tagline: "Mountain-area cash for cars service with reliable removal.",
     },
     {
       id: 5,
@@ -37,8 +39,9 @@ export default function WorkingAreasSection() {
       area: "East Calgary",
       distance: "19 km",
       primary: false,
-      color: "#4d88a9",
       href: "/locations/chestermere",
+      style: "from-[#f7fbff] to-white",
+      tagline: "Fast vehicle buying and towing service in Chestermere.",
     },
     {
       id: 4,
@@ -46,8 +49,9 @@ export default function WorkingAreasSection() {
       area: "West Calgary",
       distance: "36 km",
       primary: false,
-      color: "#bd3747",
       href: "/locations/cochrane",
+      style: "from-[#fff7fb] to-white",
+      tagline: "Cash for unwanted vehicles across Cochrane and nearby areas.",
     },
     {
       id: 9,
@@ -55,8 +59,9 @@ export default function WorkingAreasSection() {
       area: "Badlands Region",
       distance: "135 km",
       primary: false,
-      color: "#4d88a9",
       href: "/locations/drumheller",
+      style: "from-[#f4fbff] to-white",
+      tagline: "Scrap and junk car removal service in Drumheller.",
     },
     {
       id: 6,
@@ -64,8 +69,9 @@ export default function WorkingAreasSection() {
       area: "South Region",
       distance: "68 km",
       primary: false,
-      color: "#bd3747",
       href: "/locations/high-river",
+      style: "from-[#fff8f8] to-white",
+      tagline: "Sell old or damaged vehicles fast in High River.",
     },
     {
       id: 10,
@@ -73,8 +79,9 @@ export default function WorkingAreasSection() {
       area: "Southern Alberta",
       distance: "215 km",
       primary: false,
-      color: "#bd3747",
       href: "/locations/lethbridge",
+      style: "from-[#f7fbff] to-white",
+      tagline: "Cash for cars and scrap removal service in Lethbridge.",
     },
     {
       id: 3,
@@ -82,8 +89,9 @@ export default function WorkingAreasSection() {
       area: "South Calgary",
       distance: "45 km",
       primary: false,
-      color: "#4d88a9",
       href: "/locations/okotoks",
+      style: "from-[#fff7fb] to-white",
+      tagline: "Quick quotes and hassle-free car pickup in Okotoks.",
     },
     {
       id: 7,
@@ -91,107 +99,104 @@ export default function WorkingAreasSection() {
       area: "East Region",
       distance: "52 km",
       primary: false,
-      color: "#4d88a9",
       href: "/locations/strathmore",
+      style: "from-[#f4fbff] to-white",
+      tagline: "Fair cash offers for unwanted vehicles in Strathmore.",
     },
   ];
 
   return (
-    <section className="p-4 py-16 md:p-10 lg:p-20 bg-white">
-      <div className="">
-        <div className="text-center mb-16">
-          <h3 className="text-4xl font-bold text-black mb-4">
-            Our{" "}
+    <section className="bg-white p-4 py-16 md:p-10 lg:p-10">
+      <div className="mx-auto w-full max-w-7xl">
+        <div className="mb-16 text-center">
+          <h3 className="mb-4 text-4xl font-bold text-black">
+            Areas{" "}
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Service Network
+              We Serve
             </span>{" "}
           </h3>
-          <p className="text-black max-w-2xl mx-auto text-lg">
-            Advanced coverage across Calgary and surrounding regions with
-            real-time service tracking
+          <p className="mx-auto max-w-3xl text-lg text-black">
+            We serve all of Calgary plus surrounding Alberta communities with
+            fast pickup, free towing, and city-specific coverage pages.
           </p>
         </div>
 
-        {/* Futuristic Map Visualization */}
-        <div className="relative">
-          {/* Main Content */}
-          <div className="relative z-10">
-            {/* Interactive Service Area Cards */}
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {workingAreas.map((area) => (
-                <a
-                  key={area.id}
-                  href={area.href}
-                  className={`group relative bg-white rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-2 block ${
-                    area.primary
-                      ? "border-[#4d88a9] bg-gradient-to-br from-[#4d88a9]/10 to-[#bd3747]/10"
-                      : "border-gray-200 hover:border-[#bd3747]"
-                  }`}
-                >
-                  {/* Distance Badge */}
-                  <div className="absolute top-4 right-4 w-12 h-12 bg-gradient-to-br from-[#4d88a9] to-[#bd3747] rounded-full flex items-center justify-center">
-                    <span className="text-xs font-bold text-white">
-                      {area.distance}
-                    </span>
-                  </div>
-
-                  {/* Area Icon */}
-                  <div className="w-16 h-16 bg-gradient-to-br from-[#4d88a9] to-[#bd3747] rounded-xl flex items-center justify-center mb-4 mx-auto">
-                    <Truck className="w-8 h-8 text-white" />
-                  </div>
-
-                  {/* Area Info */}
-                  <div className="text-center">
-                    <h5 className="text-xl font-bold text-gray-900 mb-1">
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          {workingAreas.map((area) => (
+            <Link
+              key={area.id}
+              href={area.href}
+              className={`group relative overflow-hidden rounded-[1.8rem] border p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl ${
+                area.primary
+                  ? "border-primary/20 bg-gradient-to-br from-[#eaf7ff] via-white to-[#fff4f6]"
+                  : `border-gray-100 bg-gradient-to-br ${area.style}`
+              }`}
+            >
+              <div className="absolute -right-8 -top-8 h-24 w-24 rounded-full bg-secondary/10 blur-2xl" />
+              <div className="absolute -left-8 bottom-0 h-24 w-24 rounded-full bg-primary/10 blur-2xl" />
+              <div className="relative">
+                <div className="flex items-start justify-between gap-4">
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">
+                      {area.area}
+                    </p>
+                    <h5 className="mt-2 text-2xl font-bold text-black">
                       {area.name}
                     </h5>
-                    <p className="text-gray-600 text-sm mb-3">{area.area}</p>
-
-                    {/* Service Status */}
-                    <div className="flex items-center justify-center space-x-2 text-xs">
-                      <CheckCircle className="w-4 h-4 text-green-500" />
-                      <span className="text-green-600 font-medium">
-                        Available Now
-                      </span>
-                    </div>
+                    <p className="mt-3 max-w-[15rem] text-sm leading-6 text-gray-700">
+                      {area.tagline}
+                    </p>
                   </div>
-
-                  {/* Hover Effect */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-[#4d88a9]/5 to-[#bd3747]/5 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300"></div>
-
-                  {/* Animated Elements */}
-                  <div
-                    className="absolute bottom-4 left-4 w-4 h-4 bg-[#4d88a9]/20 rounded-full animate-bounce"
-                    style={{ animationDelay: "0.5s" }}
-                  ></div>
-                  <div className="absolute top-1/2 right-4 w-2 h-2 bg-[#bd3747]/20 rounded-full animate-pulse"></div>
-                </a>
-              ))}
-            </div>
-
-            {/* Coverage Visualization */}
-            <div className="mt-16 text-center">
-              <div className="inline-block relative">
-                {/* Animated Rings */}
-                <div className="w-32 h-32 border-4 border-[#4d88a9]/30 rounded-full absolute -top-8 -left-8 animate-pulse"></div>
-                <div
-                  className="w-48 h-48 border-4 border-[#bd3747]/30 rounded-full absolute -top-16 -left-16 animate-ping"
-                  style={{ animationDelay: "1s" }}
-                ></div>
-
-                {/* Central Card */}
-                <div className="bg-white px-8 py-6 rounded-2xl shadow-lg relative z-10">
-                  <div className="flex items-center justify-center mb-4">
-                    <Compass className="w-8 h-8 text-[#4d88a9]" />
-                    <Star className="w-6 h-6 text-[#bd3747] ml-2" />
+                  <div className="rounded-2xl border border-white/80 bg-white/80 px-3 py-2 text-right shadow-sm">
+                    <p className="text-[11px] font-semibold uppercase tracking-wide text-gray-500">
+                      Distance
+                    </p>
+                    <p className="text-sm font-bold text-black">
+                      {area.distance}
+                    </p>
                   </div>
-                  <h5 className="text-xl font-bold text-black mb-2">
-                    100+ KM Service Radius
-                  </h5>
-                  <p className="text-black mb-4">
-                    Free towing within our coverage area
-                  </p>
                 </div>
+
+                <div className="mt-8 flex items-center justify-between">
+                  <div className="text-sm font-semibold text-primary">
+                    Learn More
+                  </div>
+                  <span className="text-xl text-gray-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary">
+                    →
+                  </span>
+                </div>
+              </div>
+            </Link>
+          ))}
+          <div className="group relative overflow-hidden rounded-[1.8rem] border border-primary/15 bg-gradient-to-br from-[#f3faff] via-white to-[#fff5f7] p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+            <div className="absolute -right-8 -top-8 h-24 w-24 rounded-full bg-secondary/10 blur-2xl" />
+            <div className="absolute -left-8 bottom-0 h-24 w-24 rounded-full bg-primary/10 blur-2xl" />
+            <div className="relative">
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <h5 className="text-2xl font-bold text-black">
+                    Growing Alberta Coverage
+                  </h5>
+                </div>
+              </div>
+
+              <div className="mt-8">
+                <p className="text-sm leading-7 text-gray-700">
+                  We provide cash for cars in Calgary and across Alberta,
+                  including scrap car removal, junk car removal, and fast cash
+                  offers for unwanted vehicles.
+                </p>
+              </div>
+              <div className="mt-8 flex items-center justify-between">
+                <Link
+                  href="/locations"
+                  className="flex items-center gap-2 text-sm font-semibold text-primary transition-colors hover:text-secondary"
+                >
+                  <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white shadow-sm">
+                    <Compass className="h-4 w-4" />
+                  </span>
+                  Learn more
+                </Link>
               </div>
             </div>
           </div>

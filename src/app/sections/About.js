@@ -1,7 +1,7 @@
 import { Users, ShieldCheck } from "lucide-react";
 export default function AboutUsSection() {
   return (
-    <div className="p-4 py-16 md:p-10 lg:p-20 bg-white">
+    <div className="p-4 py-16 md:p-10 lg:p-10 bg-white">
       <div className="">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left Side - Image with Absolute Divs */}

@@ -300,7 +300,7 @@ export default function BlogPostPage({ params }) {
               <ul className="space-y-2">
                 {[
                   { name: "Airdrie", href: "/locations/airdrie" },
-                  { name: "Calgary", href: "/locations/calgary" },
+                  { name: "Calgary", href: "/" },
                   { name: "Canmore", href: "/locations/canmore" },
                   { name: "Chestermere", href: "/locations/chestermere" },
                   { name: "Cochrane", href: "/locations/cochrane" },

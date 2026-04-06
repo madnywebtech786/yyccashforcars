@@ -48,7 +48,7 @@ const vehicleTypes = [
 
 export default function VehicleTypesSection() {
   return (
-    <section className="bg-white py-16 md:py-20">
+    <section className="bg-white py-16 md:py-10">
       <div className="mx-auto w-full px-4 md:px-8">
         <div className="relative overflow-hidden rounded-3xl border border-black/5 bg-gradient-to-br from-[#fdf3ea] via-white to-[#e8f7ff] p-8 md:p-12 shadow-[0_25px_70px_-45px_rgba(0,0,0,0.5)]">
           <div className="absolute -top-10 -right-10 h-44 w-44 rounded-full bg-primary/15 blur-2xl" />

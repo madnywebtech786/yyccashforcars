@@ -297,7 +297,7 @@ export default async function ServicePage({ params }) {
                     Junk cars can be collected free of charge; our professional team will come directly to your location for collection.
                   </p>
                   <p className="text-gray-700 mt-3">
-                    <Link href="/locations/calgary" className="text-primary underline underline-offset-2">Calgary</Link> neighborhoods (Downtown Calgary, Northeast Calgary, South Calgary and Northwest Calgary, etc) as well as nearby cities & towns are Including,
+                    <Link href="/" className="text-primary underline underline-offset-2">Calgary</Link> neighborhoods (Downtown Calgary, Northeast Calgary, South Calgary and Northwest Calgary, etc) as well as nearby cities & towns are Including,
                   </p>
                   <p className="text-gray-700 mt-3">
                     <Link href="/locations/airdrie" className="text-primary underline underline-offset-2">Airdrie</Link>,{" "}
@@ -477,7 +477,7 @@ export default async function ServicePage({ params }) {
                   <Link href="/locations/airdrie" className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary hover:shadow-md">
                     Airdrie
                   </Link>
-                  <Link href="/locations/calgary" className="rounded-xl border border-primary/20 bg-white/90 px-4 py-3 text-sm font-semibold text-primary shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
+                  <Link href="/" className="rounded-xl border border-primary/20 bg-white/90 px-4 py-3 text-sm font-semibold text-primary shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
                     Calgary <span className="font-normal text-gray-700">(All Districts and Neighborhoods)</span>
                   </Link>
                   <Link href="/locations/canmore" className="rounded-xl border border-gray-200 bg-white/90 px-4 py-3 text-sm font-semibold text-gray-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:text-primary hover:shadow-md">

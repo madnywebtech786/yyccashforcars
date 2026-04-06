@@ -4,7 +4,7 @@ import ContactForm from "./Contact";
 import "./styles/Hero.css";
 const HeroSection = () => {
   return (
-    <div className="min-h-screen p-4 py-16 md:p-10 lg:p-20 heroBg relative overflow-hidden">
+    <div className="min-h-screen p-4 py-16 md:p-10 lg:p-10 heroBg relative overflow-hidden">
       <Image
         src="/images/hero.webp"
         alt="Cash for cars Calgary"

@@ -31,7 +31,7 @@ const staticPages = [
   { title: "Cash for Junk Cars", href: "/services/cash-for-junk-cars" },
   { title: "Scrap Car Removal", href: "/services/scrap-car-removal" },
   { title: "Airdrie", href: "/locations/airdrie" },
-  { title: "Calgary", href: "/locations/calgary" },
+  { title: "Calgary", href: "/" },
   { title: "Canmore", href: "/locations/canmore" },
   { title: "Chestermere", href: "/locations/chestermere" },
   { title: "Cochrane", href: "/locations/cochrane" },

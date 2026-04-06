@@ -19,7 +19,7 @@ export default function BlogPreviewSection() {
   if (posts.length === 0) return null;
 
   return (
-    <section className="p-4 py-16 md:p-10 lg:p-20 bg-white">
+    <section className="p-4 py-16 md:p-10 lg:p-10 bg-white">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
           <div>

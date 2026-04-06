@@ -85,7 +85,7 @@ export default function GallerySection() {
   ];
 
   return (
-    <section className="p-4 py-16 md:p-10 lg:p-20 bg-white">
+    <section className="p-4 py-16 md:p-10 lg:p-10 bg-white">
       <div className="">
         <div className="text-center mb-16">
           <h3 className="text-4xl font-bold text-black mb-4">

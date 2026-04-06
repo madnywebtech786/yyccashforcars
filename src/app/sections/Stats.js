@@ -49,7 +49,7 @@ export default function StatsSection() {
   ];
 
   return (
-    <section className="p-4 py-16 md:p-10 lg:p-20 text-black bg-white">
+    <section className="p-4 py-16 md:p-10 lg:p-10 text-black bg-white">
       <div className="">
         <div className="text-center mb-16">
           <h3 className="text-4xl font-bold mb-4">

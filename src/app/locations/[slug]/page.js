@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { marked } from "marked";
 import Link from "next/link";
 import Breadcrumb from "@/app/components/Breadcrumb";
@@ -628,6 +628,14 @@ No matter your junk car removal or cash for junk car needs in Lethbridge, we are
 // Generate metadata for SEO
 export async function generateMetadata({ params }) {
   const { slug } = await params;
+  if (slug === "calgary") {
+    return {
+      title: "Redirecting...",
+      alternates: {
+        canonical: "/",
+      },
+    };
+  }
   const location = locationsData.find((loc) => loc.slug === slug);
 
   if (!location) {
@@ -715,6 +723,9 @@ const slugifySectionTitle = (title) =>
 
 export default async function LocationPage({ params }) {
   const { slug } = await params;
+  if (slug === "calgary") {
+    permanentRedirect("/");
+  }
   const location = locationsData.find((loc) => loc.slug === slug);
 
   if (!location) {

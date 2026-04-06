@@ -27,6 +27,7 @@ export const staticPages = [
   "services",
   "services/cash-for-junk-cars",
   "services/scrap-car-removal",
+  "locations",
   "locations/airdrie",
   "locations/calgary",
   "locations/canmore",
