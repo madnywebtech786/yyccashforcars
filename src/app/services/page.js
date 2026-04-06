@@ -6,7 +6,11 @@ import {
   CircleCheck,
   Recycle,
   Truck,
-  Wallet,
+  Phone,
+  Handshake,
+  Users,
+  BadgeCheck,
+  Zap,
 } from "lucide-react";
 import Breadcrumb from "../components/Breadcrumb";
 import { getOgImageForPath } from "@/lib/seo";
@@ -42,7 +46,7 @@ const services = [
       "No Towing Fees: No hidden charges or additional expenses apply when we pick up your junk car for free! No hidden fees either!",
       "Same-day service: In most instances, we can arrange a quick pickup service on the same day.",
     ],
-    image: "/images/car-junk.webp",
+    image: "/images/gallery/g11.webp",
     imageAlt: "Junk car removal service in Calgary",
     cta: {
       label: "Read More About Junk Car Removal",
@@ -61,7 +65,7 @@ const services = [
       "Environmentally Friendly Disposal: We recycle scrap cars in an environmentally friendly manner, minimizing waste and pollution.",
       "Fast and Efficient: Our professional team makes removal easy with same-day or next-day services available.",
     ],
-    image: "/images/tow-scrap.webp",
+    image: "/images/gallery/g8.webp",
     imageAlt: "Scrap car removal with free towing",
     cta: {
       label: "Read More About Scrap Car Removal",
@@ -80,7 +84,7 @@ const services = [
       "Professional Towing Team: Our towing team takes great care in safely towing away vehicles in any condition.",
       "Convenient Pick-Up Locations: We can collect your car from wherever it's situated - even remote or difficult-to-reach spots!",
     ],
-    image: "/images/hero.webp",
+    image: "/images/gallery/g4.webp",
     imageAlt: "Free towing for junk and scrap cars",
     cta: {
       label: "Request Free Towing",
@@ -99,7 +103,7 @@ const services = [
       "Reusing Car Parts: At our salvage yard, we salvage valuable car parts that can be reused or resold - contributing to a circular economy model.",
       "Zero Waste: Our goal is to minimize the environmental footprint of junk cars by recycling as much of the vehicle as possible.",
     ],
-    image: "/images/scrap.webp",
+    image: "/images/gallery/g6.webp",
     imageAlt: "Eco-friendly junk car recycling",
     cta: {
       label: "Ask About Recycling",
@@ -118,7 +122,7 @@ const services = [
       "Competitive Rates: Our experts assess the value of your car based on current market prices to make sure you receive the maximum offer.",
       "Quick and Simple: Our experts handle all the paperwork and logistics to get you your cash promptly.",
     ],
-    image: "/images/car-about.webp",
+    image: "/images/gallery/g9.webp",
     imageAlt: "Top cash paid for used cars",
     cta: {
       label: "Get a Cash Offer",
@@ -133,26 +137,31 @@ const reasons = [
     title: "Customer-centered service",
     description:
       "our primary concern is providing prompt, professional assistance that meets your convenience and satisfaction every time.",
+    icon: Handshake,
   },
   {
     title: "Experienced Team",
     description:
       "Our team has years of experience with junk and scrap car removal, towing, and recycling.",
+    icon: Users,
   },
   {
     title: "No Hidden Fees",
     description:
       "Everything from your initial quote to final payment will be fully transparent - there won't be any unexpected extra charges that are hidden away in a corner somewhere.",
+    icon: BadgeDollarSign,
   },
   {
     title: "Eco-Friendly Recycling Practices",
     description:
       "At our vehicle recycling facility, we take great care to reduce environmental impact by recycling vehicles responsibly.",
+    icon: Recycle,
   },
   {
     title: "Fast and Reliable Service",
     description:
       "At our company, we pride ourselves on offering fast service with same-day or next-day options available.",
+    icon: Zap,
   },
 ];
 
@@ -341,7 +350,12 @@ export default function ServicesPage() {
                   key={reason.title}
                   className="rounded-2xl bg-white shadow-md p-5"
                 >
-                  <p className="font-semibold text-black">{reason.title}</p>
+                  <div className="flex items-start gap-3">
+                    <div className="inline-flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-primary/15 to-secondary/15">
+                      <reason.icon className="h-5 w-5 text-primary" />
+                    </div>
+                    <p className="font-semibold text-black pt-2">{reason.title}</p>
+                  </div>
                   <p className="text-sm text-gray-600 mt-2">
                     {reason.description}
                   </p>
@@ -351,7 +365,7 @@ export default function ServicesPage() {
           </div>
           <div className="rounded-3xl bg-white shadow-xl p-8">
             <div className="flex items-center gap-3">
-              <Wallet className="h-8 w-8 text-primary" />
+              <Phone className="h-8 w-8 text-primary" />
               <h3 className="text-2xl font-bold text-black">
                 Contact Us Now
               </h3>

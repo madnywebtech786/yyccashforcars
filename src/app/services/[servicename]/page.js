@@ -3,7 +3,17 @@ import Breadcrumb from "@/app/components/Breadcrumb";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation"; // Import Next.js navigation for handling 404
-import { CircleCheck } from "lucide-react";
+import {
+  CircleCheck,
+  Handshake,
+  Users,
+  BadgeDollarSign,
+  Recycle,
+  Zap,
+  Phone,
+  Mail,
+  Truck,
+} from "lucide-react";
 import { getOgImageForPath } from "@/lib/seo";
 
 // A static list of services. You can move this to a separate file or fetch it from an API.
@@ -16,7 +26,7 @@ const services = [
     metaDescription:
       "Need junk car removal in Calgary? Get fast, free towing and top cash for your unwanted vehicle. Contact YYC Cash For Cars today for hassle-free removal!",
     desc: "Are you in Calgary with an old, damaged, or non-running vehicle that needs to be removed easily, quickly, and profitably? YYC Cash For Cars makes junk car removal straightforward with competitive offers, free towing services, and reliable pickup anywhere within Calgary and its surrounding communities - regardless of its condition. Our cash for junk cars service provides affordable offers as well as FREE towing. We make junk car removal hassle-free!",
-    img: "/images/car-junk.webp",
+    img: "/images/gallery/g11.webp",
     features: [
       "Same-day offers",
       "cash paid at pickup",
@@ -34,7 +44,7 @@ const services = [
     metaDescription:
       "Looking for scrap car removal in Calgary? We offer fast, eco-friendly, and cash-for-car services. Contact us for quick junk car removal near you!",
     desc: "When it comes to disposing of scrap or junk cars, we provide fast, reliable, and hassle-free removal solutions that provide convenience, eco-friendliness and profit. Whether your car has been involved in an accident, is no longer running properly or too costly to repair, we are here to assist! Our Scrap Car Removal service in Calgary provides convenient eco-friendly disposal of old or damaged vehicles at competitive rates; whether they be damaged beyond repair, non running altogether or no longer roadworthy we take great pride in offering one of the most efficient and rewarding junk car removal services around - offering our efficient yet profitable junk car removal service!",
-    img: "/images/tow-scrap.webp",
+    img: "/images/gallery/g8.webp",
     features: [
       "Quick Cash for Your Junk Car: We offer competitive cash offers regardless of its condition - be it an old or non-functional car sitting in your driveway for years, we guarantee a fair market price for it.",
       "Eco-Friendly Recycling: We strive to reuse materials whenever possible while minimising environmental impact.",
@@ -536,12 +546,14 @@ export default async function ServicePage({ params }) {
                       href="/contact"
                       className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-primary transition-colors hover:bg-slate-100"
                     >
+                      <Mail className="mr-2 h-4 w-4" />
                       Get a Free Quote
                     </Link>
                     <Link
                       href="tel:+15877009806"
                       className="inline-flex items-center justify-center rounded-full border border-white/70 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10"
                     >
+                      <Phone className="mr-2 h-4 w-4" />
                       Call Now
                     </Link>
                   </div>
@@ -596,59 +608,51 @@ export default async function ServicePage({ params }) {
               <div className="absolute -top-16 -right-12 h-40 w-40 rounded-full bg-primary/10" />
               <div className="absolute -bottom-20 -left-16 h-52 w-52 rounded-full bg-secondary/10" />
               <h2 className="relative text-3xl font-bold text-black mb-6">
-                Why choose our Scrap Car Removal Service?
+                Why choose YYC Cash For Cars?
               </h2>
-              <div className="relative grid gap-4 md:grid-cols-2">
-                <div className="rounded-2xl border border-white/80 bg-white/90 p-5 shadow-sm">
-                  <h3 className="text-xl font-semibold text-black mb-2">
-                    1. Quick Cash for Your Junk Car
-                  </h3>
-                  <p className="text-gray-700">
-                    Selling your scrap car to us can be an easy and profitable experience. We offer competitive cash offers regardless of its condition - be it an old or non-functional car sitting in your driveway for years, we guarantee a fair market price for it.
-                  </p>
-                  <p className="text-gray-700 mt-3">
-                    No need to fret over finding buyers and negotiating prices; let us handle everything for you! Simply reach out, and let us take it from there.
-                  </p>
-                </div>
-                <div className="rounded-2xl border border-white/80 bg-white/90 p-5 shadow-sm">
-                  <h3 className="text-xl font-semibold text-black mb-2">
-                    2. Eco-Friendly Recycling
-                  </h3>
-                  <p className="text-gray-700">
-                    Proper car disposal is vital to environmental sustainability. Scrap cars contain harmful substances like oils, fuels, and chemicals which, if improperly disposed of, could harm the environment. With our{" "}
-                    <Link href="/services/cash-for-junk-cars" className="text-primary underline underline-offset-2">
-                      junk car removal service in Calgary
-                    </Link>
-                    , you can be assured that your vehicle will be responsibly recycled; we strive to reuse materials whenever possible while minimising environmental impact.
-                  </p>
-                </div>
-                <div className="rounded-2xl border border-white/80 bg-white/90 p-5 shadow-sm">
-                  <h3 className="text-xl font-semibold text-black mb-2">
-                    3. Fast and Hassle-Free Process
-                  </h3>
-                  <p className="text-gray-700">
-                    We understand your goal is to dispose of your old car quickly and effortlessly, which is why our process has been designed with simplicity in mind. Once you contact us, we'll arrange a no-obligation free estimate, then arrange the pickup of your vehicle at a time convenient to you and offer cash on-the-spot! Our team will arrive on-site and tow away your vehicle while giving you cash!
-                  </p>
-                  <p className="text-gray-700 mt-3">
-                    No towing fees or unexpected charges; just an easy, transparent process.
-                  </p>
-                </div>
-                <div className="rounded-2xl border border-white/80 bg-white/90 p-5 shadow-sm">
-                  <h3 className="text-xl font-semibold text-black mb-2">
-                    4. Free Scrap Car Removal in Calgary
-                  </h3>
-                  <p className="text-gray-700">
-                    Our service provides free towing anywhere in Calgary and its surrounding areas, eliminating any towing fees or additional hidden costs for scrap car removal. No matter if the scrap car is located in a garage, driveway, or even off-road - no matter its condition we come directly to you to remove it and no matter its condition! That is one reason why customers choose us for all of their junk car needs.
-                  </p>
-                </div>
-                <div className="rounded-2xl border border-white/80 bg-white/90 p-5 shadow-sm md:col-span-2">
-                  <h3 className="text-xl font-semibold text-black mb-2">
-                    5. Scrap Car Removal Near Me
-                  </h3>
-                  <p className="text-gray-700">
-                    Are You Searching for Scrap Car Removal Near Me?"? Look No Further! Our Calgary service area and nearby regions make our scrap car removal accessible to anyone in need, from downtown Calgary to rural areas. Our goal is to make scrap car disposal as convenient and reliable as possible by providing fast and dependable services close by!
-                  </p>
-                </div>
+              <div className="relative grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+                {[
+                  {
+                    title: "Customer-centered service",
+                    body: "Our primary concern is providing prompt, professional assistance that meets your convenience and satisfaction every time.",
+                    icon: Handshake,
+                  },
+                  {
+                    title: "Experienced Team",
+                    body: "Our team has years of experience with junk and scrap car removal, towing, and recycling.",
+                    icon: Users,
+                  },
+                  {
+                    title: "No Hidden Fees",
+                    body: "Everything from your initial quote to final payment will be fully transparent - there won't be any unexpected extra charges that are hidden away in a corner somewhere.",
+                    icon: BadgeDollarSign,
+                  },
+                  {
+                    title: "Eco-Friendly Recycling Practices",
+                    body: "At our vehicle recycling facility, we take great care to reduce environmental impact by recycling vehicles responsibly.",
+                    icon: Recycle,
+                  },
+                  {
+                    title: "Fast and Reliable Service",
+                    body: "At our company, we pride ourselves on offering fast service with same-day or next-day options available.",
+                    icon: Zap,
+                  },
+                ].map((item) => (
+                  <div
+                    key={item.title}
+                    className="rounded-2xl border border-white/80 bg-white/90 p-6 shadow-sm"
+                  >
+                    <div className="mb-4 flex items-start gap-3">
+                      <div className="inline-flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-primary/15 to-secondary/15">
+                        <item.icon className="h-6 w-6 text-primary" />
+                      </div>
+                      <h3 className="pt-2 text-xl font-semibold text-black">
+                        {item.title}
+                      </h3>
+                    </div>
+                    <p className="text-gray-700">{item.body}</p>
+                  </div>
+                ))}
               </div>
             </section>
 
@@ -658,25 +662,53 @@ export default async function ServicePage({ params }) {
               </h2>
               <div className="grid gap-6 md:grid-cols-2">
                 <div className="rounded-2xl border border-primary/20 bg-[#f8fcff] p-6 shadow-sm">
-                  <h3 className="text-xl font-semibold text-black mb-2">Get Paid Instantly for Your Junk Car</h3>
+                  <div className="mb-4 flex items-start gap-3">
+                    <div className="inline-flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-primary/15 to-secondary/15">
+                      <BadgeDollarSign className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="pt-2 text-xl font-semibold text-black">
+                      Get Paid Instantly for Your Junk Car
+                    </h3>
+                  </div>
                   <p className="text-gray-700">
                     Most people think old, non-running cars are simply useless piles of metal. Not at YYC Cash For Cars! We provide cash for scrap cars in Calgary, turning scrap metal into instant cash. No matter if your car is worn out or completely wrecked - expect us to provide an economical price.
                   </p>
                 </div>
                 <div className="rounded-2xl border border-secondary/20 bg-[#fff8f8] p-6 shadow-sm">
-                  <h3 className="text-xl font-semibold text-black mb-2">Save Occupied Property Space</h3>
+                  <div className="mb-4 flex items-start gap-3">
+                    <div className="inline-flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-primary/15 to-secondary/15">
+                      <Truck className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="pt-2 text-xl font-semibold text-black">
+                      Save Occupied Property Space
+                    </h3>
+                  </div>
                   <p className="text-gray-700">
                     Old vehicles occupying space in your garage or driveway could be put to better use elsewhere. By getting rid of junk cars, you could free up space for new purchases such as cars or even storage facilities or gardening. Our fast same-day removal services make you reclaim that space in no-time!
                   </p>
                 </div>
                 <div className="rounded-2xl border border-primary/20 bg-[#f8fcff] p-6 shadow-sm">
-                  <h3 className="text-xl font-semibold text-black mb-2">Avoid Expensive Repairs</h3>
+                  <div className="mb-4 flex items-start gap-3">
+                    <div className="inline-flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-primary/15 to-secondary/15">
+                      <Zap className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="pt-2 text-xl font-semibold text-black">
+                      Avoid Expensive Repairs
+                    </h3>
+                  </div>
                   <p className="text-gray-700">
                     When your car becomes too costly to maintain, selling it as scrap may be your best option. Many car owners continue spending money on repairs only to discover that the vehicle remains unreliable despite these investments; selling as scrap can provide a practical and profitable alternative that helps avoid future repair expenses.
                   </p>
                 </div>
                 <div className="rounded-2xl border border-secondary/20 bg-[#fff8f8] p-6 shadow-sm">
-                  <h3 className="text-xl font-semibold text-black mb-2">No Hidden Fees</h3>
+                  <div className="mb-4 flex items-start gap-3">
+                    <div className="inline-flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-primary/15 to-secondary/15">
+                      <BadgeDollarSign className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="pt-2 text-xl font-semibold text-black">
+                      No Hidden Fees
+                    </h3>
+                  </div>
                   <p className="text-gray-700">
                     At our scrap car removal services, we take great pride in being completely upfront with our clients. No hidden costs or towing costs will arise; instead we cover all charges so there won't be any unexpected extras.
                   </p>

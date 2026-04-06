@@ -173,10 +173,7 @@ export default function LocationsPage() {
                   </p>
                 </div>
                 <div className="rounded-3xl border border-white/80 bg-white/90 p-5 shadow-sm sm:col-span-2">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-gray-600">
-                    Calgary Note
-                  </p>
-                  <p className="mt-2 text-sm leading-7 text-gray-700">
+                  <p className="text-sm leading-7 text-gray-700">
                     We serve all of Calgary in full, and the location pages
                     below focus on the surrounding service cities outside the
                     core Calgary market.
