@@ -5,13 +5,35 @@ import { marked } from "marked";
 import Link from "next/link";
 import Breadcrumb from "@/app/components/Breadcrumb";
 import { MapPin, Phone, Clock, CheckCircle, Truck, Navigation } from "lucide-react";
-import Contact from "@/app/sections/Contact";
-import Stats from "@/app/sections/Stats";
+import ContactForm from "@/app/sections/Contact";
 import Testimonial from "@/app/sections/Testimonial";
 import { getOgImageForPath } from "@/lib/seo";
 
 export const dynamic = "force-static";
 export const dynamicParams = false;
+
+const sectionImages = [
+  "/images/gallery/g1.webp",
+  "/images/gallery/g2.webp",
+  "/images/gallery/g3.webp",
+  "/images/gallery/g4.webp",
+  "/images/gallery/g5.webp",
+  "/images/gallery/g6.webp",
+  "/images/gallery/g7.webp",
+  "/images/gallery/g8.webp",
+  "/images/gallery/g9.webp",
+  "/images/gallery/g10.webp",
+  "/images/gallery/g11.webp",
+  "/images/gallery/g12.webp",
+  "/images/gallery/g13.webp",
+];
+
+const locationStats = [
+  { value: "8+", label: "Years in Business" },
+  { value: "70+", label: "Cars Bought Monthly" },
+  { value: "99%", label: "Positive Feedback" },
+  { value: "5,000+", label: "Junk Cars Purchased" },
+];
 
 // Location data with detailed information
 const locationsData = [
@@ -735,179 +757,123 @@ export default async function LocationPage({ params }) {
   const { introHtml, sections } = buildContentSections(location.content);
   const isServiceStyleLocation =
     location.slug === "lethbridge" || location.slug === "drumheller";
+  const heroHighlights = (location.features || []).slice(0, 4);
+  const availableSectionImages = sectionImages.filter(
+    (image) => image !== location.image
+  );
+  const breadcrumbTitle = `Cash for Cars ${location.name}`;
+  const renderStatsBand = () => (
+    <section className="overflow-hidden rounded-[2rem] border border-primary/15 bg-gradient-to-r from-[#eef7ff] via-white to-[#fff2f4] px-6 py-8 shadow-xl lg:px-10">
+      <div className="grid gap-8 text-center md:grid-cols-2 lg:grid-cols-4">
+        {locationStats.map((stat) => (
+          <div key={stat.label}>
+            <div className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-4xl font-bold tracking-tight text-transparent md:text-5xl">
+              {stat.value}
+            </div>
+            <p className="mt-2 text-base font-semibold text-gray-700 md:text-lg">
+              {stat.label}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 
   return (
     <div className="dark:bg-white">
-      <Breadcrumb name={location.name} />
+      <Breadcrumb name={breadcrumbTitle} titleAs="h1" />
 
       {/* Location Detail Section */}
       <section className="p-4 py-16 md:p-10 lg:p-20 bg-white">
         <div className="max-w-7xl mx-auto">
-          {isServiceStyleLocation ? (
-            <div className="relative mb-20 overflow-hidden rounded-3xl border border-primary/15 bg-gradient-to-br from-[#f3faff] via-white to-[#fff5f7] shadow-xl">
-              <div className="absolute -top-24 -right-20 h-64 w-64 rounded-full bg-primary/10" />
-              <div className="absolute -bottom-28 -left-20 h-72 w-72 rounded-full bg-secondary/10" />
-              <div className="relative grid items-stretch gap-8 p-6 lg:grid-cols-[1.1fr_0.9fr] lg:p-10">
-                <div className="flex flex-col justify-center">
-                  <div className="mb-4 flex flex-wrap gap-2">
-                    <span className="rounded-full border border-primary/20 bg-white/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-primary">
-                      Southern Alberta
-                    </span>
-                    <span className="rounded-full border border-secondary/20 bg-white/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-secondary">
-                      Fast Pickup
-                    </span>
-                    <span className="rounded-full border border-gray-200 bg-white/90 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-gray-700">
-                      Free Towing
-                    </span>
-                  </div>
-
-                  <h1 className="mb-4 text-4xl font-bold leading-tight text-black lg:text-5xl">
-                    {location.heading}
-                  </h1>
-                  <p className="mb-6 text-base leading-relaxed text-gray-700">
-                    {location.description}
-                  </p>
-                  <p className="mb-7 text-sm leading-relaxed text-gray-700">
-                    {location.additionalInfo}
-                  </p>
-
-                  <div className="flex flex-wrap gap-3">
-                    <Link
-                      href="/contact"
-                      className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-primary to-secondary px-6 py-3 text-sm font-semibold text-white transition-transform hover:scale-[1.02]"
-                    >
-                      Get a Free Quote
-                    </Link>
-                    <Link
-                      href="tel:+15877009806"
-                      className="inline-flex items-center justify-center rounded-full border border-gray-300 bg-white px-6 py-3 text-sm font-semibold text-gray-700 transition-colors hover:border-primary hover:text-primary"
-                    >
-                      Call Now
-                    </Link>
-                  </div>
+          <div className="relative mb-20 overflow-hidden rounded-[2rem] border border-primary/15 bg-gradient-to-br from-[#eff8ff] via-white to-[#fff6f7] shadow-xl">
+            <div className="absolute -top-28 right-0 h-64 w-64 rounded-full bg-primary/10 blur-3xl" />
+            <div className="absolute -bottom-24 left-0 h-72 w-72 rounded-full bg-secondary/10 blur-3xl" />
+            <div className="relative grid items-start gap-8 p-6 lg:grid-cols-[minmax(0,0.88fr)_minmax(340px,0.92fr)] lg:p-10">
+              <div className="flex flex-col justify-center">
+                <div className="mb-4 flex flex-wrap gap-2">
+                  <span className="rounded-full border border-primary/20 bg-white px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">
+                    {location.name}
+                  </span>
+                  <span className="rounded-full border border-gray-200 bg-white px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-700">
+                    {location.responseTime}
+                  </span>
+                  <span className="rounded-full border border-secondary/20 bg-white px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-secondary">
+                    Free Towing
+                  </span>
                 </div>
 
-                <div className="relative">
-                  <Image
-                    src={location.image}
-                    alt={`Cash for cars in ${location.name}`}
-                    width={700}
-                    height={560}
-                    className="h-full min-h-[360px] w-full rounded-3xl object-cover shadow-lg lg:min-h-[520px]"
-                  />
-                  <div className="absolute bottom-4 right-4 rounded-2xl bg-black/70 px-4 py-3 backdrop-blur-sm">
-                    <p className="text-xs uppercase tracking-wide text-white/80">
-                      Trusted in {location.name}
-                    </p>
-                    <p className="text-sm font-semibold text-white">
-                      Fast. Reliable. Eco-Friendly.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ) : (
-          /* Main Content Grid */
-          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-            {/* Image Side */}
-            <div className="order-2 lg:order-1">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl group">
-                <Image
-                  src={location.image}
-                  alt={`Cash for cars in ${location.name}`}
-                  width={600}
-                  height={400}
-                  className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </div>
-
-              {/* Quick Info Cards */}
-              <div className="grid grid-cols-2 gap-4 mt-6">
-                <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-xl p-4 border-2 border-primary/20">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Clock className="w-5 h-5 text-primary" />
-                    <span className="text-sm font-semibold text-black">Hours</span>
-                  </div>
-                  <p className="text-xs text-black">{location.hours}</p>
-                </div>
-
-                <div className="bg-gradient-to-br from-secondary/10 to-primary/10 rounded-xl p-4 border-2 border-secondary/20">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Navigation className="w-5 h-5 text-secondary" />
-                    <span className="text-sm font-semibold text-black">Distance</span>
-                  </div>
-                  <p className="text-xs text-black">{location.distance} from Calgary</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Content Side */}
-            <div className="order-1 lg:order-2">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
-                  <MapPin className="w-6 h-6 text-white" />
-                </div>
-                <div>
-                  <p className="text-sm text-gray-600 font-medium">{location.area}</p>
-                  <div className="flex items-center gap-2 mt-1">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    <span className="text-xs text-green-600 font-semibold">
-                      Available Now - {location.responseTime} Response
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-6 leading-tight">
-                {location.heading}
-              </h1>
-
-              <p className="text-black leading-relaxed text-base md:text-lg mb-6">
-                {location.description}
-              </p>
-
-              {location.slug === "calgary" ? (
-                <p className="text-black leading-relaxed text-base mb-8">
-                  Calgary is our primary service area, and we take pride in
-                  being the most{" "}
-                  <a
-                    href="https://citywidecashforcars.ca/locations/cash-for-cars-calgary/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary font-semibold hover:text-secondary underline"
-                  >
-                    trusted car buying service
-                  </a>{" "}
-                  in the city. We understand the local market and offer fair,
-                  competitive prices based on current market values. Our team is
-                  available 7 days a week to serve you.
+                <h2 className="max-w-3xl text-3xl font-bold leading-tight text-black md:text-4xl lg:text-[2.85rem]">
+                  {location.heading}
+                </h2>
+                <p className="mt-4 max-w-2xl text-sm leading-7 text-gray-700 md:text-base">
+                  {location.description}
                 </p>
-              ) : (
-                <p className="text-black leading-relaxed text-base mb-8">
+                <p className="mt-4 max-w-2xl text-sm leading-7 text-gray-600">
                   {location.additionalInfo}
                 </p>
-              )}
 
-              {/* CTA Buttons */}
-              <div className="flex flex-wrap gap-4">
-                <a
-                  href="tel:+15877009806"
-                  className="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-secondary text-white font-semibold text-base px-8 py-4 rounded-full hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
-                >
-                  <Phone className="w-5 h-5" />
-                  Call Now for Quote
-                </a>
-                <a
-                  href="/contact"
-                  className="inline-flex items-center gap-2 bg-white text-primary font-semibold text-base px-8 py-4 rounded-full border-2 border-primary hover:bg-primary hover:text-white transform hover:-translate-y-1 transition-all duration-300"
-                >
-                  Get Free Estimate
-                </a>
+                <div className="mt-6 grid gap-3 sm:grid-cols-2">
+                  <div className="rounded-2xl border border-primary/10 bg-white/90 p-4 shadow-sm">
+                    <div className="mb-2 flex items-center gap-2">
+                      <Clock className="h-4 w-4 text-primary" />
+                      <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-500">
+                        Hours
+                      </span>
+                    </div>
+                    <p className="text-sm font-semibold leading-6 text-black">
+                      {location.hours}
+                    </p>
+                  </div>
+                  <div className="rounded-2xl border border-secondary/10 bg-white/90 p-4 shadow-sm">
+                    <div className="mb-2 flex items-center gap-2">
+                      <Navigation className="h-4 w-4 text-secondary" />
+                      <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-500">
+                        Coverage
+                      </span>
+                    </div>
+                    <p className="text-sm font-semibold leading-6 text-black">
+                      {location.distance} from Calgary
+                    </p>
+                  </div>
+                </div>
+
+                <div className="mt-6 grid gap-3 sm:grid-cols-2">
+                  {heroHighlights.map((feature) => (
+                    <div
+                      key={feature}
+                      className="flex items-start gap-3 rounded-2xl border border-gray-100 bg-white/80 px-4 py-3"
+                    >
+                      <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" />
+                      <span className="text-sm leading-6 text-gray-700">
+                        {feature}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="mt-7 flex flex-wrap gap-3">
+                  <a
+                    href="tel:+15877009806"
+                    className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-primary to-secondary px-6 py-3 text-sm font-semibold text-white transition-transform hover:scale-[1.02]"
+                  >
+                    <Phone className="mr-2 h-4 w-4" />
+                    Call (587) 700-9806
+                  </a>
+                  <Link
+                    href="/contact"
+                    className="inline-flex items-center justify-center rounded-full border border-gray-300 bg-white px-6 py-3 text-sm font-semibold text-gray-700 transition-colors hover:border-primary hover:text-primary"
+                  >
+                    Contact Us
+                  </Link>
+                </div>
+              </div>
+
+              <div className="rounded-[1.75rem] border border-white/70 bg-white/70 p-2 shadow-lg backdrop-blur-sm">
+                <ContactForm />
               </div>
             </div>
           </div>
-          )}
 
           {introHtml || sections.length > 0 ? (
             <section className="mb-16">
@@ -925,7 +891,7 @@ export default async function LocationPage({ params }) {
                       />
                       <div className="rounded-3xl bg-white/90 p-6 shadow-lg ring-1 ring-primary/10">
                         <p className="text-xs font-bold uppercase tracking-[0.24em] text-secondary">
-                          Drumheller Service
+                          {location.name} Service
                         </p>
                         <h2 className="mt-3 text-2xl font-bold text-black">
                           Fast pickup with clear pricing
@@ -959,188 +925,221 @@ export default async function LocationPage({ params }) {
                 ) : null}
 
                 <div className="grid gap-8">
-                  {sections.map((section, index) => {
-                    const isFaq = section.title.toLowerCase() === "faqs";
-                    const isBracketFaq = section.title.toLowerCase() === "(faqs)";
-                    const isCta = section.title
-                      .toLowerCase()
-                      .includes("get your junk car removed") ||
-                      section.title.toLowerCase().includes("get started:");
+                  {(() => {
+                    const renderedSections = [];
+                    let standardSectionCount = 0;
 
-                    if (isServiceStyleLocation) {
-                      if (isBracketFaq || isFaq) {
-                        return (
-                          <section
+                    sections.forEach((section, index) => {
+                      const isFaq = section.title.toLowerCase() === "faqs";
+                      const isBracketFaq = section.title.toLowerCase() === "(faqs)";
+                      const isCta = section.title
+                        .toLowerCase()
+                        .includes("get your junk car removed") ||
+                        section.title.toLowerCase().includes("get started:");
+                      const sectionImage =
+                        index === 0 && location.image
+                          ? location.image
+                          : availableSectionImages[
+                              (index - (location.image ? 1 : 0) +
+                                availableSectionImages.length) %
+                                availableSectionImages.length
+                            ];
+                      const imageFirst = index % 2 === 0;
+                      let sectionNode;
+
+                      if (isServiceStyleLocation) {
+                        if (isBracketFaq || isFaq) {
+                          sectionNode = (
+                            <section
+                              id={slugifySectionTitle(section.title)}
+                              key={section.title}
+                              className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm lg:p-10"
+                            >
+                              <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-primary">
+                                Common Questions
+                              </p>
+                              <h2 className="mb-4 text-3xl font-bold text-black">
+                                FAQs
+                              </h2>
+                              <div
+                                className="blog-content location-content text-black"
+                                dangerouslySetInnerHTML={{ __html: section.html }}
+                              />
+                            </section>
+                          );
+                        } else if (isCta) {
+                          sectionNode = (
+                            <section
+                              id={slugifySectionTitle(section.title)}
+                              key={section.title}
+                              className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-primary via-[#6f7fa0] to-secondary p-8 shadow-xl lg:p-10"
+                            >
+                              <div className="absolute -top-20 -right-10 h-56 w-56 rounded-full bg-white/10" />
+                              <div className="absolute -bottom-24 -left-16 h-64 w-64 rounded-full bg-white/10" />
+                              <div className="relative">
+                                <h2 className="mb-3 text-3xl font-bold text-white">
+                                  {section.title}
+                                </h2>
+                                <div
+                                  className="blog-content location-content text-white [&_a]:inline-flex [&_a]:items-center [&_a]:rounded-full [&_a]:bg-white [&_a]:px-3 [&_a]:py-1 [&_a]:font-semibold [&_a]:text-primary [&_a]:no-underline"
+                                  dangerouslySetInnerHTML={{ __html: section.html }}
+                                />
+                              </div>
+                            </section>
+                          );
+                        } else {
+                          sectionNode = (
+                            <section
+                              id={slugifySectionTitle(section.title)}
+                              key={section.title}
+                              className="grid items-stretch gap-6 lg:grid-cols-2"
+                            >
+                              <div
+                                className={`relative overflow-hidden rounded-[1.75rem] border border-primary/10 shadow-sm ${
+                                  imageFirst ? "lg:order-1" : "lg:order-2"
+                                }`}
+                              >
+                                <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10" />
+                                <div className="relative h-72 w-full lg:h-full lg:min-h-[420px]">
+                                  <Image
+                                    src={sectionImage}
+                                    alt={`${section.title} in ${location.name}`}
+                                    fill
+                                    className="object-cover"
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
+                                  />
+                                </div>
+                              </div>
+                              <div
+                                className={`rounded-[1.75rem] p-6 shadow-sm lg:p-10 ${
+                                  imageFirst ? "lg:order-2" : "lg:order-1"
+                                } ${
+                                  index % 2 === 0
+                                    ? "border border-primary/15 bg-gradient-to-br from-[#f4fbff] via-white to-[#fff5f6]"
+                                    : "border border-gray-100 bg-white"
+                                }`}
+                              >
+                                <h2 className="mb-4 text-3xl font-bold text-black">
+                                  {section.title}
+                                </h2>
+                                <div
+                                  className="blog-content location-content text-black"
+                                  dangerouslySetInnerHTML={{ __html: section.html }}
+                                />
+                              </div>
+                            </section>
+                          );
+                          standardSectionCount += 1;
+                        }
+                      } else if (isFaq) {
+                        sectionNode = (
+                          <div
                             id={slugifySectionTitle(section.title)}
                             key={section.title}
-                            className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm lg:p-10"
+                            className="rounded-[2rem] border border-gray-100 bg-white p-6 shadow-xl md:p-8 lg:p-10"
                           >
-                            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-primary">
-                              Common Questions
-                            </p>
-                            <h2 className="mb-4 text-3xl font-bold text-black">
-                              FAQs
-                            </h2>
+                            <div className="mb-6 flex items-center justify-between gap-4">
+                              <div>
+                                <p className="text-xs font-bold uppercase tracking-[0.24em] text-primary">
+                                  Common Questions
+                                </p>
+                                <h2 className="mt-2 text-3xl font-bold text-black">
+                                  {section.title}
+                                </h2>
+                              </div>
+                            </div>
                             <div
                               className="blog-content location-content text-black"
                               dangerouslySetInnerHTML={{ __html: section.html }}
                             />
-                          </section>
+                          </div>
                         );
-                      }
-
-                      if (isCta) {
-                        return (
-                          <section
+                      } else if (isCta) {
+                        sectionNode = (
+                          <div
                             id={slugifySectionTitle(section.title)}
                             key={section.title}
-                            className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-primary via-[#6f7fa0] to-secondary p-8 shadow-xl lg:p-10"
+                            className="overflow-hidden rounded-[2rem] bg-gradient-to-r from-primary to-secondary p-[1px] shadow-2xl"
                           >
-                            <div className="absolute -top-20 -right-10 h-56 w-56 rounded-full bg-white/10" />
-                            <div className="absolute -bottom-24 -left-16 h-64 w-64 rounded-full bg-white/10" />
-                            <div className="relative">
-                              <h2 className="mb-3 text-3xl font-bold text-white">
-                                {section.title}
-                              </h2>
-                              <div
-                                className="blog-content location-content text-white [&_a]:inline-flex [&_a]:items-center [&_a]:rounded-full [&_a]:bg-white [&_a]:px-3 [&_a]:py-1 [&_a]:font-semibold [&_a]:text-primary [&_a]:no-underline"
-                                dangerouslySetInnerHTML={{ __html: section.html }}
-                              />
-                            </div>
-                          </section>
-                        );
-                      }
-
-                      return (
-                        <section
-                          id={slugifySectionTitle(section.title)}
-                          key={section.title}
-                          className={`rounded-3xl p-6 shadow-sm lg:p-10 ${
-                            index % 2 === 0
-                              ? "border border-primary/15 bg-gradient-to-br from-[#f4fbff] via-white to-[#fff5f6]"
-                              : "border border-gray-100 bg-white"
-                          }`}
-                        >
-                          <h2 className="mb-4 text-3xl font-bold text-black">
-                            {section.title}
-                          </h2>
-                          <div
-                            className="blog-content location-content text-black"
-                            dangerouslySetInnerHTML={{ __html: section.html }}
-                          />
-                        </section>
-                      );
-                    }
-
-                    if (isFaq) {
-                      return (
-                        <div
-                          id={slugifySectionTitle(section.title)}
-                          key={section.title}
-                          className="rounded-[2rem] border border-gray-100 bg-white p-6 shadow-xl md:p-8 lg:p-10"
-                        >
-                          <div className="mb-6 flex items-center justify-between gap-4">
-                            <div>
-                              <p className="text-xs font-bold uppercase tracking-[0.24em] text-primary">
-                                Common Questions
+                            <div className="rounded-[calc(2rem-1px)] bg-white px-6 py-8 md:px-8 lg:px-10">
+                              <p className="text-xs font-bold uppercase tracking-[0.24em] text-secondary">
+                                Next Step
                               </p>
                               <h2 className="mt-2 text-3xl font-bold text-black">
                                 {section.title}
                               </h2>
+                              <div
+                                className="blog-content location-content mt-5 text-black"
+                                dangerouslySetInnerHTML={{ __html: section.html }}
+                              />
                             </div>
                           </div>
+                        );
+                      } else {
+                        sectionNode = (
                           <div
-                            className="blog-content location-content text-black"
-                            dangerouslySetInnerHTML={{ __html: section.html }}
-                          />
-                        </div>
-                      );
-                    }
-
-                    if (isCta) {
-                      return (
-                        <div
-                          id={slugifySectionTitle(section.title)}
-                          key={section.title}
-                          className="overflow-hidden rounded-[2rem] bg-gradient-to-r from-primary to-secondary p-[1px] shadow-2xl"
-                        >
-                          <div className="rounded-[calc(2rem-1px)] bg-white px-6 py-8 md:px-8 lg:px-10">
-                            <p className="text-xs font-bold uppercase tracking-[0.24em] text-secondary">
-                              Next Step
-                            </p>
-                            <h2 className="mt-2 text-3xl font-bold text-black">
-                              {section.title}
-                            </h2>
+                            id={slugifySectionTitle(section.title)}
+                            key={section.title}
+                            className="grid items-stretch gap-6 lg:grid-cols-2"
+                          >
                             <div
-                              className="blog-content location-content mt-5 text-black"
-                              dangerouslySetInnerHTML={{ __html: section.html }}
-                            />
-                          </div>
-                        </div>
-                      );
-                    }
-
-                    return (
-                      <div
-                        id={slugifySectionTitle(section.title)}
-                        key={section.title}
-                        className="overflow-hidden rounded-[2rem] border border-gray-100 bg-white shadow-xl ring-1 ring-black/5"
-                      >
-                        <div className="relative overflow-hidden p-6 md:p-8 lg:p-10">
-                          <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-secondary/10 blur-2xl" />
-                          <div className="absolute -left-8 bottom-0 h-24 w-24 rounded-full bg-primary/10 blur-2xl" />
-                          <div className="relative">
-                            <div className="mb-4 flex items-center gap-3">
-                              <span className="h-1.5 w-12 rounded-full bg-gradient-to-r from-primary to-secondary" />
-                              <span className="h-2.5 w-2.5 rounded-full bg-secondary/70" />
+                              className={`overflow-hidden rounded-[2rem] border border-gray-100 bg-white shadow-xl ring-1 ring-black/5 ${
+                                imageFirst ? "lg:order-1" : "lg:order-2"
+                              }`}
+                            >
+                              <div className="relative h-72 w-full lg:h-full lg:min-h-[460px]">
+                                <Image
+                                  src={sectionImage}
+                                  alt={`${section.title} in ${location.name}`}
+                                  fill
+                                  className="object-cover"
+                                  sizes="(max-width: 1024px) 100vw, 50vw"
+                                />
+                              </div>
                             </div>
-                            <h2 className="text-2xl font-bold leading-tight text-black md:text-3xl">
-                              {section.title}
-                            </h2>
                             <div
-                              className="blog-content location-content mt-6 text-black"
-                              dangerouslySetInnerHTML={{ __html: section.html }}
-                            />
+                              className={`overflow-hidden rounded-[2rem] border border-gray-100 bg-white shadow-xl ring-1 ring-black/5 ${
+                                imageFirst ? "lg:order-2" : "lg:order-1"
+                              }`}
+                            >
+                              <div className="relative overflow-hidden p-6 md:p-8 lg:p-10">
+                                <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-secondary/10 blur-2xl" />
+                                <div className="absolute -left-8 bottom-0 h-24 w-24 rounded-full bg-primary/10 blur-2xl" />
+                                <div className="relative">
+                                  <div className="mb-4 flex items-center gap-3">
+                                    <span className="h-1.5 w-12 rounded-full bg-gradient-to-r from-primary to-secondary" />
+                                    <span className="h-2.5 w-2.5 rounded-full bg-secondary/70" />
+                                  </div>
+                                  <h2 className="text-2xl font-bold leading-tight text-black md:text-3xl">
+                                    {section.title}
+                                  </h2>
+                                  <div
+                                    className="blog-content location-content mt-6 text-black"
+                                    dangerouslySetInnerHTML={{ __html: section.html }}
+                                  />
+                                </div>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                      </div>
-                    );
-                  })}
+                        );
+                        standardSectionCount += 1;
+                      }
+
+                      renderedSections.push(sectionNode);
+
+                      if (standardSectionCount === 2) {
+                        renderedSections.push(
+                          <div key="mid-content-stats">{renderStatsBand()}</div>
+                        );
+                      }
+                    });
+
+                    return renderedSections;
+                  })()}
                 </div>
               </div>
             </section>
           ) : null}
-
-          {/* Features Grid */}
-          <div className="mb-16">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
-                Why Choose Us in{" "}
-                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                  {location.name}
-                </span>{" "}
-              </h2>
-              <p className="text-black max-w-2xl mx-auto text-lg">
-                Professional service you can trust with unbeatable benefits
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {location.features.map((feature, index) => (
-                <div
-                  key={index}
-                  className="bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-2 border-gray-100 hover:border-primary/30"
-                >
-                  <div className="w-12 h-12 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-xl flex items-center justify-center mb-4">
-                    <CheckCircle className="w-6 h-6 text-primary" />
-                  </div>
-                  <p className="text-black font-medium text-sm leading-relaxed">
-                    {feature}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
 
           {/* Neighborhoods Served */}
           {location.neighborhoods && location.neighborhoods.length > 0 && (
@@ -1170,6 +1169,10 @@ export default async function LocationPage({ params }) {
             </div>
           )}
 
+          <div className="mb-16">
+            <Testimonial />
+          </div>
+
           {/* Service Promise */}
           <div className="bg-gradient-to-r from-primary to-secondary rounded-2xl p-8 md:p-12 text-center text-white shadow-2xl">
             <Truck className="w-16 h-16 mx-auto mb-6 opacity-90" />
@@ -1197,11 +1200,6 @@ export default async function LocationPage({ params }) {
           </div>
         </div>
       </section>
-
-      {/* Additional Sections */}
-      <Stats />
-      <Contact />
-      <Testimonial />
     </div>
   );
 }
