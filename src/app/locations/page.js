@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
 import Contact from "../sections/Contact";
+import ProcessSection from "../sections/Process";
 import { getOgImageForPath } from "@/lib/seo";
 
 export const metadata = {
@@ -248,78 +249,12 @@ export default function LocationsPage() {
             </div>
           </div>
 
-          <div className="mt-20">
-            <div className="relative overflow-hidden rounded-[2rem] border border-primary/15 bg-gradient-to-br from-[#f4fbff] via-white to-[#fff5f7] p-6 shadow-xl md:p-8 lg:p-10">
-              <div className="absolute -top-20 -right-16 h-52 w-52 rounded-full bg-primary/10 blur-3xl" />
-              <div className="absolute -bottom-24 -left-16 h-60 w-60 rounded-full bg-secondary/10 blur-3xl" />
-              <div className="relative">
-                <div className="max-w-3xl">
-                  <p className="text-xs font-semibold uppercase tracking-[0.24em] text-primary">
-                    Fast Process
-                  </p>
-                  <h2 className="mt-2 text-3xl font-bold text-black md:text-4xl">
-                    Sell Your Car In 3 Simple Steps
-                  </h2>
-                  <p className="mt-4 text-sm leading-7 text-gray-700 md:text-base">
-                    We keep the process quick and straightforward, from your
-                    first call to final pickup and payment.
-                  </p>
-                </div>
-
-                <div className="mt-10 grid gap-6 lg:grid-cols-3">
-                  <div className="rounded-3xl border border-white/80 bg-white/90 p-6 shadow-sm">
-                    <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-r from-primary to-secondary text-sm font-bold text-white">
-                      1
-                    </div>
-                    <h3 className="mt-4 text-xl font-bold text-black">
-                      Request a Quote
-                    </h3>
-                    <p className="mt-3 text-sm leading-7 text-gray-700">
-                      Call us at{" "}
-                      <a
-                        href="tel:+15877009806"
-                        className="font-semibold text-primary underline"
-                      >
-                        (587) 700-9806
-                      </a>{" "}
-                      or send your vehicle details through our online contact
-                      form for a quick response.
-                    </p>
-                  </div>
-
-                  <div className="rounded-3xl border border-white/80 bg-white/90 p-6 shadow-sm">
-                    <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-r from-primary to-secondary text-sm font-bold text-white">
-                      2
-                    </div>
-                    <h3 className="mt-4 text-xl font-bold text-black">
-                      Get Your Offer
-                    </h3>
-                    <p className="mt-3 text-sm leading-7 text-gray-700">
-                      We review the vehicle details and give you a fair cash
-                      offer upfront with no hidden fees, no pressure, and no
-                      last-minute surprises.
-                    </p>
-                  </div>
-
-                  <div className="rounded-3xl border border-white/80 bg-white/90 p-6 shadow-sm">
-                    <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-r from-primary to-secondary text-sm font-bold text-white">
-                      3
-                    </div>
-                    <h3 className="mt-4 text-xl font-bold text-black">
-                      Schedule Pickup
-                    </h3>
-                    <p className="mt-3 text-sm leading-7 text-gray-700">
-                      Once you accept the offer, we arrange a pickup time that
-                      works for you and handle the towing and removal process
-                      from there.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
+
+      <div className="mx-auto w-full max-w-7xl">
+        <ProcessSection />
+      </div>
 
       <section className="bg-white px-4 pb-16 sm:px-8 md:px-12 lg:px-20">
         <div className="mx-auto max-w-7xl">
