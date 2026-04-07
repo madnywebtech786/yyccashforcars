@@ -204,16 +204,20 @@ Our junk car removal Airdrie service doesn’t just haul away that eyesore — i
 
 ## FAQs — Everything You Need to Know (Airdrie)
 
-Do you buy vehicles with no title?
+**Do you buy vehicles with no title?**
+
 Yes! We can handle vehicles without title paperwork and guide you through any necessary documentation steps.
 
-What if my car isn’t running?
+**What if my car isn’t running?**
+
 No problem — we buy cars in all conditions, whether they’ve been sitting for years or were in a recent collision.
 
-Do you charge for towing?
+**Do you charge for towing?**
+
 Absolutely not — we provide free pickup and removal within Airdrie.
 
-How quickly will I get paid?
+**How quickly will I get paid?**
+
 Typically on the spot at pickup, either in cash or by cheque — whichever you prefer.
 
 ## Why Selling With Us Beats DIY & Other Buyers
@@ -404,11 +408,14 @@ You want top value and quick service — you’re in the right place.
     distance: "104 km",
     primary: false,
     image: "/images/tow-scrap.webp",
-    heading: "Cash for Cars in Canmore - Mountain Community Service",
+    metaTitle: "Cash for Cars Canmore | Top Dollar & Free Car Removal",
+    metaDescription:
+      "Sell your car in Canmore for top cash! Get free junk car removal, fast payment, and eco-friendly recycling. Contact us today at 587-700-9806 for your quote!",
+    heading: "Cash for Cars Canmore – Fast, Fair Offers & Free Vehicle Removal",
     description:
-      "Even in the beautiful mountain town of Canmore, 104 km from Calgary, YYC Cash for Cars brings professional vehicle buying services directly to you. We understand that living in the mountains comes with unique vehicle challenges - harsh winters, mountain roads, and wear and tear on vehicles. Whether your car has reached the end of its life, you're upgrading, or you need quick cash, we're here to help. Our Canmore service offers free towing down from the mountains, competitive pricing, and flexible scheduling to work around your mountain lifestyle. We buy all vehicles regardless of condition and pay cash on the spot. Experience hassle-free car selling in Canmore with Alberta's most trusted car buyers.",
+      "Welcome to Cash for Cars Canmore — your local trusted solution for selling old, damaged, or unwanted vehicles for top cash. If you’re located in Canmore, Alberta, and want a quick, stress‑free way to get cash for your car, we’ve got you covered.",
     additionalInfo:
-      "Canmore's mountain location requires special consideration for towing and transport. We have the equipment and expertise to safely remove vehicles from mountain properties.",
+      "Whether your vehicle won’t start, has been in an accident, sits unused in the driveway, or you simply need more space — our team is ready to help with reliable scrap car removal Canmore and [junk car removal Canmore services](/services/cash-for-junk-cars). We make the process easy, transparent, and rewarding.",
     neighborhoods: [
       "Downtown Canmore",
       "Three Sisters",
@@ -418,17 +425,186 @@ You want top value and quick service — you’re in the right place.
       "Peaks",
     ],
     features: [
-      "Free mountain towing service",
-      "Winter vehicle specialists",
-      "All terrain pickup capability",
-      "Competitive mountain region pricing",
-      "Flexible mountain scheduling",
-      "Buy damaged winter vehicles",
-      "Professional mountain drivers",
-      "Eco-conscious disposal",
+      "Highest cash offers",
+      "Free scrap car removal Canmore",
+      "Hassle-free paperwork",
+      "Eco-friendly junk car removal Canmore",
+      "Fast, same-day service when possible",
+      "Buy vehicles in any condition",
+      "Immediate payment on pickup",
+      "Free towing across Canmore",
     ],
     hours: "Monday - Saturday: 9:00 AM - 6:00 PM",
     responseTime: "1.5 - 2 hours",
+    content: `Welcome to Cash for Cars Canmore — your local trusted solution for selling old, damaged, or unwanted vehicles for top cash. If you’re located in Canmore, Alberta, and want a quick, stress‑free way to get [cash for cars](/) for your car, we’ve got you covered.
+
+Whether your vehicle won’t start, has been in an accident, sits unused in the driveway, or you simply need more space — our team is ready to help with reliable [scrap car removal Canmore](/services/scrap-car-removal/) and [junk car removal Canmore services](/services/cash-for-junk-cars). We make the process easy, transparent, and rewarding.
+
+## Why Canmore Residents Trust Our Cash for Cars Service
+
+Selling a vehicle shouldn’t be frustrating or time consuming — but often it is. Traditional private sales can take weeks, test drives waste your time, and dealerships rarely offer great value, especially for older or non‑running vehicles.
+
+That’s where Cash for Cars shines. We specialize in helping locals sell vehicles of any condition and offering:
+
+Highest Cash Offers
+We provide fair and competitive quotes based on your vehicle’s real value — no low‑ball offers, no confusing valuations.
+
+Free Scrap Car Removal Canmore
+No matter where your vehicle is parked in Canmore — on your property, a rental yard, or a rural driveway — we’ll come to you and haul it away for free.
+
+Hassle‑Free Paperwork
+Don’t worry about confusing forms or DMV visits. We handle all documentation so you don’t have to.
+
+Eco‑Friendly Junk Car Removal Canmore
+Our disposal process is fully licensed and environmentally responsible, ensuring cars are recycled correctly and valuable materials are reused.
+
+Fast, Same‑Day Service When Possible
+We understand urgency — that’s why we aim to offer same‑day pickup and payment whenever it’s feasible.
+
+## What Vehicles We Buy in Canmore
+
+You might be surprised — we accept almost every type of vehicle, regardless of age or condition. That includes:
+
+- Passenger cars (running or not)
+- SUVs and crossovers
+- Trucks and pickups
+- Vans and minivans
+- Motorcycles, ATVs, and UTVs
+- Fleet vehicles and commercial units
+- Old junk cars and scrap vehicles
+
+Even if your car has no title, doesn’t run, or has major mechanical issues — we still buy it. That’s the beauty of our cash for cars Canmore process: we pay real cash for vehicles most others won’t touch.
+
+## How Our Cash for Cars Canmore Process Works (Simple & Quick)
+
+We’ve designed our system to be easy, straightforward, and fair.
+
+### Step 1 – Contact Us or Fill Out the Form
+
+Tell us a few basic details about your vehicle — make, model, year, condition, and location in Canmore. You can call us or use our online quote form.
+
+### Step 2 – Get a Fast, Fair Offer
+
+Our team analyzes your vehicle and provides an honest cash offer based on current market demand and local pricing. No obligation — accept only if you're happy.
+
+### Step 3 – Schedule Convenient Pickup
+
+Once you accept the offer, we’ll arrange a time to pick up your vehicle. We come to your location in Canmore — no tow fees, no waiting around.
+
+### Step 4 – Get Cash on the Spot
+
+We pay you immediately upon pickup — with cash or certified cheque — whichever you prefer.
+
+That’s it. Simple, transparent, quick — no stress, no guesswork.
+
+## What Determines Your Cash Offer in Canmore
+
+We base our offers on a few key factors that make the valuation fair and accurate:
+
+1. Vehicle Condition
+A well‑maintained car with usable parts will typically fetch more than one that’s completely non‑functional. But even scrap vehicles have value — especially to recycling facilities.
+
+2. Make, Model & Year
+Certain models have higher demand for parts or resale value, so we factor that into your offer.
+
+3. Metal & Parts Value
+Even if your vehicle no longer runs or is severely damaged, the metal and recyclable parts still have value. That’s where scrap car removal Canmore becomes a win — you get paid for what others see as junk.
+
+We believe in transparency, so if you ever want to know how we arrived at your offer, we’ll explain every detail.
+
+## Scrap Car Removal Canmore – Quick, Free & Eco‑Responsible
+
+Old cars can become eyesores, take up space, or leak fluids. If you’ve been putting off getting rid of that vehicle, our scrap car removal Canmore service makes it easy.
+
+Here’s how it works:
+
+You contact us with your vehicle details
+We provide a no‑obligation scrap quote
+We schedule a convenient pickup time
+We remove the vehicle for free
+You get cash on the spot
+
+Many residents don’t realize that even the oldest, broken‑down cars have value — and we help you unlock that value without any hidden charges.
+
+No tow fees. No waiting weeks. Just fast removal and fair cash.
+
+## Junk Car Removal Canmore – We Take Anything
+
+Junk cars can cause all sorts of issues:
+
+- They take up valuable space
+- They collect dust and rust
+- They devalue your property
+- They can leak hazardous fluids
+
+Instead of letting that old car sit and depreciate, turn it into cash with our junk car removal Canmore service.
+
+We’ll remove your vehicle quickly and responsibly, paying you cash in return. Whether your vehicle is:
+
+- Flood damaged
+- Heavily rusted
+- Engine failed
+- Collision damaged
+- Long‑abandoned
+
+We still buy it.
+
+## Canmore Residents Ask: FAQs About Cash for Cars
+
+**Do you buy cars that don’t run?**
+
+Absolutely. Cars that won’t start, have engine issues, or are mechanically unsafe are all accepted.
+
+**What if I don’t have the title?**
+
+We can help you navigate that — missing titles won’t stop us from giving you an offer in many cases.
+
+**How long does pickup take?**
+
+We aim for the same‑day or next‑day pickup whenever possible. It depends on your schedule and availability.
+
+**Is there any payment before pickup?**
+
+Payment happens at pickup. Once we remove your vehicle, you receive the cash on the spot.
+
+**Do you charge for towing?**
+
+No — towing is 100% free across Canmore and the surrounding areas.
+
+## Why Cash for Cars Canmore Beats Other Options
+
+Many vehicle owners consider traditional options like selling privately or trading in with a dealership. But here’s the reality:
+
+Private Sale: Takes weeks, involves back‑and‑forth messaging, test drives, and no guarantee you’ll sell.
+Dealership Trade‑In: Often low offers since dealers resell for profit.
+Online Classifieds: Time‑consuming and requires constant messaging and negotiation.
+Scrap car for cash: Quick offer, free pickup, fast cash, no stress.
+
+We make selling your vehicle simple and practical — with results that beat most alternatives in time, value, and convenience.
+
+## Environmentally Responsible Vehicle Disposal
+
+We don’t just take cars — we ensure they are disposed of responsibly. Our processes follow all environmental and recycling standards, ensuring:
+
+- Fluids are handled safely
+- Recyclable metals are reused
+- Harmful materials are disposed of correctly
+- Valuable parts get reused instead of wasted
+
+So when you choose YYC cash for cars, you’re not only getting cash — you’re doing something good for the community and environment.
+
+## Contact Us & Get Your Free Offer Today
+
+If you’re ready to turn your unwanted vehicle into fast cash in Canmore, don’t wait. Our team is standing by to give you:
+
+- Fast, fair cash offers
+- Free scrap car removal Canmore
+- Simple and quick pickup
+- Reliable junk car removal Canmore
+
+Your old vehicle still has value — let us help you unlock it.
+Call us now at 587‑700‑9806 or fill out our online form for a free quote.
+Turn your vehicle into cash today — with Canada’s most trusted local cash for cars service in Canmore.`,
   },
   {
     id: 9,
