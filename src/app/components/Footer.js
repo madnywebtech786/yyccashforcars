@@ -27,7 +27,6 @@ const Footer = () => {
     { name: "About Us", href: "/about-us" },
     { name: "Blog", href: "/blog" },
     { name: "Gallery", href: "/gallery" },
-    { name: "FAQs", href: "/faqs" },
     { name: "Privacy Policy", href: "/privacy-policy" },
     { name: "Terms of Use", href: "/terms-of-use" },
     { name: "Contact Us", href: "/contact" },
