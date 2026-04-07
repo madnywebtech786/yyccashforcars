@@ -608,6 +608,202 @@ Turn your vehicle into cash today — with Canada’s most trusted local cash fo
   },
   {
     id: 9,
+    name: "Banff",
+    slug: "banff",
+    area: "Mountain Region",
+    distance: "127 km",
+    primary: false,
+    image: "/images/car-about.webp",
+    metaTitle: "Get Cash for Cars in Banff | Fast & Hassle-Free",
+    metaDescription:
+      "Get top cash for cars in Banff. Fast, fair offers with free towing and paperwork handled. Sell your car today hassle-free!",
+    heading: "Sell Your Car for Cash in Banff, Alberta — Fast, Fair & Hassle‑Free",
+    description:
+      "Welcome to YYC Cash for Cars – Banff — your trusted partner for getting top dollar cash for cars in Banff, Alberta. Whether your vehicle is old, damaged, non‑running, or simply unwanted, we’re here to make selling it simple, safe, and rewarding. We understand your situation, your concerns, and how valuable your time is — so we’ve built a service that puts your needs first.",
+    additionalInfo:
+      "Get top cash for cars in Banff. Fast, fair offers with free towing and paperwork handled. Sell your car today hassle-free!",
+    neighborhoods: [
+      "Downtown Banff",
+      "Tunnel Mountain",
+      "Banff Springs",
+      "Lynx Street",
+      "Cave and Basin",
+      "Banff Avenue",
+    ],
+    features: [
+      "Instant, transparent cash offers",
+      "Free vehicle pickup anywhere in Banff",
+      "No surprises, no hidden fees",
+      "Same‑day or next‑day service",
+      "Paperwork handling for you",
+      "Top cash for old or damaged vehicles",
+      "Free towing in Banff and nearby areas",
+      "Professional local service",
+    ],
+    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    responseTime: "Same day or next day",
+    content: `## Why Banff Residents Choose Us
+
+In Banff, the beauty of the Canadian Rockies and the vibrant mountain lifestyle are unmatched. But when it comes to selling a vehicle that’s become a burden — rusted, parked, or costing money in repairs — it shouldn’t feel like another stressful chore.
+
+At YYC Cash for Cars, we offer:
+
+- Instant, transparent cash offers
+- Free vehicle pickup anywhere in Banff
+- No surprises, no hidden fees
+- Same‑day or next‑day service
+- Paperwork handling for you
+
+You get cash in hand — quickly and fairly — without listing, haggling, or waiting weeks for buyers.
+
+## Who We Help in Banff
+
+Whether your car is:
+
+- Broken down after winter driving on mountain roads
+- Sitting unused in your driveway
+- Crashed or written‑off
+- High‑mileage and hard to insure
+- Old or not worth repairing
+
+we’re ready to buy it. As [local cash buyers](/), we understand Banff’s unique needs — from seasonal weather impacts to rural pickups and mountain drives. That means no fuss, no long delays, and no guesswork.
+
+## What We Offer in Banff
+
+### Top Cash for Any Vehicle
+
+We buy:
+
+- Junk cars
+- Old SUVs and trucks
+- Vans, commercial and fleet vehicles
+- Salvage and damaged vehicles
+- Vehicles without a title (in many cases)
+
+We base our offers on vehicle condition and current market value — no lowballing.
+
+### Free Towing & Pickup
+
+Banff’s roads can be challenging, and moving vehicles isn’t always easy. That’s why we include free towing and reliable pickup, whether your vehicle runs or not.
+
+### We Handle Paperwork
+
+Selling a car can involve confusing forms and transfers. We take care of the necessary documentation so you don’t worry about liabilities or unresolved paperwork.
+
+## How It Works — Simple 3‑Step Process
+
+### Tell Us About Your Vehicle
+
+Fill out our quick form or call us with your vehicle’s details — make, model, year, mileage, and condition.
+
+### Get Your Instant Cash Offer
+
+We’ll give you a transparent, no‑obligation cash offer — often within hours.
+
+### Schedule Free Towing & Get Paid
+
+Choose a pickup time that works for you. We’ll tow it for free in Banff and surrounding areas and you walk away with cash.
+
+This process is designed to save you time, stress, and frustration — all while maximizing how much you get for your car.
+
+## Why a Banff Location Matters
+
+Banff, Alberta is not just a destination — it’s a community, embedded in one of the most breathtaking natural landscapes in Canada.
+
+Known for its towering mountains, turquoise lakes, and year‑round outdoor adventure, residents and visitors choose Banff for quality of life and outdoor experiences.
+
+But with rugged terrain, harsh winter conditions, and seasonal travel traffic, vehicles can take a beating. That’s where we help — turning vehicles that no longer serve you into fast cash with zero headaches.
+
+## Local Insights: Living & Driving in Banff
+
+Banff is a mountain resort town in Alberta, nestled within Banff National Park (a UNESCO World Heritage Site).
+
+### Driving & Vehicle Wear
+
+Winters can be long and cold, with snow, ice, and sub‑zero temperatures — tough on brakes, batteries, and suspensions.
+
+Summer tourism brings heavy traffic and steep terrain routes.
+
+Off‑road trails can lead to damaged undercarriages or tires.
+
+These conditions mean many Banff drivers eventually consider selling older vehicles. YYC Cash for Cars is here to help you do it quickly and without stress.
+
+## What Makes YYC Cash for Cars Different in Banff
+
+### Local Buyers Who Understand You
+
+We aren’t distant corporate buyers — we serve Calgary, Banff, Canmore, and surrounding Alberta communities. We know how local vehicle markets work and what fair pricing looks like.
+
+### No Waiting Around
+
+Listing a car privately often involves weeks of calls, negotiations, and no‑shows. With us, offers are transparent and timelines are predictable.
+
+### Respectful & Professional
+
+We treat every customer with respect — your satisfaction matters, no matter the vehicle’s condition.
+
+## Real Use Cases — Who Benefits
+
+### 1. Seasonal Residents
+
+If you live in Banff seasonally and your car has spent months unused in snow or ice — sell it before storage costs pile up.
+
+### 2. Full‑Time Locals
+
+Maybe your old SUV needs expensive winter repair you’d rather avoid — turn that liability into cash now.
+
+### 3. Rental Car Fleets & Visitors
+
+Return your vehicle at the end of your stay? We offer fast buys for visitors looking to avoid the hassle of trade‑ins or airport returns.
+
+### 4. Damaged or Salvaged Vehicles
+
+After an accident, you shouldn’t worry about disposal. We’ll remove the vehicle and pay you fairly — even if it’s not running.
+
+## Frequently Asked Questions – Banff
+
+**Q: Do you buy cars that don’t run?**
+
+Yes — we buy non‑running cars and offer free towing anywhere in Banff.
+
+**Q: Is there any fee for pickup?**
+
+No — pickup and towing are 100% free.
+
+**Q: Will I get a fair price?**
+
+Yes — our offers are based on market value and vehicle condition, with no hidden costs.
+
+**Q: Do you handle paperwork?**
+
+Absolutely — we assist with all necessary document transfers.
+
+## About Banff – A Brief Local Overview
+
+Banff, Alberta is one of Canada’s most iconic mountain towns, known for its stunning landscapes, outdoor recreation, and welcoming community.
+
+- Surrounded by the Canadian Rockies
+- Near glacial lakes like Lake Louise & Moraine Lake
+- Inside Banff National Park, a UNESCO World Heritage Site
+- Offers year‑round adventure, from hiking to skiing
+
+Residents appreciate the balance of natural beauty and modern living — and now they can enjoy a stress‑free car selling solution right in their community.
+
+## Ready to Sell Your Car in Banff?
+
+You’ve got options — but if you want:
+
+- Fast cash
+- Transparent pricing
+- Free towing
+- Trusted local service
+
+then [YYC Cash for scrap Cars](/scrap-car-removal) – Banff is your best choice.
+
+Get your cash offer now — reach out today or fill in our quick form. Let us make selling your car one of the easiest things you do.`,
+  },
+  {
+    id: 10,
     name: "Drumheller",
     slug: "drumheller",
     area: "Drumheller Region",
@@ -773,7 +969,7 @@ If your old vehicle no longer serves its intended purpose, now is the time to ge
 [Call or submit our online form](/contact) with details on your vehicle today to begin the selling process! We will review the data, give an accurate quote, and arrange a smooth pickup process - all this with just one call or submission of our form! Let's turn that unwanted car into money while also clearing space on your property!`,
   },
   {
-    id: 10,
+    id: 11,
     name: "Lethbridge",
     slug: "lethbridge",
     area: "Southern Alberta",

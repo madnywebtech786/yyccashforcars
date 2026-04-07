@@ -33,6 +33,14 @@ const locations = [
     tagline: "Cash for cars service with quick pickup in Airdrie.",
   },
   {
+    name: "Banff",
+    href: "/locations/banff",
+    area: "Mountain Region",
+    distance: "127 km",
+    style: "from-[#f7fbff] to-white",
+    tagline: "Fast cash for cars service with free towing in Banff.",
+  },
+  {
     name: "Canmore",
     href: "/locations/canmore",
     area: "Mountain Region",
