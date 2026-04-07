@@ -41,6 +41,14 @@ const locations = [
     tagline: "Fast cash for cars service with free towing in Banff.",
   },
   {
+    name: "Bragg Creek",
+    href: "/locations/bragg-creek",
+    area: "Rocky View County",
+    distance: "44 km",
+    style: "from-[#fff8f8] to-white",
+    tagline: "Fast junk and scrap vehicle removal in Bragg Creek.",
+  },
+  {
     name: "Canmore",
     href: "/locations/canmore",
     area: "Mountain Region",
@@ -95,6 +103,14 @@ const locations = [
     distance: "45 km",
     style: "from-[#fff7fb] to-white",
     tagline: "Quick quotes and hassle-free car pickup in Okotoks.",
+  },
+  {
+    name: "Red Deer",
+    href: "/locations/red-deer",
+    area: "Central Alberta",
+    distance: "151 km",
+    style: "from-[#f7fbff] to-white",
+    tagline: "Fast junk and scrap car removal service in Red Deer.",
   },
   {
     name: "Strathmore",

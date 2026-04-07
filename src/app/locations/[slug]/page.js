@@ -438,7 +438,7 @@ You want top value and quick service — you’re in the right place.
     responseTime: "1.5 - 2 hours",
     content: `Welcome to Cash for Cars Canmore — your local trusted solution for selling old, damaged, or unwanted vehicles for top cash. If you’re located in Canmore, Alberta, and want a quick, stress‑free way to get [cash for cars](/) for your car, we’ve got you covered.
 
-Whether your vehicle won’t start, has been in an accident, sits unused in the driveway, or you simply need more space — our team is ready to help with reliable [scrap car removal Canmore](/services/scrap-car-removal/) and [junk car removal Canmore services](/services/cash-for-junk-cars). We make the process easy, transparent, and rewarding.
+Whether your vehicle won’t start, has been in an accident, sits unused in the driveway, or you simply need more space — our team is ready to help with reliable [scrap car removal Canmore](/services/scrap-car-removal) and [junk car removal Canmore services](/services/cash-for-junk-cars). We make the process easy, transparent, and rewarding.
 
 ## Why Canmore Residents Trust Our Cash for Cars Service
 
@@ -804,6 +804,336 @@ Get your cash offer now — reach out today or fill in our quick form. Let us ma
   },
   {
     id: 10,
+    name: "Red Deer",
+    slug: "red-deer",
+    area: "Central Alberta",
+    distance: "151 km",
+    primary: false,
+    image: "/images/scrap.webp",
+    metaTitle: "Cash for Cars Red Deer | Fast Junk & Scrap Removal",
+    metaDescription:
+      "Get top cash for cars in Red Deer. Free junk & scrap car removal, instant offers, and hassle-free service. Sell your car today!",
+    heading: "Turn Your Old Car Into Cash in Red Deer, Alberta — Stress-Free & Fast",
+    description:
+      "Have an old car sitting in your driveway, taking up space and collecting dust? Maybe it’s a vehicle that barely runs, has seen better days, or has been damaged in a fender-bender. Whatever the case, in Red Deer, Alberta, you don’t have to let it be a headache.",
+    additionalInfo:
+      "At YYC Cash for Cars — Red Deer, we make selling your vehicle simple, honest, and fast. From scrap car removal Red Deer to junk car removal Red Deer, we handle everything so you can focus on the things that matter most — your time, your family, and your life.",
+    neighborhoods: [
+      "Downtown",
+      "Gasoline Alley",
+      "Bower",
+      "Riverlands",
+      "Anders",
+      "Lancaster",
+    ],
+    features: [
+      "Fair cash offers based on local Red Deer rates",
+      "Free car pickup anywhere in Red Deer",
+      "Instant payment on the spot",
+      "No hidden fees or towing costs",
+      "Same-day or next-day pickup",
+      "Scrap and junk car removal",
+      "Paperwork handled for you",
+      "Environmentally responsible disposal",
+    ],
+    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    responseTime: "Same day or next day",
+    content: `## Why Selling Your Car Should Be Simple
+
+Let’s face it: selling a car on your own can be stressful. You have to:
+
+- Deal with tire-kickers who waste your time
+- Schedule endless test drives
+- Negotiate prices that don’t feel fair
+- Handle confusing paperwork
+
+It’s exhausting, right? That’s why YYC Cash for Cars exists — we take care of the heavy lifting so you can walk away with cash, without the headache.
+
+## Who We Help in Red Deer
+
+Red Deer is a vibrant city — full of families, students, workers, and small businesses. Life here moves fast, and sometimes, your old vehicle just doesn’t keep up. We work with:
+
+- Homeowners with vehicles that no longer run
+- Busy professionals who don’t have time to list online
+- Business owners & fleets needing quick turnover
+- Seasonal residents who want to sell before leaving town
+- Anyone who wants fast, fair cash for their car
+
+Even if your car is a total wreck, we specialize in junk car removal Red Deer and [scrap car removal Red Deer](/services/scrap-car-removal) — so you can finally clear that driveway.
+
+## How It Works — The Human Way
+
+We’ve designed our process to be fast, friendly, and transparent. Here’s how it works:
+
+### Reach Out and Tell Us About Your Car
+
+Just fill out our quick online form or give us a call. We want to know the basics: make, model, year, condition, and mileage. That’s it.
+
+### Get a Fair Cash Offer
+
+Our team evaluates your car based on real market value and condition, factoring in local Red Deer rates. You’ll get a transparent, no-surprise offer.
+
+### Schedule Free Removal
+
+We pick up your car anywhere in Red Deer — running or not. Scrap car removal in Red Deer? Check. Junk car removal in Red Deer? Check.
+
+### Get Paid on the Spot
+
+Cash, electronic transfer, or your preferred payment method — you get paid immediately, no delays, no waiting.
+
+We make selling a car feel like… selling a car. Simple, honest, human.
+
+## Why YYC Cash for Cars is Different
+
+We get it. You’ve probably seen other “cash for cars” ads promising the moon but delivering frustration. Here’s why we stand out in Red Deer:
+
+### Local Knowledge
+
+We’re not some faceless corporation. Our team lives and works in Alberta. We know Red Deer neighborhoods like Downtown, Gasoline Alley, and Bower, and we understand the local market. That means fair offers that actually reflect your car’s value.
+
+### Fast and Friendly Service
+
+Nobody likes waiting weeks for someone to show up. With us, most pickups happen the same day or next day.
+
+### Zero Hidden Fees
+
+What you see is what you get. We handle all towing, scrap removal, and paperwork for free.
+
+### Environmentally Responsible
+
+We recycle, dismantle, and dispose of vehicles responsibly. Your old car isn’t just gone — it’s disposed of safely, protecting Red Deer’s streets and neighborhoods.
+
+## Real-Life Red Deer Scenarios
+
+Here’s the reality for many locals:
+
+- Family SUVs that barely start after Alberta winters
+- Rusty trucks sitting behind the garage
+- Older sedans that are more trouble than they’re worth
+- Commercial vans and fleet vehicles that need to be replaced
+
+Whatever the scenario, our team comes in, assesses, offers cash, and removes your vehicle — hassle-free.
+
+## FAQ — Answered the Human Way
+
+**Q: Will you buy my car even if it doesn’t run?**
+
+Absolutely. That’s our specialty. Non-running, damaged, or aged vehicles? We take them all.
+
+**Q: How fast can I get paid?**
+
+Many customers in Red Deer get cash the same day they accept our offer.
+
+**Q: Do I have to pay for towing?**
+
+Never. Scrap car removal Red Deer and junk car removal Red Deer are always free.
+
+**Q: What if I don’t have a title?**
+
+Don’t worry — our team can guide you through local regulations and paperwork.
+
+## Local Red Deer Context
+
+Red Deer is more than a city — it’s a community with heart. From Riverlands district to Heritage Ranch, life here is active, fast-paced, and full of responsibilities. Cars are essential, but old vehicles shouldn’t hold you back.
+
+That’s why a trusted, human-focused [cash-for-cars service](/) is invaluable. We help you:
+
+- Free up space
+- Get immediate cash
+- Remove old or damaged vehicles safely
+- Avoid the stress of private sales
+
+Whether it’s Downtown Red Deer, Gasoline Alley, or suburban neighborhoods, we serve every corner of the city.
+
+## Selling Your Car Should Feel Good
+
+We don’t just pay for vehicles — we solve problems. Imagine:
+
+- Clearing your driveway of that old car
+- Getting cash in your pocket instantly
+- Knowing your vehicle is being removed responsibly
+
+That’s the humanized, stress-free experience we provide every day in Red Deer.
+
+## Take Action — Get Cash for Your Vehicle Today
+
+Don’t let that old car sit there collecting dust. YYC Cash for Cars — Red Deer is ready to help with:
+
+- Scrap car removal Red Deer
+- Junk car removal Red Deer
+- Instant cash offers
+- Free towing and paperwork handling
+
+Fill out our form or [call today](/contact), and let us turn your old vehicle into cash — quickly, safely, and stress-free.`,
+  },
+  {
+    id: 11,
+    name: "Bragg Creek",
+    slug: "bragg-creek",
+    area: "Rocky View County",
+    distance: "44 km",
+    primary: false,
+    image: "/images/tow-scrap.webp",
+    metaTitle: "Cash for Cars Bragg Creek | Junk and Scrap Car Removal",
+    metaDescription:
+      "Get cash for cars in Bragg Creek with fast pickup and fair offers. We buy old, damaged, junk, and scrap vehicles with easy removal and no hassle.",
+    heading: "Cash for Cars Bragg Creek – Fast, Fair, Local Vehicle Removal You Can Trust",
+    description:
+      "Sell Your Old, Damaged, or Unwanted Vehicle Without the Usual Stress",
+    additionalInfo:
+      "If you have a car sitting in your driveway, parked beside your garage, or taking up space on your property in Bragg Creek, you already know how frustrating it can be. Maybe it stopped running months ago. Maybe the repairs are too expensive. Maybe it was damaged in an accident, or maybe it is simply too old to be worth keeping. Whatever the reason, most people do not want to spend weeks trying to sell a vehicle that no longer fits their life.",
+    neighborhoods: [
+      "White Avenue",
+      "West Bragg Creek",
+      "Elbow River",
+      "Rocky View County",
+      "Bragg Creek Centre",
+      "Bragg Creek Estates",
+    ],
+    features: [
+      "Fast pickup and fair offers",
+      "Buy old, damaged, junk, and scrap vehicles",
+      "No hidden fees or confusing process",
+      "Vehicle pickup arranged with less hassle",
+      "Scrap car removal in Bragg Creek",
+      "Junk car removal in Bragg Creek",
+      "Local service for Rocky View County",
+      "Simple and practical selling option",
+    ],
+    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    responseTime: "Same day or next day",
+    content: `That is where YYC Cash for Cars helps.
+
+Our [cash for cars Bragg Creek service](/) is built for people who want a simple way to sell a vehicle without wasting time. No endless back and forth. No strangers showed up to inspect the car. No pressure. No confusing process. Just a fair offer, quick communication, and vehicle pickup arranged with less hassle.
+
+In a place like Bragg Creek, convenience matters. Life here is different from the city. People value their time, their space, and a smooth process. Whether you are near White Avenue, close to the Elbow River, heading toward West Bragg Creek, or living in the wider Rocky View County area, having someone come and remove the vehicle for you makes a real difference.
+
+## A Better Option Than Letting an Unwanted Car Sit for Months
+
+A lot of people hold onto a bad vehicle longer than they meant to.
+
+They tell themselves they will repair it one day. Or they plan to post it for sale next weekend. Then weeks turn into months. The battery dies. Tires go flat. Rust gets worse. The vehicle becomes one more thing on the list that never gets handled.
+
+That is common, and honestly, it makes sense.
+
+Selling a used vehicle privately can be exhausting even when it is in decent condition. But when the car is old, damaged, high mileage, not running, or only valuable for parts or scrap, the process becomes even harder. Many buyers disappear after asking a few questions. Some will offer a number that makes no sense. Others show up and try to negotiate far below what they said online.
+
+That is why many vehicle owners in Bragg Creek choose a faster and more practical route. Instead of chasing buyers, they choose a service that buys the vehicle as it is and removes it properly.
+
+## Cash for Cars Bragg Creek for Vehicles in Almost Any Condition
+
+Not every car on the road is ready for resale, but that does not mean it has no value.
+
+We buy vehicles in many different conditions, including cars that are:
+
+- old and no longer reliable
+- not starting or not running
+- damaged from collisions
+- rusted out
+- parked for a long time
+- too expensive to repair
+- unwanted after buying a new vehicle
+- no longer safe or practical to drive
+- better suited for salvage, parts, or recycling
+
+This gives people a realistic solution. Instead of putting more money into a car that keeps causing problems, you can turn it into cash and clear the space.
+
+For many families, that is the real win. It is not just about selling a vehicle. It is about removing a headache.
+
+## Scrap Car Removal Bragg Creek That Saves You Time
+
+There comes a point where keeping an old vehicle just does not make sense anymore.
+
+Maybe the engine is gone. Maybe the transmission failed. Maybe the repair quote was so high that it made the decision for you. When a vehicle reaches that stage, you need a service that understands scrap value and handles the removal without making the process harder than it needs to be.
+
+Our [scrap car removal Bragg Creek](/services/scrap-car-removal) service is designed for exactly that.
+
+You do not have to worry about how to move the vehicle. You do not have to find a separate towing company. You do not have to post ads and hope the right person sees them. Once we know the details, we can assess the vehicle and help you move forward with a simple next step.
+
+That matters even more in communities like Bragg Creek where people are often balancing work, family, travel into Calgary, and busy weekends around the outdoors. The last thing most people want is a long and frustrating car-selling process.
+
+## Junk Car Removal Bragg Creek Without the Runaround
+
+Some vehicles are not completely dead, but they are still no longer worth keeping.
+
+Maybe the body is rough. Maybe it starts sometimes and sometimes it does not. Maybe it has mechanical issues that make it too risky or too expensive to continue driving. These are the kinds of cars many owners struggle to sell privately because buyers expect too much for too little money.
+
+Our junk car removal Bragg Creek service is meant for those situations.
+
+A junk car does not need to be perfect. It does not even need to be roadworthy. It just needs to be a vehicle you no longer want to keep. We look at the real-world condition of the car and give you a realistic path forward. That is what makes the process feel easier and more honest.
+
+There is no need to clean it up beyond reason, spend money on repairs, or pretend it is in better shape than it is. We would rather deal with the truth and make the process simple.
+
+## Why Bragg Creek Vehicle Owners Need a More Practical Selling Option
+
+Bragg Creek is not just another location page. It has a different pace, a different feel, and different day-to-day needs.
+
+This is a community known for its natural setting, its local charm, and its connection to places like West Bragg Creek, White Avenue, and the Elbow River. People here are often active, busy, and not interested in wasting their free time handling a stressful sale for an old vehicle. If a car is sitting on the property and no longer useful, the goal is usually clear: remove it, get paid fairly, and move on.
+
+That is why local vehicle removal matters.
+
+A service that actually understands how to make the process easy for people in Bragg Creek is much more useful than a generic car buyer with no real focus on convenience. You want clear communication. You want someone to show up when expected. You want the job done without drama.
+
+That is what people appreciate most.
+
+## What Makes the Process Feel Easy
+
+The reason people often delay selling an old vehicle is simple. They expect the process to be annoying.
+
+They expect delays.
+
+They expect lowball offers.
+
+They expect confusing steps.
+
+They expect to do more work than the vehicle is worth.
+
+We work to remove that feeling from the start.
+
+Once you share your vehicle details, the next step is straightforward. We review the information, give you a quote, and if you want to move ahead, we arrange pickup. That is the kind of process people actually need.
+
+No one wants to make ten phone calls just to get rid of one unwanted car.
+
+## We Buy More Than Just Cars
+
+Even though the focus is often on cars, many vehicle owners in Bragg Creek also need help selling other types of vehicles. Depending on condition and fit, unwanted SUVs, vans, trucks, and other vehicles may also qualify.
+
+That makes the service useful for more than one situation. Some people are clearing out an extra vehicle. Some are dealing with an estate matter. Some have a family vehicle that finally gave out. Others just want to stop paying attention to something that has been sitting for too long.
+
+In all of those cases, the need is the same. A [fair and practical solution](/contact).
+
+## Frequently Asked Questions
+
+**How do I know if my vehicle qualifies?**
+
+If your car is old, damaged, unwanted, not running, or no longer worth repairing, there is a good chance it may qualify. The best way to know is to share the basic details and get a quote.
+
+**Do you only buy scrap cars?**
+
+No. We buy more than just scrap vehicles. Some are junk cars, some are damaged vehicles, and some are simply older cars that owners do not want anymore.
+
+**Do I need to spend money fixing the vehicle first?**
+
+No. In most cases, spending money on repairs before selling a junk or scrap vehicle does not make sense. We assess the vehicle based on its current condition.
+
+**What if the vehicle has been parked for a long time?**
+
+That is very common. Many of the vehicles people want removed have been sitting for months or even years.
+
+**Is private selling better?**
+
+Sometimes, but not always. If the vehicle is older, damaged, or not running, private selling often takes longer and brings more stress than people expect. A direct vehicle buying service is usually the easier option.
+
+## Get a Fair Offer for Your Vehicle in Bragg Creek
+
+If you are tired of looking at an unwanted vehicle and putting off the decision, now is a good time to take care of it. Whether you need cash for cars Bragg Creek, scrap car removal Bragg Creek, or junk car removal Bragg Creek, the goal is the same: make the process simple, fair, and worth your time.
+
+Your car may be old. It may be damaged. It may not run anymore. But it can still be removed properly, and it may still hold value.
+
+If you are ready to clear the space and stop worrying about it, YYC Cash for Cars gives you an easier way to do it.`,
+  },
+  {
+    id: 12,
     name: "Drumheller",
     slug: "drumheller",
     area: "Drumheller Region",
@@ -969,7 +1299,7 @@ If your old vehicle no longer serves its intended purpose, now is the time to ge
 [Call or submit our online form](/contact) with details on your vehicle today to begin the selling process! We will review the data, give an accurate quote, and arrange a smooth pickup process - all this with just one call or submission of our form! Let's turn that unwanted car into money while also clearing space on your property!`,
   },
   {
-    id: 11,
+    id: 13,
     name: "Lethbridge",
     slug: "lethbridge",
     area: "Southern Alberta",
