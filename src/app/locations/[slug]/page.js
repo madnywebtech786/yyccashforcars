@@ -81,11 +81,14 @@ const locationsData = [
     distance: "36 km",
     primary: false,
     image: "/images/car-junk.webp",
-    heading: "Cash for Cars in Airdrie - Top Dollar for Your Vehicle",
+    metaTitle: "Cash for Cars Airdrie | Get Top Cash & Free Car Removal",
+    metaDescription:
+      "Top cash for your car in Airdrie! Fast, free car removal and fair offers for any vehicle. No hidden fees, just top value paid on the spot. Call 587-700-9806!",
+    heading: "Cash for Cars Airdrie – Top Dollar, Fast & Hassle-Free Vehicle Removal",
     description:
-      "YYC Cash for Cars proudly serves Airdrie and surrounding areas with professional car buying services. Just 36 km north of Calgary, we extend our exceptional service to Airdrie residents looking to sell their vehicles quickly and hassle-free. Whether you have a running car, non-running vehicle, or complete scrap, we buy it all! Our Airdrie service includes free towing, instant cash payments, and complete documentation assistance. We understand the unique needs of Airdrie's growing community and offer flexible scheduling to accommodate your busy lifestyle. Experience the easiest way to sell your car in Airdrie with our trusted, reliable service.",
+      "Welcome to Cash for Cars Airdrie, your trusted local partner for turning unwanted, old, damaged, or non-running vehicles into fast cash — backed with free pickup, transparent offers, and eco-friendly disposal. If you’re searching for the best way to sell your car in Airdrie, get rid of scrap vehicles quickly, or need reliable scrap car removal Airdrie and junk car removal Airdrie services, you’re in the right place.",
     additionalInfo:
-      "Airdrie is one of Alberta's fastest-growing cities, and we're committed to providing the same excellent service here as we do in Calgary. Our team regularly services Airdrie with multiple pickups daily.",
+      "Whether your car won’t start, is written off after an accident, or has simply reached the end of its road, we make selling it as simple as possible — with no stress, no hidden fees, and top cash offers paid immediately.",
     neighborhoods: [
       "Coopers Crossing",
       "Williamstown",
@@ -95,17 +98,133 @@ const locationsData = [
       "Reunion",
     ],
     features: [
-      "Free towing from anywhere in Airdrie",
-      "Quick 30-minute response time",
+      "Fast cash offers",
+      "Free scrap car removal Airdrie",
+      "Hands-off paperwork handling",
+      "Eco-friendly recycling",
+      "Same-day service",
+      "Fair and transparent pricing",
       "Cash paid on the spot",
-      "Buy all vehicle types and conditions",
-      "Environmentally responsible disposal",
-      "Friendly, professional service",
-      "No obligation quotes",
-      "Family-owned and operated",
+      "Buy vehicles in any condition",
     ],
     hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
     responseTime: "Under 45 minutes",
+    content: `Welcome to Cash for Cars Airdrie, your trusted local partner for turning unwanted, old, damaged, or non‑running vehicles into fast cash — backed with free pickup, transparent offers, and eco‑friendly disposal. If you’re searching for the best way to sell your car in Airdrie, get rid of scrap vehicles quickly, or need reliable [scrap car removal Airdrie](/service/scrap-car-removal) and junk car removal Airdrie services, you’re in the right place.
+
+Whether your car won’t start, is written off after an accident, or has simply reached the end of its road, we make selling it as simple as possible — with no stress, no hidden fees, and [top cash offers paid immediately](/).
+
+## Why Airdrie Drivers Choose Our Cash for Cars Service
+
+Selling a vehicle in Airdrie, Alberta shouldn’t be complicated. Yet traditional private sales and dealership trade‑ins often mean wasted time, disappointment, and low offers. That’s where we step in. Our cash for cars Airdrie service is specifically designed for Airdrie residents who want:
+
+Fast Cash Offers
+We give you a fair and transparent cash quote — often within minutes, not days — based on your car’s condition, make, model, age, and market value.
+
+Free Scrap Car Removal Airdrie
+You won’t spend extra on towing. We come right to your location in Airdrie and pick up your vehicle for free — whether it’s running, completely dead, or somewhere in between.
+
+Hands‑Off Paperwork Handling
+We handle all necessary vehicle transfer paperwork so you don’t deal with confusing forms or government requirements.
+
+Eco‑Friendly Recycling
+Our junk car removal Airdrie process ensures vehicles are responsibly dismantled and recycled, reducing landfill waste and supporting sustainable metal reuse.
+
+Same‑Day Service
+Most pickups can be arranged for the same day or next day — perfect if you need to free up space fast.
+
+This combination of speed, value, reliability, and convenience is exactly why more Airdrie locals trust our service over private selling or listing services.
+
+## What Vehicles We Buy in Airdrie
+
+We accept almost any type of vehicle, no matter its condition:
+
+- Cars (running or not)
+- SUVs & crossovers
+- Trucks & pickups
+- Vans & minivans
+- Motorcycles & ATVs
+- RVs, campers, and specialty vehicles
+
+From non‑running clunkers to accident‑damaged vehicles, we turn what’s considered junk to most into fast cash for cars in Airdrie.
+
+## How Our Cash for Cars Airdrie Process Works (Simple 3-Step System)
+
+We’ve streamlined the process so that selling your vehicle is smooth and stress‑free — even if this is your first time.
+
+### Step 1 – Tell Us About Your Vehicle
+
+Just call or fill out our online form with a few details:
+Make, model, year, condition, and where the vehicle is located in Airdrie. We’ll provide a free, no‑obligation quote based on this information.
+
+### Step 2 – Receive a Fair Offer
+
+Our team will evaluate your vehicle and present you with a quote that reflects the true value of your vehicle — including any usable parts or scrap metal value. This offer is yours to accept or reject.
+
+### Step 3 – Schedule Pickup & Get Paid
+
+Once you accept the offer, we arrange a time for free pickup. When we arrive, we pay you cash on the spot (or by cheque if you prefer), complete paperwork, and remove the vehicle from your property.
+
+That’s it — no hidden fees, no negotiation stress, and no long waits.
+
+## What Affects Your Cash Offer in Airdrie
+
+Your cash payout is based on a few key factors:
+
+Vehicle Condition
+Vehicles with functional parts, intact engines, or repairable components often get higher offers than completely destroyed cars.
+
+Make, Model & Year
+Popular vehicles and models with high parts demand can fetch more.
+
+Current Scrap Metal Market
+Sometimes the price of your vehicle’s raw materials — like steel — affects the final offer.
+
+You won’t waste time guessing — we give transparent pricing and explain exactly how we arrived at your offer.
+
+## Scrap Car Removal Airdrie — Quick & Responsible
+
+If your vehicle is no longer drivable or just sits gathering dust, our scrap car removal Airdrie service gets it gone fast. Instead of spending time and money trying to sell it privately:
+
+- Skip costly tow fees
+- Avoid time‑wasters and tire kickers
+- Say goodbye to expired safety inspections
+- Get same‑day pickup and payment
+
+We use licensed facilities to recycle all metals and reusable parts, ensuring your vehicle is disposed of in an environmentally responsible way.
+
+## Junk Car Removal Airdrie – More Than Just Scrapping
+
+Junk cars often pose challenges:
+
+- They take up valuable space on your property
+- They depreciate with every passing year
+- They can leak fluids or become environmental hazards
+
+Our junk car removal Airdrie service doesn’t just haul away that eyesore — it pays you cash, handles all paperwork, and recycles your vehicle safely. The whole process is designed to be fast, efficient, and stress‑free.
+
+## FAQs — Everything You Need to Know (Airdrie)
+
+Do you buy vehicles with no title?
+Yes! We can handle vehicles without title paperwork and guide you through any necessary documentation steps.
+
+What if my car isn’t running?
+No problem — we buy cars in all conditions, whether they’ve been sitting for years or were in a recent collision.
+
+Do you charge for towing?
+Absolutely not — we provide free pickup and removal within Airdrie.
+
+How quickly will I get paid?
+Typically on the spot at pickup, either in cash or by cheque — whichever you prefer.
+
+## Why Selling With Us Beats DIY & Other Buyers
+
+Selling your old or unwanted vehicle shouldn’t be a headache. Cash for Cars Airdrie offers a straightforward, honest, and local solution — getting you fast cash and removing your car with zero hassle.
+
+You live in Airdrie, AB — we come to you.
+You’re tired of that old car — we’ll take it away.
+You want top value and quick service — you’re in the right place.
+
+[Contact us now](/contact) to get your free, instant cash offer and schedule your vehicle pickup today!`,
   },
   {
     id: 3,
@@ -898,8 +1017,8 @@ export default async function LocationPage({ params }) {
                         </h2>
                         <p className="mt-3 text-sm leading-7 text-gray-700">
                           We handle unwanted vehicles with straightforward quotes,
-                          free towing, and prompt collection across Drumheller and
-                          nearby areas.
+                          free towing, and prompt collection across {location.name}{" "}
+                          and nearby areas.
                         </p>
                         <div className="mt-6 grid gap-3 sm:grid-cols-2">
                           <div className="rounded-2xl border border-primary/10 bg-primary/5 p-4">
@@ -930,8 +1049,11 @@ export default async function LocationPage({ params }) {
                     let standardSectionCount = 0;
 
                     sections.forEach((section, index) => {
-                      const isFaq = section.title.toLowerCase() === "faqs";
-                      const isBracketFaq = section.title.toLowerCase() === "(faqs)";
+                      const normalizedTitle = section.title.toLowerCase().trim();
+                      const isFaq = normalizedTitle === "faqs" || normalizedTitle.startsWith("faqs");
+                      const isBracketFaq =
+                        normalizedTitle === "(faqs)" ||
+                        normalizedTitle.startsWith("(faqs");
                       const isCta = section.title
                         .toLowerCase()
                         .includes("get your junk car removed") ||
