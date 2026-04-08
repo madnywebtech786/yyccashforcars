@@ -57,6 +57,14 @@ const locations = [
     tagline: "Fast cash for cars service with free removal in Bearspaw.",
   },
   {
+    name: "Bennett",
+    href: "/locations/bennett",
+    area: "Rocky View County",
+    distance: "31 km",
+    style: "from-[#fff8f8] to-white",
+    tagline: "Cash for cars service with free pickup in Bennett.",
+  },
+  {
     name: "Banff",
     href: "/locations/banff",
     area: "Mountain Region",

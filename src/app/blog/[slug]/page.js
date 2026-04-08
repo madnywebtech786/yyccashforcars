@@ -64,6 +64,26 @@ const formatDate = (dateString) => {
   });
 };
 
+const blogSidebarLocations = [
+  { name: "Calgary", href: "/" },
+  { name: "Airdrie", href: "/locations/airdrie" },
+  { name: "Banff", href: "/locations/banff" },
+  { name: "Bearspaw", href: "/locations/bearspaw" },
+  { name: "Beiseker", href: "/locations/beiseker" },
+  { name: "Bennett", href: "/locations/bennett" },
+  { name: "Bragg Creek", href: "/locations/bragg-creek" },
+  { name: "Brooks", href: "/locations/brooks" },
+  { name: "Canmore", href: "/locations/canmore" },
+  { name: "Chestermere", href: "/locations/chestermere" },
+  { name: "Cochrane", href: "/locations/cochrane" },
+  { name: "Drumheller", href: "/locations/drumheller" },
+  { name: "High River", href: "/locations/high-river" },
+  { name: "Lethbridge", href: "/locations/lethbridge" },
+  { name: "Okotoks", href: "/locations/okotoks" },
+  { name: "Red Deer", href: "/locations/red-deer" },
+  { name: "Strathmore", href: "/locations/strathmore" },
+];
+
 export default function BlogPostPage({ params }) {
   const { slug } = params;
   const post = getPostBySlug(slug);
@@ -298,18 +318,7 @@ export default function BlogPostPage({ params }) {
                 Area We Serve
               </h2>
               <ul className="space-y-2">
-                {[
-                  { name: "Airdrie", href: "/locations/airdrie" },
-                  { name: "Calgary", href: "/" },
-                  { name: "Canmore", href: "/locations/canmore" },
-                  { name: "Chestermere", href: "/locations/chestermere" },
-                  { name: "Cochrane", href: "/locations/cochrane" },
-                  { name: "Drumheller", href: "/locations/drumheller" },
-                  { name: "High River", href: "/locations/high-river" },
-                  { name: "Lethbridge", href: "/locations/lethbridge" },
-                  { name: "Okotoks", href: "/locations/okotoks" },
-                  { name: "Strathmore", href: "/locations/strathmore" },
-                ].map((location) => (
+                {blogSidebarLocations.map((location) => (
                   <li key={location.href}>
                     <Link
                       href={location.href}

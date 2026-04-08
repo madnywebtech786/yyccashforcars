@@ -163,6 +163,16 @@ export default function WorkingAreasSection() {
       style: "from-[#f7fbff] to-white",
       tagline: "Cash for cars and scrap removal service in Bearspaw.",
     },
+    {
+      id: 16,
+      name: "Bennett",
+      area: "Rocky View County",
+      distance: "31 km",
+      primary: false,
+      href: "/locations/bennett",
+      style: "from-[#fff8f8] to-white",
+      tagline: "Cash for cars and scrap removal service in Bennett.",
+    },
   ];
 
   return (
