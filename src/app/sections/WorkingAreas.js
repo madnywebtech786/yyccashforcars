@@ -153,6 +153,16 @@ export default function WorkingAreasSection() {
       style: "from-[#fff8f8] to-white",
       tagline: "Cash for cars and scrap removal service in Beiseker.",
     },
+    {
+      id: 15,
+      name: "Bearspaw",
+      area: "Rocky View County",
+      distance: "22 km",
+      primary: false,
+      href: "/locations/bearspaw",
+      style: "from-[#f7fbff] to-white",
+      tagline: "Cash for cars and scrap removal service in Bearspaw.",
+    },
   ];
 
   return (

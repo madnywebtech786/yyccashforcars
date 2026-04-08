@@ -1936,6 +1936,219 @@ Yes, [scrap car removal Beiseker](/services/scrap-car-removal) is available for 
 
 No, towing is usually included as part of the service. This makes the process easier for sellers because you do not need to arrange a separate tow truck or spend extra money just to remove an unwanted vehicle.`,
   },
+  {
+    id: 16,
+    name: "Bearspaw",
+    slug: "bearspaw",
+    area: "Rocky View County",
+    distance: "22 km",
+    primary: false,
+    image: "/images/car-about.webp",
+    metaTitle: "Cash for Cars Bearspaw | Fast Cash & Free Vehicle Removal",
+    metaDescription:
+      "Get fast cash for cars in Bearspaw, AB. We buy unwanted, old, damaged, and scrap vehicles with easy, hassle-free removal. Call today (587-700-9806)",
+    heading: "Cash for Cars Bearspaw - Fast Cash & Easy Vehicle Removal in Bearspaw, AB",
+    description:
+      "If you are searching for Cash for Cars Bearspaw, you have arrived at the right place. At YYC Cash, we offer top cash offers, same-day removal, and stress-free service for unwanted vehicles in Bearspaw.",
+    additionalInfo:
+      "We help Bearspaw homeowners and businesses turn unwanted, old, damaged, and scrap vehicles into fast cash with free removal and simple scheduling.",
+    neighborhoods: [
+      "Bearspaw",
+      "Rocky View County",
+      "Bearspaw Road",
+      "Acreage properties",
+      "Lakeside homes",
+      "Driveways and garages",
+      "Farm properties",
+      "Local business sites",
+    ],
+    features: [
+      "Top cash offers for Bearspaw vehicles",
+      "Free same-day or next-day removal",
+      "Pickup for junk, scrap, damaged, and non-running cars",
+      "Fair pricing with clear quotes",
+      "Service for acreage homes and local businesses",
+      "Cash or e-transfer paid at pickup",
+      "Responsible recycling and disposal",
+      "Fast local support without hidden fees",
+    ],
+    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    responseTime: "Same day or next day",
+    content: `If you are searching for Cash for Cars Bearspaw, you have arrived at the right place. At YYC Cash, we are Bearspaw's trusted and professional car buyers offering [top cash offers](/), same-day removal, and stress-free service. Whether you have an old clunker, a damaged vehicle, scrap car, or junk car taking up space, we make selling and removing your vehicle easy and rewarding.
+
+## Why Bearspaw Residents Choose YYC Cash
+
+Living in beautiful Bearspaw, AB means peaceful neighbourhoods, scenic drives, and close-knit community values. But when vehicles reach the end of their life, homeowners and businesses often struggle with what to do next:
+
+- Cars that no longer start
+- Vehicles that have been in accidents
+- Old trucks, SUVs, and vans gathering rust
+- Non-running cars occupying garage or driveway space
+
+That is where YYC Cash steps in. We turn unwanted vehicles into fast cash with simple service, friendly support, and free removal throughout Bearspaw.
+
+Our team understands Bearspaw's unique needs. We know that convenience, fairness, and trust matter. When you call us, you are treated like a neighbour, not a number.
+
+## We Pay Real Cash for Cars in Bearspaw
+
+At YYC Cash, we operate with one clear mission: giving Bearspaw drivers real money for cars, trucks, vans, and SUVs regardless of make, model, or condition. You will not have to haggle, wait, or repair your vehicle before selling it to us.
+
+Whether your car is:
+
+- Old and rusty
+- No longer drives
+- Damaged in collision
+- Flooded or weather-worn
+- A project car you never finish
+
+We still offer a competitive cash price.
+
+We take pride in being Bearspaw's reliable and transparent cash-for-cars service. You will always know how much you are getting and why it is fair.
+
+## Fast & Free Scrap Car Removal Bearspaw
+
+One of the biggest hassles with old vehicles is getting them off your property. Instead of paying a tow company or spending hours online trying to find a buyer, you can simply call YYC Cash.
+
+Our [scrap car removal Bearspaw](/services/scrap-car-removal) service is:
+
+- Fast: Same-day pickup
+- Free: No towing cost to you
+- Convenient: We work around your schedule
+
+Here is how simple it is:
+
+1. Contact us for a quote by phone, text, or online form.
+2. Get a fair cash offer in minutes.
+3. Choose a pickup time that works for you.
+4. We arrive, remove your vehicle, and pay on the spot.
+
+No hidden fees. No surprises. Just honest cash and quick removal.
+
+## Junk Car Removal Bearspaw - We Buy the Vehicles Others Won't
+
+Many Bearspaw residents have experienced it: you call a scrap yard or dealer, and they say they will not take your vehicle because it does not run, or it has been in an accident. That stops today.
+
+At YYC Cash, we specialize in [junk car removal Bearspaw](/services/cash-for-scrap-cars) and we pay competitive prices for:
+
+- Cars that do not start or run
+- Wrecked vehicles
+- Salvage titles
+- Vehicles with missing parts
+- Rusted farm trucks
+
+You do not have to spend hours online listing your car, negotiating with strangers, or dealing with low-ball offers. We buy the vehicles others reject and turn them into fast cash for you.
+
+## How Our Bearspaw Cash for Cars Process Works
+
+We have designed our process to be simple, efficient, and headache-free. If you want the most cash and the fastest removal in Bearspaw, follow these easy steps:
+
+### 1. Quick Vehicle Quote
+
+Give us your car details: year, make, model, condition, and location. We respond quickly with an honest offer.
+
+### 2. Accept the Offer
+
+No pushy sales. If you like the offer, say yes. If not, you are free to walk away.
+
+### 3. Schedule Pickup
+
+Choose a day and time that suits your Bearspaw schedule, often the same day or next day.
+
+### 4. Get Paid on the Spot
+
+We arrive on time, complete any paperwork, and pay you cash immediately.
+
+### 5. Free Removal
+
+We handle all the towing, so you do not lift a finger.
+
+## What Types of Vehicles We Buy in Bearspaw
+
+We buy almost every type of vehicle, including:
+
+- Cars running or not
+- Trucks and pickups
+- Vans and minivans
+- SUVs and crossovers
+- Old classics
+- Junk cars and scrap vehicles
+
+Whether it is a project car you never finished or a clunker taking up space, we are interested.
+
+## Benefits of Choosing YYC Cash in Bearspaw
+
+Selling your car to us comes with advantages you will not find with private buyers or traditional dealers:
+
+- No advertising headaches
+- No repair costs
+- Fast payout
+- Free vehicle removal
+- Trusted Bearspaw service
+
+You will not deal with strangers, endless emails, texts, or no-shows from private buyers. You sell your vehicle as-is with no expensive repairs needed. You get paid in cash or e-transfer immediately at pickup. We handle the towing and transport at no cost.
+
+## Bearspaw, AB - Our Community, Our Neighbourhood
+
+Bearspaw is more than just a location. It is a community known for wide-open spaces, scenic views, and a friendly way of life. From rural acreage homes to lakeside properties, Bearspaw drivers deserve a car removal and cash-for-cars experience that reflects the community's pride and standards.
+
+We are committed to being Bearspaw's top choice for vehicle removal services including:
+
+- cash for cars Bearspaw
+- scrap car removal Bearspaw
+- junk car removal Bearspaw
+- vehicle recycling and responsible disposal
+
+When you work with us, you are not just selling a car. You are partnering with a trusted local buyer.
+
+## Frequently Asked Questions (Bearspaw Cash for Cars)
+
+**Q: How much will I get for my car in Bearspaw?**
+
+A: Cash offers depend on the vehicle's condition, age, make, and market value. We always provide fair and transparent pricing with no surprise deductions.
+
+**Q: Do you tow my car for free in Bearspaw?**
+
+A: Yes. Our [scrap car removal Bearspaw](/services/scrap-car-removal) service is always free, whether the vehicle runs or not.
+
+**Q: Can I sell without a title?**
+
+A: In most cases, yes. We will guide you through the documentation process so your sale is legal and secure.
+
+**Q: What if my car is a junk vehicle?**
+
+A: That is exactly what we buy. Our [junk car removal Bearspaw](/services/cash-for-scrap-cars) service ensures even non-running cars are worth money.
+
+**Q: How quickly can I get paid?**
+
+A: Often the same day. When we pick up your vehicle, you receive cash or e-transfer immediately.
+
+## Responsible Recycling & Environmentally-Friendly Disposal
+
+At YYC Cash, we do not just buy cars. We recycle them responsibly. Old vehicles contain fluids, metals, and materials that can harm the environment if not handled properly. That is why we follow all Alberta recycling standards:
+
+- Authorized dismantling
+- Eco-friendly fluid removal
+- Metal recycling
+- Parts re-use whenever possible
+
+By choosing our Bearspaw service, you contribute to a cleaner environment and reduce landfill waste.
+
+## Sell Your Vehicle to Bearspaw's Trusted Buyer
+
+If you are ready to turn your vehicle into fast, guaranteed cash, do not wait. Contact us today for a free quote on your car or truck. Whether your vehicle still runs or is pure scrap, we offer:
+
+- Best cash offers
+- Free removal in Bearspaw
+- Same-day pickup
+- No hidden fees
+- Friendly local service
+
+Cash for Cars Bearspaw has never been easier.
+
+## Get Started Now
+
+[Call us](/contact), text us, or fill out our online form. We typically respond within minutes and can often schedule your pickup the same day. Do not let that old car continue to occupy your driveway. Convert it into cash today.`,
+  },
 ];
 
 // Generate metadata for SEO

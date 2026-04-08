@@ -49,6 +49,14 @@ const locations = [
     tagline: "Cash for cars service with free towing in Beiseker.",
   },
   {
+    name: "Bearspaw",
+    href: "/locations/bearspaw",
+    area: "Rocky View County",
+    distance: "22 km",
+    style: "from-[#f7fbff] to-white",
+    tagline: "Fast cash for cars service with free removal in Bearspaw.",
+  },
+  {
     name: "Banff",
     href: "/locations/banff",
     area: "Mountain Region",
