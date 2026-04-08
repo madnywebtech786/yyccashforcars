@@ -33,6 +33,14 @@ const locations = [
     tagline: "Cash for cars service with quick pickup in Airdrie.",
   },
   {
+    name: "Brooks",
+    href: "/locations/brooks",
+    area: "Southeast Alberta",
+    distance: "190 km",
+    style: "from-[#f7fbff] to-white",
+    tagline: "Fast cash for cars service with free towing in Brooks.",
+  },
+  {
     name: "Banff",
     href: "/locations/banff",
     area: "Mountain Region",

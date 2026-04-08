@@ -1598,6 +1598,192 @@ Don't allow that old, damaged, or unused vehicle to waste another moment of spac
 
 No matter your junk car removal or cash for junk car needs in Lethbridge, we are your local experts - [offering top offers](/contact), free towing, and honest service from start to finish.`,
   },
+  {
+    id: 14,
+    name: "Brooks",
+    slug: "brooks",
+    area: "Southeastern Alberta",
+    distance: "191 km",
+    primary: false,
+    image: "/images/car-about.webp",
+    metaTitle: "Cash for Cars Brooks | Junk & Scrap Car Removal",
+    metaDescription:
+      "Get top cash for cars in Brooks, AB. We buy junk, scrap, old, and damaged vehicles with free towing, fast pickup, and fair cash offers.",
+    heading: "Cash for Cars Brooks",
+    description:
+      "If you have an old, damaged, unwanted, or non-running vehicle taking up space, getting rid of it should not feel harder than keeping it. That is exactly why our cash for cars Brooks service is built around speed, fairness, and convenience.",
+    additionalInfo:
+      "We help vehicle owners across Brooks and the wider County of Newell with free towing, fast pickup, and fair cash offers for junk, scrap, and unwanted vehicles.",
+    neighborhoods: [
+      "Downtown Brooks",
+      "1st Avenue West",
+      "Lake Newell",
+      "Brooks Aqueduct",
+      "JBS Canada Centre",
+      "County of Newell",
+      "Bassano",
+      "Duchess",
+      "Rosemary",
+    ],
+    features: [
+      "Fast cash offers for unwanted vehicles",
+      "Free towing in Brooks and nearby areas",
+      "Pickup for non-running, damaged, and scrap cars",
+      "Fair pricing based on real vehicle condition",
+      "Service for homes, lots, shops, and rural properties",
+      "Quick turnaround and easy scheduling",
+      "Environmentally responsible disposal",
+      "Straightforward local service with no hassle",
+    ],
+    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    responseTime: "Same day or next day",
+    content: `If you have an old, damaged, unwanted, or non-running vehicle taking up space, getting rid of it should not feel harder than keeping it. That is exactly why our cash for cars Brooks service is built around speed, fairness, and convenience. Instead of posting your vehicle online, waiting for strangers to message you, and dealing with no-shows, you can get a straightforward offer and have the vehicle removed without the usual stress. YYC Cash already positions itself around free towing, fast pickup, and cash offers for unwanted vehicles across Calgary and nearby Alberta communities, and this Brooks page should extend that promise with stronger local intent.
+
+Brooks is not just another dot on the map. It sits within the County of Newell, and the region connects directly to the Trans-Canada Highway and Highway 36, making it an important movement corridor in southeastern Alberta. The area is also tied to local landmarks and community anchors like Lake Newell, the Brooks Aqueduct, downtown around 1st Avenue West, and the JBS Canada Centre. The City of Brooks also describes itself as the "City of 100 Hellos," reflecting a welcoming and diverse local community. A strong Brooks page should sound like it understands this place and the people who live and work here.
+
+## A simple way to sell an unwanted vehicle in Brooks
+
+Selling a problem vehicle privately often becomes a bigger problem than the car itself. Maybe the engine is gone. Maybe the transmission is slipping. Maybe the body has rust, hail damage, collision damage, or missing parts. Maybe the registration process feels annoying, or the vehicle has been parked so long that it is now just a driveway burden. In all of those situations, people are not looking for a fancy process. They want an easy one.
+
+That is where cash for cars Brooks makes sense. You contact the buyer, share the vehicle details, receive a fair quote based on condition and value, and arrange pickup. There is no need to clean the car for strangers, renew ads every few days, or negotiate with ten different people who all want a lower price. If the goal is to free up space and get paid without wasting time, this is the smarter route.
+
+## Why Brooks drivers use cash for cars services
+
+Life in Brooks and the wider County of Newell depends on reliable transportation. Whether someone is commuting locally, moving between communities like Bassano, Duchess, and Rosemary, heading across Highway 1, or managing work and family errands around town, a dead vehicle quickly becomes more than an inconvenience. It interrupts routine and creates an ongoing cost. The Brooks region is positioned between Calgary, Medicine Hat, and Lethbridge, which makes vehicle movement important for daily life and business.
+
+Most people who search for cash for cars Brooks are usually dealing with one of these real problems:
+
+### The repair bill is too high
+
+Once the estimate starts climbing, many owners realize the car is not worth fixing. Putting more money into an aging vehicle rarely feels good when that money could go toward something more dependable.
+
+### The vehicle does not run
+
+A non-running vehicle is hard to sell privately and expensive to tow if you handle it on your own. A proper [junk car removal](/services/cash-for-junk-cars) Brooks service solves both problems at once.
+
+### The car has been sitting too long
+
+Unused vehicles collect dust, lose value, and make properties look cluttered. In some cases, they also become a source of fluid leaks, tire deterioration, and neighbor complaints.
+
+### You want quick money without the hassle
+
+Sometimes the goal is simple. You want the car gone, and you want fair cash without waiting weeks for a buyer.
+
+## What types of vehicles we buy in Brooks
+
+We make it clear that not every seller has the same kind of vehicle problem. Some have total junk cars. Others have high-mileage vehicles that still start but are no longer worth keeping. Some are dealing with accident damage. Others just have an older vehicle that nobody in the private market wants.
+
+- scrap cars
+- junk cars
+- accident-damaged vehicles
+- non-running cars
+- old sedans
+- SUVs and crossovers
+- pickup trucks
+- vans
+- commercial vehicles
+- vehicles with mechanical issues
+- rusted or weathered vehicles
+- cars with missing parts
+
+## How your vehicle value is usually judged
+
+The offer for a vehicle in Brooks usually depends on:
+
+- make and model
+- year
+- overall condition
+- whether it runs
+- damage level
+- missing parts
+- salvageable components
+- current demand for usable parts and recyclable metals
+- pickup location
+
+## Scrap car removal Brooks without the usual headache
+
+A lot of people searching scrap car removal Brooks are not looking for a long sales pitch. They are usually dealing with a car that is beyond practical repair. The battery is dead, the tires are flat, the body is damaged, or the engine is finished. At that point, the vehicle is no longer a daily asset. It is just dead weight.
+
+A good scrap car removal service solves the exact pain points that matter:
+
+- no need to move the vehicle yourself
+- no need to find a separate tow truck
+- no need to spend more money on a car you are trying to get rid of
+- no need to keep a useless vehicle on your property
+
+We assure Brooks customers that removal can be arranged from residential areas, commercial sites, parking lots, acreages, and nearby rural spots around the region.
+
+## Junk car removal Brooks for vehicles nobody else wants
+
+The phrase junk car removal Brooks usually captures a different intent from scrap. A junk car may still be partly complete, but it is unwanted because of age, breakdowns, failed inspections, accident history, high mileage, or repeated repair costs. This is where problem-solving copy works best.
+
+If your vehicle keeps breaking down, has become unsafe, or is no longer worth insuring and maintaining, selling it for cash can be the cleanest exit. You stop spending money on something that keeps asking for more. You clear your driveway, garage, shop yard, or property. You get paid. Then you move on.
+
+That is the emotional win behind cash for cars Brooks. It is not only about the vehicle. It is about removing stress.
+
+## Local service matters in Brooks
+
+Brooks is part of a wider regional network that includes the County of Newell and nearby communities such as Bassano, Duchess, and Rosemary. The area is connected by Highway 1 and Highway 36, and local life is shaped by a mix of residential neighborhoods, commercial activity, agriculture, and regional travel. The city is also tied to local landmarks like Lake Newell, the Brooks Aqueduct, and the JBS Canada Centre, which makes place-based references feel real when used naturally.
+
+We help vehicle owners across Brooks, from central areas near downtown and 1st Avenue West to homes, lots, businesses, and nearby rural properties throughout the wider region. Whether your car is parked at home, stuck in a yard, sitting outside a shop, or no longer worth keeping near Lake Newell or along the Highway 1 and Highway 36 corridors, we make pickup simple.
+
+## A fast and clear process
+
+### 1. Tell us about the vehicle
+
+Share the make, model, year, condition, and location in Brooks.
+
+### 2. Get a fair cash offer
+
+You receive a straightforward quote based on the vehicle's real condition and value.
+
+### 3. Schedule pickup
+
+Once you accept, pickup is arranged and the vehicle is removed.
+
+### 4. Get paid
+
+You receive payment when the vehicle is collected.
+
+## Environmentally responsible removal matters too
+
+Professional vehicle removal is not only about clearing space. It also helps keep reusable metals and parts in circulation while reducing the risk of fluids and waste being handled the wrong way. In a region shaped by agriculture, irrigation history, and community pride, responsible disposal matters. Brooks' story has long been connected to irrigation infrastructure like the Brooks Aqueduct and the development of the surrounding region, so environmentally responsible removal fits the values of taking care of land and property.
+
+## Why choose YYC Cash for cars in Brooks
+
+Choose YYC Cash in Brooks when you want:
+
+- a fair offer without drawn-out negotiation
+- free pickup based on your current service model
+- fast turnaround
+- help with the basic selling process
+- a buyer that handles unwanted, damaged, old, and non-running vehicles
+- a service that understands Alberta location pages should feel local, not copied
+
+## Get started today
+
+If your vehicle is costing you space, time, and patience, there is no reason to keep dragging the problem out. Our cash for cars Brooks service is built for people who want a simple answer. Whether you need scrap car removal Brooks for a vehicle that is done for good, or junk car removal Brooks for an unwanted car that is no longer worth keeping, the goal is the same: make the process easy, fair, and fast.
+
+[Get your quote](/contact), book your pickup, and turn that unwanted vehicle into cash without the stress of a private sale.
+
+## FAQs for the Brooks page
+
+**How quickly can I sell my car in Brooks?**
+
+If the pickup schedule is available, the process can move quickly. Your site already promotes same-day or next-day pickup in many service areas, so Brooks can follow that same positioning where operationally accurate.
+
+**Do you buy non-running vehicles in Brooks?**
+
+Yes. A strong cash for cars Brooks page should clearly state that non-running, damaged, old, and unwanted vehicles can still qualify for pickup and an offer.
+
+**Is towing included with junk car removal Brooks?**
+
+Your current site repeatedly promotes free towing and free pickup, so this should be part of the Brooks page as well.
+
+**What is the difference between scrap car removal Brooks and junk car removal Brooks?**
+
+Scrap car removal usually refers to vehicles with little practical use left and mostly material or parts value. Junk car removal often includes unwanted vehicles that may still have some usable components but are no longer worth keeping.`,
+  },
 ];
 
 // Generate metadata for SEO

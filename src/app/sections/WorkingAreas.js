@@ -133,6 +133,16 @@ export default function WorkingAreasSection() {
       style: "from-[#f7fbff] to-white",
       tagline: "Cash for cars and scrap removal service in Lethbridge.",
     },
+    {
+      id: 11,
+      name: "Brooks",
+      area: "Southern Alberta",
+      distance: "190 km",
+      primary: false,
+      href: "/locations/brooks",
+      style: "from-[#f7fbff] to-white",
+      tagline: "Cash for cars and scrap removal service in Brooks.",
+    },
   ];
 
   return (
