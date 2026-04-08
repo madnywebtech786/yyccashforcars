@@ -515,7 +515,6 @@ export default function page() {
       <AboutHero />
       <AboutUsContent />
       <TestimonialSection />
-      <StatsSection />
       <GallerySection />
     </div>
   );
