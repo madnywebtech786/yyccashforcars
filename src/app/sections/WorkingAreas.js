@@ -143,6 +143,16 @@ export default function WorkingAreasSection() {
       style: "from-[#f7fbff] to-white",
       tagline: "Cash for cars and scrap removal service in Brooks.",
     },
+    {
+      id: 14,
+      name: "Beiseker",
+      area: "Northeast of Calgary",
+      distance: "71 km",
+      primary: false,
+      href: "/locations/beiseker",
+      style: "from-[#fff8f8] to-white",
+      tagline: "Cash for cars and scrap removal service in Beiseker.",
+    },
   ];
 
   return (

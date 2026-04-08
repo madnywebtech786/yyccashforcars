@@ -41,6 +41,14 @@ const locations = [
     tagline: "Fast cash for cars service with free towing in Brooks.",
   },
   {
+    name: "Beiseker",
+    href: "/locations/beiseker",
+    area: "Northeast of Calgary",
+    distance: "71 km",
+    style: "from-[#fff8f8] to-white",
+    tagline: "Cash for cars service with free towing in Beiseker.",
+  },
+  {
     name: "Banff",
     href: "/locations/banff",
     area: "Mountain Region",
