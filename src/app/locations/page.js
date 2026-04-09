@@ -121,6 +121,14 @@ const locations = [
     tagline: "Cash for unwanted vehicles across Cochrane and nearby areas.",
   },
   {
+    name: "Crossfield",
+    href: "/locations/crossfield",
+    area: "Rocky View County",
+    distance: "41 km",
+    style: "from-[#f7fbff] to-white",
+    tagline: "Fast cash for cars service with free pickup in Crossfield.",
+  },
+  {
     name: "Cremona",
     href: "/locations/cremona",
     area: "Mountain View County",

@@ -44,6 +44,16 @@ export default function WorkingAreasSection() {
       tagline: "Cash for unwanted vehicles across Cochrane and nearby areas.",
     },
     {
+      id: 20,
+      name: "Crossfield",
+      area: "Rocky View County",
+      distance: "41 km",
+      primary: false,
+      href: "/locations/crossfield",
+      style: "from-[#f7fbff] to-white",
+      tagline: "Cash for cars and scrap removal service in Crossfield.",
+    },
+    {
       id: 8,
       name: "Canmore",
       area: "Mountain Region",

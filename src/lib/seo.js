@@ -41,6 +41,7 @@ export const staticPages = [
   "locations/carstairs",
   "locations/chestermere",
   "locations/cochrane",
+  "locations/crossfield",
   "locations/cremona",
   "locations/drumheller",
   "locations/high-river",
