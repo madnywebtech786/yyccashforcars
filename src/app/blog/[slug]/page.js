@@ -75,6 +75,7 @@ const blogSidebarLocations = [
   { name: "Bragg Creek", href: "/locations/bragg-creek" },
   { name: "Brooks", href: "/locations/brooks" },
   { name: "Canmore", href: "/locations/canmore" },
+  { name: "Carstairs", href: "/locations/carstairs" },
   { name: "Chestermere", href: "/locations/chestermere" },
   { name: "Cochrane", href: "/locations/cochrane" },
   { name: "Cremona", href: "/locations/cremona" },

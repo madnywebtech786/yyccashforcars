@@ -97,6 +97,14 @@ const locations = [
     tagline: "Mountain-area cash for cars service with reliable removal.",
   },
   {
+    name: "Carstairs",
+    href: "/locations/carstairs",
+    area: "Mountain View County",
+    distance: "49 km",
+    style: "from-[#f4fbff] to-white",
+    tagline: "Fast cash for cars service with free pickup in Carstairs.",
+  },
+  {
     name: "Chestermere",
     href: "/locations/chestermere",
     area: "East Calgary",

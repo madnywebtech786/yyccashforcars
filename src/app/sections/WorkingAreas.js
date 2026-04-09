@@ -54,6 +54,16 @@ export default function WorkingAreasSection() {
       tagline: "Mountain-area cash for cars service with reliable removal.",
     },
     {
+      id: 19,
+      name: "Carstairs",
+      area: "Mountain View County",
+      distance: "49 km",
+      primary: false,
+      href: "/locations/carstairs",
+      style: "from-[#f4fbff] to-white",
+      tagline: "Cash for cars and scrap removal service in Carstairs.",
+    },
+    {
       id: 13,
       name: "Banff",
       area: "Mountain Region",
