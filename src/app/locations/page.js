@@ -65,6 +65,14 @@ const locations = [
     tagline: "Cash for cars service with free pickup in Bennett.",
   },
   {
+    name: "Blackie",
+    href: "/locations/blackie",
+    area: "Foothills County",
+    distance: "67 km",
+    style: "from-[#f7fbff] to-white",
+    tagline: "Fast cash for cars service with free towing in Blackie.",
+  },
+  {
     name: "Banff",
     href: "/locations/banff",
     area: "Mountain Region",
@@ -103,6 +111,14 @@ const locations = [
     distance: "36 km",
     style: "from-[#fff7fb] to-white",
     tagline: "Cash for unwanted vehicles across Cochrane and nearby areas.",
+  },
+  {
+    name: "Cremona",
+    href: "/locations/cremona",
+    area: "Mountain View County",
+    distance: "76 km",
+    style: "from-[#f7fbff] to-white",
+    tagline: "Fast cash for cars service with fair pickup in Cremona.",
   },
   {
     name: "Drumheller",

@@ -173,6 +173,26 @@ export default function WorkingAreasSection() {
       style: "from-[#fff8f8] to-white",
       tagline: "Cash for cars and scrap removal service in Bennett.",
     },
+    {
+      id: 17,
+      name: "Blackie",
+      area: "Foothills County",
+      distance: "67 km",
+      primary: false,
+      href: "/locations/blackie",
+      style: "from-[#f7fbff] to-white",
+      tagline: "Cash for cars and scrap removal service in Blackie.",
+    },
+    {
+      id: 18,
+      name: "Cremona",
+      area: "Mountain View County",
+      distance: "76 km",
+      primary: false,
+      href: "/locations/cremona",
+      style: "from-[#fff8f8] to-white",
+      tagline: "Cash for cars and scrap removal service in Cremona.",
+    },
   ];
 
   return (
