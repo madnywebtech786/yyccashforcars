@@ -3689,6 +3689,12 @@ const slugifySectionTitle = (title) =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)/g, "");
 
+const formatFaqHtml = (html) =>
+  html.replace(
+    /<p><strong>(.*?)<\/strong><\/p>\s*<p>(.*?)<\/p>/gs,
+    '<p><strong>$1</strong><br />$2</p>'
+  );
+
 export default async function LocationPage({ params }) {
   const { slug } = await params;
   if (slug === "calgary") {
@@ -3877,7 +3883,11 @@ export default async function LocationPage({ params }) {
 
                     sections.forEach((section, index) => {
                       const normalizedTitle = section.title.toLowerCase().trim();
-                      const isFaq = normalizedTitle === "faqs" || normalizedTitle.startsWith("faqs");
+                      const isFaq =
+                        normalizedTitle === "faqs" ||
+                        normalizedTitle.startsWith("faqs") ||
+                        normalizedTitle.includes("faq") ||
+                        normalizedTitle.includes("frequently asked");
                       const isBracketFaq =
                         normalizedTitle === "(faqs)" ||
                         normalizedTitle.startsWith("(faqs");
@@ -3912,7 +3922,9 @@ export default async function LocationPage({ params }) {
                               </h2>
                               <div
                                 className="blog-content location-content text-black"
-                                dangerouslySetInnerHTML={{ __html: section.html }}
+                                dangerouslySetInnerHTML={{
+                                  __html: formatFaqHtml(section.html),
+                                }}
                               />
                             </section>
                           );
@@ -3999,7 +4011,9 @@ export default async function LocationPage({ params }) {
                             </div>
                             <div
                               className="blog-content location-content text-black"
-                              dangerouslySetInnerHTML={{ __html: section.html }}
+                              dangerouslySetInnerHTML={{
+                                __html: formatFaqHtml(section.html),
+                              }}
                             />
                           </div>
                         );
