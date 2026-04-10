@@ -76,16 +76,20 @@ const blogSidebarLocations = [
   { name: "Brooks", href: "/locations/brooks" },
   { name: "Canmore", href: "/locations/canmore" },
   { name: "Carstairs", href: "/locations/carstairs" },
+  { name: "Carseland", href: "/locations/carseland" },
+  { name: "Cheadle", href: "/locations/cheadle" },
   { name: "Chestermere", href: "/locations/chestermere" },
   { name: "Cochrane", href: "/locations/cochrane" },
   { name: "Crossfield", href: "/locations/crossfield" },
   { name: "Cremona", href: "/locations/cremona" },
   { name: "Drumheller", href: "/locations/drumheller" },
   { name: "High River", href: "/locations/high-river" },
+  { name: "Lake Louise", href: "/locations/lake-louise" },
   { name: "Lethbridge", href: "/locations/lethbridge" },
   { name: "Okotoks", href: "/locations/okotoks" },
   { name: "Red Deer", href: "/locations/red-deer" },
   { name: "Strathmore", href: "/locations/strathmore" },
+  { name: "Three Hills", href: "/locations/three-hills" },
 ];
 
 export default function BlogPostPage({ params }) {

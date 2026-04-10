@@ -1,4 +1,5 @@
 import { Users, ShieldCheck } from "lucide-react";
+
 export default function AboutUsSection() {
   return (
     <div className="p-4 py-16 md:p-10 lg:p-10 bg-white">

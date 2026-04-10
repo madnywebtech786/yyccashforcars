@@ -105,6 +105,22 @@ const locations = [
     tagline: "Fast cash for cars service with free pickup in Carstairs.",
   },
   {
+    name: "Carseland",
+    href: "/locations/carseland",
+    area: "Wheatland County",
+    distance: "59 km",
+    style: "from-[#fff8f8] to-white",
+    tagline: "Fast cash for cars service with free towing in Carseland.",
+  },
+  {
+    name: "Cheadle",
+    href: "/locations/cheadle",
+    area: "Wheatland County",
+    distance: "48 km",
+    style: "from-[#f7fbff] to-white",
+    tagline: "Fast cash for cars service with free towing in Cheadle.",
+  },
+  {
     name: "Chestermere",
     href: "/locations/chestermere",
     area: "East Calgary",
@@ -161,6 +177,14 @@ const locations = [
     tagline: "Cash for cars and scrap removal service in Lethbridge.",
   },
   {
+    name: "Lake Louise",
+    href: "/locations/lake-louise",
+    area: "Banff National Park",
+    distance: "184 km",
+    style: "from-[#fff8f8] to-white",
+    tagline: "Fast cash for cars service with free towing in Lake Louise.",
+  },
+  {
     name: "Okotoks",
     href: "/locations/okotoks",
     area: "South Calgary",
@@ -183,6 +207,14 @@ const locations = [
     distance: "52 km",
     style: "from-[#f4fbff] to-white",
     tagline: "Fair cash offers for unwanted vehicles in Strathmore.",
+  },
+  {
+    name: "Three Hills",
+    href: "/locations/three-hills",
+    area: "Kneehill County",
+    distance: "132 km",
+    style: "from-[#fff8f8] to-white",
+    tagline: "Fast cash for cars service with free towing in Three Hills.",
   },
 ];
 
