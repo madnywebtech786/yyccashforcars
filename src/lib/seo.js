@@ -36,7 +36,6 @@ export const staticPages = [
   "locations/blackie",
   "locations/bragg-creek",
   "locations/brooks",
-  "locations/calgary",
   "locations/canmore",
   "locations/carstairs",
   "locations/carseland",
