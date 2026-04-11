@@ -82,6 +82,7 @@ const blogSidebarLocations = [
   { name: "Cochrane", href: "/locations/cochrane" },
   { name: "Crossfield", href: "/locations/crossfield" },
   { name: "Cremona", href: "/locations/cremona" },
+  { name: "Delacour", href: "/locations/delacour" },
   { name: "Didsbury", href: "/locations/didsbury" },
   { name: "Drumheller", href: "/locations/drumheller" },
   { name: "High River", href: "/locations/high-river" },

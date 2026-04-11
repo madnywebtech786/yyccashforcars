@@ -153,6 +153,14 @@ const locations = [
     tagline: "Fast cash for cars service with fair pickup in Cremona.",
   },
   {
+    name: "Delacour",
+    href: "/locations/delacour",
+    area: "Rocky View County",
+    distance: "East of Calgary",
+    style: "from-[#f7fbff] to-white",
+    tagline: "Cash for cars in Delacour with free towing from your property.",
+  },
+  {
     name: "Didsbury",
     href: "/locations/didsbury",
     area: "Mountain View County",

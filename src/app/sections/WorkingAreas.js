@@ -234,6 +234,16 @@ export default function WorkingAreasSection() {
       tagline: "Cash for cars and scrap removal service in Cremona.",
     },
     {
+      id: 28,
+      name: "Delacour",
+      area: "Rocky View County",
+      distance: "East of Calgary",
+      primary: false,
+      href: "/locations/delacour",
+      style: "from-[#f7fbff] to-white",
+      tagline: "Cash for cars in Delacour with free towing from your property.",
+    },
+    {
       id: 26,
       name: "Didsbury",
       area: "Mountain View County",

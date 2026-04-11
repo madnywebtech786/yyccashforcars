@@ -3598,6 +3598,189 @@ No listings. No strangers from the internet coming to your property. No waiting 
 YYC Cash for Cars — Open 7 Days,7AM to 11PM Serving Didsbury, Mountain View County, and all communities along the Highway 2 corridor from Calgary to Red Deer.`,
   },
   {
+    id: 28,
+    name: "Delacour",
+    slug: "delacour",
+    area: "Rocky View County",
+    distance: "East of Calgary",
+    primary: false,
+    image: "/images/gallery/g10.webp",
+    metaTitle: "Cash for Cars Delacour AB | Free Towing | YYC Cash",
+    metaDescription:
+      "Selling your car in Delacour, AB? YYC Cash pays $300–$10,000, tows free from your property & pays cash or e-Transfer on the spot. Call 587-700-9806.",
+    heading: "Cash for Cars Delacour, Alberta — We Come to Your Property",
+    description:
+      "YYC Cash buys junk, scrap, and unwanted vehicles directly from Delacour and Rocky View County. Free towing from your driveway, yard, or acreage. Cash or Interac e-Transfer paid before we move anything.",
+    additionalInfo: "",
+    neighborhoods: [],
+    features: [],
+    hours: "Open 7 Days,7AM to 11PM",
+    responseTime: "Same day or following morning",
+    content: `## We Buy Cars in Delacour — No Hassle, No Hidden Fees
+
+Delacour is a small hamlet and selling a vehicle out here is not like selling one inside Calgary. There is no steady stream of buyers driving past. Private listings sit for weeks. Buyers from the city rarely want to make the drive east on Highway 1 for a viewing on a vehicle they might not even buy. And most junk car services either skip communities this size entirely or quietly tack on a rural towing fee that comes off your offer when the driver shows up.
+
+We do not work that way.
+
+[YYC Cash](/) covers Delacour and all of Rocky View County with the same free towing and the same straightforward pricing we offer everywhere in our service area. Your offer is based on the actual vehicle — the year, the make, the condition, and what Alberta's scrap metal market is doing that week. It does not change between the phone call and the moment our driver pulls into your property.
+
+You get paid in cash or by Interac e-Transfer before we load anything. We handle the Alberta Registry title transfer on the spot. We are AMVIC-compliant and fully insured. When we leave your property, that vehicle is off your hands completely — no future fines, no ongoing registration costs, no liability of any kind tied to it.
+
+## What We Pay for Vehicles in Delacour
+
+Delacour and the surrounding Rocky View County area sits in productive agricultural country east of Calgary. Properties out here often have older trucks, acreage work vehicles, and cars that have been sitting unused for a season or two. All of it holds real value — in scrap metal, usable parts, or both — and we price every vehicle honestly against what the Alberta market actually supports right now.
+
+Your exact offer depends on what you have — call us with the year, make, model, and condition and we will give you a firm number in minutes.
+
+## What We Buy in Delacour and How It Works
+
+### Cash for Junk Cars Delacour
+
+If you have a vehicle sitting on your Delacour property that you have been meaning to deal with — parked behind the garage, sitting in the yard, or taking up a bay in the shop — we will buy it. It does not need to run. It does not need to be complete. It does not need a full set of wheels or a working engine.
+
+[We buy junk cars](/services/cash-for-junk-cars) from properties throughout Rocky View County east of Calgary. Toyota, Ford, Dodge, Chevrolet, GMC, Honda, Hyundai, Kia, Nissan, Mazda, Subaru, Jeep — any make, any year, any condition. Tell us what you have and we will give you a real number the same day you call.
+
+### Scrap Car Removal Delacour — Free Towing, No Rural Surcharge
+
+A scrap vehicle sitting on a rural Rocky View County property is more than just an eyesore. It leaks engine oil, coolant, and brake fluid into the ground over time. It takes up space that could be used. And depending on how long it has been there, it can attract attention from Rocky View County bylaw enforcement around derelict vehicles on residential and agricultural properties.
+
+We remove it for free. Our driver comes to your Delacour address, loads the vehicle without you having to move it first, drains all fluids to Alberta Environment standards, and takes it directly to an ARMA-certified recycling facility. The Alberta Registry disposal paperwork is handled by us at pickup. You get paid and the problem is permanently gone.
+
+No towing charge. No fuel surcharge for the drive out from Calgary on the Trans-Canada. Free towing means exactly that — no deductions, no surprises.
+
+### Accident and Write-Off Vehicles
+
+Whether your vehicle was totalled in a collision on Highway 1 near Delacour, damaged in a hailstorm that swept through Rocky View County, or written off by your Alberta insurer for any other reason — we buy it. Deployed airbags, a bent frame, severe body damage, stripped interior — none of that disqualifies your vehicle from getting a cash offer. Call us before you sign it over to the insurance company and find out what it is worth to us first.
+
+### Farm Trucks and Acreage Work Vehicles
+
+The land around Delacour is grain farming and ranching country. Old pickups and acreage trucks that spent years working the fields and are now past the point of economical repair are something we see and buy regularly. A 2001 GMC Sierra that has not moved since spring seeding two years ago still has scrap metal value and often has a drivetrain worth real money to the right buyer. Do not leave it sitting out there rusting — call us and we will tell you what it is worth today.
+
+## 3 Steps to Get Cash for Your Car in Delacour
+
+Step 1 — Call or Fill in the Quote Form
+
+Call 587-700-9806 or submit the online quote form with your vehicle's year, make, model, and condition. Let us know you are in Delacour or the Rocky View County area east of Calgary. We will come back to you with a firm offer — usually within minutes, always within a few hours.
+
+Step 2 — Pick a Time That Suits You
+
+We work around your schedule, not ours. Morning, afternoon, evening, or weekend — we drive out to Delacour when it works for you. We are on the road seven days a week so there is no waiting until Monday for a callback.
+
+Step 3 — Get Paid Before We Move the Vehicle
+
+Our driver arrives at your property, pays you in cash or sends an Interac e-Transfer on the spot, and completes the Alberta Registry title paperwork right there at pickup. The vehicle gets loaded and the whole process is done in under 30 minutes. You walk away with money and a clear property.
+
+## Every Vehicle Accepted in Delacour — Any Condition, Any Year
+
+We do not turn vehicles away based on condition, missing components, or how long they have been sitting. If it has a VIN, we are interested.
+
+We buy vehicles that are:
+
+- Non-running or will not start
+- Blown engine or seized transmission
+- Hail-damaged — a regular occurrence across eastern Rocky View County
+- Accident damage or insurance write-offs
+- Fire or flood-damaged
+- Missing catalytic converter, wheels, or major parts
+- Sitting unused on a property for months or years
+- Vehicles with outstanding liens — call us to discuss
+- Vehicles without a title — call us first
+- Old farm trucks and acreage work vehicles
+- Commercial, trades, or fleet vehicles
+- Motorcycles, ATVs, and trailers
+
+Makes we buy: Toyota, Honda, Ford, Chevrolet, GMC, Dodge, Ram, Chrysler, Jeep, Hyundai, Kia, Nissan, Mazda, Subaru, Volkswagen, BMW, Mercedes-Benz, Audi, Cadillac, Buick, Pontiac, Saturn, and every other make and model ever registered in Alberta.
+
+## Serving Delacour and the Surrounding Rocky View County Area
+
+Delacour is a small hamlet in Rocky View County, sitting just north of the Trans-Canada Highway east of Calgary and Chestermere. The area is flat, open grain farming country with acreage properties spread across range roads and township roads that cut through some of the most productive agricultural land in southern Alberta.
+
+Properties out here tend to be larger than city lots and vehicles have a way of accumulating over the years — a second truck that stopped being reliable, an old car that got pushed to the back of the yard, a farm vehicle that finally gave out after years of service. We come out to this part of Rocky View County regularly.
+
+### Delacour and Immediate Surrounding Area
+
+We drive directly to your Delacour address regardless of whether your vehicle is parked on a paved driveway, sitting on a gravel yard, or out in a field on a rural property. You do not need to move the vehicle to the road or prepare it in any way. Our drivers come equipped to handle vehicles that are not mobile and properties that require a bit of navigation to reach.
+
+### Nearby Communities We Also Serve
+
+- [Chestermere](/locations/chestermere) — 15 km west, we serve it daily
+- Langdon — south along Range Road 284, a short drive
+- Cheadle — east along Highway 1 through Wheatland County
+- Strathmore — 35 km east, one of our regular routes
+- Calgary NE and SE — we run these quadrants continuously
+- Rocky View County throughout — covered in full
+
+If you are anywhere in the Delacour, Langdon, Chestermere, or eastern Rocky View County corridor, we come to you with the same free towing and the same pricing. No distance premium. No extra fee because you are outside Calgary city limits.
+
+## Why Delacour Residents Choose YYC Cash
+
+### We Actually Come Out to Delacour
+
+Small hamlets east of Calgary get overlooked by a lot of services that list Rocky View County on their website but rarely follow through for communities off the main routes. We come out to this part of the county regularly. When we give you a quote and a pickup day, we show up — on time, at the address you gave us, with no last-minute changes to the offer.
+
+### AMVIC-Compliant — You Are Covered
+
+YYC Cash operates under AMVIC, the Alberta Motor Vehicle Industry Council. That means you are selling to a regulated, accountable Alberta automotive business — not someone running a cash-for-cars operation with no oversight. The title transfer is processed correctly through Alberta Registry, your liability on the vehicle ends the moment we take possession, and there is a legitimate business behind every transaction.
+
+### Offers Based on Real Alberta Scrap Metal Rates
+
+We price vehicles against current Alberta commodity values for steel, aluminum, copper, and the precious metals inside your catalytic converter. Rural sellers in communities like Delacour sometimes get lower offers from buyers who assume they have fewer options. We price the same vehicle the same way whether it is sitting in the Beltline or on an acreage east of Calgary.
+
+### Cash or Interac e-Transfer — Your Call
+
+You choose how you want to be paid. Cash in hand the moment our driver arrives or an instant Interac e-Transfer sent before we touch the vehicle. Either way, payment happens on the spot at your property — not by cheque in the mail, not after we get back to Calgary, not later in the week.
+
+### All Alberta Paperwork Done at Pickup
+
+We file the Alberta Registry title transfer at the time of pickup. Any future parking fines, registration fees, or liabilities connected to that vehicle become our responsibility the moment the paperwork is complete. You are fully protected from the time we drive away.
+
+## FAQ
+
+**Do you charge extra to come out to Delacour?**
+
+No. Free towing covers the full drive from Calgary to Delacour and everywhere else in our service area. There is no rural surcharge, no fuel charge, and nothing deducted from your offer because of the distance. The number we quote on the phone is the number you receive in your hand at pickup.
+
+**How much will I get for a vehicle that has been sitting on my property for years?**
+
+It depends on the year, make, and how much of the vehicle is still intact. A truck that has been sitting for two or three years but still has a solid frame and a repairable drivetrain might bring $500–$2,500. A rusted-out non-runner that has been there a decade might bring $300–$600 in scrap metal value alone. Call us with the details and we will give you an honest number.
+
+**What if the vehicle is not near the road and is hard to access?**
+
+Tell us when you call. We deal with vehicles on rural properties regularly — parked in fields, sitting in the back of a yard, or tucked behind a shop on a range road property. We bring the right equipment to handle vehicles in difficult spots and our drivers are experienced working on acreage and agricultural properties.
+
+**Can I sell a vehicle with incomplete or missing paperwork?**
+
+Call us first and describe what you have. Rural vehicles — particularly older farm trucks and work vehicles in the Delacour area — often have ownership documents that are out of date, incomplete, or simply lost. We handle this kind of situation regularly. Bring your photo ID and whatever documentation you can find and we will work through what is needed.
+
+**Do you buy hail-damaged vehicles in Rocky View County?**
+
+Yes. The area east of Calgary gets hit by hail during summer storm season — June and July in particular can bring serious hail events through Rocky View County and Wheatland County. Whether your vehicle took minor cosmetic damage or was written off entirely, we will make a fair offer based on its actual current condition.
+
+**Can you pick up more than one vehicle in a single trip?**
+
+Yes. If you have two or three vehicles on your Delacour property that you want cleared at the same time, call us and describe what you have. We will give you combined pricing and coordinate one trip so you are not dealing with multiple pickup appointments across multiple days.
+
+**Do you buy vehicles with a lien?**
+
+Yes. It adds a step to the process — we need to contact the lienholder and arrange a proper discharge before the title can be transferred — but we handle lien vehicles regularly and know how to do it correctly. Call us and tell us the situation and we will walk you through what is required.
+
+**What happens to my vehicle after you take it?**
+
+It goes to a certified Alberta recycling facility. All fluids are drained and disposed of in compliance with Alberta Environment requirements. Usable parts are pulled and resold. The remaining steel and metals go to smelting. We follow Alberta Recycling Management Authority guidelines on every vehicle we process — nothing is dumped, nothing is left to leach into the ground.
+
+**How quickly can you get out to Delacour once I accept an offer?**
+
+In most cases same day or the following morning. We run routes east of Calgary regularly, including through the Chestermere, Langdon, and Delacour corridor. If you call before noon, a same-day pickup is often possible.
+
+## Ready to Sell Your Car in Delacour? Call Us Today
+
+Call 587-700-9806, tell us about your vehicle, and we will give you a firm number on the phone. If it works for you, we drive out to Delacour — same day or next morning — pay you before we move anything, and handle all Alberta Registry paperwork on the spot.
+
+No listings sitting online for weeks. No strangers from the city driving out to your property for a test drive on something they are not serious about buying. No waiting around on a deal that falls through at the last minute.
+
+YYC Cash for Cars — Open 7 Days,7AM to 11PM Serving Delacour, Rocky View County, and all communities east of Calgary along the Trans-Canada corridor.`,
+  },
+  {
     id: 26,
     name: "Indus",
     slug: "indus",
