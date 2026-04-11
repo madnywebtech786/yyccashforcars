@@ -169,6 +169,14 @@ const locations = [
     tagline: "Sell old or damaged vehicles fast in High River.",
   },
   {
+    name: "Indus",
+    href: "/locations/indus",
+    area: "Rocky View County",
+    distance: "35 km",
+    style: "from-[#f7fbff] to-white",
+    tagline: "Cash for cars in Indus with free towing from your property.",
+  },
+  {
     name: "Lethbridge",
     href: "/locations/lethbridge",
     area: "Southern Alberta",

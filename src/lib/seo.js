@@ -46,6 +46,7 @@ export const staticPages = [
   "locations/cremona",
   "locations/drumheller",
   "locations/high-river",
+  "locations/indus",
   "locations/lake-louise",
   "locations/lethbridge",
   "locations/okotoks",

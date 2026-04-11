@@ -4,7 +4,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { marked } from "marked";
 import Link from "next/link";
 import Breadcrumb from "@/app/components/Breadcrumb";
-import { MapPin, Phone, Clock, CheckCircle, Truck, Navigation } from "lucide-react";
+import { MapPin, Phone, Clock, CheckCircle, Navigation } from "lucide-react";
 import ContactForm from "@/app/sections/Contact";
 import Testimonial from "@/app/sections/Testimonial";
 import { getOgImageForPath } from "@/lib/seo";
@@ -3422,6 +3422,177 @@ We buy cars, trucks, SUVs, vans, and other unwanted vehicles in many conditions,
 If you are ready to sell an unwanted vehicle in Three Hills, [contact YYC Cash for Cars](/contact) for a fair offer, free towing, and a simple pickup process.`,
   },
   {
+    id: 26,
+    name: "Indus",
+    slug: "indus",
+    area: "Rocky View County",
+    distance: "35 km",
+    primary: false,
+    image: "/images/gallery/g8.webp",
+    metaTitle: "Cash for Cars Indus AB | Free Towing | YYC Cash",
+    metaDescription:
+      "Selling your car in Indus, AB? YYC Cash pays $300–$10,000, tows free from your property, and pays cash or e-Transfer on the spot. Same-day service available.",
+    heading: "Cash for Cars Indus, Alberta — We Come to Your Property",
+    description:
+      "YYC Cash buys junk, scrap, and unwanted vehicles directly from Indus and Rocky View County. Free towing from your acreage or driveway. Cash or Interac e-Transfer paid on the spot before we move anything.",
+    additionalInfo: "",
+    neighborhoods: [
+      "Indus",
+      "Rocky View County",
+      "Langdon",
+      "Chestermere",
+      "Carseland",
+      "Strathmore",
+      "Calgary SE",
+      "Highway 22X",
+    ],
+    features: [
+      "Free towing from your acreage or driveway",
+      "Cash or Interac e-Transfer paid on the spot",
+      "Same-day service available",
+      "AMVIC-compliant and fully insured",
+      "Alberta Registry title transfer handled",
+      "No rural surcharge for Indus service",
+      "We buy old farm trucks and acreage work vehicles",
+      "Junk, scrap, accident, and write-off vehicles accepted",
+    ],
+    hours: "Monday - Sunday: 8:00 AM - 8:00 PM",
+    responseTime: "Same Day Pickup",
+    content: `## We Buy Cars in Indus — No Middleman, No Hassle
+
+Indus is a small community and selling a car out here is not the same as selling one in the city. You cannot just wait for a buyer to drive by. Private listings take weeks and buyers from Calgary do not always want to make the trip out on Highway 22X for a viewing. Dealers are not interested in older or damaged vehicles. And most junk car services either do not cover this far out or quietly charge a tow fee that comes off your offer at the door.
+
+We do not do that.
+
+[YYC Cash](/) covers Indus and all of Rocky View County with the same free towing and the same honest pricing we offer inside Calgary. Your offer is based on the actual vehicle — the year, the make, the condition, what the Alberta scrap market is doing right now — and it does not change when our driver arrives. What we quote on the phone is what you get paid in your driveway.
+
+We handle the Alberta Registry title transfer, we are AMVIC-compliant, and we are fully insured. When we leave your property, that vehicle is off your hands in every sense.
+
+## What We Pay for Vehicles in Indus
+
+Rural properties around Indus often have vehicles that have been sitting for years — old farm trucks, acreage work vehicles, broken-down SUVs, and cars that stopped being worth fixing a long time ago. All of it has value as scrap or parts, and we price it fairly.
+
+These ranges reflect real Alberta scrap metal market rates and typical demand for parts. Your exact number depends on your specific vehicle — call us and we will give you a firm offer in a few minutes.
+
+## What We Buy in Indus and How It Works
+
+### Cash for Junk Cars Indus
+
+If you have a vehicle sitting unused on your Indus property — in the yard, behind the garage, or on an acreage pad — we will buy it. It does not need to run. It does not need to be pretty. It does not need a full set of wheels or a working engine.
+
+We [buy junk cars](/services/cash-for-junk-cars) in every condition from properties throughout Rocky View County. Toyota, Ford, Dodge, Chevrolet, GMC, Honda, Hyundai, Nissan, Subaru, Jeep — any make, any year. Tell us what you have and we will give you a number the same day.
+
+### Scrap Car Removal Indus — Free Towing from Your Property
+
+A scrap vehicle on a rural acreage is more than an eyesore. It leaks fluids into the ground, it ties up yard space, and in some cases it creates liability on your property. We remove it for free, drain and dispose of all fluids in compliance with Alberta Environment requirements, and take it to an ARMA-registered recycling facility. You get paid and the problem is gone.
+
+There is no towing charge added to your invoice. No fuel surcharge for the drive out from Calgary. Free means free.
+
+### Accident and Write-Off Vehicles
+
+Whether your vehicle was totalled on Highway 22X, damaged in a hailstorm that swept through the Indus and Chestermere area, or written off by your insurer for any other reason — we buy it. Deployed airbags, bent frame, severe body damage — none of that disqualifies the vehicle. Call us before you sign it over to the insurance company and find out what it is worth to us first.
+
+### Old Farm Trucks and Acreage Work Vehicles
+
+Indus and the surrounding Rocky View County area has a lot of old trucks that spent years working acreages and are now past the point of repair. We buy them. A 1998 Ford F-250 that hasn't moved in three years still has scrap metal value, usable parts, and in many cases a usable drivetrain. Do not let it rust further — call us and we will tell you what it is worth today.
+
+## 3 Steps to Sell Your Car in Indus
+
+### Step 1 — Call or Fill in the Form
+
+Call 587-700-9806 or submit the quote form with your vehicle's year, make, model, and condition. Let us know you are in Indus or Rocky View County. We will give you a firm cash offer — usually within minutes.
+
+### Step 2 — Pick a Time That Works for You
+
+We schedule the pickup around your day. Morning, afternoon, evening, or weekend — we drive out to Indus on your schedule, not ours.
+
+### Step 3 — Get Paid Before We Move the Vehicle
+
+Our driver arrives, pays you cash or sends the Interac e-Transfer on the spot, and handles the Alberta Registry title paperwork right there. The car gets loaded and the whole thing is done in under 30 minutes. You are left with money and a clear property.
+
+## Every Vehicle Type Accepted in Indus
+
+We are not selective about what we buy. If it has a VIN, we are interested regardless of condition.
+
+We buy vehicles that are:
+
+- Non-running or won't start
+- Blown engine or seized transmission
+- Hail-damaged — common across the Rocky View County area
+- Accident damage or insurance write-offs
+- Fire or flood-damaged
+- Missing catalytic converter, wheels, or major parts
+- Sitting unused for months or years
+- Vehicles with outstanding liens
+- Vehicles without a title — call us first
+- Old farm and acreage trucks
+- Commercial or fleet vehicles
+
+## Serving Indus and the Surrounding Rocky View County Area
+
+Indus sits in Rocky View County, southeast of Calgary along the Bow River corridor. It is quiet out here and properties tend to be larger — acreages, hobby farms, and rural residential lots where old vehicles have a habit of piling up over the years.
+
+We cover Indus and the communities directly around it:
+
+### Indus and Immediate Area
+
+We drive out to Indus regularly for pickups. Whether your vehicle is parked on a gravel driveway, sitting in a field, or stored in a yard that has gotten crowded over the years — we come to the property and load it ourselves. You do not need to move it, tow it to a road, or do anything to prepare it.
+
+### Nearby Communities We Also Serve
+
+- Chestermere — 19 km west, we serve it daily
+- Langdon — just north along Range Road 284
+- Carseland — south along the Bow River
+- Strathmore — 30 km east on Highway 1
+- Calgary SE — we run these routes continuously
+
+If you are anywhere in the Indus, Langdon, Chestermere, or eastern Rocky View County area, we will come to you with the same free towing and same pricing. No rural surcharge. No extra fee for the drive.
+
+## Why Indus Residents Choose YYC Cash
+
+### We Actually Come Out Here
+
+Not every Calgary cash-for-cars service will drive to Indus. Some will quote you on the phone and then either not show up or tell you there is a tow fee when the driver arrives. We come out to Rocky View County regularly and the free towing applies here the same as it does inside Calgary city limits.
+
+### AMVIC-Compliant — You Are Protected
+
+We operate under AMVIC — Alberta's Motor Vehicle Industry Council. That means when you sell your vehicle to us you are protected by Alberta's automotive regulations. The title transfer is handled correctly, your liability ends when we take possession, and there is an accountable business behind the transaction.
+
+### Honest Offers Based on Real Alberta Scrap Rates
+
+We price every vehicle against current Alberta scrap metal commodity values — steel, aluminum, copper, and the precious [metals in your catalytic converter](/blog/catalytic-converter-scrap-value-guide). You get a real market-based number, not a lowball offer from someone who thinks rural sellers have fewer options.
+
+### Cash or Interac e-Transfer — Your Choice
+
+You pick how you want to be paid. Cash in hand or an Interac e-Transfer sent the moment our driver arrives. Either way, payment happens before we load the vehicle. No cheques, no promises to send it later, no delays.
+
+### Alberta Title Transfer Done by Us
+
+We handle the Alberta Registry paperwork at pickup. Any fines, tickets, or liabilities attached to that vehicle stop being your responsibility the moment it is in our possession and the transfer is filed.
+
+## FAQ
+
+**Do you really come all the way out to Indus?**
+
+Yes. We cover all of Rocky View County including Indus, Langdon, Chestermere, Carseland, and surrounding rural communities. There is no distance surcharge. Free towing means free, wherever you are in our service area.
+
+**How much will I get for a vehicle sitting on my acreage?**
+
+It depends on what you have. An old farm truck with a working drivetrain and decent sheet metal might bring $600–$2,500. A completely seized non-runner that has been sitting for five years might bring $300–$600 based on scrap metal weight alone. Call us with the year, make, and condition and we will give you an honest number.
+
+**What if the vehicle has been sitting so long it won't roll?**
+
+Not a problem. Our drivers come prepared for vehicles that are not mobile. We can handle vehicles that are sunk into soft ground, missing wheels, or otherwise stuck on a rural property. Tell us the situation when you call and we will bring what is needed.
+
+**Can I sell a vehicle with no registration out here?**
+
+Call us first. We deal with missing documentation regularly on rural vehicles — old trucks and acreage machines often have ownership paperwork that is years out of date or missing entirely. Bring whatever you have plus your photo ID and we will work through the process with you.
+
+**Do you buy multiple vehicles at once?**
+
+Yes. If you have two or three vehicles on the property you want gone, we can arrange a single trip to pick them all up. Call us and describe what you have — we will give you pricing on the lot and coordinate one pickup day.`,
+  },
+  {
     id: 25,
     name: "Lake Louise",
     slug: "lake-louise",
@@ -3761,9 +3932,11 @@ export default async function LocationPage({ params }) {
                 <p className="mt-4 max-w-2xl text-sm leading-7 text-gray-700 md:text-base">
                   {location.description}
                 </p>
-                <p className="mt-4 max-w-2xl text-sm leading-7 text-gray-600">
-                  {location.additionalInfo}
-                </p>
+                {location.additionalInfo ? (
+                  <p className="mt-4 max-w-2xl text-sm leading-7 text-gray-600">
+                    {location.additionalInfo}
+                  </p>
+                ) : null}
 
                 <div className="mt-6 grid gap-3 sm:grid-cols-2">
                   <div className="rounded-2xl border border-primary/10 bg-white/90 p-4 shadow-sm">
@@ -4136,31 +4309,6 @@ export default async function LocationPage({ params }) {
             <Testimonial />
           </div>
 
-          {/* Service Promise */}
-          <div className="bg-gradient-to-r from-primary to-secondary rounded-2xl p-8 md:p-12 text-center text-white shadow-2xl">
-            <Truck className="w-16 h-16 mx-auto mb-6 opacity-90" />
-            <h3 className="text-2xl md:text-3xl font-bold mb-4">
-              Ready to Sell Your Car in {location.name}?
-            </h3>
-            <p className="text-lg mb-6 max-w-2xl mx-auto opacity-95">
-              Get an instant quote now! We offer same-day pickup, free towing, and
-              cash on the spot. No hassle, no hidden fees.
-            </p>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <a
-                href="tel:+15877009806"
-                className="bg-white text-primary font-bold px-8 py-4 rounded-full hover:bg-gray-100 transform hover:scale-105 transition-all duration-300"
-              >
-                📞 (587) 700-9806
-              </a>
-              <a
-                href="/contact"
-                className="bg-transparent border-2 border-white text-white font-bold px-8 py-4 rounded-full hover:bg-white hover:text-primary transform hover:scale-105 transition-all duration-300"
-              >
-                Request Free Quote
-              </a>
-            </div>
-          </div>
         </div>
       </section>
     </div>

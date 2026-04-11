@@ -234,6 +234,16 @@ export default function WorkingAreasSection() {
       tagline: "Cash for cars and scrap removal service in Cremona.",
     },
     {
+      id: 25,
+      name: "Indus",
+      area: "Rocky View County",
+      distance: "35 km",
+      primary: false,
+      href: "/locations/indus",
+      style: "from-[#f7fbff] to-white",
+      tagline: "Cash for cars in Indus with free towing from your property.",
+    },
+    {
       id: 23,
       name: "Three Hills",
       area: "Kneehill County",

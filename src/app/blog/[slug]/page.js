@@ -84,6 +84,7 @@ const blogSidebarLocations = [
   { name: "Cremona", href: "/locations/cremona" },
   { name: "Drumheller", href: "/locations/drumheller" },
   { name: "High River", href: "/locations/high-river" },
+  { name: "Indus", href: "/locations/indus" },
   { name: "Lake Louise", href: "/locations/lake-louise" },
   { name: "Lethbridge", href: "/locations/lethbridge" },
   { name: "Okotoks", href: "/locations/okotoks" },
