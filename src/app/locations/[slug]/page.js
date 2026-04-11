@@ -3436,27 +3436,9 @@ If you are ready to sell an unwanted vehicle in Three Hills, [contact YYC Cash f
     description:
       "YYC Cash buys junk, scrap, and unwanted vehicles directly from Didsbury and Mountain View County. Free towing from your driveway, yard, or acreage. Cash or Interac e-Transfer paid before we move anything.",
     additionalInfo: "",
-    neighborhoods: [
-      "Didsbury",
-      "Mountain View County",
-      "Carstairs",
-      "Crossfield",
-      "Olds",
-      "Cremona",
-      "Airdrie",
-      "Calgary",
-    ],
-    features: [
-      "Free towing from your driveway, yard, or acreage",
-      "Cash or Interac e-Transfer paid before we move anything",
-      "No rural surcharge",
-      "AMVIC-compliant and fully insured",
-      "Alberta Registry title transfer handled",
-      "Farm trucks and acreage work vehicles accepted",
-      "Commercial, trades, or fleet vehicles accepted",
-      "Same day or following morning service",
-    ],
-    hours: "Open 7 Days, 7 AM to 11 PM",
+    neighborhoods: [],
+    features: [],
+    hours: "Open 7 Days,7AM to 11PM",
     responseTime: "Same day or following morning",
     content: `## We Buy Cars in Didsbury — Straight to Your Door
 
@@ -3613,7 +3595,7 @@ Call 587-700-9806, tell us about your vehicle, and we will give you a firm offer
 
 No listings. No strangers from the internet coming to your property. No waiting around for a buyer who might not come through.
 
-YYC Cash for Cars — Open 7 Days, 7 AM to 11 PM Serving Didsbury, Mountain View County, and all communities along the Highway 2 corridor from Calgary to Red Deer.`,
+YYC Cash for Cars — Open 7 Days,7AM to 11PM Serving Didsbury, Mountain View County, and all communities along the Highway 2 corridor from Calgary to Red Deer.`,
   },
   {
     id: 26,
