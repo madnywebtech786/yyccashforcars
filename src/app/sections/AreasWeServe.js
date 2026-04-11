@@ -7,14 +7,14 @@ export default function AreasWeServeSection() {
       <div className="relative mx-auto w-full px-6 md:px-12 lg:px-16">
         <div className="text-center mb-14">
           <h3 className="text-4xl font-bold text-black mb-4">
-            Areas We Serve in{" "}
+            We Serve{" "}
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Calgary
+              Every Part of Calgary
             </span>{" "}
           </h3>
           <p className="text-black max-w-3xl mx-auto text-lg">
-            All quadrants covered with fast pickup across Deerfoot, Stoney, Crowchild,
-            Glenmore, and Macleod Trail.
+            NW, NE, SE, SW, Downtown, and outside Calgary are all covered with
+            the same free towing and same competitive pricing.
           </p>
         </div>
         
@@ -36,28 +36,26 @@ export default function AreasWeServeSection() {
               </div>
               <div className="p-8 lg:p-10">
                 <h4 className="text-2xl font-bold text-black mb-4">
-                  Citywide coverage with quick pickup
+                  NW Calgary
                 </h4>
                 <div className="space-y-4 text-black/70 leading-relaxed">
                   <p>
-                    Our Cash for Cars Calgary service spans the city&mdash;north, northeast,
-                    southeast, south-west, southeast&mdash;along with downtown and industrial
-                    districts. No matter where your location falls on Deerfoot Trail, Stoney
-                    Trail, Crowchild Trail, Glenmore Trail, or Macleod Trail, we can often
-                    arrange quick pickup.
+                    We cover all of NW Calgary daily — from the communities
+                    around the University of Calgary and SAIT, through Brentwood,
+                    Varsity, Dalhousie, Montgomery, Bowness, Silver Springs,
+                    Ranchlands, Scenic Acres, and out west to Tuscany, Arbour
+                    Lake, and Royal Oak. If your vehicle is in NW Calgary, we
+                    can usually be there the same day.
                   </p>
+                  <h4 className="pt-3 text-2xl font-bold text-black">
+                    NE Calgary
+                  </h4>
                   <p>
-                    <span className="font-semibold text-black">Northwest Calgary</span>: We
-                    offer services throughout NW Calgary, from established communities to newer
-                    neighborhoods such as those near the University of Calgary / SAIT to
-                    Kensington &amp; Hillhurst, Brentwood, Dalhousie, Varsity, Montgomery,
-                    Bowness, Ranchlands, Scenic Acres, Tuscany, Arbour Lake, and Royal Oak.
-                  </p>
-                  <p>
-                    <span className="font-semibold text-black">Northeast Calgary</span>: Calgary
-                    pickups are often requested when vehicles won&apos;t start or are sitting
-                    idling on-site, such as: Saddleridge, Taradale, Martindale, Falconridge,
-                    Castle Ridge, Monterey Park, SkyView Ranch, and Cornerstone.
+                    NE Calgary is one of our busiest pickup zones. Saddleridge,
+                    Taradale, Martindale, Falconridge, Castleridge, Monterey
+                    Park, SkyView Ranch, Cornerstone, Cityscape, and Redstone —
+                    we are in these communities regularly. Same-day pickup is
+                    almost always available.
                   </p>
                 </div>
                 
@@ -69,32 +67,43 @@ export default function AreasWeServeSection() {
             <div className="grid lg:grid-cols-2">
               <div className="order-2 lg:order-1 p-8 lg:p-10">
                 <h4 className="text-2xl font-bold text-black mb-4">
-                  Neighborhoods, downtown, and industrial routes
+                  SE Calgary
                 </h4>
                 <div className="space-y-4 text-black/70 leading-relaxed">
                   <p>
-                    <span className="font-semibold text-black">Southwest Calgary</span>: We
-                    offer fast service across SW Calgary including Marda Loop, Altadore,
-                    Glenbrook, Signal Hill, West Springs, Aspen Woods, Springbank Hill,
-                    Strathcona Park, Evergreen, Bridlewood, and Silverado areas.
+                    SE Calgary is our highest-volume service area. Cranston,
+                    Auburn Bay, Mahogany, Seton, Legacy, Walden, Deer Run,
+                    Queensland, Acadia, McKenzie Towne, Douglasdale, and
+                    Midnapore — we run these routes every single day.
                   </p>
+                  <h4 className="pt-3 text-2xl font-bold text-black">
+                    SW Calgary
+                  </h4>
                   <p>
-                    <span className="font-semibold text-black">SE Calgary</span>: We provide our
-                    most popular service zone to date: SE Calgary is our most active service area
-                    and covers Deer Run, Queensland, Acadia, Cranston, as well as Auburn Bay,
-                    Mahogany, Seton, Legacy, Walden, and Midnapore.
+                    Marda Loop, Altadore, Glenbrook, Signal Hill, West Springs,
+                    Aspen Woods, Springbank Hill, Strathcona Park, Evergreen,
+                    Bridlewood, Silverado, and Garrison Woods — all covered,
+                    same-day service available in most cases.
                   </p>
+                  <h4 className="pt-3 text-2xl font-bold text-black">
+                    Downtown &amp; Inner City
+                  </h4>
                   <p>
-                    Areas near industrial parks and major routes like Deerfoot and Stoney offer
-                    great investment potential.
+                    Beltline, Mission, Inglewood, Bridgeland, Eau Claire, East
+                    Village, and Ramsay — parking is tight in the core and we
+                    know it. Our drivers navigate downtown Calgary regularly and
+                    can arrange fast removal near the Stampede Grounds, Calgary
+                    Tower, and East Village.
                   </p>
+                  <h4 className="pt-3 text-2xl font-bold text-black">
+                    Outside Calgary
+                  </h4>
                   <p>
-                    <span className="font-semibold text-black">Downtown Calgary &amp; Inner City</span>:
-                    In the core or inner-city neighborhoods, we provide fast removal of unwanted
-                    vehicles&mdash;particularly helpful when parking space is tight. Our service
-                    areas include Beltline, Mission, Inglewood, Bridgeland, Eau Claire, and East
-                    Village. Areas around major landmarks such as Calgary Tower and Stampede
-                    Grounds provide opportunities for improvement.
+                    We serve Airdrie, Cochrane, Okotoks, Chestermere,
+                    Strathmore, High River, and all Rocky View County
+                    communities with the same free towing and same competitive
+                    pricing. No extra charges for communities within 60 km of
+                    Calgary.
                   </p>
                 </div>
                 

@@ -1,4 +1,5 @@
-import { Users, ShieldCheck } from "lucide-react";
+import Link from "next/link";
+import { ShieldCheck } from "lucide-react";
 
 export default function AboutUsSection() {
   return (
@@ -40,31 +41,69 @@ export default function AboutUsSection() {
               </span>
             </div>
 
-            <h2 className="text-4xl md:text-5xl font-bold text-black leading-tight">
-              Cash for Cars Calgary — Get Top Dollar + Free Pickup
+            <h2 className="text-2xl md:text-3xl font-bold text-black leading-tight">
+              Calgary's Own Cash for Cars Buyer - Not a Chain, Not a Middleman
             </h2>
 
             <p className="text-lg text-black leading-relaxed">
-              Are You Searching for Quick Cash for Cars Calgary Without Hassles and Free Pickup Want Fast, Hassle-free Car Buying Solutions in Calgary? YYC Cash makes selling unwanted vehicles an effortless process--whether running, damaged, accidental, old rusted or completely non-starting! We provide instant offers, free towing services, same or next day pickup throughout Calgary and its nearby communities so that you get paid without hassle of listings, messages or no shows!
+              We started <Link
+                href="/"
+                className="font-semibold text-primary underline hover:text-secondary"
+            >
+              YYC Cash For Cars
+            </Link>{" "} because selling a car in Calgary was harder
+              than it needed to be. Dealers would not touch older vehicles,
+              private buyers wasted your time, and the few junk car services
+              around lowballed everyone. So we fixed it.
             </p>
 
             <p className="text-lg text-black leading-relaxed">
-              Calgary's Local Junk and Scrap Car Buyers Selling privately can take weeks,
-              while dealers don't always want older or damaged vehicles.
-              By choosing YYC Cash as your <a href="https://www.yyccash.com/" className="text-primary font-semibold hover:text-secondary underline">local junk and scrap car buyers</a> in Calgary,
-              we make it simple with straightforward cash offers based on vehicle details
-              such as make, model, year, condition and location. 
-              Being local means we understand busy Calgary schedules as well as seasonal wear on 
-              vehicles needing quick pickups when blocking driveways or taking up parking spots.
-
+              We give you a real number based on your actual vehicle - the year,
+              make, condition, and current Alberta scrap market - and we stick to
+              it. No surprise deductions when our driver shows up. No cheques
+              that clear a week later. You get what we quoted, in cash or by
+              Interac e-Transfer, before we move your car off your property.
             </p>
 
-            <div className="flex gap-4 items-center">
+            <p className="text-lg text-black leading-relaxed">
+              We are AMVIC-compliant, fully insured, and we handle the Alberta
+              Registry title transfer ourselves. If you need{" "}
+              <Link
+                href="/services/cash-for-junk-cars"
+                className="font-semibold text-primary underline hover:text-secondary"
+              >
+                junk car removal
+              </Link>{" "}
+              or{" "}
+              <Link
+                href="/services/scrap-car-removal"
+                className="font-semibold text-primary underline hover:text-secondary"
+              >
+                scrap car removal
+              </Link>{" "}
+              in Calgary, the process is built to protect your time and your
+              paperwork. You are protected from parking tickets, fines, or any
+              liability tied to that vehicle the moment we take possession.
+            </p>
+
+            <div className="grid gap-3 sm:grid-cols-2">
               <div className="bg-gradient-to-r from-primary to-secondary rounded-xl p-3 px-6 font-bold text-white">
-                <p>Proudly Locally Owned & Operated</p>
+                <p>Locally Owned - Calgary, AB</p>
               </div>
               <div className="bg-gradient-to-r from-primary to-secondary rounded-xl p-3 px-6 font-bold text-white">
-                <p>Completely Insured Services</p>
+                <p>AMVIC-Compliant Automotive Business</p>
+              </div>
+              <div className="bg-gradient-to-r from-primary to-secondary rounded-xl p-3 px-6 font-bold text-white">
+                <p>Fully Insured & Bonded</p>
+              </div>
+              <div className="bg-gradient-to-r from-primary to-secondary rounded-xl p-3 px-6 font-bold text-white">
+                <p>Alberta Registry Title Transfer Handled</p>
+              </div>
+              <div className="bg-gradient-to-r from-primary to-secondary rounded-xl p-3 px-6 font-bold text-white">
+                <p>2,500+ Vehicles Purchased</p>
+              </div>
+              <div className="bg-gradient-to-r from-primary to-secondary rounded-xl p-3 px-6 font-bold text-white">
+                <p>Open 7 Days: 8 AM - 8 PM</p>
               </div>
             </div>
           </div>

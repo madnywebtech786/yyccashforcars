@@ -6,40 +6,45 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
-    // {
-    //   question: "Do you buy cars without titles?",
-    //   answer:
-    //     "Yes! We buy cars without titles in Calgary. We understand that sometimes paperwork gets lost or misplaced, and we're here to help you get cash for your vehicle regardless.",
-    // },
     {
-      question: "How quickly can you pick up my junk car?",
+      question: "How much will I get for my car?",
       answer:
-        "We offer same-day service in most cases. Once you accept our quote, we'll schedule a pickup time that works for you, often within 1 hour.",
+        "Between $300 and $10,000 depending on the year, make, model, condition, and current Alberta scrap market. A running 2016 Toyota Corolla might bring $2,500-$4,000. A 2005 Chevy Silverado with a bad engine might bring $600-$1,200. The only real answer comes after you tell us about your specific vehicle - call us and we will give you a number in minutes.",
     },
     {
-      question: "What types of vehicles do you buy?",
+      question: "Do I really pay nothing for towing?",
       answer:
-        "We buy all types of vehicles including cars, trucks, SUVs, vans, and even motorcycles. Whether your vehicle is running or not, we'll make you an offer.",
+        "Nothing. Free towing is on every pickup across all of Calgary and surrounding communities. No tow fee gets added later, nothing is deducted from your offer at the door. The number we quote is the number you receive.",
     },
     {
-      question: "Is there a fee for towing?",
+      question: "Can I sell a car without a title in Alberta?",
       answer:
-        "No, we provide free towing service for all junk cars in the Calgary area. There are no hidden fees or charges for pickup.",
+        "In many cases yes. Alberta has provisions for junk and scrap vehicles sold without a standard title. Call us, tell us your situation, and we will walk you through what is needed. Bring your photo ID and whatever ownership documents you have.",
     },
     {
-      question: "How do I get paid?",
+      question: "Do you buy vehicles with a lien?",
       answer:
-        "We pay cash on the spot at the time of pickup. You'll receive payment immediately after we inspect your vehicle and complete the paperwork.",
+        "Yes. It adds a step - we need to contact the lienholder and arrange a proper discharge - but it is a process we handle regularly. Call us and we will explain exactly what is involved for your situation.",
     },
     {
-      question: "What documents do I need to provide during the purchase?",
+      question: "What paperwork do I need?",
       answer:
-        "You will need to provide proof of ownership, a valid government-issued ID, and your vehicle registration to complete the purchase and verify ownership.",
+        "Your Alberta vehicle registration and a valid photo ID. If you do not have registration, call first. We deal with documentation gaps often and can usually still complete the purchase. We handle the Alberta Registry title transfer ourselves at no extra cost.",
     },
     {
-      question: "Who pays top dollar for junk cars?",
+      question: "Can I sell a hail-damaged car to you?",
       answer:
-        "YYC Cash For Cars pays top dollar for junk cars in Calgary. We evaluate based on parts value and scrap metal weight. Get instant quotes and same-day pickup across Alberta.",
+        "Yes and we see a lot of them. Calgary gets hit hard by hail in June and July - some years SW and SE Calgary take serious damage across thousands of vehicles. Whether yours was a partial claim or a full write-off, we will make you a fair offer.",
+    },
+    {
+      question: "Do you buy trucks and commercial vehicles?",
+      answer:
+        "Yes. We buy pickup trucks, cargo vans, service vehicles, and heavy-duty work trucks. If you have a fleet to decommission, call us directly for multi-vehicle pricing.",
+    },
+    {
+      question: "What happens to my car after pickup?",
+      answer:
+        "It goes to a certified Alberta recycling facility. Fluids are drained and disposed of per Alberta Environment requirements. Reusable parts are pulled and resold. The remaining steel and metals go to smelting. We follow Alberta Recycling Management Authority (ARMA) guidelines on every vehicle.",
     },
   ];
 
@@ -59,8 +64,7 @@ export default function FAQSection() {
             Questions
           </h3>
           <p className="text-black max-w-2xl mx-auto text-lg">
-            Got questions? We've got answers. Find everything you need to know
-            about selling your junk car.
+            Questions Calgary sellers ask us most before booking free pickup.
           </p>
         </div>
 

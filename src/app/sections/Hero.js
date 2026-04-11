@@ -21,26 +21,32 @@ const HeroSection = () => {
           <div className="space-y-4">
             <div className="space-y-4">
               <div className="inline-block px-4 py-1 bg-primary text-white rounded-full text-sm font-medium ">
-                Cash for Junk Cars CALGARY
+                Cash for Junk Cars Calgary
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight ">
-                Get Top Cash for Cars Calgary Now
+                Get Top Cash for Cars Calgary - We Come to You
               </h1>
 
               <p className="text-lg text-white leading-relaxed">
-                {/* We buy junk, wrecked and running vehicles top dollar paid on the
-                spot. Fast, no-hassle offers by phone; free towing and
-                eco-friendly disposal across Calgary and nearby communities.!! */}
+                Locally owned and operated in Calgary. We buy junk cars, scrap
+                vehicles, accident write-offs, and anything in between. $300 to
+                $10,000 paid the same day - free towing included.
               </p>
             </div>
             <p className="text-white mt-3">
-              Serving Calgary, Airdrie, Cochrane, Okotoks & nearby towns & area.
+              Serving Calgary, Airdrie, Cochrane, Okotoks, Chestermere,
+              Strathmore, High River, Rocky View County, and nearby areas.
             </p>
             <div className="flex gap-4 items-center">
+              <Link href="/contact">
+                <button className="px-4 md:px-8 py-3 md:py-4 bg-white text-primary font-bold text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 cursor-pointer">
+                  Get My Free Cash Offer
+                </button>
+              </Link>
               <Link href="tel:+15877009806">
                 <button className="px-4 md:px-8 py-3 md:py-4 bg-gradient-to-r from-primary to-secondary text-white font-bold text-base md:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 cursor-pointer">
-                  Call Us Now
+                  Call 587-700-9806
                 </button>
               </Link>
             </div>

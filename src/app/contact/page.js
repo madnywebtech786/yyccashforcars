@@ -112,7 +112,7 @@ export default function page() {
                     </p>
                     <p className="mt-1 text-xl font-bold text-black">Calgary + Nearby Towns</p>
                     <p className="mt-2 text-sm text-gray-600">
-                      Check city pages for local pickup and service details.
+                      Same Day Pickup with Free Towing
                     </p>
                   </div>
                 </div>

@@ -7,6 +7,7 @@ import {
   CheckCircle,
   Clock,
 } from "lucide-react";
+import Link from "next/link";
 
 export default function ProcessSection() {
   return (
@@ -16,12 +17,13 @@ export default function ProcessSection() {
           <h3 className="text-4xl font-bold text-black mb-4">
             {" "}
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              3 Easy Steps
+              3 Steps
             </span>{" "}
-            To Sell Your Junk Car in Calgary
+            to Get Cash for Your Car in Calgary
           </h3>
           <p className="text-black max-w-2xl mx-auto text-lg">
-            Fast, simple and trustworthy process to get instant cash for your unwanted vehicle   same-day pickup and free towing available across Calgary.
+            No listings, no strangers coming to your home to test drive, and no
+            negotiations that go nowhere.
           </p>
         </div>
 
@@ -43,7 +45,13 @@ export default function ProcessSection() {
               Tell Us About Your Vehicle
             </h4>
             <p className="text-black mb-6 leading-relaxed">
-              Use our quick form or call now with your car details. Provide make, model, year and condition and get a firm, no-obligation offer typically within a few hours and always within 24.
+              Call <Link
+                href="tel:+15877009806" className="font-semibold text-primary underline hover:text-secondary"
+            >
+              587-700-9806
+            </Link> or fill in the quote form. Give us the year,
+              make, model, condition, and your Calgary address. We will give you
+              a firm offer, usually within minutes and always within a few hours.
             </p>
 
             {/* Visual Element */}
@@ -57,7 +65,7 @@ export default function ProcessSection() {
                     Vehicle Details
                   </div>
                   <div className="text-xs text-black">
-                    Make, Model, Year, Condition, VIN
+                    Make, Model, Year, Condition, Location
                   </div>
                 </div>
               </div>
@@ -78,10 +86,11 @@ export default function ProcessSection() {
 
             {/* Content */}
             <h4 className="text-2xl font-bold text-black mb-4">
-              Receive Your Free Offer
+              Accept and Pick a Time
             </h4>
             <p className="text-black mb-6 leading-relaxed">
-              We provide a clear, transparent quote with no hidden fees. Phone and online offers are honest and backed by our team so you can choose with confidence.
+              If the number works for you, we schedule pickup around your day -
+              mornings, afternoons, evenings, or weekends. You pick the window.
             </p>
 
             {/* Visual Element */}
@@ -92,10 +101,10 @@ export default function ProcessSection() {
                 </div>
                 <div>
                   <div className="text-sm font-semibold text-black">
-                    Firm Cash Quote
+                    Flexible Pickup
                   </div>
                   <div className="text-xs text-black">
-                    Accurate offer based on condition
+                    Mornings, evenings, and weekends
                   </div>
                 </div>
               </div>
@@ -116,10 +125,12 @@ export default function ProcessSection() {
 
             {/* Content */}
             <h4 className="text-2xl font-bold text-black mb-4">
-              Accept & Get Paid Today
+              Get Paid, Car Gone
             </h4>
             <p className="text-black mb-6 leading-relaxed">
-              Say yes to the offer and we’ll schedule pickup and immediate payment. Same-day removal, licensed paperwork handling and responsible recycling   fast and secure.
+              Our driver arrives, pays you cash or sends the Interac e-Transfer
+              before touching your vehicle, loads it up, and handles the Alberta
+              title paperwork on the spot.
             </p>
 
             {/* Visual Element */}

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Compass, Star } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 export default function WorkingAreasSection() {
   const workingAreas = [
@@ -256,9 +256,9 @@ export default function WorkingAreasSection() {
   ];
 
   return (
-    <section className="bg-white p-4 py-16 md:p-10 lg:p-10">
+    <section className="bg-white p-4 py-12 md:p-10 lg:p-10">
       <div className="mx-auto w-full max-w-7xl">
-        <div className="mb-16 text-center">
+        <div className="mb-8 text-center">
           <h3 className="mb-4 text-4xl font-bold text-black">
             Areas{" "}
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
@@ -271,85 +271,27 @@ export default function WorkingAreasSection() {
           </p>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {workingAreas.map((area) => (
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
+          {[...workingAreas]
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .map((area) => (
             <Link
-              key={area.id}
+              key={area.href}
               href={area.href}
-              className={`group relative overflow-hidden rounded-[1.8rem] border p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl ${
+              className={`group flex min-h-20 items-center justify-between gap-3 rounded-2xl border px-4 py-3 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${
                 area.primary
-                  ? "border-primary/20 bg-gradient-to-br from-[#eaf7ff] via-white to-[#fff4f6]"
-                  : `border-gray-100 bg-gradient-to-br ${area.style}`
+                  ? "border-primary/30 bg-gradient-to-br from-[#eaf7ff] via-white to-[#fff4f6]"
+                  : "border-gray-100 bg-white"
               }`}
             >
-              <div className="absolute -right-8 -top-8 h-24 w-24 rounded-full bg-secondary/10 blur-2xl" />
-              <div className="absolute -left-8 bottom-0 h-24 w-24 rounded-full bg-primary/10 blur-2xl" />
-              <div className="relative">
-                <div className="flex items-start justify-between gap-4">
-                  <div>
-                    <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">
-                      {area.area}
-                    </p>
-                    <h5 className="mt-2 text-2xl font-bold text-black">
-                      {area.name}
-                    </h5>
-                    <p className="mt-3 max-w-[15rem] text-sm leading-6 text-gray-700">
-                      {area.tagline}
-                    </p>
-                  </div>
-                  <div className="rounded-2xl border border-white/80 bg-white/80 px-3 py-2 text-right shadow-sm">
-                    <p className="text-[11px] font-semibold uppercase tracking-wide text-gray-500">
-                      Distance
-                    </p>
-                    <p className="text-sm font-bold text-black">
-                      {area.distance}
-                    </p>
-                  </div>
-                </div>
-
-                <div className="mt-8 flex items-center justify-between">
-                  <div className="text-sm font-semibold text-primary">
-                    Learn More
-                  </div>
-                  <span className="text-xl text-gray-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary">
-                    →
-                  </span>
-                </div>
-              </div>
+              <span className="font-bold text-black">{area.name}</span>
+              <ArrowUpRight
+                size={18}
+                aria-hidden="true"
+                className="shrink-0 text-primary transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+              />
             </Link>
           ))}
-          <div className="group relative overflow-hidden rounded-[1.8rem] border border-primary/15 bg-gradient-to-br from-[#f3faff] via-white to-[#fff5f7] p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
-            <div className="absolute -right-8 -top-8 h-24 w-24 rounded-full bg-secondary/10 blur-2xl" />
-            <div className="absolute -left-8 bottom-0 h-24 w-24 rounded-full bg-primary/10 blur-2xl" />
-            <div className="relative">
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <h5 className="text-2xl font-bold text-black">
-                    Growing Alberta Coverage
-                  </h5>
-                </div>
-              </div>
-
-              <div className="mt-8">
-                <p className="text-sm leading-7 text-gray-700">
-                  We provide cash for cars in Calgary and across Alberta,
-                  including scrap car removal, junk car removal, and fast cash
-                  offers for unwanted vehicles.
-                </p>
-              </div>
-              <div className="mt-8 flex items-center justify-between">
-                <Link
-                  href="/locations"
-                  className="flex items-center gap-2 text-sm font-semibold text-primary transition-colors hover:text-secondary"
-                >
-                  <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white shadow-sm">
-                    <Compass className="h-4 w-4" />
-                  </span>
-                  Learn more
-                </Link>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

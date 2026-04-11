@@ -321,7 +321,9 @@ export default function LocationsPage() {
             </div>
 
             <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-              {locations.map((location) => (
+              {[...locations]
+                .sort((a, b) => a.name.localeCompare(b.name))
+                .map((location) => (
                 <Link
                   key={location.href}
                   href={location.href}

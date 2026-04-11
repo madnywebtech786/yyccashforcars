@@ -1,19 +1,21 @@
 import HeroSection from "./sections/Hero";
 import AboutUsSection from "./sections/About";
+import PriceTransparencySection from "./sections/PriceTransparency";
 import VehicleTypesSection from "./sections/VehicleTypes";
 import AreasWeServeSection from "./sections/AreasWeServe";
-import ScrapCarsSection from "./sections/Scrape";
 import Services from "./sections/Services";
 import ProcessSection from "./sections/Process";
-import StatsSection from "./sections/Stats";
-import GallerySection from "./sections/Gallery";
 import FAQSection from "./sections/FAQ";
+import WhyChooseSection from "./sections/WhyChoose";
 import TestimonialSection from "./sections/Testimonial";
+import GallerySection from "./sections/Gallery";
 import WorkingAreasSection from "./sections/WorkingAreas";
-import WhatWeTowSection from "./sections/WhatTow";
 import {getOgImageForPath} from "@/lib/seo";
 
 export const metadata = {
+    title: "Cash for Cars Calgary | $300-$10,000 | YYC Cash For Cars",
+    description:
+        "Top cash for junk & scrap cars in Calgary. Free towing, same-day pickup, AMVIC-compliant. Paid cash or e-Transfer on the spot. Call 587-700-9806.",
     alternates: {
         canonical: "/",
     },
@@ -31,15 +33,14 @@ export default function Home() {
             <HeroSection/>
             <AboutUsSection/>
             <TestimonialSection/>
-            <VehicleTypesSection/>
-            <ScrapCarsSection/>
+            <PriceTransparencySection/>
             <Services/>
-            <WhatWeTowSection/>
             <ProcessSection/>
-            <StatsSection/>
+            <VehicleTypesSection/>
+            <AreasWeServeSection/>
+            <WhyChooseSection/>
             <GallerySection/>
             <WorkingAreasSection/>
-            <AreasWeServeSection/>
             <FAQSection/>
         </div>
     );
