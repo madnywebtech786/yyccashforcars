@@ -234,6 +234,16 @@ export default function WorkingAreasSection() {
       tagline: "Cash for cars and scrap removal service in Cremona.",
     },
     {
+      id: 26,
+      name: "Didsbury",
+      area: "Mountain View County",
+      distance: "75 km",
+      primary: false,
+      href: "/locations/didsbury",
+      style: "from-[#fff8f8] to-white",
+      tagline: "Cash for cars in Didsbury with free towing from your property.",
+    },
+    {
       id: 25,
       name: "Indus",
       area: "Rocky View County",

@@ -3422,6 +3422,200 @@ We buy cars, trucks, SUVs, vans, and other unwanted vehicles in many conditions,
 If you are ready to sell an unwanted vehicle in Three Hills, [contact YYC Cash for Cars](/contact) for a fair offer, free towing, and a simple pickup process.`,
   },
   {
+    id: 27,
+    name: "Didsbury",
+    slug: "didsbury",
+    area: "Mountain View County",
+    distance: "75 km",
+    primary: false,
+    image: "/images/gallery/g9.webp",
+    metaTitle: "Cash for Cars Didsbury AB | Free Towing | YYC Cash",
+    metaDescription:
+      "Selling your car in Didsbury, AB? YYC Cash pays $300–$10,000, tows free from your property & pays cash or e-Transfer on the spot. Call 587-700-9806.",
+    heading: "Cash for Cars Didsbury, Alberta — Free Pickup, Paid on the Spot",
+    description:
+      "YYC Cash buys junk, scrap, and unwanted vehicles directly from Didsbury and Mountain View County. Free towing from your driveway, yard, or acreage. Cash or Interac e-Transfer paid before we move anything.",
+    additionalInfo: "",
+    neighborhoods: [
+      "Didsbury",
+      "Mountain View County",
+      "Carstairs",
+      "Crossfield",
+      "Olds",
+      "Cremona",
+      "Airdrie",
+      "Calgary",
+    ],
+    features: [
+      "Free towing from your driveway, yard, or acreage",
+      "Cash or Interac e-Transfer paid before we move anything",
+      "No rural surcharge",
+      "AMVIC-compliant and fully insured",
+      "Alberta Registry title transfer handled",
+      "Farm trucks and acreage work vehicles accepted",
+      "Commercial, trades, or fleet vehicles accepted",
+      "Same day or following morning service",
+    ],
+    hours: "Open 7 Days, 7 AM to 11 PM",
+    responseTime: "Same day or following morning",
+    content: `## We Buy Cars in Didsbury — Straight to Your Door
+
+Selling a vehicle in Didsbury is not like selling one in the middle of Calgary. Buyers from the city rarely want to drive up Highway 2 for a viewing. Dealers only want vehicles in clean condition. And most people trying to sell privately end up sitting on a listing for weeks, dealing with low offers and people who never show up.
+
+We make it simple.
+
+[YYC Cash](/) drives out to Didsbury and Mountain View County with the same free towing and the same honest pricing we offer everywhere in our service area. We buy your vehicle based on what it is actually worth — the year, the make, the condition, and what Alberta's scrap metal market is doing right now. That number does not change when our driver pulls into your driveway.
+
+You get paid in cash or by Interac e-Transfer before we touch the vehicle. We handle the Alberta Registry title transfer on the spot. We are AMVIC-compliant and fully insured. When we leave, that vehicle is completely off your hands — no future fines, no registration renewals, no liability of any kind.
+
+## What We Pay for Vehicles in Didsbury
+
+Didsbury and the surrounding Mountain View County area has its share of older trucks, farm vehicles, and cars that have reached the end of their useful life. All of it has real value — in scrap metal, usable parts, or both — and we price every vehicle honestly against what the Alberta market actually supports right now.
+
+Call us with the year, make, model, and a quick description of the condition. We will give you a firm number within minutes — no obligation to accept it.
+
+## What We Buy in Didsbury and How It Works
+
+### Cash for Junk Cars Didsbury
+
+Got a car, truck, or SUV sitting unused in Didsbury that you have been meaning to deal with for months? Whether it stopped running last winter, got rear-ended on Highway 2, has a transmission that finally gave out, or is simply taking up space you need back — we want it.
+
+[We buy junk cars](/services/cash-for-junk-cars) from properties throughout Mountain View County. Running or completely dead, we come to you. Toyota, Ford, Dodge, Chevy, GMC, Honda, Hyundai, Subaru, Nissan, Jeep — every make, every model, every year. Tell us what you have and we will give you a real number the same day.
+
+### Scrap Car Removal Didsbury — Free Towing, No Rural Surcharge
+
+A scrap vehicle sitting on a Didsbury property — in the yard, behind the shop, or parked on an acreage — does not get better with time. It leaks fluids into the ground, it takes up space, and depending on how long it has been sitting, it can create issues with Mountain View County bylaws around derelict vehicles on residential and agricultural properties.
+
+We remove it for free. Our driver comes to your address, loads the vehicle, drains all fluids to Alberta Environment standards, and takes it to an ARMA-certified recycling facility. The Alberta Registry disposal paperwork is done by us. You get paid and the problem disappears.
+
+No towing fee. No fuel charge for the drive from Calgary. Free towing means exactly that.
+
+### Accident and Write-Off Vehicles Didsbury
+
+If your vehicle was written off in an accident on the QEII Highway, in a hailstorm that came through the Mountain View County area, or for any other reason — we buy it. We purchase vehicles with deployed airbags, bent frames, fire damage, and severe body damage regularly. Call us before you hand it over to the insurance company and find out what we will pay.
+
+### Farm Trucks and Acreage Work Vehicles
+
+Didsbury sits in the heart of Mountain View County's agricultural land. Old farm trucks, acreage workhorses, and vehicles that spent years in service on rural properties are something we buy all the time. A 1999 Ford F-350 that has not moved since the harvest three years ago still has scrap metal value and often has usable parts worth real money. Do not let it rust further — call us today.
+
+## 3 Steps to Get Cash for Your Car in Didsbury
+
+Step 1 — Call or Fill in the Form Call 587-700-9806 or submit the online quote form with your vehicle's year, make, model, and condition. Let us know you are in Didsbury or Mountain View County. We will give you a firm offer — usually within minutes, always within a few hours.
+
+Step 2 — Pick a Time That Works We work around your schedule. Morning, afternoon, evening, or weekend — we drive out to Didsbury when it is convenient for you, not when it is convenient for us.
+
+Step 3 — Get Paid Before We Move the Vehicle Our driver arrives at your property, pays you cash or sends the Interac e-Transfer on the spot, and handles the Alberta Registry title paperwork right there. The vehicle gets loaded and the whole process wraps up in under 30 minutes. You are left with money and a clear property.
+
+## Every Vehicle Type Accepted in Didsbury
+
+We do not turn vehicles away based on condition, age, or missing parts. If it has a VIN number, we are interested.
+
+We buy vehicles that are:
+
+- Non-running or will not start
+- Blown engine or seized transmission
+- Hail-damaged — common across central Alberta
+- Accident damage or insurance write-offs
+- Fire or flood-damaged
+- Missing catalytic converter, wheels, or major parts
+- Sitting unused on a property for months or years
+- Vehicles with outstanding liens
+- Vehicles without a title — call us first to discuss
+- Old farm trucks and acreage work vehicles
+- Commercial, trades, or fleet vehicles
+
+Makes we buy: Toyota, Honda, Ford, Chevrolet, GMC, Dodge, Ram, Chrysler, Jeep, Hyundai, Kia, Nissan, Mazda, Subaru, Volkswagen, BMW, Mercedes-Benz, Audi, Cadillac, Buick, Pontiac, Saturn, and every other make and model ever registered in Alberta.
+
+## Serving Didsbury and the Surrounding Mountain View County Area
+
+Didsbury is a town of just over 5,000 people sitting along the QEII Highway in Mountain View County, about 75 kilometres north of Calgary. It is a working community — agriculture, ranching, trades, and small business — and the vehicles here reflect that. Pickup trucks, older work vehicles, and farm equipment are part of everyday life in this part of central Alberta.
+
+We cover Didsbury and the communities around it:
+
+### Didsbury Town and Immediate Area
+
+We come directly to your Didsbury address — in town, on an acreage property on the outskirts, or on a rural lot in the surrounding county land. You do not need to haul the vehicle to a road or move it before we arrive. We come prepared to load vehicles that are not mobile, sitting on gravel yards, or parked in tight spots behind a shop.
+
+### Nearby Communities We Also Serve
+
+- Carstairs — 15 km south along Highway 2
+- [Crossfield](/locations/crossfield) — 30 km south, we serve it regularly
+- Olds — 20 km north along the QEII
+- Cremona — west on Highway 580, Mountain View County
+- Airdrie — 50 km south, one of our busiest routes
+- Calgary — 75 km south, our home base
+
+If you are anywhere between Olds and Airdrie along the Highway 2 corridor — or anywhere in Mountain View County — we will come to you with the same free towing and the same competitive pricing. No surcharge for distance. No rural premium added to your quote.
+
+## Why Didsbury Residents Choose YYC Cash
+
+### We Drive Out to Didsbury — Others Do Not Always
+
+A lot of Calgary-based cash-for-cars services list Mountain View County on their website but are slow to actually commit to the drive. We come out to Didsbury regularly. When we give you a quote, we back it up by showing up — on the day we said, at the time we agreed, without last-minute excuses.
+
+### AMVIC-Compliant — Legitimate, Accountable, Protected
+
+YYC Cash operates in compliance with AMVIC — the Alberta Motor Vehicle Industry Council. When you sell your vehicle to us, you are protected by Alberta's automotive regulations. The title transfer is processed correctly, your liability on the vehicle ends the moment we take possession, and you are dealing with a registered, accountable Alberta business — not someone running cash-for-cars out of a personal account.
+
+### Prices Built on Real Alberta Scrap Market Rates
+
+Our offers reflect current Alberta commodity prices for steel, aluminum, copper, and catalytic converter precious metals. When the industrial scrap market in Alberta is up, your offer reflects that. We do not quote a number designed to get you to call and then change it when the driver arrives.
+
+### Cash or Interac e-Transfer — Paid on the Spot
+
+You decide how you want to be paid. Cash in hand or an instant Interac e-Transfer sent the moment our driver is at your property. Either way, you are paid in full before the vehicle is loaded. Not after. Not by cheque in the mail next week. Right there at pickup.
+
+### We Handle Every Piece of Alberta Paperwork
+
+Alberta Registry title transfer is done by us at the time of pickup. Once that paperwork is filed, any outstanding fines, future tickets, or liabilities tied to that vehicle stop being your concern entirely. We make sure the transfer is done correctly so you are fully protected.
+
+## FAQ
+
+**Do you charge extra to come out to Didsbury from Calgary?**
+
+No. Free towing covers the full drive from Calgary to Didsbury and anywhere else in our service area. There is no rural surcharge, no fuel charge, and nothing deducted from your offer because of the distance. The number we quote is the number you receive.
+
+**How much will I get for an old farm truck in Mountain View County?**
+
+It depends on the year, make, condition, and how much of the drivetrain is still intact. An older half-ton with a working engine and a solid frame might bring $600–$2,500. A rusted-out non-runner with a seized motor might bring $300–$600 based on scrap metal weight. Call us with the specifics and we will give you a real number — not a guess.
+
+**What if the vehicle has been sitting so long the tires are flat and it will not roll?**
+
+Not a problem. Our drivers are prepared for vehicles that cannot move on their own. Let us know the situation when you call — whether it is sunk into soft ground, missing wheels, sitting in a tight spot, or stuck in a garage — and we will bring the right equipment to handle it.
+
+**Can I sell a vehicle without up-to-date registration in Alberta?**
+
+Call us first. Rural vehicles — especially older farm trucks — often have paperwork that is years out of date or incomplete. We deal with this regularly. Bring your photo ID and whatever ownership documents you have. We will work through what is needed and tell you exactly what is possible in your situation.
+
+**Do you buy multiple vehicles at once?**
+
+Yes. If you have two or three vehicles on the property that you want cleared in one go, we can coordinate a single trip to handle the lot. Tell us what you have when you call and we will give you combined pricing and arrange one pickup day so you are not dealing with multiple appointments.
+
+**How long does the whole thing take from first call to pickup?**
+
+Most Didsbury sellers are paid and clear of the vehicle the same day or the following morning. The pickup itself takes under 30 minutes at your property. We pay you, handle the paperwork, load the vehicle, and are on our way.
+
+**Do you buy vehicles with a lien still on them?**
+
+Yes. There is an extra step — we need to contact the lienholder and arrange a proper discharge — but we handle lien vehicles regularly and know the process well. Call us and explain the situation and we will walk you through exactly what is needed.
+
+**What if the vehicle has hail damage from one of the summer storms?**
+
+We buy hail-damaged vehicles all the time. Central Alberta gets hit by hail in June and July and it comes through Mountain View County regularly. Whether it is a partial loss or a full insurance write-off, call us and we will make you a fair offer based on what the vehicle is actually worth in its current condition.
+
+**What happens to the vehicle after you take it?**
+
+It goes to a certified Alberta recycling facility. All fluids — engine oil, coolant, brake fluid, refrigerant — are removed and disposed of properly under Alberta Environment regulations. Reusable parts are pulled and sold. The remaining steel and metals go to smelting. We follow ARMA guidelines on every single vehicle we process.
+
+## Ready to Sell Your Car in Didsbury? Call Us Today
+
+Call 587-700-9806, tell us about your vehicle, and we will give you a firm offer on the phone. If the number works for you, we drive out to Didsbury — same day or next morning — pay you before we move anything, and handle every piece of Alberta paperwork on the spot.
+
+No listings. No strangers from the internet coming to your property. No waiting around for a buyer who might not come through.
+
+YYC Cash for Cars — Open 7 Days, 7 AM to 11 PM Serving Didsbury, Mountain View County, and all communities along the Highway 2 corridor from Calgary to Red Deer.`,
+  },
+  {
     id: 26,
     name: "Indus",
     slug: "indus",

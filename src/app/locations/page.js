@@ -153,6 +153,14 @@ const locations = [
     tagline: "Fast cash for cars service with fair pickup in Cremona.",
   },
   {
+    name: "Didsbury",
+    href: "/locations/didsbury",
+    area: "Mountain View County",
+    distance: "75 km",
+    style: "from-[#fff8f8] to-white",
+    tagline: "Cash for cars in Didsbury with free towing from your property.",
+  },
+  {
     name: "Drumheller",
     href: "/locations/drumheller",
     area: "Badlands Region",
