@@ -13,7 +13,7 @@ import WorkingAreasSection from "./sections/WorkingAreas";
 import {getOgImageForPath} from "@/lib/seo";
 
 export const metadata = {
-    title: "Cash for Cars Calgary | $300-$10,000 | YYC Cash For Cars",
+    title: "Cash for Cars Calgary | $300-$10,000 | YYC Cash",
     description:
         "Top cash for junk & scrap cars in Calgary. Free towing, same-day pickup, AMVIC-compliant. Paid cash or e-Transfer on the spot. Call 587-700-9806.",
     alternates: {
