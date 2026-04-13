@@ -4,7 +4,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { marked } from "marked";
 import Link from "next/link";
 import Breadcrumb from "@/app/components/Breadcrumb";
-import { MapPin, Phone, Clock, CheckCircle, Navigation } from "lucide-react";
+import { MapPin, Phone, CheckCircle, BadgeDollarSign } from "lucide-react";
 import ContactForm from "@/app/sections/Contact";
 import Testimonial from "@/app/sections/Testimonial";
 import { getOgImageForPath } from "@/lib/seo";
@@ -3781,6 +3781,333 @@ No listings sitting online for weeks. No strangers from the city driving out to 
 YYC Cash for Cars — Open 7 Days,7AM to 11PM Serving Delacour, Rocky View County, and all communities east of Calgary along the Trans-Canada corridor.`,
   },
   {
+    id: 29,
+    name: "Diamond Valley",
+    slug: "diamond-valley",
+    area: "Foothills County",
+    distance: "66 km",
+    primary: false,
+    image: "/images/gallery/g11.webp",
+    metaTitle: "Cash for Cars Diamond Valley | Free Towing | YYC Cash",
+    metaDescription:
+      "YYC Cash pays $300–$10,000 for any car in Diamond Valley. Free junk & scrap car removal, same-day payment, title transfer handled. Call 587-700-9806.",
+    heading: "Cash for Cars Diamond Valley — YYC Cash for Cars",
+    description:
+      "Turn Your Unwanted Vehicle into Instant Cash, Right Here in Diamond Valley",
+    additionalInfo: "",
+    neighborhoods: [],
+    features: [],
+    hours: "Open 7 Days, 7 AM to 11 PM",
+    responseTime: "Same-day pickup available in most cases",
+    content: `Diamond Valley residents have a vehicle problem that most big-city services simply do not understand. You are not sitting in NE Calgary with three junk car buyers competing for your call. You are 66 kilometres southwest of Calgary, tucked into the foothills where the Sheep River runs between what used to be Black Diamond and Turner Valley — and getting someone out here quickly, fairly, and without a runaround has never been easy.
+
+That changes with YYC Cash for Cars
+
+We come directly to you in Diamond Valley. We pay $300 to $10,000 depending on your vehicle. We tow it away for free. And we handle every piece of Alberta Registry paperwork on the spot so that vehicle is off your name the moment we leave your driveway. Whether your car is sitting on Centre Avenue, parked near the Friendship Trail, or rusting on an acreage just outside the Cowboy Trail corridor — we will pick it up.
+
+## Why Diamond Valley Vehicle Owners Have a Unique Situation
+
+Diamond Valley is Alberta's newest municipality, officially incorporated on January 1, 2023, after the amalgamation of Black Diamond and Turner Valley. The town sits at the intersection of Highway 22 and Highway 7, placing it squarely in the heart of foothills ranch country — a community with a population of roughly 5,300 people who share a very different vehicle reality than suburban Calgary.
+
+Here is what that means practically:
+
+Rural and acreage use is hard on vehicles. Trucks, SUVs, and older work vehicles that have spent years on unpaved ranch roads, logging trails near Kananaskis Country, or the gravel cuts that feed into Sheep River Provincial Park wear out differently than urban cars. Suspension systems, undercarriages, and drivetrains take on damage that makes a vehicle mechanically finished long before it looks visually rough. [We price Diamond Valley vehicles](/) based on what they actually are — farm trucks, foothills work vehicles, high-mileage commuters running the Highway 22 corridor to Calgary — not what a dealership algorithm spits out.
+
+Chinook freeze-thaw cycles destroy undercarriages. The same Chinook winds that make Diamond Valley winters bearable also cause repeated freeze-thaw cycles that are punishing to brake lines, exhaust systems, and frame rails. If your vehicle has been sitting through a couple of foothills winters, the undercarriage has probably taken more damage than you can see from the outside. That does not reduce your payout with us — we know what Chinook damage looks like because we see it every week across this region.
+
+Distance from Calgary creates real disposal problems. Most car removal companies in Calgary will either charge you a tow fee for Diamond Valley pickup, lowball you to offset the distance, or simply tell you to find someone local. If you have searched for junk car removal in Diamond Valley and kept landing on Calgary-only services that quietly add a fuel surcharge when they hear your postal code — that is exactly the gap we fill. We operate across the full Calgary region, which includes the communities along Highway 22 from Cochrane down through Diamond Valley and south toward High River. Diamond Valley is within our standard free towing zone. No extra charges, no distance penalties.
+
+## What We Buy in Diamond Valley — and What We Pay
+
+We buy every vehicle type that comes through Diamond Valley. That means:
+
+Vehicles from the oil and gas era. Turner Valley sits on top of Alberta's first major natural gas and oil field, discovered in 1914. The area spent decades as an energy community, and the legacy of that industry is a lot of heavy-use trucks and commercial vehicles that have spent years in demanding service conditions. We buy them all — pickup trucks, service vans, work vehicles with seized engines or failed transmissions.
+
+High-mileage commuter cars. Driving from Diamond Valley to Calgary is a 66-kilometre run each way. People who commute that corridor put serious mileage on vehicles in a short number of years. If your commuter car has crossed 200,000 or 300,000 kilometres and it is no longer worth repairing, it is still worth real money to us — for parts and for Alberta's scrap metal market.
+
+Non-running and dormant vehicles. If something has been sitting in the yard since before Black Diamond and Turner Valley became Diamond Valley in 2023, it still has scrap value. [Scrap car removal](/services/scrap-car-removal) in Diamond Valley is one of the most common requests we handle from this area — vehicles that haven't moved in years, sitting on acreages or behind garages, that owners assumed were worthless. They are not. Steel, aluminum, copper, and the platinum-group metals inside the catalytic converter all carry market value regardless of when the vehicle last ran. We will assess and pay accordingly.
+
+Accident-damaged and insurance write-offs. Whether it was a collision on Highway 7 heading toward Okotoks, hail damage during the summer storm season, or a flood incident near the Sheep River — we buy accident write-offs and insurance totals before or after the insurer gets involved.
+
+## How the Cash for Cars Process Works in Diamond Valley
+
+Step 1 — Call or submit the quote form. Tell us your vehicle's year, make, model, condition, and your Diamond Valley address. We will give you a firm offer, usually within the hour.
+
+Step 2 — Accept your offer and schedule pickup. We work around your schedule — mornings, afternoons, evenings, or weekends. We know you may be working a commute to Calgary, running a ranch operation near the Sheep River, or simply busy with what small-town Alberta life demands.
+
+Step 3 — Get paid, vehicle removed. Our driver arrives at your Diamond Valley address, pays you cash or sends an Interac e-Transfer before touching your vehicle, and handles the Alberta Registry title transfer on the spot. Once we leave, the vehicle is off your name permanently. No future fines, no insurance liability, no parking tickets tied to you.
+
+## Every Vehicle We Accept
+
+We do not turn vehicles away based on condition, age, or make. Common vehicles we pick up in Diamond Valley and the surrounding foothills include:
+
+Ranch and farm trucks — Ford F-Series, GMC Sierra, Dodge Ram, Chevy Silverado, all years and conditions
+
+High-mileage commuter cars — Toyota Camry, Honda Civic, Mazda3, Hyundai Elantra, Nissan Altima, Subaru Outback
+
+Older domestic vehicles — GM, Chrysler, and Ford vehicles from the 1990s and 2000s that have simply reached the end of their working life
+
+SUVs and crossovers — all makes, all conditions
+
+Vans and commercial vehicles — contractor vans, service trucks, multi-vehicle fleet lots
+
+Vehicles without titles — call us first, we can walk you through Alberta Registry options
+
+Vehicles with outstanding liens — we handle these regularly
+
+## We Handle the Alberta Paperwork — Including Title Transfer
+
+Selling a vehicle privately in Alberta involves a bill of sale, a vehicle inspection history, AMVIC disclosures, and an Alberta Registry title transfer. Get any step wrong and you can remain legally tied to that vehicle for months — meaning traffic violations, insurance lapses, or parking fines can still come back to you.
+
+When you sell to YYC Cash for Cars, we handle all of it. We are AMVIC-compliant, fully insured, and we register the title transfer through Alberta Registry immediately after pickup. The moment our driver leaves your property, your legal connection to that vehicle ends.
+
+## Serving Diamond Valley and the Surrounding Area
+
+Our service area covers Diamond Valley fully — both the Black Diamond and Turner Valley sides of the Sheep River — as well as the surrounding communities along the Highway 22 corridor. This includes:
+
+[Okotoks](/locations/okotoks) — 22 km east on Highway 7
+
+High River — south along Highway 2
+
+Millarville and Priddis — northeast via secondary roads
+
+Bragg Creek — northwest through the foothills
+
+Cochrane — north along Highway 22
+
+Rocky View County acreages and rural properties along the entire Cowboy Trail corridor
+
+No extra tow fees. No distance surcharges. Free pickup is exactly that — free.
+
+## Get Your Diamond Valley Cash Offer Today
+
+If you have a vehicle you want gone — running or not, damaged or rusted, sitting on a ranch property or parked in town — we want to hear from you.
+
+Call YYC Cash for Cars: 587-700-9806 
+
+We are open 7 days a week, 7 AM to 11 PM. Same-day pickup is available in most cases across Diamond Valley and the Cowboy Trail corridor.`,
+  },
+  {
+    id: 30,
+    name: "Edmonton",
+    slug: "edmonton",
+    area: "Northern Alberta",
+    distance: "300 km",
+    primary: false,
+    image: "/images/gallery/g12.webp",
+    metaTitle: "Cash for Cars Edmonton — Any Condition | YYC Cash",
+    metaDescription:
+      "Need cash for cars in Edmonton? We buy junk & scrap vehicles, pay on the spot & handle Alberta paperwork. $300–$10,000. Call 587-700-9806.",
+    heading: "Cash for Cars Edmonton — Free Towing, Same-Day Payment",
+    description:
+      "Get Top Dollar for Your Vehicle in Edmonton — We Come to You, We Pay Before We Move It",
+    additionalInfo: "",
+    neighborhoods: [],
+    features: [],
+    hours: "Open 7 Days, 8 AM to 8 PM",
+    responseTime: "Same-day pickup available",
+    content: `Edmonton car owners deal with a specific frustration that sellers in warmer provinces simply do not face. Your vehicle has been through winters that drop to -30°C or colder, sat on roads saturated in road salt from October through April, and absorbed the kind of mechanical punishment that shaves years off a vehicle's useful life in a single season. Dealers do not want it. Private buyers negotiate forever. And online listings waste your time with no-shows and lowball offers at your front door.
+
+If you need [cash for cars in Edmonton](/) and you want a real number, same-day pickup, and zero paperwork on your end — that is exactly what YYC Cash for Cars delivers. We pay $300 to $10,000 depending on your vehicle, we cover the towing at no cost to you, and we handle the Alberta Registry title transfer on the spot. One call, one visit, done.
+
+## Why Edmonton Vehicles Lose Value Faster — and Why That Does Not Lower Your Offer With Us
+
+Edmonton is the capital of Alberta and the service hub for Canada's oil sands industry. It is known as the "Gateway to the North," with over one million residents spread across one of the largest city footprints in Canada. With that size, that climate, and that economy comes a very specific vehicle story.
+
+Edmonton winters destroy vehicles from the inside out. The combination of extreme cold, road salt on every arterial road from Anthony Henday Drive to Yellowhead Trail, and the spring freeze-thaw cycle that buckles pavement and corrodes undercarriages means Edmonton vehicles accumulate rust, suspension damage, and brake deterioration that is invisible until a mechanic puts it on a hoist. If your vehicle has been through five or more Edmonton winters, it carries damage that a Calgary or Vancouver buyer would not expect — and that a private buyer will use to drag the price down.
+
+We do not penalize you for Edmonton-specific wear. We price it honestly because we see it every week. A rusted subframe on a 2011 Ford F-150 with 220,000 km from a Sherwood Park driveway is not a surprise to us — it is Tuesday.
+
+Edmonton's oil and gas economy creates a surplus of hard-used trucks. The industrial corridor stretching from Nisku through Fort Saskatchewan to Strathcona County's Refinery Row — Alberta's Industrial Heartland — puts thousands of heavy-duty pickups and service vans into demanding daily use. When those vehicles reach the end of their service life, they need to go somewhere. We buy them. Fleet trucks, contractor vans, work vehicles with seized engines or worn-out transmissions — these are some of our most common Edmonton pickups, and we price commercial vehicles at fleet rates.
+
+The Edmonton to Calgary corridor is one of Alberta's highest-mileage routes. The QEII Highway — Highway 2 — connecting Edmonton and Calgary is approximately 300 kilometres of high-speed driving. Vehicles used for regular inter-city travel, contractor work between the two cities, or oil industry commuting to sites in Leduc, Beaumont, or Nisku accumulate mileage in a way that makes them unsellable privately far sooner than their age suggests. Those vehicles are worth real money to us regardless of what the odometer reads.
+
+## What We Buy in Edmonton — Every Condition, Every Neighbourhood
+
+We pick up vehicles from every corner of Edmonton — from the mature neighbourhoods of Old Strathcona and Garneau near the University of Alberta and Whyte Avenue, to the newer communities of Windermere, Terwillegar, and Ellerslie in the southwest, to the northeast communities near Manning Drive and the Edmonton Energy and Technology Park. No neighbourhood is too remote, no vehicle too far gone.
+
+Non-running and long-dormant vehicles. That truck that has not started since last February, the sedan sitting behind the garage since an engine failure on Whitemud Drive — these are among our most requested pickups. [Junk car removal](/services/cash-for-junk-cars) in Edmonton is one of the services we handle most frequently, precisely because Edmonton winters make it easier to abandon a vehicle than to deal with it. If yours has been sitting, we will assess it, give you a real number, and remove it the same day.
+
+Accident-damaged and insurance write-offs. Whether the damage happened in a collision near the Henday, a hailstorm during Edmonton's summer severe weather season, or a winter incident on an icy interchange — we buy write-offs and insurance totals before or after your insurer takes possession. Deployed airbags, bent frames, structural damage — we purchase them regularly.
+
+High-mileage commuter and family vehicles. Edmonton's sprawling layout means residents in communities like Spruce Grove, St. Albert, Leduc, and Beaumont put serious kilometres on vehicles commuting into the city. If your Toyota Camry, Honda CR-V, Hyundai Tucson, or Dodge Caravan has crossed 250,000 km and is no longer worth repairing, it is still worth hundreds of dollars to us for parts and Alberta scrap metal value.
+
+Commercial and fleet vehicles. Edmonton's construction industry, oil services sector, and trades companies operate large fleets of pickups, cargo vans, and heavy-duty work trucks. When those assets reach the end of their working life, we offer fleet pricing and can handle multi-vehicle lots in a single transaction. Call us directly for fleet pickups.
+
+[Scrap car removal service](/services/scrap-car-removal) in Edmonton for end-of-life vehicles. Even a completely non-running vehicle with missing parts, a stripped interior, or a seized engine contains recoverable steel, aluminum, copper wiring, and catalytic converter metals that carry real market value. Our scrap car removal service in Edmonton operates in compliance with Alberta Environment guidelines — fluids drained properly, recycling handled through ARMA-registered facilities, and zero environmental liability left with you.
+
+## How the Process Works — Three Steps, Same Day
+
+Step 1 — Call or submit the online quote form. Give us the year, make, model, condition, and your Edmonton address. We will give you a firm offer, usually within the hour. No vague ranges, no "it depends" — a real number that we stick to when our driver arrives.
+
+Step 2 — Accept your offer and pick a time that works. We schedule around your day — mornings, evenings, and weekends. Whether you are commuting on the Yellowhead Trail, working a shift in the industrial east end, or simply busy with life in a city of over a million people, we fit your schedule.
+
+Step 3 — Get paid, vehicle removed, paperwork done. Our driver arrives at your Edmonton address, pays you cash or sends an Interac e-Transfer before touching your vehicle, loads it up, and handles the Alberta Registry title transfer on the spot. Once we leave, that vehicle is permanently off your name. No future parking fines, no insurance liability, no RCMP letters about abandoned property in your neighbourhood.
+
+## Every Make and Condition We Accept in Edmonton
+
+We do not screen vehicles before booking. Common makes and types we pick up across Edmonton include:
+
+Oil industry and trades trucks — Ford F-150, F-250, F-350, GMC Sierra, Dodge Ram 1500 and 2500, Chevy Silverado, all years and work conditions
+
+Family SUVs and crossovers — Toyota RAV4, Honda CR-V, Hyundai Santa Fe, Nissan Rogue, Kia Sorento, Subaru Forester, all mileages
+
+High-mileage commuter sedans — Toyota Camry, Honda Civic, Mazda3, Hyundai Elantra, Volkswagen Jetta, Ford Focus
+
+Cargo and commercial vans — Ford Transit, Dodge Grand Caravan, Chevy Express, RAM ProMaster
+
+Vehicles with outstanding liens — we handle these regularly
+
+Vehicles without a title — call us first, we can walk you through your Alberta Registry options
+
+Motorcycles, ATVs, and trailers — we buy these too
+
+## The Alberta Paperwork Problem — We Solve It for You
+
+A private sale in Alberta requires a bill of sale, an AMVIC disclosure, and an Alberta Registry title transfer. If any step is missed or done incorrectly, you can remain legally tied to that vehicle — meaning any traffic camera ticket, parking violation, or insurance lapse in Edmonton can come back to you even after the car has left your driveway.
+
+We are AMVIC-compliant and fully insured, and we handle the complete title transfer through Alberta Registry immediately at the time of pickup. You do not need to visit a registry office, fill out additional forms, or follow up with anything. The moment our driver takes possession, you are protected.
+
+## Edmonton Areas We Cover — Every Sector, Every Suburb
+
+We serve all of Edmonton and the surrounding metro communities with the same free towing and competitive pricing. This includes:
+
+West Edmonton / Jasper Place area — West Edmonton Mall corridor, Callingwood, Glenwood, Britannia Youngstown
+
+South Edmonton — Terwillegar, Windermere, Ellerslie, Heritage Valley, Rutherford
+
+Old Strathcona / Garneau — Whyte Avenue corridor, Bonnie Doon, Ritchie, King Edward Park
+
+Northeast Edmonton — Clareview, Beverly Heights, Casselman, Fraser, Brintnell
+
+Northwest Edmonton — Calder, Dunluce, Eaux Claires, Griesbach
+
+Downtown and Inner City — Central McDougall, Oliver, Glenora, Riverdale, Boyle Street
+
+Surrounding communities — St. Albert, Sherwood Park, Spruce Grove, Stony Plain, Leduc, Beaumont, Fort Saskatchewan, Nisku
+
+No extra tow fees for Edmonton metro communities. Free pickup means free — regardless of which side of Anthony Henday Drive you are on.
+
+## Why Edmonton Sellers Choose YYC Cash for Cars
+
+There is no shortage of buyers advertising online in Edmonton. What separates us is simple: we give you a number and we stick to it. No driver showing up and knocking $300 off because of "condition issues" he knew about from the photos. No cheque that takes a week to clear. No one asking you to meet at a parking lot near West Edmonton Mall to do the handoff.
+
+You get your offer by phone. Our driver arrives at your address. You get paid — cash or Interac e-Transfer — before the vehicle moves. We handle the Alberta Registry transfer. That is it.
+
+We are AMVIC-compliant, fully insured, open 7 days a week from 8 AM to 8 PM, and we have purchased over 2,500 vehicles across Alberta. Edmonton is one of our busiest service areas.
+
+## Ready to Turn Your Vehicle into Cash Today?
+
+Call 587-700-9806 or submit the online quote form at yyccash.com. Tell us about your vehicle — year, make, condition, location — and we will give you a real offer within the hour. Same-day pickup available across Edmonton and the surrounding metro area.`,
+  },
+  {
+    id: 31,
+    name: "Grande Prairie",
+    slug: "grande-prairie",
+    area: "Peace Country",
+    distance: "756 km",
+    primary: false,
+    image: "/images/gallery/g13.webp",
+    metaTitle: "Cash for Cars Grande Prairie — Any Condition",
+    metaDescription:
+      "Need cash for cars in Grande Prairie? YYC Cash pays $300–$10,000. Free junk & scrap car removal, title transfer handled. Call 587-700-9806.",
+    heading: "Cash for Cars Grande Prairie — YYC Cash for Cars",
+    description:
+      "Grande Prairie Vehicles Deserve a Real Offer — Not a Lowball From Someone Who Never Left Calgary",
+    additionalInfo: "",
+    neighborhoods: [],
+    features: [],
+    hours: "Open 7 Days, 7 AM to 11 PM",
+    responseTime: "Same-day pickup available",
+    content: `There is a particular challenge that comes with owning a vehicle in Grande Prairie. You are 456 kilometres northwest of Edmonton, sitting in the heart of Peace River Country, and the closest major buyer for your unwanted car is either a dealer who will not look twice at a high-mileage truck or an online listing that brings strangers to your door and wastes an hour of your time going nowhere.
+
+[YYC Cash for Cars](/) solves that problem directly. We buy vehicles across northern Alberta, including Grande Prairie and the surrounding Peace Country communities. We pay $300 to $10,000 depending on your vehicle, we tow it free of charge, and we complete the Alberta Registry title transfer at pickup so nothing comes back to you. One call, one visit, cash in your hand — before we move your vehicle a single inch.
+
+## What Makes Grande Prairie a Unique Vehicle Market
+
+Grande Prairie is not a typical Alberta city. It is the largest commercial centre north of Edmonton, serving a regional trading area of over 295,000 people that stretches across northwestern Alberta, northeastern British Columbia, and into the Northwest Territories. The economy runs on four pillars — oil and gas, forestry, agriculture, and construction — and each one of those industries puts vehicles through conditions that rapidly accelerate mechanical wear and reduce resale value.
+
+Extreme northern winters compound vehicle damage faster than anywhere in southern Alberta. Grande Prairie sits near the 55th parallel with a northern continental climate that borders the subarctic. Winters regularly push temperatures well below -30°C, and the freeze-thaw cycling that happens at the margins of those cold snaps is relentless on brake systems, exhaust components, and vehicle undercarriages. Road salt use across Highway 43, Highway 40, and the city's main arterials through the growing seasons accelerates rust in ways that southern Alberta buyers simply do not expect. If you are trying to sell a vehicle privately, that rust and undercarriage wear will be used against you at every step of the negotiation.
+
+We do not penalize you for northern Alberta wear. We price Grande Prairie vehicles against the realities of Peace Country operating conditions — not against the expectations of a Calgary buyer who has never seen what a Wapiti River valley winter does to a frame rail.
+
+The oil and gas and forestry industries produce a continuous stream of hard-used commercial vehicles. Grande Prairie is the service hub for the Elmworth Deep Basin gas field and a major logistics centre for oil and gas operations throughout the Peace Region. The result is a consistent supply of F-250s, F-350s, Ram 2500s, and commercial service vans that have spent years on job sites, gravel access roads, and the long runs up Highway 43 to remote work locations. When those vehicles age out of service, they need to go somewhere. We buy them — all makes, all conditions, fleet lots and single units alike.
+
+Distance creates a real disposal barrier. If you have searched for junk car removal in Grande Prairie and found nothing but Calgary-based services quoting tow fees or companies that simply do not come this far north — that is the gap we fill. We service northern Alberta because northern Alberta has real volume, real vehicles, and real sellers who deserve the same fair process that a Calgary resident gets.
+
+## What We Buy in Grande Prairie — No Condition Too Far Gone
+
+We pick up vehicles from every area of Grande Prairie and the surrounding County of Grande Prairie No. 1. From established neighbourhoods like South Patterson Place near Muskoseepi Park and Kensington near Grande Prairie Airport, to newer residential communities like Riverstone, Arbour Hills, and Easthaven near Crystal Lake — we come to your address. We also serve the surrounding communities of Clairmont, Sexsmith, Wembley, and Beaverlodge with the same free towing and same competitive pricing.
+
+Non-running and abandoned vehicles. A truck that seized up on the way home along Highway 43, a sedan that did not survive last February's cold snap, a vehicle that has been sitting behind your property in the county since the last oil price downturn — these are exactly the pickups we handle most in this region. [Scrap car removal](/services/scrap-car-removal) in Grande Prairie is one of our most consistent service requests from Peace Country residents, because the distance from major centres makes it easier to leave a vehicle in place than deal with it through normal channels. If yours has been sitting, it is still worth real money — steel, aluminum, copper, and catalytic converter metals all retain scrap value regardless of condition.
+
+Oil industry and trades trucks. The six high load corridors that pass through Grande Prairie tell you everything you need to know about the industrial intensity of this region. Heavy-duty pickups and work trucks that have spent years supporting those operations accumulate mechanical wear that makes them unsellable privately but entirely valuable to us for parts and scrap metal. We offer fleet pricing for multi-vehicle lots and will coordinate directly with contractors, trades companies, and fleet managers.
+
+Accident write-offs and insurance totals. Whether the damage happened on Highway 40 heading south toward the Bighorn Route, on an icy stretch of 100 Avenue through the city, or on a gravel access road out in the county — we buy accident-damaged and insurance write-off vehicles before or after the insurer gets involved. Deployed airbags, bent frames, structural damage — we purchase all of it regularly.
+
+High-mileage commuter and family vehicles. The run from Grande Prairie to Edmonton is 456 kilometres each way. Residents who make that drive for work, medical appointments at Edmonton hospitals, or family visits put serious mileage on vehicles in a very short span of time. If your Toyota RAV4, Honda Pilot, Dodge Caravan, or Ford Explorer has crossed 250,000 kilometres and the repair costs no longer make sense, it is still worth hundreds of dollars to us.
+
+## Three Steps to Get Paid in Grande Prairie
+
+Step 1 — Call or fill out the quote form. Tell us your vehicle's year, make, model, condition, and your Grande Prairie address. We give you a firm offer, usually within the hour. No vague estimates, no price changes when our driver shows up.
+
+Step 2 — Accept and schedule pickup. We work around your schedule — mornings, evenings, and weekends. We understand that Grande Prairie residents balance demanding work schedules in oil and gas, forestry, and construction with everything else that northern Alberta life requires.
+
+Step 3 — Get paid, vehicle removed, paperwork done. Our driver arrives at your address — whether that is on 100 Avenue near the Gateway Power Centre, in a county acreage near Clairmont, or a rural property out toward Beaverlodge — pays you cash or sends an Interac e-Transfer before touching your vehicle, and handles the Alberta Registry title transfer on the spot. The moment we leave, that vehicle is permanently off your name.
+
+## Every Vehicle We Accept in Grande Prairie
+
+We do not turn vehicles away based on condition, mileage, or age. Types we buy regularly across the Peace Country region include:
+
+Oil field and trades trucks — Ford F-150, F-250, F-350, GMC Sierra, Dodge Ram 1500 through 3500, Chevy Silverado, all years and work conditions
+
+Forestry and agriculture work vehicles — heavy-duty trucks, older work vans, service vehicles from the logging and farming sectors
+
+High-mileage family SUVs and crossovers — Toyota Highlander, Honda CR-V, Hyundai Santa Fe, Nissan Pathfinder, Kia Sorento, Ford Explorer
+
+Commuter sedans — Toyota Camry, Honda Civic, Mazda3, Hyundai Elantra, Volkswagen Jetta
+
+Commercial cargo vans — Ford Transit, Ram ProMaster, Chevy Express, Dodge Grand Caravan
+
+Motorcycles, ATVs, snowmobiles, and trailers — we buy these as well
+
+Vehicles without titles — call us first, we will walk you through your Alberta Registry options
+
+Vehicles with outstanding liens — we handle these regularly
+
+## The Alberta Paperwork — We Handle All of It
+
+Privately selling a vehicle in Alberta means a bill of sale, AMVIC compliance, and an Alberta Registry title transfer. Done incorrectly, you remain legally tied to that vehicle — and any parking ticket issued on 100 Street, any camera fine on Highway 43, or any insurance lapse can still come back to you after the car is gone.
+
+We are AMVIC-compliant, fully insured, and we process the complete Alberta Registry title transfer at the time of pickup. You do not visit a registry office, you do not follow up, you do not wonder. When our driver leaves your property, your legal responsibility for that vehicle ends.
+
+## Areas We Serve Around Grande Prairie
+
+Our service area covers the full City of Grande Prairie and County of Grande Prairie No. 1, including:
+
+Clairmont — just north of the city on Highway 2
+
+Sexsmith — northwest along Highway 2
+
+Wembley — west on Highway 43 toward Beaverlodge
+
+Beaverlodge — along the Highway 43 corridor
+
+Hythe and Valleyview — eastern Peace Country corridor
+
+Dawson Creek, BC — cross-border pickups available, call for details
+
+No distance surcharges within the Grande Prairie region. Free towing means exactly that.
+
+## Get Your Grande Prairie Cash Offer Today
+
+If you have a vehicle you need removed — running or not, accident-damaged, rusted out from Peace Country winters, or simply no longer worth keeping — call us or submit the quote form online.
+
+Call YYC Cash for Cars: 587-700-9806 
+
+We are open 7 days a week, 7 AM to 11 PM. Same-day pickup is available across Grande Prairie and the surrounding region.`,
+  },
+  {
     id: 26,
     name: "Indus",
     slug: "indus",
@@ -4273,7 +4600,7 @@ export default async function LocationPage({ params }) {
             <div className="absolute -bottom-24 left-0 h-72 w-72 rounded-full bg-secondary/10 blur-3xl" />
             <div className="relative grid items-start gap-8 p-6 lg:grid-cols-[minmax(0,0.88fr)_minmax(340px,0.92fr)] lg:p-10">
               <div className="flex flex-col justify-center">
-                <div className="mb-4 flex flex-wrap gap-2">
+                <div className="mb-4 hidden flex-wrap gap-2 md:flex">
                   <span className="rounded-full border border-primary/20 bg-white px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">
                     {location.name}
                   </span>
@@ -4285,7 +4612,7 @@ export default async function LocationPage({ params }) {
                   </span>
                 </div>
 
-                <h2 className="max-w-3xl text-3xl font-bold leading-tight text-black md:text-4xl lg:text-[2.85rem]">
+                <h2 className="max-w-3xl text-2xl font-bold leading-tight text-black md:text-4xl lg:text-[2.85rem]">
                   {location.heading}
                 </h2>
                 <p className="mt-4 max-w-2xl text-sm leading-7 text-gray-700 md:text-base">
@@ -4300,24 +4627,24 @@ export default async function LocationPage({ params }) {
                 <div className="mt-6 grid gap-3 sm:grid-cols-2">
                   <div className="rounded-2xl border border-primary/10 bg-white/90 p-4 shadow-sm">
                     <div className="mb-2 flex items-center gap-2">
-                      <Clock className="h-4 w-4 text-primary" />
+                      <CheckCircle className="h-4 w-4 text-primary" />
                       <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-500">
-                        Hours
+                        Free Towing
                       </span>
                     </div>
                     <p className="text-sm font-semibold leading-6 text-black">
-                      {location.hours}
+                      Cash paid on the spot
                     </p>
                   </div>
                   <div className="rounded-2xl border border-secondary/10 bg-white/90 p-4 shadow-sm">
                     <div className="mb-2 flex items-center gap-2">
-                      <Navigation className="h-4 w-4 text-secondary" />
+                      <BadgeDollarSign className="h-4 w-4 text-secondary" />
                       <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-500">
-                        Coverage
+                        Highest Offer
                       </span>
                     </div>
                     <p className="text-sm font-semibold leading-6 text-black">
-                      {location.distance} from Calgary
+                      $300-$10,000 for your car
                     </p>
                   </div>
                 </div>
@@ -4336,7 +4663,7 @@ export default async function LocationPage({ params }) {
                   ))}
                 </div>
 
-                <div className="mt-7 flex flex-wrap gap-3">
+                <div className="mt-7 flex flex-wrap justify-center gap-3 md:justify-start">
                   <a
                     href="tel:+15877009806"
                     className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-primary to-secondary px-6 py-3 text-sm font-semibold text-white transition-transform hover:scale-[1.02]"
@@ -4346,7 +4673,7 @@ export default async function LocationPage({ params }) {
                   </a>
                   <Link
                     href="/contact"
-                    className="inline-flex items-center justify-center rounded-full border border-gray-300 bg-white px-6 py-3 text-sm font-semibold text-gray-700 transition-colors hover:border-primary hover:text-primary"
+                    className="hidden items-center justify-center rounded-full border border-gray-300 bg-white px-6 py-3 text-sm font-semibold text-gray-700 transition-colors hover:border-primary hover:text-primary md:inline-flex"
                   >
                     Contact Us
                   </Link>

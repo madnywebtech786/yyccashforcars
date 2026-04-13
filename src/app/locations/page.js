@@ -3,6 +3,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import Contact from "../sections/Contact";
 import ProcessSection from "../sections/Process";
 import { getOgImageForPath } from "@/lib/seo";
+import { ArrowUpRight } from "lucide-react";
 
 export const metadata = {
   title: "Our Locations - YYC Cash for Cars",
@@ -161,6 +162,14 @@ const locations = [
     tagline: "Cash for cars in Delacour with free towing from your property.",
   },
   {
+    name: "Diamond Valley",
+    href: "/locations/diamond-valley",
+    area: "Foothills County",
+    distance: "66 km",
+    style: "from-[#fff8f8] to-white",
+    tagline: "Cash for cars in Diamond Valley with free towing from your property.",
+  },
+  {
     name: "Didsbury",
     href: "/locations/didsbury",
     area: "Mountain View County",
@@ -175,6 +184,22 @@ const locations = [
     distance: "135 km",
     style: "from-[#f4fbff] to-white",
     tagline: "Scrap and junk car removal service in Drumheller.",
+  },
+  {
+    name: "Edmonton",
+    href: "/locations/edmonton",
+    area: "Northern Alberta",
+    distance: "300 km",
+    style: "from-[#f7fbff] to-white",
+    tagline: "Cash for cars in Edmonton with free towing and same-day payment.",
+  },
+  {
+    name: "Grande Prairie",
+    href: "/locations/grande-prairie",
+    area: "Peace Country",
+    distance: "756 km",
+    style: "from-[#fff8f8] to-white",
+    tagline: "Cash for cars in Grande Prairie with free towing and title transfer handled.",
   },
   {
     name: "High River",
@@ -344,49 +369,21 @@ export default function LocationsPage() {
               </p>
             </div>
 
-            <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
               {[...locations]
                 .sort((a, b) => a.name.localeCompare(b.name))
                 .map((location) => (
                 <Link
                   key={location.href}
                   href={location.href}
-                  className={`group relative overflow-hidden rounded-[1.8rem] border border-gray-100 bg-gradient-to-br ${location.style} p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl`}
+                  className="group flex min-h-20 items-center justify-between gap-3 rounded-2xl border border-gray-100 bg-white px-4 py-3 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
                 >
-                  <div className="absolute -right-8 -top-8 h-24 w-24 rounded-full bg-secondary/10 blur-2xl" />
-                  <div className="absolute -left-8 bottom-0 h-24 w-24 rounded-full bg-primary/10 blur-2xl" />
-                  <div className="relative">
-                    <div className="flex items-start justify-between gap-4">
-                      <div>
-                        <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">
-                          {location.area}
-                        </p>
-                        <h3 className="mt-2 text-2xl font-bold text-black">
-                          {location.name}
-                        </h3>
-                        <p className="mt-3 max-w-[15rem] text-sm leading-6 text-gray-700">
-                          {location.tagline}
-                        </p>
-                      </div>
-                      <div className="rounded-2xl border border-white/80 bg-white/80 px-3 py-2 text-right shadow-sm">
-                        <p className="text-[11px] font-semibold uppercase tracking-wide text-gray-500">
-                          Distance
-                        </p>
-                        <p className="text-sm font-bold text-black">
-                          {location.distance}
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="mt-8 flex items-center justify-between">
-                      <div className="text-sm font-semibold text-primary">
-                        Learn More
-                      </div>
-                      <span className="text-xl text-gray-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary">
-                        →
-                      </span>
-                    </div>
-                  </div>
+                  <span className="font-bold text-black">{location.name}</span>
+                  <ArrowUpRight
+                    size={18}
+                    aria-hidden="true"
+                    className="shrink-0 text-primary transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  />
                 </Link>
               ))}
             </div>
