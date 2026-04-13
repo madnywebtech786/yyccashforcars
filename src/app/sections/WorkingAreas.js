@@ -352,6 +352,17 @@ export default function WorkingAreasSection() {
               />
             </Link>
           ))}
+          <Link
+            href="#"
+            className="group flex min-h-20 items-center justify-between gap-3 rounded-2xl border border-primary/30 bg-gradient-to-br from-[#eaf7ff] via-white to-[#fff4f6] px-4 py-3 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+          >
+            <span className="font-bold text-black">All over Alberta</span>
+            <ArrowUpRight
+              size={18}
+              aria-hidden="true"
+              className="shrink-0 text-primary transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+            />
+          </Link>
         </div>
       </div>
     </section>
