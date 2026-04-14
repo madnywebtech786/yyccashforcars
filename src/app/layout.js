@@ -145,11 +145,11 @@ export default function RootLayout({ children }) {
             })();
           `}
         </Script>
-        <script
-          defer
-          async
+        <Script
+          id="trustindex-cert-loader"
+          strategy="afterInteractive"
           src="https://cdn.trustindex.io/loader-cert.js?e90a5b466e69446040865ff297a"
-        ></script>
+        />
         {/* Google Tag Manager (noscript) */}
         <noscript
           dangerouslySetInnerHTML={{
