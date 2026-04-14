@@ -20,7 +20,7 @@ const serviceLinks = [
 ];
 
 const cityLinks = [
-  { name: "Calgary", href: "/locations/airdrie" },
+  { name: "Calgary", href: "/" },
   { name: "Cochrane", href: "/locations/cochrane" },
   { name: "Okotoks", href: "/locations/okotoks" },
   { name: "Chestermere", href: "/locations/chestermere" },
@@ -191,7 +191,7 @@ const Footer = () => {
 
         <div className="mt-12 flex flex-col gap-4 border-t border-white/10 pt-6 text-sm text-white/60 md:flex-row md:items-center md:justify-between">
           <p>Copyright 2025, YYC Cash for Cars. All Rights Reserved.</p>
-          <p>Open 7 Days: 8 AM - 8 PM</p>
+          <p>Open 24 Hours 7 Days a Week</p>
         </div>
       </div>
     </footer>

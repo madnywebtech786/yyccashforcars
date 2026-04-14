@@ -70,7 +70,7 @@ const locationsData = [
       "No hidden fees or charges",
       "Eco-friendly vehicle recycling",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 8:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Under 30 minutes",
   },
   {
@@ -107,7 +107,7 @@ const locationsData = [
       "Cash paid on the spot",
       "Buy vehicles in any condition",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Under 45 minutes",
     content: `Welcome to Cash for Cars Airdrie, your trusted local partner for turning unwanted, old, damaged, or non‑running vehicles into fast cash — backed with free pickup, transparent offers, and eco‑friendly disposal. If you’re searching for the best way to sell your car in Airdrie, get rid of scrap vehicles quickly, or need reliable [scrap car removal Airdrie](/service/scrap-car-removal) and junk car removal Airdrie services, you’re in the right place.
 
@@ -261,7 +261,7 @@ You want top value and quick service — you’re in the right place.
       "Transparent, honest quotes",
       "Complete title transfer assistance",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Under 1 hour",
   },
   {
@@ -295,7 +295,7 @@ You want top value and quick service — you’re in the right place.
       "Complete DMV paperwork handled",
       "Available 7 days a week",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Under 45 minutes",
   },
   {
@@ -332,7 +332,7 @@ You want top value and quick service — you’re in the right place.
       "Eco-aware disposal",
       "Friendly, no-pressure experience",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 8:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Under 30 minutes",
     content: `## What Makes Our Cash for Cars Service in Chestermere Different?
 
@@ -495,7 +495,7 @@ Get your offer today — and get paid tomorrow!`,
       "Cash or certified check payment",
       "Full administrative support",
     ],
-    hours: "Monday - Saturday: 8:00 AM - 6:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Under 1.5 hours",
   },
   {
@@ -529,7 +529,7 @@ Get your offer today — and get paid tomorrow!`,
       "No title? We can help!",
       "Courteous, respectful service",
     ],
-    hours: "Monday - Saturday: 8:00 AM - 6:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Under 1 hour",
   },
   {
@@ -566,7 +566,7 @@ Get your offer today — and get paid tomorrow!`,
       "Immediate payment on pickup",
       "Free towing across Canmore",
     ],
-    hours: "Monday - Saturday: 9:00 AM - 6:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "1.5 - 2 hours",
     content: `Welcome to Cash for Cars Canmore — your local trusted solution for selling old, damaged, or unwanted vehicles for top cash. If you’re located in Canmore, Alberta, and want a quick, stress‑free way to get [cash for cars](/) for your car, we’ve got you covered.
 
@@ -772,7 +772,7 @@ Turn your vehicle into cash today — with Canada’s most trusted local cash fo
       "Free towing in Banff and nearby areas",
       "Professional local service",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `## Why Banff Residents Choose Us
 
@@ -968,7 +968,7 @@ Get your cash offer now — reach out today or fill in our quick form. Let us ma
       "Paperwork handled for you",
       "Environmentally responsible disposal",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `## Why Selling Your Car Should Be Simple
 
@@ -1132,7 +1132,7 @@ Fill out our form or [call today](/contact), and let us turn your old vehicle in
       "Local service for Rocky View County",
       "Simple and practical selling option",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `## That is where YYC Cash for Cars helps
 
@@ -1301,7 +1301,7 @@ If you are ready to clear the space and stop worrying about it, YYC Cash for Car
       "Free towing in Drumheller and nearby areas",
       "Quick and hassle-free vehicle pickup",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Under 2 hours",
     content: `If you've got an old, damaged, unwanted or non-running vehicle taking up space in your driveway, garage, yard, acreage or business property that you want sold quickly without hassles such as listing, no shows, low offers or repairs costs; then YYC Cash for Cars makes the process easy with their cash for cars Drumheller service. Our cash for junk cars Drumheller service makes selling vehicles without hassles simple; just schedule pickup with us, get an accurate quote then payment upon collection of your car.
 
@@ -1466,7 +1466,7 @@ If your old vehicle no longer serves its intended purpose, now is the time to ge
       "All makes, models, and conditions accepted",
       "Service across Lethbridge and southern Alberta",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `Are you in Lethbridge and searching for an easy, fast, reliable way to sell your unwanted vehicle quickly and profitably? Whether it's old, damaged, non-running or simply taking up space - our Lethbridge car removal service provides top dollar cash, free towing and an effortless selling experience from start to finish.
 
@@ -1635,7 +1635,7 @@ No matter your junk car removal or cash for junk car needs in Lethbridge, we are
       "Environmentally responsible disposal",
       "Straightforward local service with no hassle",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `If you have an old, damaged, unwanted, or non-running vehicle taking up space, getting rid of it should not feel harder than keeping it. That is exactly why our cash for cars Brooks service is built around speed, fairness, and convenience. Instead of posting your vehicle online, waiting for strangers to message you, and dealing with no-shows, you can get a straightforward offer and have the vehicle removed without the usual stress. YYC Cash already positions itself around free towing, fast pickup, and cash offers for unwanted vehicles across Calgary and nearby Alberta communities, and this Brooks page should extend that promise with stronger local intent.
 
@@ -1820,7 +1820,7 @@ Scrap car removal usually refers to vehicles with little practical use left and 
       "Responsible recycling and parts recovery",
       "Practical local service without the usual hassle",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `If you have an old, damaged, non-running, or unwanted vehicle sitting on your property, you already know the problem is bigger than just a car. It takes up space. It keeps losing value. It turns into one more thing you need to deal with later. Our cash for cars service is built for that exact situation. Instead of wasting time with listings, random messages, lowball offers, and no-shows, you can get a fair quote, book pickup, and move on without the usual stress. Your site already promises fast cash offers, free towing, and pickup for vehicles in many conditions, so this page should extend that same promise to Beiseker in a way that feels truly local.
 
@@ -1972,7 +1972,7 @@ No, towing is usually included as part of the service. This makes the process ea
       "Responsible recycling and disposal",
       "Fast local support without hidden fees",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `If you are searching for Cash for Cars Bearspaw, you have arrived at the right place. At YYC Cash, we are Bearspaw's trusted and professional car buyers offering [top cash offers](/), same-day removal, and stress-free service. Whether you have an old clunker, a damaged vehicle, scrap car, or junk car taking up space, we make selling and removing your vehicle easy and rewarding.
 
@@ -2185,7 +2185,7 @@ Cash for Cars Bearspaw has never been easier.
       "Straightforward communication and scheduling",
       "Support across Rocky View County and nearby Calgary areas",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `If you have an old, damaged, unwanted, or non-running vehicle taking up room on your property, you do not need to spend weeks trying to sell it on your own. Our cash for cars Bennett service is built for people who want a straightforward solution: get a fair offer, arrange pickup, and move on without stress.
 
@@ -2373,7 +2373,7 @@ YYC Cash for Cars gives Bennett-area vehicle owners an easier way to sell unwant
       "Responsible recycling and fluid handling",
       "Support across Blackie and nearby Foothills communities",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `If you have an old, damaged, non-running, or unwanted vehicle sitting on your property, you already know how quickly it turns from I will deal with it later into a constant headache. It takes up space. It leaks fluids. It becomes an eyesore. It keeps costing you time and money even when it is no longer useful.
 
@@ -2537,7 +2537,7 @@ So if your car is damaged, non-running, high-mileage, rusted, wrecked, or simply
       "Responsible recycling and disposal",
       "Coverage across Cremona and nearby communities",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `If you have an old vehicle parked in your driveway, yard, shop lot, or acreage, you already know the problem is not just the car itself. The real issue is everything that comes with it. It takes up space. It stops being reliable. It becomes harder to move. It turns into one more thing on your list that never gets handled.
 
@@ -2684,7 +2684,7 @@ So if you are looking for cash for cars in Cremona, the smartest next step is si
       "Paperwork handled as part of the process",
       "Support across Carstairs and nearby communities",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `If you have an old, damaged, non-running, or unwanted vehicle sitting at your home, shop, driveway, or acreage, you already know the problem is bigger than the car itself. It takes up space. It keeps getting pushed to the bottom of your list. It reminds you of repairs you do not want to pay for. And the longer it sits, the harder it feels to deal with.
 
@@ -2829,7 +2829,7 @@ At YYC Cash for Cars, the service is already set up for exactly that. The compan
       "Simple process without classified-site hassle",
       "Responsible handling for end-of-life vehicles",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `If you have an unwanted vehicle taking up space in your driveway, garage, acreage, shop lot, or back lane, you do not need to keep putting off the decision. Our [cash for cars](/) Crossfield service is built for people who want a clear offer, fast pickup, and a process that feels easy from the first call to the final payment.
 
@@ -2973,7 +2973,7 @@ Whether you need cash for cars for an aging commuter, junk car removal Crossfiel
       "Responsible handling for old and scrap vehicles",
       "Coverage across Carseland and nearby areas",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `If you need [cash for cars Carseland](/), you want more than just a buyer. You want a local service that answers quickly, gives you a fair offer, shows up when promised, and removes the vehicle without adding stress to your day. That is exactly what YYC Cash for Cars is built to do. We help vehicle owners in Carseland sell unwanted cars, trucks, SUVs, vans, and work vehicles without the delays and frustrations that usually come with private sales.
 
@@ -3119,7 +3119,7 @@ If you are ready to sell an unwanted vehicle, get in touch with YYC Cash for Car
       "Responsible scrap handling and recycling",
       "Simple process without private-sale hassle",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `If you are looking for [cash for cars Cheadle](/), you probably do not want a long, frustrating selling process. You want a fair offer, quick pickup, free towing, and a buyer who will actually show up and take the vehicle away without wasting your time. That is exactly what YYC Cash for Cars is here to do.
 
@@ -3282,7 +3282,7 @@ If you have an old, scrap, junk, damaged, or unwanted vehicle taking up room, th
       "Fair offers based on condition and value",
       "Support across Three Hills and nearby areas",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `If you need [cash for cars Three Hills](/), you probably are not looking for a long, stressful sale. You want a fair offer, a simple process, and a company that can actually remove the vehicle without wasting your time. That is where YYC Cash for Cars fits. We are providing free towing, cash on pickup, and buying vehicles in almost any condition, which is exactly what local sellers are looking for when a car has become more of a problem than an asset.
 
@@ -3438,7 +3438,7 @@ If you are ready to sell an unwanted vehicle in Three Hills, [contact YYC Cash f
     additionalInfo: "",
     neighborhoods: [],
     features: [],
-    hours: "Open 7 Days,7AM to 11PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or following morning",
     content: `## We Buy Cars in Didsbury — Straight to Your Door
 
@@ -3595,7 +3595,7 @@ Call 587-700-9806, tell us about your vehicle, and we will give you a firm offer
 
 No listings. No strangers from the internet coming to your property. No waiting around for a buyer who might not come through.
 
-YYC Cash for Cars — Open 7 Days,7AM to 11PM Serving Didsbury, Mountain View County, and all communities along the Highway 2 corridor from Calgary to Red Deer.`,
+YYC Cash for Cars — Open 24 Hours 7 Days a Week Serving Didsbury, Mountain View County, and all communities along the Highway 2 corridor from Calgary to Red Deer.`,
   },
   {
     id: 28,
@@ -3614,7 +3614,7 @@ YYC Cash for Cars — Open 7 Days,7AM to 11PM Serving Didsbury, Mountain View Co
     additionalInfo: "",
     neighborhoods: [],
     features: [],
-    hours: "Open 7 Days,7AM to 11PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or following morning",
     content: `## We Buy Cars in Delacour — No Hassle, No Hidden Fees
 
@@ -3778,7 +3778,7 @@ Call 587-700-9806, tell us about your vehicle, and we will give you a firm numbe
 
 No listings sitting online for weeks. No strangers from the city driving out to your property for a test drive on something they are not serious about buying. No waiting around on a deal that falls through at the last minute.
 
-YYC Cash for Cars — Open 7 Days,7AM to 11PM Serving Delacour, Rocky View County, and all communities east of Calgary along the Trans-Canada corridor.`,
+YYC Cash for Cars — Open 24 Hours 7 Days a Week Serving Delacour, Rocky View County, and all communities east of Calgary along the Trans-Canada corridor.`,
   },
   {
     id: 29,
@@ -3797,7 +3797,7 @@ YYC Cash for Cars — Open 7 Days,7AM to 11PM Serving Delacour, Rocky View Count
     additionalInfo: "",
     neighborhoods: [],
     features: [],
-    hours: "Open 7 Days, 7 AM to 11 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same-day pickup available in most cases",
     content: `Diamond Valley residents have a vehicle problem that most big-city services simply do not understand. You are not sitting in NE Calgary with three junk car buyers competing for your call. You are 66 kilometres southwest of Calgary, tucked into the foothills where the Sheep River runs between what used to be Black Diamond and Turner Valley — and getting someone out here quickly, fairly, and without a runaround has never been easy.
 
@@ -3885,7 +3885,7 @@ If you have a vehicle you want gone — running or not, damaged or rusted, sitti
 
 Call YYC Cash for Cars: 587-700-9806 
 
-We are open 7 days a week, 7 AM to 11 PM. Same-day pickup is available in most cases across Diamond Valley and the Cowboy Trail corridor.`,
+We are open 24 hours 7 days a week. Same-day pickup is available in most cases across Diamond Valley and the Cowboy Trail corridor.`,
   },
   {
     id: 30,
@@ -3904,7 +3904,7 @@ We are open 7 days a week, 7 AM to 11 PM. Same-day pickup is available in most c
     additionalInfo: "",
     neighborhoods: [],
     features: [],
-    hours: "Open 7 Days, 8 AM to 8 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same-day pickup available",
     content: `Edmonton car owners deal with a specific frustration that sellers in warmer provinces simply do not face. Your vehicle has been through winters that drop to -30°C or colder, sat on roads saturated in road salt from October through April, and absorbed the kind of mechanical punishment that shaves years off a vehicle's useful life in a single season. Dealers do not want it. Private buyers negotiate forever. And online listings waste your time with no-shows and lowball offers at your front door.
 
@@ -3994,7 +3994,7 @@ There is no shortage of buyers advertising online in Edmonton. What separates us
 
 You get your offer by phone. Our driver arrives at your address. You get paid — cash or Interac e-Transfer — before the vehicle moves. We handle the Alberta Registry transfer. That is it.
 
-We are AMVIC-compliant, fully insured, open 7 days a week from 8 AM to 8 PM, and we have purchased over 2,500 vehicles across Alberta. Edmonton is one of our busiest service areas.
+We are AMVIC-compliant, fully insured, open 24 hours 7 days a week, and we have purchased over 2,500 vehicles across Alberta. Edmonton is one of our busiest service areas.
 
 ## Ready to Turn Your Vehicle into Cash Today?
 
@@ -4017,7 +4017,7 @@ Call 587-700-9806 or submit the online quote form at yyccash.com. Tell us about 
     additionalInfo: "",
     neighborhoods: [],
     features: [],
-    hours: "Open 7 Days, 7 AM to 11 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same-day pickup available",
     content: `There is a particular challenge that comes with owning a vehicle in Grande Prairie. You are 456 kilometres northwest of Edmonton, sitting in the heart of Peace River Country, and the closest major buyer for your unwanted car is either a dealer who will not look twice at a high-mileage truck or an online listing that brings strangers to your door and wastes an hour of your time going nowhere.
 
@@ -4105,7 +4105,7 @@ If you have a vehicle you need removed — running or not, accident-damaged, rus
 
 Call YYC Cash for Cars: 587-700-9806 
 
-We are open 7 days a week, 7 AM to 11 PM. Same-day pickup is available across Grande Prairie and the surrounding region.`,
+We are open 24 hours 7 days a week. Same-day pickup is available across Grande Prairie and the surrounding region.`,
   },
   {
     id: 26,
@@ -4142,7 +4142,7 @@ We are open 7 days a week, 7 AM to 11 PM. Same-day pickup is available across Gr
       "We buy old farm trucks and acreage work vehicles",
       "Junk, scrap, accident, and write-off vehicles accepted",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 8:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same Day Pickup",
     content: `## We Buy Cars in Indus — No Middleman, No Hassle
 
@@ -4314,7 +4314,7 @@ Yes. If you have two or three vehicles on the property you want gone, we can arr
       "Simple vehicle removal for mountain-area logistics",
       "Support around Lake Louise and nearby Bow Valley routes",
     ],
-    hours: "Monday - Sunday: 8:00 AM - 7:00 PM",
+    hours: "Open 24 Hours 7 Days a Week",
     responseTime: "Same day or next day",
     content: `If you need cash for cars Lake Louise, the last thing you want is a slow, frustrating process. You want a fair offer, quick communication, free towing, and a buyer who can remove the vehicle without making you deal with more stress. That is exactly what [YYC Cash for Cars](/) is built for. Across your current website, the service promise is clear: fast offers, cash on pickup, free removal, and vehicle buying for almost any condition, from junk and scrap cars to damaged, unwanted, and non-running vehicles.
 

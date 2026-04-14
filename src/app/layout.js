@@ -189,6 +189,7 @@ export default function RootLayout({ children }) {
                   "@id": "https://www.yyccash.com/#localbusiness",
                   name: "YYC Cash for Cars Calgary",
                   url: "https://www.yyccash.com",
+                  telephone: "+1-587-700-9806",
                   logo: "https://www.yyccash.com/images/yyc-car-logo.png",
                   image: "https://www.yyccash.com/images/gallery/g7.webp",
                   description:
@@ -201,10 +202,57 @@ export default function RootLayout({ children }) {
                     postalCode: "T1Y 5E2",
                     addressCountry: "Canada"
                   },
-                  serviceArea: {
-                    "@type": "Place",
-                    name: "Calgary, Airdrie, Cochrane, Okotoks"
-                  },
+                  serviceArea: [
+                    { "@type": "City", name: "Calgary" },
+                    { "@type": "City", name: "Airdrie" },
+                    { "@type": "City", name: "Banff" },
+                    { "@type": "City", name: "Bearspaw" },
+                    { "@type": "City", name: "Beiseker" },
+                    { "@type": "City", name: "Bennett" },
+                    { "@type": "City", name: "Blackie" },
+                    { "@type": "City", name: "Bragg Creek" },
+                    { "@type": "City", name: "Brooks" },
+                    { "@type": "City", name: "Canmore" },
+                    { "@type": "City", name: "Carstairs" },
+                    { "@type": "City", name: "Carseland" },
+                    { "@type": "City", name: "Cheadle" },
+                    { "@type": "City", name: "Chestermere" },
+                    { "@type": "City", name: "Cochrane" },
+                    { "@type": "City", name: "Crossfield" },
+                    { "@type": "City", name: "Cremona" },
+                    { "@type": "City", name: "Delacour" },
+                    { "@type": "City", name: "Diamond Valley" },
+                    { "@type": "City", name: "Didsbury" },
+                    { "@type": "City", name: "Drumheller" },
+                    { "@type": "City", name: "Edmonton" },
+                    { "@type": "City", name: "Grande Prairie" },
+                    { "@type": "City", name: "High River" },
+                    { "@type": "City", name: "Indus" },
+                    { "@type": "City", name: "Lake Louise" },
+                    { "@type": "City", name: "Lethbridge" },
+                    { "@type": "City", name: "Okotoks" },
+                    { "@type": "City", name: "Red Deer" },
+                    { "@type": "City", name: "Strathmore" },
+                    { "@type": "City", name: "Three Hills" },
+                    { "@type": "AdministrativeArea", name: "Alberta" }
+                  ],
+                  openingHours: "Mo-Su 00:00-23:59",
+                  openingHoursSpecification: [
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      dayOfWeek: [
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday",
+                        "Friday",
+                        "Saturday",
+                        "Sunday"
+                      ],
+                      opens: "00:00",
+                      closes: "23:59"
+                    }
+                  ],
                   sameAs: [
                     "https://www.instagram.com/yyccashforcars"
                   ]
