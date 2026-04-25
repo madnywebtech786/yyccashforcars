@@ -191,7 +191,7 @@ const Footer = () => {
 
         <div className="mt-12 flex flex-col gap-4 border-t border-white/10 pt-6 text-sm text-white/60 md:flex-row md:items-center md:justify-between">
           <p>Copyright 2025, YYC Cash for Cars. All Rights Reserved.</p>
-          <p>Open 24 Hours 7 Days a Week</p>
+          <p>All Days, 7am-11pm</p>
         </div>
       </div>
     </footer>

@@ -103,7 +103,7 @@ export default function AboutUsSection() {
                 <p>2,500+ Vehicles Purchased</p>
               </div>
               <div className="bg-gradient-to-r from-primary to-secondary rounded-xl p-3 px-6 font-bold text-white">
-                <p>Open 24 Hours 7 Days a Week</p>
+                <p>All Days, 7am-11pm</p>
               </div>
             </div>
           </div>

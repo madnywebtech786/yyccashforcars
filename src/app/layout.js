@@ -236,7 +236,7 @@ export default function RootLayout({ children }) {
                     { "@type": "City", name: "Three Hills" },
                     { "@type": "AdministrativeArea", name: "Alberta" }
                   ],
-                  openingHours: "Mo-Su 00:00-23:59",
+                  openingHours: "Mo-Su 07:00-23:00",
                   openingHoursSpecification: [
                     {
                       "@type": "OpeningHoursSpecification",
@@ -249,8 +249,8 @@ export default function RootLayout({ children }) {
                         "Saturday",
                         "Sunday"
                       ],
-                      opens: "00:00",
-                      closes: "23:59"
+                      opens: "07:00",
+                      closes: "23:00"
                     }
                   ],
                   sameAs: [
