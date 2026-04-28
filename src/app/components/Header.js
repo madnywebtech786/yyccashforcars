@@ -27,7 +27,6 @@ const navItems = [
     name: "Locations",
     href: "/locations",
   },
-  { name: "Gallery", href: "/gallery" },
   { name: "Blog", href: "/blog" },
   { name: "Contact Us", href: "/contact" },
 ];
