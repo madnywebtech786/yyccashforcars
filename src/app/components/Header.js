@@ -9,6 +9,7 @@ import {
   ChevronDown,
   Menu as MenuIcon,
   X,
+  PhoneCall,
 } from "lucide-react";
 import TopBar from "../sections/TopBar";
 
@@ -216,10 +217,15 @@ const Header = () => {
                 </form>
               )*/}
             </div>
-            <Link href="/contact" className="hidden lg:block">
-              <div className="rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm py-[14px] px-8 transition-all duration-300 hover:bg-dark-text">
-               Get a Quote Now
-              </div>
+            <Link
+              href="tel:+15877009806"
+              className="hidden lg:flex items-center gap-3 rounded-xl bg-gradient-to-r from-primary to-secondary px-6 py-3 text-white transition-all duration-300 hover:shadow-lg"
+              aria-label="Call 587-700-9806"
+            >
+              <PhoneCall className="h-5 w-5 flex-shrink-0" strokeWidth={2.2} />
+              <span className="text-sm font-semibold tracking-tight">
+                587-700-9806
+              </span>
             </Link>
             <button
               className="lg:hidden p-2 dark:text-black"
@@ -402,13 +408,14 @@ const Header = () => {
 
             {/* CTA at bottom of menu */}
             <div className="mt-6 px-2 flex justify-center lg:justify-start gap-4">
-              <Link href="/contact">
-                <div
-                  onClick={closeMenu}
-                  className="rounded-2xl bg-gradient-to-r from-primary to-secondary text-white font-semibold text-sm py-[14px] px-8 w-full text-center"
-                >
-                  Get an Instant Quote Now
-                </div>
+              <Link
+                href="tel:+15877009806"
+                onClick={closeMenu}
+                className="flex w-full items-center justify-center gap-3 rounded-xl bg-gradient-to-r from-primary to-secondary px-8 py-[14px] text-center text-sm font-semibold text-white"
+                aria-label="Call 587-700-9806"
+              >
+                <PhoneCall className="h-5 w-5 flex-shrink-0" strokeWidth={2.2} />
+                <span className="tracking-tight">587-700-9806</span>
               </Link>
             </div>
           </nav>
