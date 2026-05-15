@@ -197,6 +197,33 @@ export default function BlogPostPage({ params }) {
           "Yes. YYC Cash for Cars operates as a licensed Alberta business and provides quotes, towing, legal documentation, and immediate payment.",
       },
     ],
+    "can-i-sell-a-car-with-deployed-airbags-what-to-know-first": [
+      {
+        question: "Can I legally sell a car with deployed airbags in Canada?",
+        answer:
+          "Yes. You can sell it, but you should clearly disclose the airbag deployment and accident history so the buyer understands the vehicle condition.",
+      },
+      {
+        question: "Is a car safe to drive after airbags have deployed?",
+        answer:
+          "Not until a qualified mechanic checks the restraint system and crash damage. A vehicle may still move, but the airbag system may not protect occupants properly.",
+      },
+      {
+        question: "Do I need to replace deployed airbags before selling?",
+        answer:
+          "No. Many sellers choose to sell the car as-is to a private buyer, dealer, recycler, or scrap buyer instead of repairing it first.",
+      },
+      {
+        question: "How much value does a car lose after airbags deploy?",
+        answer:
+          "It depends on age, mileage, title status, repair cost, and overall damage. Vehicles with deployed airbags usually sell for much less than similar clean-title cars.",
+      },
+      {
+        question: "Who buys cars with deployed airbags?",
+        answer:
+          "Private project buyers, dealers, auto recyclers, scrap yards, and parts buyers may all purchase them depending on whether the vehicle is repairable or best used for parts.",
+      },
+    ],
   };
   const faqSchema = post
     ? {
