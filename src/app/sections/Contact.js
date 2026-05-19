@@ -123,7 +123,11 @@ export default function ContactForm({ onSide = false }) {
           images: [],
         });
         setErrors({});
-        window.location.href = "/thank-you";
+        if (typeof window.gtag_report_conversion === "function") {
+          window.gtag_report_conversion("/thank-you");
+        } else {
+          window.location.href = "/thank-you";
+        }
       } else {
         throw new Error("Failed to submit form");
       }

@@ -100,6 +100,26 @@ export default function RootLayout({ children }) {
             gtag('config', 'AW-17815203674');
           `}
         </Script>
+        <Script id="gtag-form-submit-helper" strategy="beforeInteractive">
+          {`
+            function gtag_report_conversion(url) {
+              var callback = function () {
+                if (typeof url === 'string') {
+                  window.location = url;
+                }
+              };
+              gtag('event', 'form_submit', {
+                'event_callback': callback,
+                'event_timeout': 2000,
+              });
+              return false;
+            }
+
+            function gtagSendEvent(url) {
+              return gtag_report_conversion(url);
+            }
+          `}
+        </Script>
         <Script id="gtm-loader" strategy="beforeInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
