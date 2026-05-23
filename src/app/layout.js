@@ -90,13 +90,14 @@ export default function RootLayout({ children }) {
         <Script
           id="gtag-loader"
           strategy="beforeInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=AW-17815203674"
+          src="https://www.googletagmanager.com/gtag/js?id=G-DDX2NYW9Z2"
         />
         <Script id="gtag-init" strategy="beforeInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+            gtag('config', 'G-DDX2NYW9Z2');
             gtag('config', 'AW-17815203674');
           `}
         </Script>
