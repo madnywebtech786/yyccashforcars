@@ -29,18 +29,8 @@ export async function POST(request) {
   const ipAddress =
     forwardedFor.split(",")[0].trim() || realIp || "Unavailable";
 
-  // Gather file attachments (now expects field name "images")
   const attachments = [];
-  for (const file of formData.getAll("images")) {
-    // file is a File (Web API)
-    if (file instanceof File) {
-      const arrayBuffer = await file.arrayBuffer();
-      attachments.push({
-        filename: file.name,
-        content: Buffer.from(arrayBuffer),
-      });
-    }
-  }
+
   // Nodemailer transporter (Gmail)
   const transporter = nodemailer.createTransport({
     service: "Gmail",
@@ -80,14 +70,6 @@ export async function POST(request) {
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#039;");
-
-  const attachmentsListHtml = attachments.length
-    ? `<ul style="margin:0;padding-left:18px;color:var(--color-secondary)">${attachments
-        .map(
-          (a) => `<li style="margin-bottom:6px">${escapeHtml(a.filename)}</li>`
-        )
-        .join("")}</ul>`
-    : `<p style="margin:0;color:#666">No attachments provided.</p>`;
 
   // Modern + futuristic email template using provided color scheme
   const html = `
@@ -157,24 +139,6 @@ export async function POST(request) {
           <div style="background: rgba(248, 250, 252, 0.8); border-radius: 12px; padding: 18px; border: 1px solid #e2e8f0; line-height: 1.6; font-size: 15px; min-height: 80px; display: flex; align-items: center;">${escapeHtml(
             reason || "—"
           ).replace(/\n/g, "<br/>")}</div>
-        </div>
-
-        <div style="margin-bottom: 24px;">
-          <h2 style="font-size: 14px; font-weight: 600; color: #64748b; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">Attachments</h2>
-          <div style="background: rgba(248, 250, 252, 0.8); border-radius: 12px; padding: 16px; border: 1px solid #e2e8f0;">
-            ${
-              attachments.length
-                ? `<ul style="margin: 0; padding-left: 20px; color: #64748b;">${attachments
-                    .map(
-                      (a) =>
-                        `<li style="margin-bottom: 6px; font-size: 14px;">${escapeHtml(
-                          a.filename
-                        )}</li>`
-                    )
-                    .join("")}</ul>`
-                : `<p style="margin: 0; color: #64748b; font-style: italic;">No attachments provided.</p>`
-            }
-          </div>
         </div>
 
         <div style="margin-bottom: 24px;">

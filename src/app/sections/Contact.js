@@ -10,7 +10,6 @@ export default function ContactForm({ onSide = false }) {
     city: "",
     carDetail: "",
     reason: "",
-    images: [],
   });
 
   const [errors, setErrors] = useState({});
@@ -37,29 +36,6 @@ export default function ContactForm({ onSide = false }) {
     }
   };
 
-  const handleFileChange = (e) => {
-    const files = Array.from(e.target.files);
-    setFormData((prev) => ({
-      ...prev,
-      images: files,
-    }));
-
-    if (errors.images) {
-      setErrors((prev) => ({
-        ...prev,
-        images: "",
-      }));
-    }
-  };
-
-  // remove single file by index
-  const removeFile = (indexToRemove) => {
-    setFormData((prev) => {
-      const updated = prev.images.filter((_, i) => i !== indexToRemove);
-      return { ...prev, images: updated };
-    });
-  };
-
   const validateForm = () => {
     const newErrors = {};
 
@@ -75,7 +51,6 @@ export default function ContactForm({ onSide = false }) {
       newErrors.carDetail = "Car detail is required";
     if (!formData.reason.trim())
       newErrors.reason = "Reason for selling is required";
-    // Images are optional
 
     return newErrors;
   };
@@ -102,10 +77,6 @@ export default function ContactForm({ onSide = false }) {
       formDataToSend.append("reason", formData.reason);
       formDataToSend.append("pageUrl", window.location.href);
 
-      formData.images.forEach((file, index) => {
-        formDataToSend.append(`images`, file);
-      });
-
       // Simulate API call - replace with actual API endpoint
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -120,7 +91,6 @@ export default function ContactForm({ onSide = false }) {
           city: "",
           carDetail: "",
           reason: "",
-          images: [],
         });
         setErrors({});
         if (typeof window.gtag_report_conversion === "function") {
@@ -287,142 +257,6 @@ export default function ContactForm({ onSide = false }) {
             <p className="text-red-500 text-sm mt-1">{errors.reason}</p>
           )}
         </div>
-
-        {/* ====== NEW: Styled File Upload Area (uses existing formData.images & handleFileChange) ====== */}
-        <div>
-          <label className={`block text-sm font-medium ${textColor} mb-1 `}>
-            Upload Images *
-          </label>
-
-          {/* Dropzone-like block — input is full-size and transparent so clicking opens file picker */}
-          <div
-            className={`relative rounded-xl border-2 border-dashed p-5 cursor-pointer ${
-              formData.images.length
-                ? "border-primary/40 bg-primary/10"
-                : "border-gray-200 hover:border-primary/30 hover:bg-gray-50"
-            }`}
-          >
-            <input
-              type="file"
-              id="images"
-              name="images"
-              multiple
-              accept="image/*"
-              onChange={handleFileChange}
-              className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
-              aria-label="Upload images"
-            />
-
-            <div className="text-center py-2 pointer-events-none">
-              <div className="flex flex-col items-center justify-center">
-                <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center mb-3">
-                  {/* simple paperclip SVG */}
-                  <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    aria-hidden
-                  >
-                    <path
-                      d="M21 12v6a5 5 0 0 1-5 5h-6a5 5 0 0 1-5-5v-6a5 5 0 0 1 5-5h6"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="text-primary"
-                    />
-                    <path
-                      d="M8 12v4a4 4 0 0 0 4 4h4"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="text-primary"
-                    />
-                  </svg>
-                </div>
-
-                <p className="text-gray-600 text-sm pointer-events-none">
-                  <span className="font-medium text-primary">
-                    Click to upload
-                  </span>{" "}
-                  or drag and drop
-                </p>
-                <p className="text-gray-400 text-xs mt-1 pointer-events-none">
-                  JPG, PNG up to 10MB
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {errors.images && (
-            <p className="text-red-500 text-sm mt-1">{errors.images}</p>
-          )}
-
-          {/* Selected files list */}
-          {formData.images.length > 0 && (
-            <div className="mt-4 space-y-2">
-              {formData.images.map((f, idx) => (
-                <div
-                  key={`${f.name}-${f.size}-${idx}`}
-                  className="flex items-center justify-between bg-white/5 rounded-md p-3 border border-white/6"
-                >
-                  <div className="flex items-center gap-3 min-w-0">
-                    {f.type.startsWith("image/") ? (
-                      <img
-                        src={URL.createObjectURL(f)}
-                        alt={f.name}
-                        className="w-12 h-12 object-cover rounded-md"
-                      />
-                    ) : (
-                      <div className="w-12 h-12 flex items-center justify-center rounded-md bg-white/6 text-xs">
-                        {f.name.slice(0, 2).toUpperCase()}
-                      </div>
-                    )}
-                    <div className="min-w-0">
-                      <div className="text-sm truncate max-w-xs">{f.name}</div>
-                      <div className="text-xs text-gray-400">
-                        {(f.size / 1024 / 1024).toFixed(2)} MB
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <button
-                      type="button"
-                      onClick={(e) => {
-                        e.stopPropagation(); // prevent opening file picker
-                        removeFile(idx);
-                      }}
-                      className="p-1 rounded-full hover:bg-gray-200"
-                      aria-label={`Remove ${f.name}`}
-                    >
-                      {/* X icon (simple) */}
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        aria-hidden
-                        className="bg-red-600 rounded-full p-1 text-white"
-                      >
-                        <path
-                          d="M18 6L6 18M6 6l12 12"
-                          stroke="currentColor"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          className="text-white"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
-        {/* ====== END file upload area ====== */}
 
         {errors.submit && (
           <p className="text-red-500 text-sm">{errors.submit}</p>

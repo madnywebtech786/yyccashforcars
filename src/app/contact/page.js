@@ -138,7 +138,6 @@ export default function page() {
                   "Damage, rust, or missing parts",
                   "Your city or pickup location",
                   "Why you want to sell it",
-                  "Photos if available",
                 ].map((item) => (
                   <div
                     key={item}
