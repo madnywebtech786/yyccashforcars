@@ -135,7 +135,7 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <p>
                   <span className="font-semibold text-slate-900">Address:</span>{" "}
-                  4147 6a St NE, Calgary
+                  94 Evanscrest Terrace NW, Calgary, T3P 0R6
                 </p>
               </div>
             </section>

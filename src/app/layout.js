@@ -216,9 +216,10 @@ export default function RootLayout({ children }) {
                     "Top-dollar cash for junk, wrecked and used vehicles in Calgary. Free towing, same-day pickup, licensed paperwork, and eco-friendly recycling. Serving Calgary, Airdrie, Cochrane & Okotoks.",
                   address: {
                     "@type": "PostalAddress",
-                    streetAddress: "4147 6a St NE",
+                    streetAddress: "94 Evanscrest Terrace NW",
                     addressLocality: "Calgary",
                     addressRegion: "AB",
+                    postalCode: "T3P 0R6",
                     addressCountry: "Canada"
                   },
                   serviceArea: [
