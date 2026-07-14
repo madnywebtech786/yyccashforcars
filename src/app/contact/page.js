@@ -108,9 +108,9 @@ export default function page() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold uppercase tracking-wide text-gray-500">
-                      Coverage Area
+                      Address
                     </p>
-                    <p className="mt-1 text-xl font-bold text-black">Calgary + Nearby Towns</p>
+                    <p className="mt-1 text-xl font-bold text-black">4147 6a St NE, Calgary</p>
                     <p className="mt-2 text-sm text-gray-600">
                       Same Day Pickup with Free Towing
                     </p>

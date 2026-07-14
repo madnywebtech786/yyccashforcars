@@ -113,7 +113,7 @@ const Footer = () => {
               </a>
               <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-4 text-white">
                 <MapPin size={20} className="text-secondary" />
-                <span className="font-semibold">Calgary & All across Alberta</span>
+                <span className="font-semibold">4147 6a St NE, Calgary</span>
               </div>
             </div>
           </div>

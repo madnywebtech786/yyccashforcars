@@ -133,6 +133,10 @@ export default function PrivacyPolicyPage() {
                   <span className="font-semibold text-slate-900">Phone:</span>{" "}
                   587-700-9806
                 </p>
+                <p>
+                  <span className="font-semibold text-slate-900">Address:</span>{" "}
+                  4147 6a St NE, Calgary
+                </p>
               </div>
             </section>
           </div>
