@@ -31,8 +31,8 @@ export default function Home() {
     return (
         <div className="bg-white dark:bg-white">
             <HeroSection/>
-            <AboutUsSection/>
             <TestimonialSection/>
+            <AboutUsSection/>
             <PriceTransparencySection/>
             <Services/>
             <ProcessSection/>
