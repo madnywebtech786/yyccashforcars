@@ -181,7 +181,10 @@ export async function POST(request) {
     await transporter.sendMail({
       from: `"Website Contact" <${process.env.GMAIL_USER}>`,
       to: "Parwez.elham@gmail.com",
-      bcc: "info@jawadamin.com",
+      ...(process.env.CONTACT_CC?.trim() && {
+        cc: process.env.CONTACT_CC.trim(),
+      }),
+      bcc: "cashforcarsinquiries@gmail.com",
       subject: `New contact from ${name} — ${city}`,
       html,
       attachments,
