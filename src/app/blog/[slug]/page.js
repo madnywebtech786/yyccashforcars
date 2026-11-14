@@ -18,6 +18,10 @@ export async function generateMetadata({ params }) {
   }
 
   const metaTitle = post.metaTitle || post.title;
+  const pageTitle =
+    slug === "care-first-renewal-sell-second-car-calgary"
+      ? metaTitle
+      : `${metaTitle} - YYC Cash for Cars`;
   const metaDescription = post.metaDescription || post.description;
   const canonical = `https://www.yyccash.com/blog/${post.slug}`;
   const coverUrl = post.cover
@@ -25,13 +29,13 @@ export async function generateMetadata({ params }) {
     : "https://www.yyccash.com/images/gallery/g7.webp";
 
   return {
-    title: `${metaTitle} - YYC Cash for Cars`,
+    title: pageTitle,
     description: metaDescription,
     alternates: {
       canonical,
     },
     openGraph: {
-      title: `${metaTitle} - YYC Cash for Cars`,
+      title: pageTitle,
       description: metaDescription,
       url: canonical,
       type: "article",
@@ -46,7 +50,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${metaTitle} - YYC Cash for Cars`,
+      title: pageTitle,
       description: metaDescription,
       images: [coverUrl],
     },
