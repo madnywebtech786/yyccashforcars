@@ -3938,7 +3938,7 @@ Commercial and fleet vehicles. Edmonton's construction industry, oil services se
 
 ## How the Process Works — Three Steps, Same Day
 
-Step 1 — <a class="regular-text-link" href="https://www.dollars4cars.ca/" target="_blank">Call or submit the online quote form</a>. Give us the year, make, model, condition, and your Edmonton address. We will give you a firm offer, usually within the hour. No vague ranges, no "it depends" — a real number that we stick to when our driver arrives.
+Step 1 — Call or submit the online quote form. Give us the year, make, model, condition, and your Edmonton address. We will give you a firm offer, usually within the hour. No vague ranges, no "it depends" — a real number that we stick to when our driver arrives.
 
 Step 2 — Accept your offer and pick a time that works. We schedule around your day — mornings, evenings, and weekends. Whether you are commuting on the Yellowhead Trail, working a shift in the industrial east end, or simply busy with life in a city of over a million people, we fit your schedule.
 
